@@ -1,0 +1,36 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://miramedix.ru/fhir/ig/mosreg/Subscription/241601ab-018e-4395-8cf0-c02e039a69da> a fhir:Subscription;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "241601ab-018e-4395-8cf0-c02e039a69da"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-subscription-notify-oc";
+       fhir:index 0;
+       fhir:link <http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-subscription-notify-oc>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>reason</b>: Подписка на оповещения о готовности протокола онкологического консилиума (протокол подписан, подписанная копия протокола отсканирована и загружена в систему).</p><p><b>criteria</b>: Composition?ehrIntegrationStatus=order&amp;status=final</p><h3>Channels</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Endpoint</b></td></tr><tr><td>*</td><td>message</td><td><a href=\"http://clientsystem.ru/eventhandler\">http://clientsystem.ru/eventhandler</a></td></tr></table></div>"
+  ];
+  fhir:Subscription.status [ fhir:value "active"];
+  fhir:Subscription.reason [ fhir:value "Подписка на оповещения о готовности протокола онкологического консилиума (протокол подписан, подписанная копия протокола отсканирована и загружена в систему)."];
+  fhir:Subscription.criteria [ fhir:value "Composition?ehrIntegrationStatus=order&status=final"];
+  fhir:Subscription.channel [
+     fhir:Subscription.channel.type [ fhir:value "message" ];
+     fhir:Subscription.channel.endpoint [ fhir:value "http://clientsystem.ru/eventhandler" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://miramedix.ru/fhir/ig/mosreg/Subscription/241601ab-018e-4395-8cf0-c02e039a69da.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "id": "miramedix-vs-event-type",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-miramedix-cs-event-type.html\"><code>http://miramedix.ru/fhir/CodeSystem/miramedix-cs-event-type</code></a></li></ul></div>"
+  },
+  "url": "http://miramedix.ru/fhir/ValueSet/miramedix-vs-event-type",
+  "version": "0.1.0",
+  "name": "Miramedix_vs_event_type",
+  "title": "Набор значений типов событий [Мирамедикс]",
+  "status": "active",
+  "date": "2021-10-20T13:42:04+03:00",
+  "description": "Набор значений для указания типов событий для информационной системы Мирамедикс.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://miramedix.ru/fhir/CodeSystem/miramedix-cs-event-type"
+      }
+    ]
+  }
+}

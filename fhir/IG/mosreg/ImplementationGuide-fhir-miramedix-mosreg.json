@@ -1,0 +1,1140 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "fhir-miramedix-mosreg",
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>MiramedixMosregIG</h2><p>The official URL for this implementation guide is: </p><pre>http://miramedix.ru/fhir/ig/mosreg/ImplementationGuide/fhir-miramedix-mosreg</pre><div><p>Miramedix mosreg IG</p>\n</div></div>"
+  },
+  "url": "http://miramedix.ru/fhir/ig/mosreg/ImplementationGuide/fhir-miramedix-mosreg",
+  "version": "0.1.0",
+  "name": "MiramedixMosregIG",
+  "title": "HL7 FHIR Implementation Guide: Miramedix mosreg IG Release 1 - RU Realm | STU1",
+  "status": "draft",
+  "date": "2021-10-20T13:42:04+03:00",
+  "description": "Miramedix mosreg IG",
+  "packageId": "fhir-miramedix-mosreg",
+  "license": "CC0-1.0",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "definition": {
+    "extension": [
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "copyrightyear"
+          },
+          {
+            "url": "value",
+            "valueString": "2021+"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "releaselabel"
+          },
+          {
+            "url": "value",
+            "valueString": "ci-build"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-version"
+          },
+          {
+            "url": "value",
+            "valueString": "false"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "path-liquid"
+          },
+          {
+            "url": "value",
+            "valueString": "template/liquid"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "path-liquid"
+          },
+          {
+            "url": "value",
+            "valueString": "input/liquid"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "path-qa"
+          },
+          {
+            "url": "value",
+            "valueString": "temp/qa"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "path-temp"
+          },
+          {
+            "url": "value",
+            "valueString": "temp/pages"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "path-output"
+          },
+          {
+            "url": "value",
+            "valueString": "output"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "path-suppressed-warnings"
+          },
+          {
+            "url": "value",
+            "valueString": "input/ignoreWarnings.txt"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "path-history"
+          },
+          {
+            "url": "value",
+            "valueString": "http://miramedix.ru/fhir/ig/mosreg/history.html"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "template-html"
+          },
+          {
+            "url": "value",
+            "valueString": "template-page.html"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "template-md"
+          },
+          {
+            "url": "value",
+            "valueString": "template-page-md.html"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-contact"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-context"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-copyright"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-jurisdiction"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-license"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-publisher"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "active-tables"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      }
+    ],
+    "resource": [
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/miramedix-mosreg-auditevent-subscription-notify"
+        },
+        "name": "Запись в логе про отправку оповещения в стороннюю систему",
+        "description": "Запись в логе про отправку оповещения в стороннюю систему.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/miramedix-mosreg-bundle-auth"
+        },
+        "name": "Бандл для передачи данных для авторизации",
+        "description": "Бандл для передачи данных для авторизации.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/miramedix-mosreg-bundle-notify"
+        },
+        "name": "Бандл для оповещения МИС",
+        "description": "Бандл для оповещения МИС.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/miramedix-mosreg-bundle-request-access"
+        },
+        "name": "Бандл для запроса доступа в Сервис ОК для создания завяки на ОК",
+        "description": "Бандл для запроса доступа в Сервис ОК для создания завяки на ОК.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/miramedix-mosreg-composition-diag-main-anamnesis"
+        },
+        "name": "Анамнез основного заболевания",
+        "description": "Анамнез основного заболевания.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/miramedix-mosreg-condition-diag-main"
+        },
+        "name": "Основное (онкологическое заболевание) заболевание",
+        "description": "Основное (онкологическое заболевание) заболевание.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/miramedix-mosreg-documentmanifest"
+        },
+        "name": "Описание пакета документов",
+        "description": "Описание пакета документов.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/miramedix-mosreg-documentreference"
+        },
+        "name": "Описание документа",
+        "description": "Описание документа.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/miramedix-mosreg-endpoint-accesspoint"
+        },
+        "name": "Описание точки входа в сервис ОК",
+        "description": "Описание точки входа в сервис ОК.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/miramedix-mosreg-messageheader-notify"
+        },
+        "name": "Заголовок сообщения для оповещения МИС",
+        "description": "Заголовок сообщения для оповещения МИС.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/miramedix-mosreg-observation-diag-main-anamnesis"
+        },
+        "name": "Анамнез основного заболевания",
+        "description": "Анамнез основного заболевания.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/miramedix-mosreg-operationoutcome-accesspoint-error"
+        },
+        "name": "Описание ошибки при невозможности вернуть точку входа в сервис ОК",
+        "description": "Описание ошибки при невозможности вернуть точку входа в сервис ОК.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/miramedix-mosreg-organization"
+        },
+        "name": "Сведения о медицинской организации",
+        "description": "Сведения о медицинской организации.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/miramedix-mosreg-organization-division"
+        },
+        "name": "Сведения о структурном подразделении",
+        "description": "Сведения о структурном подразделении.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/miramedix-mosreg-patient"
+        },
+        "name": "Сведения о пациенте",
+        "description": "Сведения о пациенте для интеграции в московской области",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/miramedix-mosreg-practitioner"
+        },
+        "name": "Сведения о враче",
+        "description": "Сведения о враче для интеграции в московской области",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/miramedix-mosreg-practitionerrole"
+        },
+        "name": "Сведения о должности врача",
+        "description": "Сведения о должности врача для интеграции в московской области",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/miramedix-mosreg-servicerequest"
+        },
+        "name": "Сведения о направлении на консилиум",
+        "description": "Сведения о направлении на консилиум.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/miramedix-mosreg-subscription-notify-oc"
+        },
+        "name": "Подписка на оповещение о готовности протокола онкологического консилиума",
+        "description": "Подписка на оповещение о готовности протокола онкологического консилиума.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/miramedix-ex-nsi-gender"
+        },
+        "name": "Кодирования пола по справочнику ФНСИ.",
+        "description": "Расширение для кодирования пола по справочнику ФНСИ.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/miramedix-vs-event-type"
+        },
+        "name": "Набор значений типов событий [Мирамедикс]",
+        "description": "Набор значений для указания типов событий для информационной системы Мирамедикс.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/miramedix-vs-patient-identifier-type"
+        },
+        "name": "Набор значений типов идентификаторов пациентов [Мирамедикс]",
+        "description": "Набор значений для указания типов идентификаторов пациентов для информационной системы Мирамедикс.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/miramedix-vs-practitioner-identifier-type"
+        },
+        "name": "Набор значений типов идентификаторов сотрудников [Мирамедикс]",
+        "description": "Набор значений для указания типов идентификаторов сотрудников для информационной системы Мирамедикс.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1002"
+        },
+        "name": "Должности медицинских и фармацевтических работников [все значения]",
+        "description": "'Должности медицинских и фармацевтических работников'  \n[набор из всех значений системы кодирования]",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1005"
+        },
+        "name": "Международная статистическая классификация болезней и проблем, связанных со здоровьем (10-й пересмотр) [все значения]",
+        "description": "'Международная статистическая классификация болезней и проблем, связанных со здоровьем (10-й пересмотр)'  \n[набор из всех значений системы кодирования]",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1035"
+        },
+        "name": "Виды полиса обязательного медицинского страхования [все значения]",
+        "description": "'Виды полиса обязательного медицинского страхования'  \n[набор из всех значений системы кодирования]",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1040"
+        },
+        "name": "Пол пациента [все значения]",
+        "description": "'Пол пациента'  \n[набор из всех значений системы кодирования]",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1066"
+        },
+        "name": "Номенклатура специальностей специалистов, имеющих медицинское и фармацевтическое образование [все значения]",
+        "description": "'Номенклатура специальностей специалистов, имеющих медицинское и фармацевтическое образование'  \n[набор из всех значений системы кодирования]",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1077"
+        },
+        "name": "Виды нозологических единиц диагноза [все значения]",
+        "description": "'Виды нозологических единиц диагноза'  \n[набор из всех значений системы кодирования]",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1506"
+        },
+        "name": "Цели проведения врачебной комиссии (консилиума врачей) [все значения]",
+        "description": "'Цели проведения врачебной комиссии (консилиума врачей)'  \n[набор из всех значений системы кодирования]",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/miramedix-cs-event-type"
+        },
+        "name": "Справочник типов событий [Мирамедикс]",
+        "description": "Справочник типов событий для информационной системы Мирамедикс.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/miramedix-cs-identifier-type"
+        },
+        "name": "Справочник типов идентификаторов [Мирамедикс]",
+        "description": "Справочник типов идентификаторов для информационной системы Мирамедикс.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1002"
+        },
+        "name": "Должности медицинских и фармацевтических работников",
+        "description": "Справочник ФНСИ:  \n'Должности медицинских и фармацевтических работников'  \nверсия '7.4'  \n[1.2.643.5.1.13.13.11.1002](https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1002/version/7.4)",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1005"
+        },
+        "name": "Международная статистическая классификация болезней и проблем, связанных со здоровьем (10-й пересмотр)",
+        "description": "Справочник ФНСИ:  \n'Международная статистическая классификация болезней и проблем, связанных со здоровьем (10-й пересмотр)'  \nверсия '2.19'  \n[1.2.643.5.1.13.13.11.1005](https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1005/version/2.19)  \nПредставлен только фрагмент справочника, полную версию необходимо получить на ФНСИ.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1035"
+        },
+        "name": "Виды полиса обязательного медицинского страхования",
+        "description": "Справочник ФНСИ:  \n'Виды полиса обязательного медицинского страхования'  \nверсия '1.3'  \n[1.2.643.5.1.13.13.11.1035](https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1035/version/1.3)",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1040"
+        },
+        "name": "Пол пациента",
+        "description": "Справочник ФНСИ:  \n'Пол пациента'  \nверсия '2.1'  \n[1.2.643.5.1.13.13.11.1040](https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1040/version/2.1)",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1066"
+        },
+        "name": "Номенклатура специальностей специалистов, имеющих медицинское и фармацевтическое образование",
+        "description": "Справочник ФНСИ:  \n'Номенклатура специальностей специалистов, имеющих медицинское и фармацевтическое образование'  \nверсия '5.3'  \n[1.2.643.5.1.13.13.11.1066](https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1066/version/5.3)",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1077"
+        },
+        "name": "Виды нозологических единиц диагноза",
+        "description": "Справочник ФНСИ:  \n'Виды нозологических единиц диагноза'  \nверсия '1.3'  \n[1.2.643.5.1.13.13.11.1077](https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077/version/1.3)",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1506"
+        },
+        "name": "Цели проведения врачебной комиссии (консилиума врачей)",
+        "description": "Справочник ФНСИ:  \n'Цели проведения врачебной комиссии (консилиума врачей)'  \nверсия '1.3'  \n[1.2.643.5.1.13.13.11.1506](https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1506/version/1.3)",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Subscription"
+          }
+        ],
+        "reference": {
+          "reference": "Subscription/241601ab-018e-4395-8cf0-c02e039a69da"
+        },
+        "name": "Пример подписки на оповещение о готовности протокола онкологического консилиума",
+        "exampleCanonical": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-subscription-notify-oc"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Condition"
+          }
+        ],
+        "reference": {
+          "reference": "Condition/Instance-miramedix-condition-diag-main-1"
+        },
+        "name": "Пример основного (онкологического) заболевания - C50.3 Злокачественное новообразование нижневнутреннего квадранта молочной железы",
+        "exampleCanonical": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-condition-diag-main"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AuditEvent"
+          }
+        ],
+        "reference": {
+          "reference": "AuditEvent/Instance-miramedix-mosreg-auditevent-subscription-notify"
+        },
+        "name": "Пример записи в логе про отправку оповещения в стороннюю систему",
+        "exampleCanonical": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-auditevent-subscription-notify"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/Instance-miramedix-mosreg-bundle-auth"
+        },
+        "name": "Пример бандла - Передача данных для авторизации",
+        "exampleCanonical": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-bundle-auth"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/Instance-miramedix-mosreg-bundle-notify-1"
+        },
+        "name": "Пример бандла - Оповещение МИС о готовности протокола ОК",
+        "exampleCanonical": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-bundle-notify"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/Instance-miramedix-mosreg-bundle-request-access"
+        },
+        "name": "Пример бандла [минимальный пример] - запрос доступа в Сервис ОК для создания завяки на ОК [с предоставлением минимально необходимого набора клинических данных]",
+        "exampleCanonical": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-bundle-request-access"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Composition"
+          }
+        ],
+        "reference": {
+          "reference": "Composition/Instance-miramedix-mosreg-composition-diag-main-anamnesis-1"
+        },
+        "name": "Пример анамнеза основного заболевания",
+        "exampleCanonical": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-composition-diag-main-anamnesis"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "DocumentReference"
+          }
+        ],
+        "reference": {
+          "reference": "DocumentReference/Instance-miramedix-mosreg-documentreference-1"
+        },
+        "name": "Пример описания документа - протокол онкологического консилиума в формате PDF",
+        "exampleCanonical": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-documentreference"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Endpoint"
+          }
+        ],
+        "reference": {
+          "reference": "Endpoint/Instance-miramedix-mosreg-endpoint-accesspoint"
+        },
+        "name": "Пример точки доступа - Описание точки входа в сервис ОК",
+        "exampleCanonical": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-endpoint-accesspoint"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Instance-miramedix-mosreg-observation-diag-main-anamnesis-1"
+        },
+        "name": "Пример анамнеза основного заболевания",
+        "exampleCanonical": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-observation-diag-main-anamnesis"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "OperationOutcome"
+          }
+        ],
+        "reference": {
+          "reference": "OperationOutcome/Instance-miramedix-mosreg-operationoutcome-accesspoint-error"
+        },
+        "name": "Пример описания ошибки - Описание ошибки при невозможности вернуть точку входа в сервис ОК",
+        "exampleCanonical": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-operationoutcome-accesspoint-error"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ServiceRequest"
+          }
+        ],
+        "reference": {
+          "reference": "ServiceRequest/Instance-miramedix-mosreg-servicerequest-1"
+        },
+        "name": "Пример cведений о направлении на консилиум - дата, цель проведения и направивший врач",
+        "exampleCanonical": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-servicerequest"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/Instance-organization-LOB"
+        },
+        "name": "Пример организации - ГБУЗ МО ЛОБ",
+        "exampleCanonical": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-organization"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/Instance-organization-division-LOB-CAOP"
+        },
+        "name": "Пример структурного подразделения - Центр амбулаторной онкологической помощи (ГБУЗ МО ЛОБ)",
+        "exampleCanonical": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-organization-division"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Patient"
+          }
+        ],
+        "reference": {
+          "reference": "Patient/Instance-patient-Konstantinopolskaya"
+        },
+        "name": "Пример пациента - Константинопольская Анна Вероника Мамед кызы",
+        "exampleCanonical": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-patient"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Practitioner"
+          }
+        ],
+        "reference": {
+          "reference": "Practitioner/Instance-practitioner-Adamov"
+        },
+        "name": "Пример врача - Адамов Адам Адамович",
+        "exampleCanonical": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-practitioner"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PractitionerRole"
+          }
+        ],
+        "reference": {
+          "reference": "PractitionerRole/Instance-practitionerrole-Oncologist"
+        },
+        "name": "Пример должность - Врач-онколог",
+        "exampleCanonical": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-practitionerrole"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "DocumentManifest"
+          }
+        ],
+        "reference": {
+          "reference": "DocumentManifest/f4309c2e-1800-43ac-85d6-1f026432efd3"
+        },
+        "name": "Пример описания пакета документов - протокол ОК",
+        "exampleCanonical": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-documentmanifest"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MessageHeader"
+          }
+        ],
+        "reference": {
+          "reference": "MessageHeader/fbbd9cdb-5114-49af-82bd-8f08592f4259"
+        },
+        "name": "Пример заголовока сообщения для оповещения МИС - оповещение о готовности протокола ОК",
+        "exampleCanonical": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-messageheader-notify"
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "path-resource",
+        "value": "input/capabilities"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/examples"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/extensions"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/models"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/operations"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/profiles"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/resources"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/vocabulary"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/maps"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/testing"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/history"
+      },
+      {
+        "code": "path-resource",
+        "value": "fsh-generated/resources"
+      },
+      {
+        "code": "path-pages",
+        "value": "template/config"
+      },
+      {
+        "code": "path-pages",
+        "value": "input/images"
+      },
+      {
+        "code": "path-tx-cache",
+        "value": "input-cache/txcache"
+      }
+    ]
+  }
+}

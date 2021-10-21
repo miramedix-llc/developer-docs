@@ -1,0 +1,188 @@
+{
+  "package": "fhir-miramedix-mosreg",
+  "version": "0.1.0",
+  "fhirVersion": "4.0.1",
+  "extensions": [
+    {
+      "url": "http://miramedix.ru/fhir/Extension/miramedix-ex-nsi-gender",
+      "title": "Кодирования пола по справочнику ФНСИ.",
+      "types": [
+        "Coding",
+        "Coding",
+        "string",
+        "Extension",
+        "uri",
+        "string",
+        "code",
+        "string",
+        "boolean"
+      ]
+    }
+  ],
+  "profiles": {
+    "AuditEvent": [
+      {
+        "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-auditevent-subscription-notify",
+        "title": "Запись в логе про отправку оповещения в стороннюю систему"
+      }
+    ],
+    "Bundle": [
+      {
+        "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-bundle-auth",
+        "title": "Бандл для передачи данных для авторизации"
+      },
+      {
+        "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-bundle-notify",
+        "title": "Бандл для оповещения МИС"
+      },
+      {
+        "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-bundle-request-access",
+        "title": "Бандл для запроса доступа в Сервис ОК для создания завяки на ОК"
+      }
+    ],
+    "Composition": [
+      {
+        "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-composition-diag-main-anamnesis",
+        "title": "Анамнез основного заболевания"
+      }
+    ],
+    "Condition": [
+      {
+        "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-condition-diag-main",
+        "title": "Основное (онкологическое заболевание) заболевание"
+      }
+    ],
+    "DocumentManifest": [
+      {
+        "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-documentmanifest",
+        "title": "Описание пакета документов"
+      }
+    ],
+    "DocumentReference": [
+      {
+        "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-documentreference",
+        "title": "Описание документа"
+      }
+    ],
+    "Endpoint": [
+      {
+        "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-endpoint-accesspoint",
+        "title": "Описание точки входа в сервис ОК"
+      }
+    ],
+    "MessageHeader": [
+      {
+        "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-messageheader-notify",
+        "title": "Заголовок сообщения для оповещения МИС"
+      }
+    ],
+    "Observation": [
+      {
+        "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-observation-diag-main-anamnesis",
+        "title": "Анамнез основного заболевания"
+      }
+    ],
+    "OperationOutcome": [
+      {
+        "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-operationoutcome-accesspoint-error",
+        "title": "Описание ошибки при невозможности вернуть точку входа в сервис ОК"
+      }
+    ],
+    "Organization": [
+      {
+        "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-organization",
+        "title": "Сведения о медицинской организации"
+      },
+      {
+        "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-organization-division",
+        "title": "Сведения о структурном подразделении"
+      }
+    ],
+    "Patient": [
+      {
+        "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-patient",
+        "title": "Сведения о пациенте"
+      }
+    ],
+    "Practitioner": [
+      {
+        "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-practitioner",
+        "title": "Сведения о враче"
+      }
+    ],
+    "PractitionerRole": [
+      {
+        "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-practitionerrole",
+        "title": "Сведения о должности врача"
+      }
+    ],
+    "ServiceRequest": [
+      {
+        "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-servicerequest",
+        "title": "Сведения о направлении на консилиум"
+      }
+    ],
+    "Subscription": [
+      {
+        "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-subscription-notify-oc",
+        "title": "Подписка на оповещение о готовности протокола онкологического консилиума"
+      }
+    ]
+  },
+  "usage": {
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice-explanation": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/regex": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-category": [
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
+      "StructureDefinition.differential.element.type",
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category": [
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://miramedix.ru/fhir/Extension/miramedix-ex-nsi-gender": [
+      "Bundle.entry.resource.gender",
+      "Patient.gender",
+      "Practitioner.gender"
+    ]
+  }
+}

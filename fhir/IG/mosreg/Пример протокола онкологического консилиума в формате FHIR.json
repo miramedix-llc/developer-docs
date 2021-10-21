@@ -1,0 +1,1991 @@
+{
+  "resourceType": "Bundle",
+  "id": "Instance-miramedix-mosreg-bundle-oncoprotocol",
+  "type": "document",
+  "entry": [
+    {
+      "fullUrl": "http://devbox:8080/Composition/db57e7b8-cab6-4c99-9e46-34c4b9291517",
+      "resource": {
+        "category": [
+          {
+            "id": "db57e7b8-cab6-4c99-9e46-34c4b9291517",
+            "coding": [
+              {
+                "id": "5146809f-9610-4bc5-8645-49bb8c672e50",
+                "code": "using-telemedicine",
+                "system": "http://miramedix.ru/fhir/CodeSystem/counselingTelemedicineType",
+                "display": "ОНКК с применением ТМ-технологий"
+              }
+            ]
+          },
+          {
+            "id": "d0b87902-be1b-4972-9e4e-fb8a639f8fe1",
+            "coding": [
+              {
+                "id": "189fb4e8-3738-4919-836f-af0a84af7bbc",
+                "code": "primary",
+                "system": "urn:mmdx:internal:tb:protocoltype",
+                "display": "Первичный"
+              }
+            ]
+          }
+        ],
+        "date": "2021-10-19T10:00:00+03:00",
+        "meta": {
+          "tag": [
+            {
+              "code": "unknown",
+              "system": "http://miramedix.ru/fhir/CodeSystem/resource-versionTag",
+              "display": "unknown"
+            }
+          ],
+          "lastUpdated": "2021-10-15T08:25:11.895829Z",
+          "createdAt": "2021-10-15T08:20:11.912960Z",
+          "versionId": "776011"
+        },
+        "encounter": {
+          "localRef": "819ea820-b3cd-4e05-9341-ab9f6bdafbf7",
+          "resourceType": "Encounter"
+        },
+        "section": [
+          {
+            "id": "7f73cb67-4dbe-4d13-88cb-f43e9f1352a7",
+            "code": {
+              "coding": [
+                {
+                  "code": "anamnesis-morbi",
+                  "system": "urn:mmdx:internal:section",
+                  "display": "Анамнез заболевания"
+                }
+              ]
+            },
+            "text": {
+              "div": "<p>Считает себя заболевшей с ноября 2020 г - отметила выделения из соска, которые прошли на фоне применения мазей (ТН\\МНН не помнит).</p>\n<p>Выделения возобновлись в конце марта 2021 г., с кровью.</p>\n<p><strong>Первое посещение онколога - апрель 2021 г.: обнаружено уплотнение в правой молочной железе.</strong></p>\n<p>Биопсия - подтверждена инвазивная аденокарцинома неспецифического типа.</p>\n<p>Маммография от 10.04.2021 г.: Ткань правой молочной железы неравномерно уплотнена по типу фиброзно-кистозной мастопатии. ACR B. Кожа, сосок, ареола б/о. Явных узловых образований, скоплений кальцинатов в железистой ткани не обнаружено.</p>\n<p>УЗИ молочных желез, лимфоузлов от 16.04.2021 г.: В левой молочной железе в верхне-наружном квадранте определяется опухоль размерами 2х2х1,6 см. В области ареолы визуально определяется кровоточащая опухоль примерными размерами 5ъ5 см. В над-/подключичных, подмышечных областях патологические лимфатические узлы не выявлены.</p>\n<p>Рентгенография ОГК от 10.04.2021.г: без онкопатологии.</p>\n<p>УЗИ ОБП от 16.04.2021 г.: без онкопатологии.</p>\n",
+              "status": "additional"
+            },
+            "entry": [],
+            "title": "АНАМНЕЗ ЗАБОЛЕВАНИЯ",
+            "section": []
+          },
+          {
+            "id": "c8372921-f8d1-4812-a96f-2e5fc571e85e",
+            "code": {
+              "coding": [
+                {
+                  "code": "objective-status",
+                  "system": "urn:mmdx:internal:section",
+                  "display": "Общее состояние"
+                }
+              ]
+            },
+            "text": {
+              "div": "<p>Жалоб на самочувствие не предъявляет. Функционально активна.</p>\n",
+              "status": "additional"
+            },
+            "entry": [],
+            "title": "ОБЪЕКТИВНО",
+            "section": []
+          },
+          {
+            "id": "75a878a8-2a63-427f-b06f-e825cdb7a412",
+            "code": {
+              "coding": [
+                {
+                  "code": "objective-status",
+                  "system": "urn:mmdx:internal:section",
+                  "display": "Текущее состояние"
+                }
+              ]
+            },
+            "text": {
+              "div": "2021-10-15 | ECOG статус | 0 | ГБУЗ \"ГКБ им. Д. Д. Плетнёва ДЗМ\" (ЦАОП)",
+              "status": "additional"
+            },
+            "entry": [],
+            "title": "ТЕКУЩЕЕ СОСТОЯНИЕ",
+            "section": []
+          },
+          {
+            "id": "78924e34-745a-4ded-bb15-93ea633d25b2",
+            "code": {
+              "coding": [
+                {
+                  "code": "concilium-resolution",
+                  "system": "urn:mmdx:internal:section",
+                  "display": "Решение консилиума"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "localRef": "663de724-aeb3-4914-a26f-c5a619e879eb",
+                "resourceType": "CarePlan"
+              },
+              {
+                "localRef": "142bcd80-05eb-4290-a0f2-60d822ded90f",
+                "resourceType": "ServiceRequest"
+              },
+              {
+                "localRef": "Observation_diseasePrognosis",
+                "resourceType": "Observation"
+              }
+            ],
+            "title": "РЕШЕНИЕ КОНСИЛИУМА",
+            "section": []
+          },
+          {
+            "id": "51d3360a-379a-4f95-a614-c8fb14e2fc87",
+            "code": {
+              "coding": [
+                {
+                  "code": "granted-documents",
+                  "system": "urn:mmdx:internal:section",
+                  "display": "Предоставленные документы"
+                }
+              ]
+            },
+            "text": {
+              "div": "Заключения (консультации) специалистов: <br />выписки из медицинской документации: <br />копии лабораторных исследований: <br />копии инструментальных исследований:",
+              "status": "additional"
+            },
+            "entry": [],
+            "title": "ПРЕДОСТАВЛЕННЫЕ ДОКУМЕНТЫ",
+            "section": []
+          },
+          {
+            "id": "9f8b0d06-eda4-4bf0-ae51-83767dc68b9c",
+            "code": {
+              "coding": [
+                {
+                  "code": "diagnosis-clinical",
+                  "system": "urn:mmdx:internal:section",
+                  "display": "Клинический диагноз"
+                }
+              ]
+            },
+            "entry": [],
+            "title": "ДИАГНОЗ",
+            "section": [
+              {
+                "id": "80bd6cf0-550e-4d0e-b36e-eaee01077173",
+                "code": {
+                  "text": "Основное заболевание",
+                  "coding": [
+                    {
+                      "code": "1",
+                      "system": "urn:oid:1.2.643.5.1.13.13.11.1077",
+                      "display": "Основное заболевание"
+                    }
+                  ]
+                },
+                "entry": [
+                  {
+                    "localRef": "f52c3ec4-e0dc-4358-9dd0-91b48a1fceaf",
+                    "resourceType": "Condition"
+                  }
+                ],
+                "section": [
+                  {
+                    "id": "d9bbacdc-9627-4277-b9e0-9e2e6d0cb835",
+                    "code": {
+                      "text": "Конкурирующие заболевания",
+                      "coding": [
+                        {
+                          "code": "4",
+                          "system": "urn:oid:1.2.643.5.1.13.13.11.1077",
+                          "display": "Конкурирующие заболевания"
+                        }
+                      ]
+                    },
+                    "entry": []
+                  }
+                ]
+              },
+              {
+                "id": "1fc8ef96-5e81-4bb5-af86-7d385f77a954",
+                "code": {
+                  "text": "Осложнения",
+                  "coding": [
+                    {
+                      "code": "2",
+                      "system": "urn:oid:1.2.643.5.1.13.13.11.1077",
+                      "display": "Осложнения основного заболевания"
+                    }
+                  ]
+                },
+                "entry": [
+                  {
+                    "localRef": "f70158d8-9ab0-4bc1-bfa3-1e4c1b6345d8",
+                    "resourceType": "Condition"
+                  }
+                ]
+              },
+              {
+                "id": "8c3d6fd8-8b86-41e5-b3d7-169c681986cd",
+                "code": {
+                  "text": "Сопутствующие заболевания",
+                  "coding": [
+                    {
+                      "code": "3",
+                      "system": "urn:oid:1.2.643.5.1.13.13.11.1077",
+                      "display": "Сопутствующие заболевания"
+                    }
+                  ]
+                },
+                "entry": [
+                  {
+                    "localRef": "5c9ca167-b68e-4dea-aeba-add0f546f99c",
+                    "resourceType": "Condition"
+                  },
+                  {
+                    "localRef": "9558388f-1a5a-406f-ad34-9045633c9cd8",
+                    "resourceType": "Condition"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "type": {
+          "id": "e91bc06b-b023-40e4-bcdd-f9015d5c3485",
+          "text": "Протокол онкологического консилиума врачей",
+          "coding": [
+            {
+              "id": "6cb105a7-3f0e-42b7-842d-d4a6dfbec93a",
+              "code": "consilium-protocol",
+              "system": "urn:mmdx:internal:entity",
+              "display": "Протокол консилиума"
+            },
+            {
+              "id": "009a96af-f6f8-459e-bde2-d19e935699a3",
+              "code": "85232-7",
+              "system": "http://loinc.org",
+              "display": "Tumor board Consult note"
+            }
+          ]
+        },
+        "resourceType": "Composition",
+        "title": "Протокол онкологического консилиума врачей",
+        "author": [
+          {
+            "id": "practiotionerRole_00000000-0000-0000-0000-000000000001",
+            "resourceType": "PractitionerRole"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://miramedix.ru/fhir/StructureDefinition/ehrIntegrationStatus",
+            "valueCode": "order"
+          },
+          {
+            "url": "http://miramedix.ru/fhir/StructureDefinition/scannedCopy",
+            "valueReference": {
+              "id": "67003c4d-f32c-45d8-a890-bc936330db9c",
+              "resourceType": "DocumentReference"
+            }
+          }
+        ],
+        "contained": [
+          {
+            "appointment": [
+              {
+                "id": "73490dc5-a0d9-4e0c-8889-6affcda43816",
+                "resourceType": "Appointment"
+              }
+            ],
+            "meta": {
+              "createdAt": "2021-10-15T08:20:11.458396Z",
+              "versionId": "775908",
+              "lastUpdated": "2021-10-15T08:20:11.458396Z"
+            },
+            "reasonCode": [
+              {
+                "id": "68e0d67c-ec4b-4583-9127-cabccaeb7dcf",
+                "text": "Определена тактика лечения",
+                "coding": [
+                  {
+                    "id": "b121bdc6-b0f7-4e78-8a80-f2cc048b9a57",
+                    "code": "2",
+                    "system": "urn:ffoms:nsi:n019",
+                    "display": "Определена тактика лечения"
+                  }
+                ]
+              },
+              {
+                "text": "Определение тактики лечения",
+                "coding": [
+                  {
+                    "id": "e339c6b6-b96c-4714-9db2-26392cface67",
+                    "code": "5",
+                    "system": "urn:oid:1.2.643.5.1.13.13.11.1506",
+                    "display": "Определение тактики лечения"
+                  }
+                ]
+              }
+            ],
+            "participant": [
+              {
+                "type": [
+                  {
+                    "text": "Председатель консилиума",
+                    "coding": [
+                      {
+                        "code": "PPRF",
+                        "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                        "display": "Председатель"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Очное присутствие",
+                    "coding": [
+                      {
+                        "code": "on-site",
+                        "system": "http://miramedix.ru/fhir/CodeSystem/distantParticipation",
+                        "display": "Очно"
+                      }
+                    ]
+                  }
+                ],
+                "individual": {
+                  "id": "d5cbe6d0-806b-4a22-aaeb-dcf7b576f58e",
+                  "display": "Сотрудник Сотрудников Сотрудникович, врач-кардиолог",
+                  "resourceType": "PractitionerRole"
+                }
+              },
+              {
+                "type": [
+                  {
+                    "text": "Секретарь",
+                    "coding": [
+                      {
+                        "code": "ATND",
+                        "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                        "display": "Секретарь"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Очное присутствие",
+                    "coding": [
+                      {
+                        "code": "on-site",
+                        "system": "http://miramedix.ru/fhir/CodeSystem/distantParticipation",
+                        "display": "Очно"
+                      }
+                    ]
+                  }
+                ],
+                "individual": {
+                  "id": "205744ff-0f25-4e5c-8e4a-70f382ae7f51",
+                  "display": "Игнатенко Алена Дмитриевна, ",
+                  "resourceType": "PractitionerRole"
+                }
+              },
+              {
+                "type": [
+                  {
+                    "text": "Лечащий врач",
+                    "coding": [
+                      {
+                        "code": "REF",
+                        "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                        "display": "Лечащий врач"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Очное присутствие",
+                    "coding": [
+                      {
+                        "code": "on-site",
+                        "system": "http://miramedix.ru/fhir/CodeSystem/distantParticipation",
+                        "display": "Очно"
+                      }
+                    ]
+                  }
+                ],
+                "individual": {
+                  "id": "practiotionerRole_00000000-0000-0000-0000-000000000001",
+                  "display": "Адамов А.А., главный врач медицинской организации",
+                  "resourceType": "PractitionerRole"
+                }
+              },
+              {
+                "type": [
+                  {
+                    "text": "Врач-онколог, специалист по хирургическому лечению",
+                    "coding": [
+                      {
+                        "code": "SPRF",
+                        "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                        "display": "secondary performer"
+                      },
+                      {
+                        "code": "ONCLG-SRGN",
+                        "system": "http://miramedix.ru/fhir/ValueSet/tb-participantType",
+                        "display": "Врач-онколог, специалист по хирургическому лечению"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Очное присутствие",
+                    "coding": [
+                      {
+                        "code": "on-site",
+                        "system": "http://miramedix.ru/fhir/CodeSystem/distantParticipation",
+                        "display": "Очно"
+                      }
+                    ]
+                  }
+                ],
+                "individual": {
+                  "id": "274a19ea-a18a-4230-a4c4-8abc989e0435",
+                  "display": "Шамилов Шамо Тофик оглы, ",
+                  "resourceType": "PractitionerRole"
+                }
+              },
+              {
+                "type": [
+                  {
+                    "text": "Врач-онколог, специалист по лекарственному лечению",
+                    "coding": [
+                      {
+                        "code": "SPRF",
+                        "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                        "display": "secondary performer"
+                      },
+                      {
+                        "code": "ONCLG-MDCTN",
+                        "system": "http://miramedix.ru/fhir/ValueSet/tb-participantType",
+                        "display": "Врач-онколог, специалист по лекарственному лечению"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Очное присутствие",
+                    "coding": [
+                      {
+                        "code": "on-site",
+                        "system": "http://miramedix.ru/fhir/CodeSystem/distantParticipation",
+                        "display": "Очно"
+                      }
+                    ]
+                  }
+                ],
+                "individual": {
+                  "id": "549e27c5-6804-4e2e-a945-37cc8a5dcbf6",
+                  "display": "Милованов Юрий  Александрович, врач-невролог",
+                  "resourceType": "PractitionerRole"
+                }
+              },
+              {
+                "type": [
+                  {
+                    "text": "Врач-радиотерапевт",
+                    "coding": [
+                      {
+                        "code": "SPRF",
+                        "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                        "display": "secondary performer"
+                      },
+                      {
+                        "code": "RDTHRPST",
+                        "system": "http://miramedix.ru/fhir/ValueSet/tb-participantType",
+                        "display": "Врач-радиотерапевт"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Очное присутствие",
+                    "coding": [
+                      {
+                        "code": "on-site",
+                        "system": "http://miramedix.ru/fhir/CodeSystem/distantParticipation",
+                        "display": "Очно"
+                      }
+                    ]
+                  }
+                ],
+                "individual": {
+                  "id": "5775b152-1560-4e98-9d1d-d57c15d60828",
+                  "display": "Новый Сотрудник Петрович, ",
+                  "resourceType": "PractitionerRole"
+                }
+              }
+            ],
+            "resourceType": "Encounter",
+            "status": "finished",
+            "id": "819ea820-b3cd-4e05-9341-ab9f6bdafbf7",
+            "class": {
+              "code": "IMP",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+              "display": "inpatient encounter"
+            },
+            "basedOn": [
+              {
+                "id": "aaedeeb1-0394-477c-bee7-b4d1a7f47609",
+                "resourceType": "ServiceRequest"
+              }
+            ],
+            "subject": {
+              "id": "2fb75a36-a515-4282-911b-29a02e47f585",
+              "resourceType": "Patient"
+            }
+          },
+          {
+            "address": [
+              {
+                "use": "home",
+                "text": "Вильнюсская ул. д3 к1 кв 123"
+              }
+            ],
+            "meta": {
+              "id": "95c8d490-41dc-494a-949d-8a5c88c4dfb9",
+              "createdAt": "2021-10-05T08:54:24.530067Z",
+              "versionId": "754561",
+              "lastUpdated": "2021-10-12T14:50:58.767321Z"
+            },
+            "name": [
+              {
+                "id": "a4ee5e5c-c3ad-42a1-b61d-5c6d73731641",
+                "given": [
+                  "Иванка",
+                  "Демидовна"
+                ],
+                "family": "Иванова"
+              }
+            ],
+            "birthDate": "1970-10-12",
+            "resourceType": "Patient",
+            "extension": [
+              {
+                "id": "2efb4d2a-a2e1-491a-af37-6468ae35caab",
+                "url": "http://hl7.org/fhir/StructureDefinition/patient-disability",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "code": "3",
+                      "system": "urn:oid:1.2.643.5.1.13.13.11.1053",
+                      "display": "3 группа"
+                    }
+                  ]
+                }
+              }
+            ],
+            "active": false,
+            "id": "2fb75a36-a515-4282-911b-29a02e47f585",
+            "identifier": [
+              {
+                "id": "be5a7817-d0cc-477c-b953-7f1b0497494d",
+                "use": "official",
+                "value": "741-374-030-76",
+                "system": "urn:1.2.643.100.3"
+              },
+              {
+                "id": "aa754377-0111-445a-b6b7-183647a476b1",
+                "use": "official",
+                "type": {
+                  "text": "Полис ОМС",
+                  "coding": [
+                    {
+                      "code": "MANDPOL",
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode"
+                    }
+                  ]
+                },
+                "value": "1234567800000000",
+                "system": "urn:oid:1.2.643.5.1.13.13.11.1035:1.2:2"
+              }
+            ],
+            "telecom": [
+              {
+                "id": "a0fe0b6b-1d3d-4ab1-b7d1-f662cc6b1371",
+                "value": "ymilovanov@mpt.ru",
+                "system": "email"
+              },
+              {
+                "id": "a975f0f1-0458-4d39-a8f9-78a89aa1c604",
+                "value": "+7 977-549-50-50",
+                "system": "phone"
+              }
+            ],
+            "gender": "female"
+          },
+          {
+            "clinicalStatus": {
+              "coding": [
+                {
+                  "code": "active",
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                  "display": "Активно (впервые)"
+                }
+              ]
+            },
+            "meta": {
+              "createdAt": "2021-10-05T09:00:57.980068Z",
+              "versionId": "757295",
+              "lastUpdated": "2021-10-12T18:33:13.959305Z"
+            },
+            "stage": [
+              {
+                "type": {
+                  "text": "Клиническая классификация (cTNM) - версия 8 AJCC/UICC",
+                  "coding": [
+                    {
+                      "code": "260998006",
+                      "system": "http://snomed.info/sct",
+                      "display": "Клиническая классификация (cTNM)"
+                    },
+                    {
+                      "code": "1008",
+                      "system": "http://miramedix.ru/fhir/CodeSystem/ds-group",
+                      "display": "Рак молочной железы"
+                    },
+                    {
+                      "code": "UNITED8",
+                      "system": "http://miramedix.ru/fhir/CodeSystem/ds-stagingSource",
+                      "display": "версия 8 AJCC/UICC"
+                    },
+                    {
+                      "code": "c",
+                      "system": "http://miramedix.ru/fhir/CodeSystem/ds-stagingType",
+                      "display": "Клиническая классификация (cTNM)"
+                    }
+                  ]
+                },
+                "assessment": [
+                  {
+                    "localRef": "04882cfb-e007-4450-ad22-8e29b8406525",
+                    "resourceType": "Observation"
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "text": "Иммуногистохимические исследования",
+                  "coding": [
+                    {
+                      "code": "117617002",
+                      "system": "http://snomed.info/sct",
+                      "display": "Immunohistochemistry procedure"
+                    },
+                    {
+                      "code": "1008",
+                      "system": "http://miramedix.ru/fhir/CodeSystem/ds-group",
+                      "display": "Рак молочной железы"
+                    }
+                  ]
+                },
+                "assessment": [
+                  {
+                    "localRef": "fc387098-de35-4d43-95d1-c68060e9e895",
+                    "resourceType": "Observation"
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "text": "Молекулярно-генетические исследования",
+                  "coding": [
+                    {
+                      "code": "116148004",
+                      "system": "http://snomed.info/sct",
+                      "display": "Molecular genetics procedure"
+                    },
+                    {
+                      "code": "1008",
+                      "system": "http://miramedix.ru/fhir/CodeSystem/ds-group",
+                      "display": "Рак молочной железы"
+                    }
+                  ]
+                },
+                "assessment": [
+                  {
+                    "localRef": "ab7bf464-9060-4a4e-8da5-03c2df659200",
+                    "resourceType": "Observation"
+                  }
+                ]
+              }
+            ],
+            "evidence": [
+              {
+                "code": [
+                  {
+                    "text": "морфологический",
+                    "coding": [
+                      {
+                        "code": "1",
+                        "system": "urn:moscow:emias:codesystem:condition-evidence",
+                        "display": "морфологический"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "resourceType": "Condition",
+            "asserter": {
+              "display": "Иванов И.И"
+            },
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/us/mcode/StructureDefinition/onco-core-HistologyMorphologyBehavior-extension",
+                "valueCodeableConcept": {
+                  "text": "Протоковая аденокарцинома, БДУ",
+                  "coding": [
+                    {
+                      "code": "1585",
+                      "system": "urn:oid:1.2.643.5.1.13.13.11.1486:1.1",
+                      "display": "8500/3"
+                    }
+                  ]
+                }
+              }
+            ],
+            "recordedDate": "2021-04-22",
+            "id": "f52c3ec4-e0dc-4358-9dd0-91b48a1fceaf",
+            "code": {
+              "text": "Злокачественное новообразование нижневнутреннего квадранта молочной железы",
+              "coding": [
+                {
+                  "code": "C50.3",
+                  "system": "urn:oid:1.2.643.5.1.13.13.11.1005:2.9",
+                  "display": "Злокачественное новообразование нижневнутреннего квадранта молочной железы"
+                },
+                {
+                  "code": "1008",
+                  "system": "http://miramedix.ru/fhir/CodeSystem/ds-group",
+                  "display": "Рак молочной железы"
+                }
+              ]
+            },
+            "bodySite": [
+              {
+                "text": "Справа",
+                "coding": [
+                  {
+                    "code": "2",
+                    "system": "urn:oid:1.2.643.5.1.13.13.99.2.143",
+                    "display": "Справа"
+                  }
+                ]
+              }
+            ],
+            "verificationStatus": {
+              "coding": [
+                {
+                  "code": "confirmed",
+                  "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                  "display": "Подтвержденный",
+                  "userSelected": true
+                }
+              ]
+            },
+            "subject": {
+              "id": "2fb75a36-a515-4282-911b-29a02e47f585",
+              "resourceType": "Patient"
+            },
+            "text": {
+              "div": "<p>Инвазивная аденокарцинома неспецифического типа [8500/3] нижневнутреннего квадранта правой молочной железы; сT4bN1M0 стадия IIIB; Молекулярный подтип: HER2-позитивный, нелюминальный.</p>\n",
+              "status": "additional"
+            }
+          },
+          {
+            "id": "f70158d8-9ab0-4bc1-bfa3-1e4c1b6345d8",
+            "code": {
+              "text": "Другие уточненные поражения вен",
+              "coding": [
+                {
+                  "code": "I87.8",
+                  "system": "urn:oid:1.2.643.5.1.13.13.11.1005:2.9",
+                  "display": "Другие уточненные поражения вен"
+                }
+              ]
+            },
+            "meta": {
+              "createdAt": "2021-10-05T14:38:43.886711Z",
+              "versionId": "728000",
+              "lastUpdated": "2021-10-05T14:38:43.886711Z"
+            },
+            "subject": {
+              "id": "2fb75a36-a515-4282-911b-29a02e47f585",
+              "resourceType": "Patient"
+            },
+            "resourceType": "Condition"
+          },
+          {
+            "id": "5c9ca167-b68e-4dea-aeba-add0f546f99c",
+            "code": {
+              "text": "Гипертензивная [гипертоническая] болезнь с преимущественным поражением сердца без (застойной) сердечной недостаточности",
+              "coding": [
+                {
+                  "code": "I11.9",
+                  "system": "urn:oid:1.2.643.5.1.13.13.11.1005:2.9",
+                  "display": "Гипертензивная [гипертоническая] болезнь с преимущественным поражением сердца без (застойной) сердечной недостаточности"
+                }
+              ]
+            },
+            "meta": {
+              "createdAt": "2021-10-05T14:39:18.613932Z",
+              "versionId": "728002",
+              "lastUpdated": "2021-10-05T14:39:18.613932Z"
+            },
+            "subject": {
+              "id": "2fb75a36-a515-4282-911b-29a02e47f585",
+              "resourceType": "Patient"
+            },
+            "resourceType": "Condition"
+          },
+          {
+            "id": "9558388f-1a5a-406f-ad34-9045633c9cd8",
+            "code": {
+              "text": "Инсулиннезависимый сахарный диабет без осложнений",
+              "coding": [
+                {
+                  "code": "E11.9",
+                  "system": "urn:oid:1.2.643.5.1.13.13.11.1005:2.9",
+                  "display": "Инсулиннезависимый сахарный диабет без осложнений"
+                }
+              ]
+            },
+            "meta": {
+              "createdAt": "2021-10-05T14:39:39.445141Z",
+              "versionId": "728004",
+              "lastUpdated": "2021-10-05T14:39:39.445141Z"
+            },
+            "subject": {
+              "id": "2fb75a36-a515-4282-911b-29a02e47f585",
+              "resourceType": "Patient"
+            },
+            "resourceType": "Condition"
+          },
+          {
+            "meta": {
+              "createdAt": "2021-10-05T09:00:57.980068Z",
+              "versionId": "757286",
+              "lastUpdated": "2021-10-12T18:31:46.806366Z"
+            },
+            "value": {
+              "CodeableConcept": {
+                "text": "Стадия IIIB",
+                "coding": [
+                  {
+                    "code": "IIIB",
+                    "system": "http://miramedix.ru/fhir/CodeSystem/ds-stage",
+                    "display": "Стадия IIIB",
+                    "version": "1.1",
+                    "userSelected": false
+                  }
+                ]
+              }
+            },
+            "resourceType": "Observation",
+            "component": [
+              {
+                "id": "e4fd7966-2402-4399-ab6d-aa51284d8b60",
+                "code": {
+                  "coding": [
+                    {
+                      "code": "T",
+                      "system": "http://miramedix.ru/fhir/CodeSystem/ds-mainAxis",
+                      "display": "T - Первичная опухоль"
+                    }
+                  ]
+                },
+                "value": {
+                  "CodeableConcept": {
+                    "coding": [
+                      {
+                        "code": "1008016",
+                        "system": "http://miramedix.ru/fhir/CodeSystem/ds-prognosticFactor",
+                        "display": "T4b"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "id": "343e6f59-e591-45cf-8f92-52a4a0138e96",
+                "code": {
+                  "coding": [
+                    {
+                      "code": "N",
+                      "system": "http://miramedix.ru/fhir/CodeSystem/ds-mainAxis",
+                      "display": "N - Регионарные лимфатические узлы"
+                    }
+                  ]
+                },
+                "value": {
+                  "CodeableConcept": {
+                    "coding": [
+                      {
+                        "code": "1008022",
+                        "system": "http://miramedix.ru/fhir/CodeSystem/ds-prognosticFactor",
+                        "display": "N1"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "id": "391856a9-cedd-436a-bdfc-09a320f990a8",
+                "code": {
+                  "coding": [
+                    {
+                      "code": "M",
+                      "system": "http://miramedix.ru/fhir/CodeSystem/ds-mainAxis",
+                      "display": "M - Отдаленные метастазы"
+                    }
+                  ]
+                },
+                "value": {
+                  "CodeableConcept": {
+                    "coding": [
+                      {
+                        "code": "1008033",
+                        "system": "http://miramedix.ru/fhir/CodeSystem/ds-prognosticFactor",
+                        "display": "M0"
+                      }
+                    ]
+                  }
+                }
+              }
+            ],
+            "status": "final",
+            "effective": {
+              "dateTime": "2021-10-05"
+            },
+            "id": "04882cfb-e007-4450-ad22-8e29b8406525",
+            "code": {
+              "text": "Клиническая классификация (cTNM) - версия 8 AJCC/UICC",
+              "coding": [
+                {
+                  "code": "260998006",
+                  "system": "http://snomed.info/sct",
+                  "display": "Клиническая классификация (cTNM)"
+                },
+                {
+                  "code": "1008",
+                  "system": "http://miramedix.ru/fhir/CodeSystem/ds-group",
+                  "display": "Рак молочной железы"
+                },
+                {
+                  "code": "UNITED8",
+                  "system": "http://miramedix.ru/fhir/CodeSystem/ds-stagingSource",
+                  "display": "версия 8 AJCC/UICC"
+                },
+                {
+                  "code": "c",
+                  "system": "http://miramedix.ru/fhir/CodeSystem/ds-stagingType",
+                  "display": "Клиническая классификация (cTNM)"
+                }
+              ]
+            },
+            "subject": {
+              "id": "2fb75a36-a515-4282-911b-29a02e47f585",
+              "resourceType": "Patient"
+            }
+          },
+          {
+            "meta": {
+              "createdAt": "2021-10-05T09:00:57.980068Z",
+              "versionId": "757287",
+              "lastUpdated": "2021-10-12T18:31:46.806366Z"
+            },
+            "resourceType": "Observation",
+            "component": [
+              {
+                "id": "4673525f-8aef-4095-a6bd-7911da196cf8",
+                "code": {
+                  "coding": [
+                    {
+                      "code": "ER",
+                      "system": "http://miramedix.ru/fhir/CodeSystem/ds-mainAxis",
+                      "display": "ER (Рецепторы эстрогена)"
+                    }
+                  ]
+                },
+                "value": {
+                  "CodeableConcept": {
+                    "coding": [
+                      {
+                        "code": "1008515",
+                        "system": "http://miramedix.ru/fhir/CodeSystem/ds-prognosticFactor",
+                        "display": "ER-статус положительный (рецепторы эстрогена)"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "id": "a479e570-22da-4905-b671-06d3fd170aa6",
+                "code": {
+                  "coding": [
+                    {
+                      "code": "PR",
+                      "system": "http://miramedix.ru/fhir/CodeSystem/ds-mainAxis",
+                      "display": "PR (Рецепторы прогестерона)"
+                    }
+                  ]
+                },
+                "value": {
+                  "CodeableConcept": {
+                    "coding": [
+                      {
+                        "code": "1008518",
+                        "system": "http://miramedix.ru/fhir/CodeSystem/ds-prognosticFactor",
+                        "display": "PR-статус положительный (рецепторы прогестерона)"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "id": "b5e4e6a8-b3c8-46af-9c0c-145195878ffc",
+                "code": {
+                  "coding": [
+                    {
+                      "code": "HER2-IHC",
+                      "system": "http://miramedix.ru/fhir/CodeSystem/ds-mainAxis",
+                      "display": "HER2-neu",
+                      "userSelected": true
+                    }
+                  ]
+                },
+                "value": {
+                  "CodeableConcept": {
+                    "coding": [
+                      {
+                        "code": "3000184",
+                        "system": "http://miramedix.ru/fhir/CodeSystem/ds-prognosticFactor",
+                        "display": "HER2-статус положительный "
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "id": "8b6b86e5-fb61-492e-835a-3a96e70e0368",
+                "code": {
+                  "coding": [
+                    {
+                      "code": "Ki-67",
+                      "system": "http://miramedix.ru/fhir/CodeSystem/ds-mainAxis",
+                      "display": "Ki-67"
+                    }
+                  ]
+                },
+                "value": {
+                  "CodeableConcept": {
+                    "coding": [
+                      {
+                        "code": "1008521",
+                        "system": "http://miramedix.ru/fhir/CodeSystem/ds-prognosticFactor",
+                        "display": "Ki-67 высокий"
+                      }
+                    ]
+                  }
+                }
+              }
+            ],
+            "status": "final",
+            "effective": {
+              "dateTime": "2021-08-17"
+            },
+            "id": "fc387098-de35-4d43-95d1-c68060e9e895",
+            "code": {
+              "text": "Иммуногистохимические исследования",
+              "coding": [
+                {
+                  "code": "117617002",
+                  "system": "http://snomed.info/sct",
+                  "display": "Immunohistochemistry procedure"
+                },
+                {
+                  "code": "1008",
+                  "system": "http://miramedix.ru/fhir/CodeSystem/ds-group",
+                  "display": "Рак молочной железы"
+                }
+              ]
+            },
+            "identifier": [
+              {
+                "use": "secondary",
+                "value": "12-1-1"
+              }
+            ],
+            "subject": {
+              "id": "2fb75a36-a515-4282-911b-29a02e47f585",
+              "resourceType": "Patient"
+            },
+            "performer": [
+              {
+                "id": "54ae7821-d004-4657-b4ed-218426b4e4be",
+                "resourceType": "Organization"
+              }
+            ]
+          },
+          {
+            "meta": {
+              "createdAt": "2021-10-05T09:00:57.980068Z",
+              "versionId": "757288",
+              "lastUpdated": "2021-10-12T18:31:46.806366Z"
+            },
+            "resourceType": "Observation",
+            "component": [
+              {
+                "id": "0db8a8b2-b0ee-48ac-8884-a139bacc3570",
+                "code": {
+                  "coding": [
+                    {
+                      "code": "BRCA1",
+                      "system": "http://miramedix.ru/fhir/CodeSystem/ds-mainAxis",
+                      "display": "BRCA1"
+                    }
+                  ]
+                },
+                "value": {
+                  "CodeableConcept": {
+                    "coding": [
+                      {
+                        "code": "1008523",
+                        "system": "http://miramedix.ru/fhir/CodeSystem/ds-prognosticFactor",
+                        "display": "Мутации BRCA1 не обнаружены"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "id": "417c69a4-3bf1-44d7-8152-6913a36e66c6",
+                "code": {
+                  "coding": [
+                    {
+                      "code": "BRCA2",
+                      "system": "http://miramedix.ru/fhir/CodeSystem/ds-mainAxis",
+                      "display": "BRCA2"
+                    }
+                  ]
+                },
+                "value": {
+                  "CodeableConcept": {
+                    "coding": [
+                      {
+                        "code": "1008526",
+                        "system": "http://miramedix.ru/fhir/CodeSystem/ds-prognosticFactor",
+                        "display": "Мутации BRCA2 не обнаружены"
+                      }
+                    ]
+                  }
+                }
+              }
+            ],
+            "status": "final",
+            "effective": {
+              "dateTime": "2021-08-24"
+            },
+            "id": "ab7bf464-9060-4a4e-8da5-03c2df659200",
+            "code": {
+              "text": "Молекулярно-генетические исследования",
+              "coding": [
+                {
+                  "code": "116148004",
+                  "system": "http://snomed.info/sct",
+                  "display": "Molecular genetics procedure"
+                },
+                {
+                  "code": "1008",
+                  "system": "http://miramedix.ru/fhir/CodeSystem/ds-group",
+                  "display": "Рак молочной железы"
+                }
+              ]
+            },
+            "identifier": [
+              {
+                "use": "secondary",
+                "value": "44-у"
+              }
+            ],
+            "subject": {
+              "id": "2fb75a36-a515-4282-911b-29a02e47f585",
+              "resourceType": "Patient"
+            },
+            "performer": [
+              {
+                "id": "54ae7821-d004-4657-b4ed-218426b4e4be",
+                "resourceType": "Organization"
+              }
+            ]
+          },
+          {
+            "description": "<p>Учитывая распространённость процесса и молекулярно-биологический подтип опухоли пациентки рекомендовано проведение неоадъювантной химио-таргетной лекарственной терапии по схеме TCHP, с дальнейшим выполнением радикальной мастэктомии, оценкой ответа опухоли на терапию и уточнения режима адъювантной терапии.</p>\n",
+            "category": [
+              {
+                "coding": [
+                  {
+                    "code": "recommended-treatment",
+                    "system": "urn:mmdx:internal:entity",
+                    "display": "Рекомендуемая тактика лечения"
+                  }
+                ]
+              }
+            ],
+            "addresses": [
+              {
+                "localRef": "f52c3ec4-e0dc-4358-9dd0-91b48a1fceaf",
+                "resourceType": "Condition"
+              }
+            ],
+            "resourceType": "CarePlan",
+            "title": "Рекомендуемая тактика лечения",
+            "author": {
+              "id": "practiotionerRole_00000000-0000-0000-0000-000000000001",
+              "resourceType": "PractitionerRole"
+            },
+            "activity": [
+              {
+                "id": "be5b2361-dc11-45fc-8a6f-550aa3a7d56c",
+                "detail": {
+                  "code": {
+                    "text": "Лекарственная терапия",
+                    "coding": [
+                      {
+                        "code": "medication-treatment",
+                        "system": "http://miramedix.ru/fhir/CodeSystem/tb-treatmentType",
+                        "display": "Лекарственная терапия"
+                      }
+                    ]
+                  },
+                  "kind": "ServiceRequest",
+                  "status": "not-started",
+                  "extension": [
+                    {
+                      "url": "http://miramedix.ru/fhir/StructureDefinition/chemotherapyRegimensPool",
+                      "extension": [
+                        {
+                          "url": "http://miramedix.ru/fhir/StructureDefinition/chemotherapyRegimen",
+                          "valueCodeableConcept": {
+                            "text": "sh0067: Доцетаксел 75 мг/м² в 1-й день + карбоплатин AUC 6 в 1-й день + трастузумаб 6 мг/кг (нагрузочная доза 8 мг/кг) в 1-й день + пертузумаб 420 мг (нагрузочная доза 840 мг) в 1-й день; цикл 21 день (Химиотерапия)",
+                            "coding": [
+                              {
+                                "code": "999999",
+                                "system": "urn:moscow:emias:codesystem:chemotherapy-regimen",
+                                "display": "sh0067",
+                                "version": "1.0"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "valueString": "Описание рекомендованных схем лекарственной терапии"
+                    },
+                    {
+                      "url": "http://miramedix.ru/fhir/StructureDefinition/siteOfCare",
+                      "valueCodeableConcept": {
+                        "text": "В дневном стационаре",
+                        "coding": [
+                          {
+                            "code": "day-inpatient",
+                            "system": "http://miramedix.ru/fhir/CodeSystem/siteOfCare",
+                            "display": "В дневном стационаре",
+                            "version": "1.0"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "scheduled": {
+                    "Timing": {
+                      "event": [
+                        "2021-10-18"
+                      ],
+                      "repeat": {
+                        "period": 3,
+                        "periodUnit": "mo"
+                      }
+                    }
+                  }
+                },
+                "extension": [
+                  {
+                    "url": "http://miramedix.ru/fhir/StructureDefinition/reOrder",
+                    "valueString": "1"
+                  }
+                ]
+              },
+              {
+                "id": "936f4678-7803-43c4-b39f-dd097dfa98a0",
+                "detail": {
+                  "code": {
+                    "text": "Хирургическое лечение",
+                    "coding": [
+                      {
+                        "code": "surgery",
+                        "system": "http://miramedix.ru/fhir/CodeSystem/tb-treatmentType",
+                        "display": "Хирургическое лечение"
+                      }
+                    ]
+                  },
+                  "kind": "ServiceRequest",
+                  "status": "not-started",
+                  "extension": [
+                    {
+                      "url": "http://miramedix.ru/fhir/StructureDefinition/siteOfCare",
+                      "valueCodeableConcept": {
+                        "text": "В круглосуточном стационаре",
+                        "coding": [
+                          {
+                            "code": "inpatient",
+                            "system": "http://miramedix.ru/fhir/CodeSystem/siteOfCare",
+                            "display": "В круглосуточном стационаре",
+                            "version": "1.0"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "scheduled": {
+                    "Timing": {
+                      "event": [
+                        "2021-10-25"
+                      ]
+                    }
+                  }
+                },
+                "extension": [
+                  {
+                    "url": "http://miramedix.ru/fhir/StructureDefinition/reOrder",
+                    "valueString": "2"
+                  }
+                ]
+              },
+              {
+                "id": "2c4ab863-3532-4137-8e54-3b2d3f25981d",
+                "detail": {
+                  "code": {
+                    "text": "Лекарственная терапия",
+                    "coding": [
+                      {
+                        "code": "medication-treatment",
+                        "system": "http://miramedix.ru/fhir/CodeSystem/tb-treatmentType",
+                        "display": "Лекарственная терапия"
+                      }
+                    ]
+                  },
+                  "kind": "ServiceRequest",
+                  "status": "not-started",
+                  "extension": [
+                    {
+                      "url": "http://miramedix.ru/fhir/StructureDefinition/chemotherapyRegimensPool",
+                      "extension": [
+                        {
+                          "url": "http://miramedix.ru/fhir/StructureDefinition/chemotherapyRegimen",
+                          "valueCodeableConcept": {
+                            "text": "sh0965: Трастузумаб 6 мг/кг в 1-й день; цикл 21 день (Таргетная терапия)",
+                            "coding": [
+                              {
+                                "code": "999998",
+                                "system": "urn:moscow:emias:codesystem:chemotherapy-regimen",
+                                "display": "sh0965",
+                                "version": "1.0"
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "valueString": "Описание рекомендованных схем лекарственной терапии"
+                    },
+                    {
+                      "url": "http://miramedix.ru/fhir/StructureDefinition/siteOfCare",
+                      "valueCodeableConcept": {
+                        "text": "В дневном стационаре",
+                        "coding": [
+                          {
+                            "code": "day-inpatient",
+                            "system": "http://miramedix.ru/fhir/CodeSystem/siteOfCare",
+                            "display": "В дневном стационаре",
+                            "version": "1.0"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "scheduled": {
+                    "Timing": {
+                      "event": [
+                        "2022-01-17"
+                      ],
+                      "repeat": {
+                        "period": 3,
+                        "periodUnit": "mo"
+                      }
+                    }
+                  }
+                },
+                "extension": [
+                  {
+                    "url": "http://miramedix.ru/fhir/StructureDefinition/reOrder",
+                    "valueString": "3"
+                  }
+                ]
+              }
+            ],
+            "extension": [
+              {
+                "url": "http://miramedix.ru/fhir/StructureDefinition/noActionRequired",
+                "valueBoolean": false
+              }
+            ],
+            "status": "active",
+            "id": "663de724-aeb3-4914-a26f-c5a619e879eb",
+            "intent": "proposal",
+            "subject": {
+              "id": "2fb75a36-a515-4282-911b-29a02e47f585",
+              "resourceType": "Patient"
+            }
+          },
+          {
+            "id": "142bcd80-05eb-4290-a0f2-60d822ded90f",
+            "intent": "plan",
+            "status": "active",
+            "subject": {
+              "id": "2fb75a36-a515-4282-911b-29a02e47f585",
+              "resourceType": "Patient"
+            },
+            "resourceType": "ServiceRequest",
+            "performerType": {
+              "text": "В медицинскую организацию МО",
+              "coding": [
+                {
+                  "code": "mos-region",
+                  "system": "http://miramedix.ru/fhir/CodeSystem/organizationSubordination",
+                  "display": "В медицинскую организацию МО"
+                }
+              ]
+            }
+          },
+          {
+            "id": "Observation_diseasePrognosis",
+            "code": {
+              "text": "Прогноз",
+              "coding": [
+                {
+                  "code": "disease-prognosis",
+                  "system": "urn:mmdx:internal:entity",
+                  "display": "Прогноз"
+                }
+              ]
+            },
+            "value": {
+              "CodeableConcept": {
+                "coding": [
+                  {
+                    "code": "positive",
+                    "system": "http://miramedix.ru/fhir/CodeSystem/diseasePrognosis",
+                    "display": "Благоприятный"
+                  }
+                ]
+              }
+            },
+            "status": "final",
+            "subject": {
+              "id": "2fb75a36-a515-4282-911b-29a02e47f585",
+              "resourceType": "Patient"
+            },
+            "resourceType": "Observation"
+          }
+        ],
+        "custodian": {
+          "id": "54ae7821-d004-4657-b4ed-218426b4e4be",
+          "resourceType": "Organization"
+        },
+        "status": "final",
+        "id": "7bd9f3dd-58a2-4600-b42c-60e1a79e6ebc",
+        "identifier": {
+          "id": "a8059cad-16fa-400f-acb7-e4fddc4e5116",
+          "value": "7",
+          "system": "urn:mmdx:internal:tb:consilium:protocol"
+        },
+        "subject": {
+          "id": "2fb75a36-a515-4282-911b-29a02e47f585",
+          "resourceType": "Patient"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://devbox:8080/PractitionerRole/practiotionerRole_00000000-0000-0000-0000-000000000001",
+      "resource": {
+        "meta": {
+          "lastUpdated": "2021-06-18T05:36:40.034898Z",
+          "createdAt": "2021-06-18T05:36:40.034898Z",
+          "versionId": "649"
+        },
+        "resourceType": "PractitionerRole",
+        "id": "practiotionerRole_00000000-0000-0000-0000-000000000001",
+        "code": [
+          {
+            "coding": [
+              {
+                "code": "334",
+                "system": "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1002",
+                "display": "главный врач медицинской организации"
+              }
+            ]
+          }
+        ],
+        "active": true,
+        "specialty": [
+          {
+            "coding": [
+              {
+                "code": "0",
+                "system": "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1066",
+                "display": "Врачебные специальности"
+              }
+            ]
+          }
+        ],
+        "practitioner": {
+          "id": "defaultPractitioner",
+          "resourceType": "Practitioner"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://devbox:8080/PractitionerRole/d5cbe6d0-806b-4a22-aaeb-dcf7b576f58e",
+      "resource": {
+        "meta": {
+          "lastUpdated": "2021-09-09T09:07:59.498983Z",
+          "createdAt": "2021-09-09T09:07:25.500067Z",
+          "versionId": "608444"
+        },
+        "specialty": [
+          {
+            "text": "Акушерство и гинекология",
+            "coding": [
+              {
+                "code": "8",
+                "system": "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1066",
+                "display": "Акушерство и гинекология"
+              }
+            ]
+          }
+        ],
+        "organization": {
+          "id": "87b94e89-adb2-425f-a0ac-9a92630d65f5",
+          "resourceType": "Organization"
+        },
+        "resourceType": "PractitionerRole",
+        "extension": [
+          {
+            "url": "http://miramedix.ru/fhir/StructureDefinition/practitionerRole-appRoles",
+            "extension": [
+              {
+                "url": "arm_chairman",
+                "valueReference": {
+                  "id": "arm_chairman",
+                  "resourceType": "AppRole"
+                }
+              }
+            ]
+          }
+        ],
+        "id": "d5cbe6d0-806b-4a22-aaeb-dcf7b576f58e",
+        "code": [
+          {
+            "text": "врач-кардиолог",
+            "coding": [
+              {
+                "code": "34",
+                "system": "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1002",
+                "display": "врач-кардиолог"
+              }
+            ]
+          }
+        ],
+        "practitioner": {
+          "id": "527352a9-d304-4207-b5e4-ca17d9d8b7f0",
+          "resourceType": "Practitioner"
+        },
+        "telecom": [
+          {
+            "value": "emplo1@miramedix.ru",
+            "system": "email"
+          },
+          {
+            "value": "+7 999-999-99-01",
+            "system": "phone"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "http://devbox:8080/PractitionerRole/205744ff-0f25-4e5c-8e4a-70f382ae7f51",
+      "resource": {
+        "code": [
+          {
+            "text": "врач-онколог"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://miramedix.ru/fhir/StructureDefinition/practitionerRole-appRoles",
+            "extension": [
+              {
+                "url": "arm_secretary",
+                "valueReference": {
+                  "id": "arm_secretary",
+                  "resourceType": "AppRole"
+                }
+              }
+            ]
+          }
+        ],
+        "specialty": [
+          {
+            "text": "Онкология",
+            "coding": [
+              {
+                "code": "17",
+                "system": "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1066",
+                "display": "Онкология"
+              }
+            ]
+          }
+        ],
+        "organization": {
+          "id": "54ae7821-d004-4657-b4ed-218426b4e4be",
+          "resourceType": "Organization"
+        },
+        "practitioner": {
+          "id": "2272a10a-d883-4ee0-9330-9d1686b9fd3f",
+          "resourceType": "Practitioner"
+        },
+        "id": "205744ff-0f25-4e5c-8e4a-70f382ae7f51",
+        "resourceType": "PractitionerRole",
+        "meta": {
+          "lastUpdated": "2021-10-14T13:30:03.692770Z",
+          "createdAt": "2021-10-14T13:30:03.692770Z",
+          "versionId": "772066"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://devbox:8080/PractitionerRole/274a19ea-a18a-4230-a4c4-8abc989e0435",
+      "resource": {
+        "code": [
+          {
+            "text": "Врач-хирург"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://miramedix.ru/fhir/StructureDefinition/practitionerRole-appRoles",
+            "extension": [
+              {
+                "url": "arm_practitioner",
+                "valueReference": {
+                  "id": "arm_practitioner",
+                  "resourceType": "AppRole"
+                }
+              },
+              {
+                "url": "arm_expert",
+                "valueReference": {
+                  "id": "arm_expert",
+                  "resourceType": "AppRole"
+                }
+              }
+            ]
+          }
+        ],
+        "specialty": [
+          {
+            "text": "Онкология",
+            "coding": [
+              {
+                "code": "17",
+                "system": "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1066",
+                "display": "Онкология"
+              }
+            ]
+          }
+        ],
+        "organization": {
+          "id": "87b94e89-adb2-425f-a0ac-9a92630d65f5",
+          "resourceType": "Organization"
+        },
+        "practitioner": {
+          "id": "6818e455-321c-45ee-adbf-705fbee838da",
+          "resourceType": "Practitioner"
+        },
+        "id": "274a19ea-a18a-4230-a4c4-8abc989e0435",
+        "resourceType": "PractitionerRole",
+        "meta": {
+          "lastUpdated": "2021-08-23T15:04:04.598350Z",
+          "createdAt": "2021-08-23T15:04:04.598350Z",
+          "versionId": "534311"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://devbox:8080/PractitionerRole/549e27c5-6804-4e2e-a945-37cc8a5dcbf6",
+      "resource": {
+        "code": [
+          {
+            "text": "врач-невролог",
+            "coding": [
+              {
+                "code": "45",
+                "system": "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1002",
+                "display": "врач-невролог"
+              }
+            ]
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://miramedix.ru/fhir/StructureDefinition/practitionerRole-appRoles",
+            "extension": [
+              {
+                "url": "arm_expert",
+                "valueReference": {
+                  "id": "arm_expert",
+                  "resourceType": "AppRole"
+                }
+              },
+              {
+                "url": "arm_hlchemotherapist",
+                "valueReference": {
+                  "id": "arm_hlchemotherapist",
+                  "resourceType": "AppRole"
+                }
+              },
+              {
+                "url": "arm_chemotherapist",
+                "valueReference": {
+                  "id": "arm_chemotherapist",
+                  "resourceType": "AppRole"
+                }
+              },
+              {
+                "url": "arm_nurse",
+                "valueReference": {
+                  "id": "arm_nurse",
+                  "resourceType": "AppRole"
+                }
+              }
+            ]
+          }
+        ],
+        "specialty": [
+          {
+            "text": "Бактериология",
+            "coding": [
+              {
+                "code": "54",
+                "system": "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1066",
+                "display": "Бактериология"
+              }
+            ]
+          }
+        ],
+        "organization": {
+          "id": "8f1cd301-9ecd-4079-85ce-263f3e547d83",
+          "resourceType": "Organization"
+        },
+        "practitioner": {
+          "id": "46fe7c11-1431-4764-b7de-6ab51568b14a",
+          "resourceType": "Practitioner"
+        },
+        "id": "549e27c5-6804-4e2e-a945-37cc8a5dcbf6",
+        "resourceType": "PractitionerRole",
+        "meta": {
+          "lastUpdated": "2021-08-18T08:39:20.734540Z",
+          "createdAt": "2021-07-30T08:47:56.296049Z",
+          "versionId": "459761"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://devbox:8080/PractitionerRole/5775b152-1560-4e98-9d1d-d57c15d60828",
+      "resource": {
+        "code": [
+          {
+            "text": "Новый сотрудник"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://miramedix.ru/fhir/StructureDefinition/practitionerRole-appRoles",
+            "extension": [
+              {
+                "url": "arm_practitioner",
+                "valueReference": {
+                  "id": "arm_practitioner",
+                  "resourceType": "AppRole"
+                }
+              },
+              {
+                "url": "arm_expert",
+                "valueReference": {
+                  "id": "arm_expert",
+                  "resourceType": "AppRole"
+                }
+              }
+            ]
+          }
+        ],
+        "specialty": [
+          {
+            "text": "Анестезиология - реаниматология",
+            "coding": [
+              {
+                "code": "223",
+                "system": "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1066",
+                "display": "Анестезиология - реаниматология"
+              }
+            ]
+          }
+        ],
+        "organization": {
+          "id": "87b94e89-adb2-425f-a0ac-9a92630d65f5",
+          "resourceType": "Organization"
+        },
+        "practitioner": {
+          "id": "ae3e47c1-5484-4b22-9f13-4c5a18a8672e",
+          "resourceType": "Practitioner"
+        },
+        "id": "5775b152-1560-4e98-9d1d-d57c15d60828",
+        "resourceType": "PractitionerRole",
+        "meta": {
+          "lastUpdated": "2021-07-22T10:18:38.899553Z",
+          "createdAt": "2021-07-22T10:18:38.899553Z",
+          "versionId": "166852"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://devbox:8080/Organization/54ae7821-d004-4657-b4ed-218426b4e4be",
+      "resource": {
+        "address": [
+          {
+            "use": "work",
+            "city": "г. Москва",
+            "line": [
+              "Верхняя Первомайская улица, 48, с1"
+            ],
+            "type": "both",
+            "state": "Москва",
+            "country": "ru_RU",
+            "district": "Измайлово",
+            "postalCode": "105077"
+          }
+        ],
+        "meta": {
+          "lastUpdated": "2021-10-15T08:22:59.019574Z",
+          "createdAt": "2021-08-23T15:11:19.411975Z",
+          "versionId": "776003"
+        },
+        "name": "ГБУЗ \"ГКБ им. Д. Д. Плетнёва ДЗМ\" (ЦАОП)",
+        "type": [
+          {
+            "id": "fd1595c7-e026-41f0-956d-4a43bc2f3154",
+            "coding": [
+              {
+                "id": "b2f0c681-062c-49c3-bd6e-dd17aaca7cb2",
+                "code": "prov",
+                "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+                "display": "Медицинская организация"
+              }
+            ]
+          },
+          {
+            "id": "d273ce08-b556-469f-abb6-66e9b99ee8ea",
+            "coding": [
+              {
+                "id": "8f0f4357-4ca0-4560-ac2f-392037250079",
+                "code": "consilium-requester",
+                "system": "http://miramedix.ru/fhir/CodeSystem/organization-type",
+                "display": "Направляет на консилиумы"
+              }
+            ]
+          },
+          {
+            "id": "8e1c93b3-d9cb-4d98-82cb-fd254bf46054",
+            "coding": [
+              {
+                "id": "7b416b6b-b510-45c6-92ee-e097ebd00904",
+                "code": "consilium-provider",
+                "system": "http://miramedix.ru/fhir/CodeSystem/organization-type",
+                "display": "Проводит консилиумы"
+              }
+            ]
+          }
+        ],
+        "resourceType": "Organization",
+        "extension": [
+          {
+            "url": "http://miramedix.ru/fhir/StructureDefinition/increment",
+            "valueString": "7"
+          }
+        ],
+        "alias": [
+          "Обособленное подразделение Центр амбулаторной онкологической помощи ГБУЗ \"ГКБ им. Д.Д.Плетнёва ДЗМ\"",
+          "ГБУЗ \"ГКБ им. Д. Д. Плетнёва ДЗМ\" (ЦАОП)"
+        ],
+        "active": true,
+        "id": "54ae7821-d004-4657-b4ed-218426b4e4be",
+        "identifier": [
+          {
+            "id": "6d12be50-95cc-4956-886a-fc7ca963f97b",
+            "use": "secondary",
+            "value": "047",
+            "system": "urn:moscow:emias:identifier:organization:tb-protocol-code"
+          },
+          {
+            "id": "931f8da7-937d-4ef0-87fe-aa6410ee5bb3",
+            "use": "official",
+            "value": "1.2.643.5.1.13.13.12.2.77.7879",
+            "system": "urn:1.2.643.5.1.13.13.11.1461:5.151"
+          },
+          {
+            "id": "ee127592-1a52-4604-a3c4-83d09ddbe26a",
+            "use": "secondary",
+            "value": "10266728",
+            "system": "urn:moscow:emias:identifier:organization:svmr2-id"
+          },
+          {
+            "id": "5e5cba3f-9e74-49c6-a260-2220122792fa",
+            "use": "secondary",
+            "value": "10266728",
+            "system": "urn:moscow:emias:identifier:organization:rmu-id"
+          }
+        ],
+        "telecom": [
+          {
+            "value": "+7 999-999-99-77",
+            "system": "phone"
+          },
+          {
+            "value": "121212",
+            "system": "fax"
+          },
+          {
+            "value": "onco@miramedix.ru",
+            "system": "email"
+          },
+          {
+            "value": "4444411111",
+            "system": "pager"
+          },
+          {
+            "value": "miramedix.ru",
+            "system": "url"
+          }
+        ]
+      }
+    }
+  ]
+}

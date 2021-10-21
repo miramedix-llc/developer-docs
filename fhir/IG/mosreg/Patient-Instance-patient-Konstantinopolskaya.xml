@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="Instance-patient-Konstantinopolskaya"/>
+  <meta>
+    <profile value="http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-patient"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: Medical record number: SK00141130 (USUAL), СНИЛС: 123-456-789 09 (OFFICIAL), Полис ОМС старого образца: 777777 7777777777 (OFFICIAL)</p><p><b>name</b>: Анна Вероника Мамед кызы Константинопольская (OFFICIAL)</p><p><b>telecom</b>: <a href="tel:+7(901)555-55-52">+7 (901) 555-55-52</a>, <a href="mailto:email@example.com">email@example.com</a></p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1989-09-10</p><p><b>address</b>: </p><ul><li>Пущино, микрорайон АБ, дом 3, корпус 2, квартира 136-137(HOME)</li><li>г Москва, ул Красноказарменная, д 1, кв 1(TEMP)</li></ul></div>
+  </text>
+  <identifier>
+    <use value="usual"/>
+    <type>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+        <code value="MR"/>
+        <display value="Medical record number"/>
+      </coding>
+    </type>
+    <system value="urn:oid:1.2.643.100.3"/>
+    <value value="SK00141130"/>
+  </identifier>
+  <identifier>
+    <use value="official"/>
+    <type>
+      <coding>
+        <system value="http://miramedix.ru/fhir/CodeSystem/miramedix-cs-identifier-type"/>
+        <code value="snils"/>
+        <display value="СНИЛС"/>
+      </coding>
+    </type>
+    <system value="urn:oid:1.2.643.100.3"/>
+    <value value="123-456-789 09"/>
+  </identifier>
+  <identifier>
+    <use value="official"/>
+    <type>
+      <coding>
+        <system value="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1035"/>
+        <code value="1"/>
+        <display value="Полис ОМС старого образца"/>
+      </coding>
+    </type>
+    <system value="urn:oid:1.2.643.5.1.13.13.11.1035:1"/>
+    <value value="777777 7777777777"/>
+    <assigner>
+      <identifier>
+        <system value="urn:oid:1.2.643.5.1.13.13.99.2.183:SMOCOD"/>
+        <value value="77008"/>
+      </identifier>
+      <display value="ООО &quot;СМК РЕСО-Мед&quot;"/>
+    </assigner>
+  </identifier>
+  <name>
+    <use value="official"/>
+    <family value="Константинопольская"/>
+    <given value="Анна Вероника"/>
+    <given value="Мамед кызы"/>
+  </name>
+  <telecom>
+    <system value="phone"/>
+    <value value="+7 (901) 555-55-52"/>
+    <rank value="1"/>
+  </telecom>
+  <telecom>
+    <system value="email"/>
+    <value value="email@example.com"/>
+    <rank value="1"/>
+  </telecom>
+  <gender value="female">
+    <extension url="http://miramedix.ru/fhir/Extension/miramedix-ex-nsi-gender">
+      <valueCoding>
+        <system value="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1040"/>
+        <version value="2.1"/>
+        <code value="2"/>
+        <display value="Женский"/>
+      </valueCoding>
+    </extension>
+  </gender>
+  <birthDate value="1989-09-10"/>
+  <address>
+    <use value="home"/>
+    <text value="Пущино, микрорайон АБ, дом 3, корпус 2, квартира 136-137"/>
+    <city value="город Пущино"/>
+    <district value="Серпуховской район"/>
+    <state value="50"/>
+    <postalCode value="142280"/>
+  </address>
+  <address>
+    <use value="temp"/>
+    <text value="г Москва, ул Красноказарменная, д 1, кв 1"/>
+    <city value="город Москва"/>
+    <district value="район Лефортово"/>
+    <state value="77"/>
+    <postalCode value="111024"/>
+  </address>
+</Patient>

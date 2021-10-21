@@ -1,0 +1,45 @@
+{
+  "resourceType": "Condition",
+  "id": "Instance-miramedix-condition-diag-main-1",
+  "meta": {
+    "profile": [
+      "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-condition-diag-main"
+    ]
+  },
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Внутрипротоковая папиллярная аденокарцинома с инвазией нижневнутреннего квадранта молочной железы. Стадия IVa; pT3N1M1. ER-статус отрицательный; PR-статус отрицательный; HER2-статус положительный 3+; Ki-67 высокий. Мутации генов BRCA 1/2 не обнаружены</p></div>"
+  },
+  "identifier": [
+    {
+      "system": "urn:mosreg:entity:condition",
+      "value": "d34c35ab-4c2e-4c6e-9f42-a7879d47dcd5"
+    }
+  ],
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077",
+          "code": "1",
+          "display": "Основное заболевание"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1005",
+        "code": "C50.3",
+        "display": "Злокачественное новообразование нижневнутреннего квадранта молочной железы"
+      }
+    ]
+  },
+  "subject": {
+    "identifier": {
+      "system": "urn:oid:1.2.643.100.3",
+      "value": "123-456-789 09"
+    }
+  }
+}

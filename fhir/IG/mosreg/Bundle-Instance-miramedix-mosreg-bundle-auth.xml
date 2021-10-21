@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="Instance-miramedix-mosreg-bundle-auth"/>
+  <meta>
+    <profile value="http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-bundle-auth"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="urn:uuid:c0c138ee-c39c-4710-b849-fd0ae1589106"/>
+    <resource>
+      <Practitioner>
+        <id value="Instance-practitioner-Adamov"/>
+        <meta>
+          <profile value="http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-practitioner"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: Employee number: 123 (USUAL), Логин сотрудника: adamovaa@org.ru (USUAL), СНИЛС: 261-698-042-95 (OFFICIAL)</p><p><b>name</b>: Адам Адамович Адамов (OFFICIAL)</p><p><b>telecom</b>: <a href="tel:+7(902)666-55-33">+7 (902) 666-55-33</a></p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1970-01-01</p></div>
+        </text>
+        <identifier>
+          <use value="usual"/>
+          <type>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+              <code value="EI"/>
+              <display value="Employee number"/>
+            </coding>
+          </type>
+          <system value="urn:mosreg:entity:practitioner"/>
+          <value value="123"/>
+        </identifier>
+        <identifier>
+          <use value="usual"/>
+          <type>
+            <coding>
+              <system value="http://miramedix.ru/fhir/CodeSystem/miramedix-cs-identifier-type"/>
+              <code value="employee-login"/>
+              <display value="Логин сотрудника"/>
+            </coding>
+          </type>
+          <system value="urn:mosreg:identifier:user:id"/>
+          <value value="adamovaa@org.ru"/>
+        </identifier>
+        <identifier>
+          <use value="official"/>
+          <type>
+            <coding>
+              <system value="http://miramedix.ru/fhir/CodeSystem/miramedix-cs-identifier-type"/>
+              <code value="snils"/>
+              <display value="СНИЛС"/>
+            </coding>
+          </type>
+          <system value="urn:oid:1.2.643.100.3"/>
+          <value value="261-698-042-95"/>
+        </identifier>
+        <name>
+          <use value="official"/>
+          <family value="Адамов"/>
+          <given value="Адам"/>
+          <given value="Адамович"/>
+        </name>
+        <telecom>
+          <system value="phone"/>
+          <value value="+7 (902) 666-55-33"/>
+        </telecom>
+        <gender value="male">
+          <extension url="http://miramedix.ru/fhir/Extension/miramedix-ex-nsi-gender">
+            <valueCoding>
+              <system value="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1040"/>
+              <version value="2.1"/>
+              <code value="1"/>
+              <display value="Мужской"/>
+            </valueCoding>
+          </extension>
+        </gender>
+        <birthDate value="1970-01-01"/>
+      </Practitioner>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:6bf46875-6d1f-4f23-b440-64ccd6623ed3"/>
+    <resource>
+      <PractitionerRole>
+        <id value="Instance-practitionerrole-Oncologist"/>
+        <meta>
+          <profile value="http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-practitionerrole"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 914c0410-959f-49d6-b99b-9d7a9d285c11</p><p><b>practitioner</b>: <span></span></p><p><b>organization</b>: <span></span></p><p><b>code</b>: <span title="Codes: {https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1002 50}">врач-онколог</span></p><p><b>specialty</b>: <span title="Codes: {https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1066 17}">Онкология</span></p></div>
+        </text>
+        <identifier>
+          <system value="urn:mosreg:entity:practitionerrole"/>
+          <value value="914c0410-959f-49d6-b99b-9d7a9d285c11"/>
+        </identifier>
+        <practitioner>
+          <identifier>
+            <system value="urn:mosreg:entity:practitioner"/>
+            <value value="123"/>
+          </identifier>
+        </practitioner>
+        <organization>
+          <identifier>
+            <system value="urn:ietf:rfc:3986"/>
+            <value value="urn:oid:1.2.643.5.1.13.13.12.2.50.11329"/>
+          </identifier>
+        </organization>
+        <code>
+          <coding>
+            <system value="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1002"/>
+            <code value="50"/>
+            <display value="врач-онколог"/>
+          </coding>
+        </code>
+        <specialty>
+          <coding>
+            <system value="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1066"/>
+            <code value="17"/>
+            <display value="Онкология"/>
+          </coding>
+        </specialty>
+      </PractitionerRole>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:6873053d-d859-4ef2-a013-17a6fa1803f2"/>
+    <resource>
+      <Organization>
+        <id value="Instance-organization-division-LOB-CAOP"/>
+        <meta>
+          <profile value="http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-organization-division"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: urn:oid:1.2.643.5.1.13.13.12.2.50.11329.0.437329</p><p><b>name</b>: Центр амбулаторной онкологической помощи</p><p><b>address</b>: 142280, г. Люберцы, улица Назарова, д. 3</p><p><b>partOf</b>: <span></span></p></div>
+        </text>
+        <identifier>
+          <system value="urn:ietf:rfc:3986"/>
+          <value value="urn:oid:1.2.643.5.1.13.13.12.2.50.11329.0.437329"/>
+        </identifier>
+        <name value="Центр амбулаторной онкологической помощи"/>
+        <address>
+          <text value="142280, г. Люберцы, улица Назарова, д. 3"/>
+          <city value="город Пущино"/>
+          <district value="Серпуховской район"/>
+          <state value="50"/>
+          <postalCode value="142280"/>
+        </address>
+        <partOf>
+          <identifier>
+            <system value="urn:ietf:rfc:3986"/>
+            <value value="urn:oid:1.2.643.5.1.13.13.12.2.50.11329"/>
+          </identifier>
+        </partOf>
+      </Organization>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:b8f3071b-1537-40a9-b092-044bdaf69b62"/>
+    <resource>
+      <Organization>
+        <id value="Instance-organization-LOB"/>
+        <meta>
+          <profile value="http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-organization"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: urn:oid:1.2.643.5.1.13.13.12.2.50.11329, id: 1195027016480</p><p><b>name</b>: ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ УЧРЕЖДЕНИЕ ЗДРАВООХРАНЕНИЯ МОСКОВСКОЙ ОБЛАСТИ "ЛЮБЕРЕЦКАЯ ОБЛАСТНАЯ БОЛЬНИЦА"</p><p><b>address</b>: 140006, Московская область, г.Люберцы, Октябрьский проспект, д.338</p></div>
+        </text>
+        <identifier>
+          <system value="urn:ietf:rfc:3986"/>
+          <value value="urn:oid:1.2.643.5.1.13.13.12.2.50.11329"/>
+        </identifier>
+        <identifier>
+          <system value="urn:oid:1.2.643.100.1"/>
+          <value value="1195027016480"/>
+        </identifier>
+        <name value="ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ УЧРЕЖДЕНИЕ ЗДРАВООХРАНЕНИЯ МОСКОВСКОЙ ОБЛАСТИ &quot;ЛЮБЕРЕЦКАЯ ОБЛАСТНАЯ БОЛЬНИЦА&quot;"/>
+        <address>
+          <text value="140006, Московская область, г.Люберцы, Октябрьский проспект, д.338"/>
+          <city value="г. Люберцы"/>
+          <district value="городской округ Люберцы"/>
+          <state value="50"/>
+          <postalCode value="140006"/>
+        </address>
+      </Organization>
+    </resource>
+  </entry>
+</Bundle>

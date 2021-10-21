@@ -1,0 +1,68 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://miramedix.ru/fhir/ig/mosreg/Composition/Instance-miramedix-mosreg-composition-diag-main-anamnesis-1> a fhir:Composition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Instance-miramedix-mosreg-composition-diag-main-anamnesis-1"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-composition-diag-main-anamnesis";
+       fhir:index 0;
+       fhir:link <http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-composition-diag-main-anamnesis>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: preliminary</p><p><b>type</b>: <span title=\"Codes: {http://miramedix.ru/fhir/CodeSystem/entity-type anamnesis-morbi}\">Анамнез заболевания</span></p><p><b>date</b>: 01.02.2021 13:19:27</p><p><b>author</b>: <span></span></p><p><b>title</b>: Анамнез заболевания к заявке на консилиум</p></div>"
+  ];
+  fhir:Composition.status [ fhir:value "preliminary"];
+  fhir:Composition.type [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://miramedix.ru/fhir/CodeSystem/entity-type" ];
+       fhir:Coding.code [ fhir:value "anamnesis-morbi" ];
+       fhir:Coding.display [ fhir:value "Анамнез заболевания" ]
+     ]
+  ];
+  fhir:Composition.subject [
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "urn:oid:1.2.643.100.3" ];
+       fhir:Identifier.value [ fhir:value "123-456-789 09" ]
+     ]
+  ];
+  fhir:Composition.date [ fhir:value "2021-02-01T10:19:27.585Z"^^xsd:dateTime];
+  fhir:Composition.author [
+     fhir:index 0;
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "urn:mosreg:entity:practitionerrole" ];
+       fhir:Identifier.value [ fhir:value "914c0410-959f-49d6-b99b-9d7a9d285c11" ]
+     ]
+  ];
+  fhir:Composition.title [ fhir:value "Анамнез заболевания к заявке на консилиум"];
+  fhir:Composition.section [
+     fhir:index 0;
+     fhir:Composition.section.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "urn:mmdx:internal:section" ];
+         fhir:Coding.code [ fhir:value "anamnesis-morbi" ];
+         fhir:Coding.display [ fhir:value "Анамнез заболевания" ]
+       ]
+     ];
+     fhir:Composition.section.text [
+       fhir:Narrative.status [ fhir:value "additional" ];
+       fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Считает себя больным с осени 2011 г., когда впервые после еды появились ноющие боли в эпигастральной области, изжога. К врачу не обращался, самостоятельно соблюдал диету, при изжоге принимал соду. Через неделю после приема алкоголя возобновились боли в эпигастральной области, изжога, горечь во рту. Обратился к врачу-гастроэнтерологу в поликлинике. Обследован (фиброгастродуоденоскопия – язвенная болезнь 12-перстной кишки) и направлен на стационарное лечение во 2-ю ГКБ. После стационарного лечения с выздоровлением был выписан в удовлетворительном состоянии. На протяжении последних двух лет соблюдал диету, принимал альмагель, де-нол. С 2013 года ежегодно в осенний период проходит курс стационарного лечения по поводу обострения язвенной болезни 12-перстной кишки. Последнее ухудшение наступило в октябре 2015 г., когда после систематических физических и нервно-психических нагрузок усилились боли в эпигастральной области, сопровождающиеся изжогой; повысилась утомляемость, снизилась работоспособность, появился жидкий, неоформленный черный стул. После обращения к врачу в поликлинику по месту жительства был проконсультирован хирургом, вызвана машина скорой и неотложной помощи, и больной с диагнозом острое желудочно-кишечное кровотечение на фоне язвенной болезни 12-перстной кишки направлен в хирургическое отделение 2-й ХГКБ.</p></div>"
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://miramedix.ru/fhir/ig/mosreg/Composition/Instance-miramedix-mosreg-composition-diag-main-anamnesis-1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

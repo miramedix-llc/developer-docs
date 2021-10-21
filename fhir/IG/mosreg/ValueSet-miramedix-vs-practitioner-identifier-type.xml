@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="miramedix-vs-practitioner-identifier-type"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href="CodeSystem-miramedix-cs-identifier-type.html"><code>http://miramedix.ru/fhir/CodeSystem/miramedix-cs-identifier-type</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="CodeSystem-miramedix-cs-identifier-type.html#miramedix-cs-identifier-type-snils">snils</a></td><td>СНИЛС</td><td>Страховой номер индивидуального лицевого счёта.</td></tr><tr><td><a href="CodeSystem-miramedix-cs-identifier-type.html#miramedix-cs-identifier-type-employee-login">employee-login</a></td><td>Логин сотрудника</td><td>Логин сотрудника в МИС.</td></tr></table></li><li>Include these codes as defined in <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v2-0203.html"><code>http://terminology.hl7.org/CodeSystem/v2-0203</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="http://terminology.hl7.org/2.1.0/CodeSystem-v2-0203.html#v2-0203-EI">EI</a></td><td>Employee number</td><td>A number that uniquely identifies an employee to an employer.</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://miramedix.ru/fhir/ValueSet/miramedix-vs-practitioner-identifier-type"/>
+  <version value="0.1.0"/>
+  <name value="Miramedix_vs_practitioner_identifier_type"/>
+  <title value="Набор значений типов идентификаторов сотрудников [Мирамедикс]"/>
+  <status value="active"/>
+  <date value="2021-10-20T13:42:04+03:00"/>
+  <description value="Набор значений для указания типов идентификаторов сотрудников для информационной системы Мирамедикс."/>
+  <compose>
+    <include>
+      <system value="http://miramedix.ru/fhir/CodeSystem/miramedix-cs-identifier-type"/>
+      <concept>
+        <code value="snils"/>
+      </concept>
+      <concept>
+        <code value="employee-login"/>
+      </concept>
+    </include>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+      <concept>
+        <code value="EI"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

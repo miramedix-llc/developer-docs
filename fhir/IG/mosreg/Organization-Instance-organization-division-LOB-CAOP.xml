@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Organization xmlns="http://hl7.org/fhir">
+  <id value="Instance-organization-division-LOB-CAOP"/>
+  <meta>
+    <profile value="http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-organization-division"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: urn:oid:1.2.643.5.1.13.13.12.2.50.11329.0.437329</p><p><b>name</b>: Центр амбулаторной онкологической помощи</p><p><b>address</b>: 142280, г. Люберцы, улица Назарова, д. 3</p><p><b>partOf</b>: <span></span></p></div>
+  </text>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.2.643.5.1.13.13.12.2.50.11329.0.437329"/>
+  </identifier>
+  <name value="Центр амбулаторной онкологической помощи"/>
+  <address>
+    <text value="142280, г. Люберцы, улица Назарова, д. 3"/>
+    <city value="город Пущино"/>
+    <district value="Серпуховской район"/>
+    <state value="50"/>
+    <postalCode value="142280"/>
+  </address>
+  <partOf>
+    <identifier>
+      <system value="urn:ietf:rfc:3986"/>
+      <value value="urn:oid:1.2.643.5.1.13.13.12.2.50.11329"/>
+    </identifier>
+  </partOf>
+</Organization>

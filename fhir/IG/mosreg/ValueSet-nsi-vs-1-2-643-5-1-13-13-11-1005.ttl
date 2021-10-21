@@ -1,0 +1,35 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://miramedix.ru/fhir/ig/mosreg/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1005> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "nsi-vs-1-2-643-5-1-13-13-11-1005"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1005.html\"><code>https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1005</code></a></li></ul></div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "http://miramedix.ru/fhir/ValueSet/nsi-vs-1005"];
+  fhir:ValueSet.version [ fhir:value "0.1.0"];
+  fhir:ValueSet.name [ fhir:value "Nsi_vs_1_2_643_5_1_13_13_11_1005"];
+  fhir:ValueSet.title [ fhir:value "Международная статистическая классификация болезней и проблем, связанных со здоровьем (10-й пересмотр) [все значения]"];
+  fhir:ValueSet.status [ fhir:value "active"];
+  fhir:ValueSet.date [ fhir:value "2021-10-20T13:42:04+03:00"^^xsd:dateTime];
+  fhir:ValueSet.description [ fhir:value "'Международная статистическая классификация болезней и проблем, связанных со здоровьем (10-й пересмотр)'  \n[набор из всех значений системы кодирования]"];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1005" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://miramedix.ru/fhir/ig/mosreg/ValueSet/nsi-vs-1-2-643-5-1-13-13-11-1005.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

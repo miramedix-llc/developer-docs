@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="Instance-miramedix-mosreg-bundle-request-access"/>
+  <meta>
+    <profile value="http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-bundle-request-access"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="urn:uuid:f4190464-7b4f-4692-a909-28f846fe185e"/>
+    <resource>
+      <Patient>
+        <id value="Instance-patient-Konstantinopolskaya"/>
+        <meta>
+          <profile value="http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-patient"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: Medical record number: SK00141130 (USUAL), СНИЛС: 123-456-789 09 (OFFICIAL), Полис ОМС старого образца: 777777 7777777777 (OFFICIAL)</p><p><b>name</b>: Анна Вероника Мамед кызы Константинопольская (OFFICIAL)</p><p><b>telecom</b>: <a href="tel:+7(901)555-55-52">+7 (901) 555-55-52</a>, <a href="mailto:email@example.com">email@example.com</a></p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1989-09-10</p><p><b>address</b>: </p><ul><li>Пущино, микрорайон АБ, дом 3, корпус 2, квартира 136-137(HOME)</li><li>г Москва, ул Красноказарменная, д 1, кв 1(TEMP)</li></ul></div>
+        </text>
+        <identifier>
+          <use value="usual"/>
+          <type>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+              <code value="MR"/>
+              <display value="Medical record number"/>
+            </coding>
+          </type>
+          <system value="urn:oid:1.2.643.100.3"/>
+          <value value="SK00141130"/>
+        </identifier>
+        <identifier>
+          <use value="official"/>
+          <type>
+            <coding>
+              <system value="http://miramedix.ru/fhir/CodeSystem/miramedix-cs-identifier-type"/>
+              <code value="snils"/>
+              <display value="СНИЛС"/>
+            </coding>
+          </type>
+          <system value="urn:oid:1.2.643.100.3"/>
+          <value value="123-456-789 09"/>
+        </identifier>
+        <identifier>
+          <use value="official"/>
+          <type>
+            <coding>
+              <system value="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1035"/>
+              <code value="1"/>
+              <display value="Полис ОМС старого образца"/>
+            </coding>
+          </type>
+          <system value="urn:oid:1.2.643.5.1.13.13.11.1035:1"/>
+          <value value="777777 7777777777"/>
+          <assigner>
+            <identifier>
+              <system value="urn:oid:1.2.643.5.1.13.13.99.2.183:SMOCOD"/>
+              <value value="77008"/>
+            </identifier>
+            <display value="ООО &quot;СМК РЕСО-Мед&quot;"/>
+          </assigner>
+        </identifier>
+        <name>
+          <use value="official"/>
+          <family value="Константинопольская"/>
+          <given value="Анна Вероника"/>
+          <given value="Мамед кызы"/>
+        </name>
+        <telecom>
+          <system value="phone"/>
+          <value value="+7 (901) 555-55-52"/>
+          <rank value="1"/>
+        </telecom>
+        <telecom>
+          <system value="email"/>
+          <value value="email@example.com"/>
+          <rank value="1"/>
+        </telecom>
+        <gender value="female">
+          <extension url="http://miramedix.ru/fhir/Extension/miramedix-ex-nsi-gender">
+            <valueCoding>
+              <system value="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1040"/>
+              <version value="2.1"/>
+              <code value="2"/>
+              <display value="Женский"/>
+            </valueCoding>
+          </extension>
+        </gender>
+        <birthDate value="1989-09-10"/>
+        <address>
+          <use value="home"/>
+          <text value="Пущино, микрорайон АБ, дом 3, корпус 2, квартира 136-137"/>
+          <city value="город Пущино"/>
+          <district value="Серпуховской район"/>
+          <state value="50"/>
+          <postalCode value="142280"/>
+        </address>
+        <address>
+          <use value="temp"/>
+          <text value="г Москва, ул Красноказарменная, д 1, кв 1"/>
+          <city value="город Москва"/>
+          <district value="район Лефортово"/>
+          <state value="77"/>
+          <postalCode value="111024"/>
+        </address>
+      </Patient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:4296a5aa-2001-4e6f-9936-99a39f1a783c"/>
+    <resource>
+      <Condition>
+        <id value="Instance-miramedix-condition-diag-main-1"/>
+        <meta>
+          <profile value="http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-condition-diag-main"/>
+        </meta>
+        <text>
+          <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p>Внутрипротоковая папиллярная аденокарцинома с инвазией нижневнутреннего квадранта молочной железы. Стадия IVa; pT3N1M1. ER-статус отрицательный; PR-статус отрицательный; HER2-статус положительный 3+; Ki-67 высокий. Мутации генов BRCA 1/2 не обнаружены</p></div>
+        </text>
+        <identifier>
+          <system value="urn:mosreg:entity:condition"/>
+          <value value="d34c35ab-4c2e-4c6e-9f42-a7879d47dcd5"/>
+        </identifier>
+        <category>
+          <coding>
+            <system value="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077"/>
+            <code value="1"/>
+            <display value="Основное заболевание"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1005"/>
+            <code value="C50.3"/>
+            <display value="Злокачественное новообразование нижневнутреннего квадранта молочной железы"/>
+          </coding>
+        </code>
+        <subject>
+          <identifier>
+            <system value="urn:oid:1.2.643.100.3"/>
+            <value value="123-456-789 09"/>
+          </identifier>
+        </subject>
+      </Condition>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:4445e3b4-d06b-4388-8c83-8a8e23539ec6"/>
+    <resource>
+      <Observation>
+        <id value="Instance-miramedix-mosreg-observation-diag-main-anamnesis-1"/>
+        <meta>
+          <profile value="http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-observation-diag-main-anamnesis"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: preliminary</p><p><b>code</b>: <span title="Codes: {http://miramedix.ru/fhir/CodeSystem/entity-type anamnesis-morbi}">Анамнез заболевания</span></p><p><b>subject</b>: <span></span></p><p><b>effective</b>: 01.02.2021 13:19:27</p><p><b>value</b>: Считает себя больным с осени 2011 г., когда впервые после еды появились ноющие боли в эпигастральной области, изжога. К врачу не обращался, самостоятельно соблюдал диету, при изжоге принимал соду.
+ Через неделю после приема алкоголя возобновились боли в эпигастральной
+ области, изжога, горечь во рту. Обратился к врачу-гастроэнтерологу
+ в поликлинике. Обследован (фиброгастродуоденоскопия – язвенная болезнь
+ 12-перстной кишки) и направлен на стационарное лечение во 2-ю ГКБ. После стационарного лечения с выздоровлением был выписан
+ в удовлетворительном состоянии. На протяжении последних двух лет
+ соблюдал диету, принимал альмагель, де-нол. С 2013 года ежегодно в осенний
+ период проходит курс стационарного лечения по поводу обострения язвенной болезни 12-перстной кишки. Последнее ухудшение наступило в октябре 2015 г., когда после систематических физических и нервно-психических нагрузок усилились боли в эпигастральной области, сопровождающиеся изжогой; повысилась утомляемость, снизилась работоспособность, появился жидкий, неоформленный черный стул. После обращения
+ к врачу в поликлинику по месту жительства был проконсультирован хирургом, вызвана машина скорой и неотложной помощи, и больной с диагнозом острое желудочно-кишечное кровотечение на фоне язвенной болезни 12-перстной кишки направлен в хирургическое отделение 2-й ХГКБ.</p></div>
+        </text>
+        <status value="preliminary"/>
+        <code>
+          <coding>
+            <system value="http://miramedix.ru/fhir/CodeSystem/entity-type"/>
+            <code value="anamnesis-morbi"/>
+            <display value="Анамнез заболевания"/>
+          </coding>
+        </code>
+        <subject>
+          <identifier>
+            <system value="urn:oid:1.2.643.100.3"/>
+            <value value="123-456-789 09"/>
+          </identifier>
+        </subject>
+        <effectiveDateTime value="2021-02-01T10:19:27.585Z"/>
+        <valueString value="Считает себя больным с осени 2011 г., когда впервые после еды появились ноющие боли в эпигастральной области, изжога. К врачу не обращался, самостоятельно соблюдал диету, при изжоге принимал соду.&#xA; Через неделю после приема алкоголя возобновились боли в эпигастральной&#xA; области, изжога, горечь во рту. Обратился к врачу-гастроэнтерологу&#xA; в поликлинике. Обследован (фиброгастродуоденоскопия – язвенная болезнь&#xA; 12-перстной кишки) и направлен на стационарное лечение во 2-ю ГКБ. После стационарного лечения с выздоровлением был выписан&#xA; в удовлетворительном состоянии. На протяжении последних двух лет&#xA; соблюдал диету, принимал альмагель, де-нол. С 2013 года ежегодно в осенний&#xA; период проходит курс стационарного лечения по поводу обострения язвенной болезни 12-перстной кишки. Последнее ухудшение наступило в октябре 2015 г., когда после систематических физических и нервно-психических нагрузок усилились боли в эпигастральной области, сопровождающиеся изжогой; повысилась утомляемость, снизилась работоспособность, появился жидкий, неоформленный черный стул. После обращения&#xA; к врачу в поликлинику по месту жительства был проконсультирован хирургом, вызвана машина скорой и неотложной помощи, и больной с диагнозом острое желудочно-кишечное кровотечение на фоне язвенной болезни 12-перстной кишки направлен в хирургическое отделение 2-й ХГКБ."/>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:5aa1e1bf-c04e-4c25-843f-d24f76b91492"/>
+    <resource>
+      <ServiceRequest>
+        <id value="Instance-miramedix-mosreg-servicerequest-1"/>
+        <meta>
+          <profile value="http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-servicerequest"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: draft</p><p><b>intent</b>: proposal</p><p><b>subject</b>: <span></span></p><p><b>authoredOn</b>: 23.09.2021 19:47:20</p><p><b>reasonCode</b>: <span title="Codes: {https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1506 5}">Определение тактики лечения</span></p></div>
+        </text>
+        <status value="draft"/>
+        <intent value="proposal"/>
+        <subject>
+          <identifier>
+            <system value="urn:oid:1.2.643.100.3"/>
+            <value value="123-456-789 09"/>
+          </identifier>
+        </subject>
+        <authoredOn value="2021-09-23T16:47:20.781Z"/>
+        <reasonCode>
+          <coding>
+            <system value="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1506"/>
+            <code value="5"/>
+            <display value="Определение тактики лечения"/>
+          </coding>
+          <text value="Определение тактики лечения"/>
+        </reasonCode>
+      </ServiceRequest>
+    </resource>
+  </entry>
+</Bundle>

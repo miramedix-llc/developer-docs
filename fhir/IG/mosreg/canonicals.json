@@ -1,0 +1,303 @@
+[
+  {
+    "id": "miramedix-cs-event-type",
+    "type": "CodeSystem",
+    "url": "http://miramedix.ru/fhir/CodeSystem/miramedix-cs-event-type",
+    "version": "0.1.0",
+    "name": "Miramedix_cs_event_type"
+  },
+  {
+    "id": "miramedix-cs-identifier-type",
+    "type": "CodeSystem",
+    "url": "http://miramedix.ru/fhir/CodeSystem/miramedix-cs-identifier-type",
+    "version": "0.1.0",
+    "name": "Miramedix_cs_identifier_type"
+  },
+  {
+    "id": "miramedix-ex-nsi-gender",
+    "type": "StructureDefinition",
+    "url": "http://miramedix.ru/fhir/Extension/miramedix-ex-nsi-gender",
+    "version": "0.1.0",
+    "name": "Miramedix_ex_nsi_gender"
+  },
+  {
+    "id": "miramedix-mosreg-auditevent-subscription-notify",
+    "type": "StructureDefinition",
+    "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-auditevent-subscription-notify",
+    "version": "0.1.0",
+    "name": "Miramedix_mosreg_auditevent_subscription_notify"
+  },
+  {
+    "id": "miramedix-mosreg-bundle-auth",
+    "type": "StructureDefinition",
+    "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-bundle-auth",
+    "version": "0.1.0",
+    "name": "Miramedix_mosreg_bundle_auth"
+  },
+  {
+    "id": "miramedix-mosreg-bundle-notify",
+    "type": "StructureDefinition",
+    "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-bundle-notify",
+    "version": "0.1.0",
+    "name": "Miramedix_mosreg_bundle_notify"
+  },
+  {
+    "id": "miramedix-mosreg-bundle-request-access",
+    "type": "StructureDefinition",
+    "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-bundle-request-access",
+    "version": "0.1.0",
+    "name": "Miramedix_mosreg_bundle_request_access"
+  },
+  {
+    "id": "miramedix-mosreg-composition-diag-main-anamnesis",
+    "type": "StructureDefinition",
+    "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-composition-diag-main-anamnesis",
+    "version": "0.1.0",
+    "name": "Miramedix_mosreg_composition_diag_main_anamnesis"
+  },
+  {
+    "id": "miramedix-mosreg-condition-diag-main",
+    "type": "StructureDefinition",
+    "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-condition-diag-main",
+    "version": "0.1.0",
+    "name": "Miramedix_mosreg_condition_diag_main"
+  },
+  {
+    "id": "miramedix-mosreg-documentmanifest",
+    "type": "StructureDefinition",
+    "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-documentmanifest",
+    "version": "0.1.0",
+    "name": "Miramedix_mosreg_documentmanifest"
+  },
+  {
+    "id": "miramedix-mosreg-documentreference",
+    "type": "StructureDefinition",
+    "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-documentreference",
+    "version": "0.1.0",
+    "name": "Miramedix_mosreg_documentreference"
+  },
+  {
+    "id": "miramedix-mosreg-endpoint-accesspoint",
+    "type": "StructureDefinition",
+    "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-endpoint-accesspoint",
+    "version": "0.1.0",
+    "name": "Miramedix_mosreg_endpoint_accesspoint"
+  },
+  {
+    "id": "miramedix-mosreg-messageheader-notify",
+    "type": "StructureDefinition",
+    "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-messageheader-notify",
+    "version": "0.1.0",
+    "name": "Miramedix_mosreg_messageheader_notify"
+  },
+  {
+    "id": "miramedix-mosreg-observation-diag-main-anamnesis",
+    "type": "StructureDefinition",
+    "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-observation-diag-main-anamnesis",
+    "version": "0.1.0",
+    "name": "Miramedix_mosreg_observation_diag_main_anamnesis"
+  },
+  {
+    "id": "miramedix-mosreg-operationoutcome-accesspoint-error",
+    "type": "StructureDefinition",
+    "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-operationoutcome-accesspoint-error",
+    "version": "0.1.0",
+    "name": "Miramedix_mosreg_operationoutcome_accesspoint_error"
+  },
+  {
+    "id": "miramedix-mosreg-organization",
+    "type": "StructureDefinition",
+    "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-organization",
+    "version": "0.1.0",
+    "name": "Miramedix_mosreg_organization"
+  },
+  {
+    "id": "miramedix-mosreg-organization-division",
+    "type": "StructureDefinition",
+    "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-organization-division",
+    "version": "0.1.0",
+    "name": "Miramedix_mosreg_organization_division"
+  },
+  {
+    "id": "miramedix-mosreg-patient",
+    "type": "StructureDefinition",
+    "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-patient",
+    "version": "0.1.0",
+    "name": "Miramedix_mosreg_patient"
+  },
+  {
+    "id": "miramedix-mosreg-practitioner",
+    "type": "StructureDefinition",
+    "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-practitioner",
+    "version": "0.1.0",
+    "name": "Miramedix_mosreg_practitioner"
+  },
+  {
+    "id": "miramedix-mosreg-practitionerrole",
+    "type": "StructureDefinition",
+    "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-practitionerrole",
+    "version": "0.1.0",
+    "name": "Miramedix_mosreg_practitionerrole"
+  },
+  {
+    "id": "miramedix-mosreg-servicerequest",
+    "type": "StructureDefinition",
+    "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-servicerequest",
+    "version": "0.1.0",
+    "name": "Miramedix_mosreg_servicerequest"
+  },
+  {
+    "id": "miramedix-mosreg-subscription-notify-oc",
+    "type": "StructureDefinition",
+    "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-subscription-notify-oc",
+    "version": "0.1.0",
+    "name": "Miramedix_mosreg_subscription_notify_oc"
+  },
+  {
+    "id": "miramedix-vs-event-type",
+    "type": "ValueSet",
+    "url": "http://miramedix.ru/fhir/ValueSet/miramedix-vs-event-type",
+    "version": "0.1.0",
+    "name": "Miramedix_vs_event_type"
+  },
+  {
+    "id": "miramedix-vs-patient-identifier-type",
+    "type": "ValueSet",
+    "url": "http://miramedix.ru/fhir/ValueSet/miramedix-vs-patient-identifier-type",
+    "version": "0.1.0",
+    "name": "Miramedix_vs_patient_identifier_type"
+  },
+  {
+    "id": "miramedix-vs-practitioner-identifier-type",
+    "type": "ValueSet",
+    "url": "http://miramedix.ru/fhir/ValueSet/miramedix-vs-practitioner-identifier-type",
+    "version": "0.1.0",
+    "name": "Miramedix_vs_practitioner_identifier_type"
+  },
+  {
+    "id": "nsi-vs-1-2-643-5-1-13-13-11-1002",
+    "type": "ValueSet",
+    "url": "http://miramedix.ru/fhir/ValueSet/nsi-vs-1002",
+    "version": "0.1.0",
+    "name": "Nsi_vs_1_2_643_5_1_13_13_11_1002"
+  },
+  {
+    "id": "nsi-vs-1-2-643-5-1-13-13-11-1005",
+    "type": "ValueSet",
+    "url": "http://miramedix.ru/fhir/ValueSet/nsi-vs-1005",
+    "version": "0.1.0",
+    "name": "Nsi_vs_1_2_643_5_1_13_13_11_1005"
+  },
+  {
+    "id": "nsi-vs-1-2-643-5-1-13-13-11-1035",
+    "type": "ValueSet",
+    "url": "http://miramedix.ru/fhir/ValueSet/nsi-vs-1035",
+    "version": "0.1.0",
+    "name": "Nsi_vs_1_2_643_5_1_13_13_11_1035"
+  },
+  {
+    "id": "nsi-vs-1-2-643-5-1-13-13-11-1040",
+    "type": "ValueSet",
+    "url": "http://miramedix.ru/fhir/ValueSet/nsi-vs-1040",
+    "version": "0.1.0",
+    "name": "Nsi_vs_1_2_643_5_1_13_13_11_1040"
+  },
+  {
+    "id": "nsi-vs-1-2-643-5-1-13-13-11-1066",
+    "type": "ValueSet",
+    "url": "http://miramedix.ru/fhir/ValueSet/nsi-vs-1066",
+    "version": "0.1.0",
+    "name": "Nsi_vs_1_2_643_5_1_13_13_11_1066"
+  },
+  {
+    "id": "nsi-vs-1-2-643-5-1-13-13-11-1077",
+    "type": "ValueSet",
+    "url": "http://miramedix.ru/fhir/ValueSet/nsi-vs-1077",
+    "version": "0.1.0",
+    "name": "Nsi_vs_1_2_643_5_1_13_13_11_1077"
+  },
+  {
+    "id": "nsi-vs-1-2-643-5-1-13-13-11-1506",
+    "type": "ValueSet",
+    "url": "http://miramedix.ru/fhir/ValueSet/nsi-vs-1506",
+    "version": "0.1.0",
+    "name": "Nsi_vs_1_2_643_5_1_13_13_11_1506"
+  },
+  {
+    "id": "fhir-miramedix-mosreg",
+    "type": "ImplementationGuide",
+    "url": "http://miramedix.ru/fhir/ig/mosreg/ImplementationGuide/fhir-miramedix-mosreg",
+    "version": "0.1.0",
+    "name": "MiramedixMosregIG"
+  },
+  {
+    "id": "nsi-cs-1-2-643-5-1-13-13-11-1002",
+    "type": "CodeSystem",
+    "url": "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1002",
+    "version": "7.4",
+    "name": "Nsi_cs_1_2_643_5_1_13_13_11_1002",
+    "oids": [
+      "1.2.643.5.1.13.13.11.1002"
+    ]
+  },
+  {
+    "id": "nsi-cs-1-2-643-5-1-13-13-11-1005",
+    "type": "CodeSystem",
+    "url": "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1005",
+    "version": "2.19",
+    "name": "Nsi_cs_1_2_643_5_1_13_13_11_1005",
+    "oids": [
+      "1.2.643.5.1.13.13.11.1005"
+    ]
+  },
+  {
+    "id": "nsi-cs-1-2-643-5-1-13-13-11-1035",
+    "type": "CodeSystem",
+    "url": "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1035",
+    "version": "1.3",
+    "name": "Nsi_cs_1_2_643_5_1_13_13_11_1035",
+    "oids": [
+      "1.2.643.5.1.13.13.11.1035"
+    ]
+  },
+  {
+    "id": "nsi-cs-1-2-643-5-1-13-13-11-1040",
+    "type": "CodeSystem",
+    "url": "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1040",
+    "version": "2.1",
+    "name": "Nsi_cs_1_2_643_5_1_13_13_11_1040",
+    "oids": [
+      "1.2.643.5.1.13.13.11.1040"
+    ]
+  },
+  {
+    "id": "nsi-cs-1-2-643-5-1-13-13-11-1066",
+    "type": "CodeSystem",
+    "url": "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1066",
+    "version": "5.3",
+    "name": "Nsi_cs_1_2_643_5_1_13_13_11_1066",
+    "oids": [
+      "1.2.643.5.1.13.13.11.1066"
+    ]
+  },
+  {
+    "id": "nsi-cs-1-2-643-5-1-13-13-11-1077",
+    "type": "CodeSystem",
+    "url": "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077",
+    "version": "1.3",
+    "name": "Nsi_cs_1_2_643_5_1_13_13_11_1077",
+    "oids": [
+      "1.2.643.5.1.13.13.11.1077"
+    ]
+  },
+  {
+    "id": "nsi-cs-1-2-643-5-1-13-13-11-1506",
+    "type": "CodeSystem",
+    "url": "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1506",
+    "version": "1.3",
+    "name": "Nsi_cs_1_2_643_5_1_13_13_11_1506",
+    "oids": [
+      "1.2.643.5.1.13.13.11.1506"
+    ]
+  }
+]

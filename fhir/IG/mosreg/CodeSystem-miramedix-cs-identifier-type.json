@@ -1,0 +1,40 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "miramedix-cs-identifier-type",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://miramedix.ru/fhir/CodeSystem/miramedix-cs-identifier-type defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">snils<a name=\"miramedix-cs-identifier-type-snils\"> </a></td><td>СНИЛС</td><td>Страховой номер индивидуального лицевого счёта.</td></tr><tr><td style=\"white-space:nowrap\">employee-login<a name=\"miramedix-cs-identifier-type-employee-login\"> </a></td><td>Логин сотрудника</td><td>Логин сотрудника в МИС.</td></tr></table></div>"
+  },
+  "url": "http://miramedix.ru/fhir/CodeSystem/miramedix-cs-identifier-type",
+  "version": "0.1.0",
+  "name": "Miramedix_cs_identifier_type",
+  "title": "Справочник типов идентификаторов [Мирамедикс]",
+  "status": "active",
+  "date": "2021-09-29",
+  "contact": [
+    {
+      "name": "Vitaly Rodionov",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "vrodionov@miramedix.ru"
+        }
+      ]
+    }
+  ],
+  "description": "Справочник типов идентификаторов для информационной системы Мирамедикс.",
+  "content": "complete",
+  "count": 2,
+  "concept": [
+    {
+      "code": "snils",
+      "display": "СНИЛС",
+      "definition": "Страховой номер индивидуального лицевого счёта."
+    },
+    {
+      "code": "employee-login",
+      "display": "Логин сотрудника",
+      "definition": "Логин сотрудника в МИС."
+    }
+  ]
+}

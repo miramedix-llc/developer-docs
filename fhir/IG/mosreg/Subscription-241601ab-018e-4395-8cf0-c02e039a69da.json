@@ -1,0 +1,20 @@
+{
+  "resourceType": "Subscription",
+  "id": "241601ab-018e-4395-8cf0-c02e039a69da",
+  "meta": {
+    "profile": [
+      "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-subscription-notify-oc"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>reason</b>: Подписка на оповещения о готовности протокола онкологического консилиума (протокол подписан, подписанная копия протокола отсканирована и загружена в систему).</p><p><b>criteria</b>: Composition?ehrIntegrationStatus=order&amp;status=final</p><h3>Channels</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Endpoint</b></td></tr><tr><td>*</td><td>message</td><td><a href=\"http://clientsystem.ru/eventhandler\">http://clientsystem.ru/eventhandler</a></td></tr></table></div>"
+  },
+  "status": "active",
+  "reason": "Подписка на оповещения о готовности протокола онкологического консилиума (протокол подписан, подписанная копия протокола отсканирована и загружена в систему).",
+  "criteria": "Composition?ehrIntegrationStatus=order&status=final",
+  "channel": {
+    "type": "message",
+    "endpoint": "http://clientsystem.ru/eventhandler"
+  }
+}

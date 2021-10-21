@@ -1,0 +1,820 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>FHIR-MIRAMEDIX-MOSREG\Home - FHIR v4.0.1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link sizes="114x114" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link sizes="72x72" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"1"}
+    h3,h4,h5,h6{--heading-prefix:"1"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+          <!-- Placeholder for child template header declarations -->
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">HL7 FHIR Implementation Guide: Miramedix mosreg IG Release 1 - RU Realm | STU1</span><br/>0.1.0 - ci-build</p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+            <!-- status-bar -->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="index.html">Руководство</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Сводка по материалам</a>
+  </li>
+</ul>
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>Home</b></li>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+    <!-- ReleaseHeader --><p id="publish-box">HL7 FHIR Implementation Guide: Miramedix mosreg IG Release 1 - RU Realm | STU1 - Local Development build (v0.1.0). See the <a href="http://miramedix.ru/fhir/ig/mosreg/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+  <h2>Home</h2>
+  
+
+
+
+
+
+
+
+
+
+    <p>  <!-- white space is critical inside of capture --></p>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#руководство-по-реализации-проведение-онкологического-консилиума" id="markdown-toc-руководство-по-реализации-проведение-онкологического-консилиума"><strong><span style="background-color:#cce6ff">Руководство по реализации “Проведение онкологического консилиума”</span></strong></a></li>
+  <li><a href="#введение" id="markdown-toc-введение"><strong><span style="background-color:#cce6ff">Введение</span></strong></a></li>
+  <li><a href="#описание-процесса" id="markdown-toc-описание-процесса"><strong><span style="background-color:#cce6ff">Описание процесса</span></strong></a></li>
+  <li><a href="#навигация-по-руководству" id="markdown-toc-навигация-по-руководству"><strong><span style="background-color:#cce6ff">Навигация по руководству</span></strong></a></li>
+  <li><a href="#сценарии" id="markdown-toc-сценарии"><strong><span style="background-color:#cce6ff">Сценарии</span></strong></a></li>
+  <li><a href="#структуры-данных" id="markdown-toc-структуры-данных"><strong><span style="background-color:#cce6ff">Структуры данных</span></strong></a></li>
+  <li><a href="#endpoints" id="markdown-toc-endpoints"><strong><span style="background-color:#cce6ff">Endpoints</span></strong></a></li>
+  <li><a href="#примечания" id="markdown-toc-примечания"><strong><span style="background-color:#cce6ff">Примечания</span></strong></a></li>
+</ul>
+
+</div>
+<h3 id="руководство-по-реализации-проведение-онкологического-консилиума"><strong><span style="background-color:#cce6ff">Руководство по реализации “Проведение онкологического консилиума”</span></strong></h3>
+
+<p>Руководство по реализации “Проведение онкологического консилиума” для интеграции систем Софтраст и Мирамедикс в московской области.</p>
+
+<div><img src="./miramedix_icon.png"/><img src="./softrust_icon.png"/></div>
+
+<h4 id="аббревиатуры-и-определения"><strong><span style="background-color:#cce6ff">Аббревиатуры и определения</span></strong></h4>
+
+<table>
+  <tbody>
+    <tr>
+      <td>ГБУЗ МО</td>
+      <td>государственное бюджетное учреждение здравоохранения московской области</td>
+    </tr>
+    <tr>
+      <td>ЕМИАС</td>
+      <td>единая медицинская информационно-аналитическая система</td>
+    </tr>
+    <tr>
+      <td>МИС</td>
+      <td>медицинская информационная система</td>
+    </tr>
+    <tr>
+      <td>МО</td>
+      <td>медицинская организация</td>
+    </tr>
+    <tr>
+      <td>МООД</td>
+      <td>московский областной онкологический диспансер</td>
+    </tr>
+    <tr>
+      <td>ОК</td>
+      <td>онкологический консилиум, онкоконсилиум</td>
+    </tr>
+    <tr>
+      <td>ПСМП</td>
+      <td>первичная специализированная медико-санитарная помощь</td>
+    </tr>
+    <tr>
+      <td>MiraMedix</td>
+      <td>компания <a href="https://miramedix.ru/">МираМедикс</a></td>
+    </tr>
+    <tr>
+      <td>SofTrust</td>
+      <td>компания <a href="https://softrust.ru/">СофТраст</a></td>
+    </tr>
+    <tr>
+      <td>ЦАОП</td>
+      <td>центр амбулаторной онкологической помощи</td>
+    </tr>
+    <tr>
+      <td>ЦОД</td>
+      <td>центр обработки данных</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="введение"><strong><span style="background-color:#cce6ff">Введение</span></strong></h3>
+
+<p>Осуществляется интеграция</p>
+<ul>
+  <li>между медицинской информационной системы от компании Софтраст  (далее МИС)</li>
+  <li>и сервисом ведения онкологических консилиумов Мирамедикс (далее Сервис ОК)<br/>
+для реализации функциональности</li>
+  <li>формирования заявок на онкоконсилиум (далее ОК),</li>
+  <li>информационного сопровождения процесса планирования и проведения ОК,</li>
+  <li>оформления протокола ОК.</li>
+</ul>
+
+<p>Взаимодействие между МИС и Сервисом ОК будет осуществлено в рамках защищённого контура центра обработки данных (далее ЦОД).</p>
+
+<p>Взаимодействующие стороны будут обслуживать медицинские учреждениях московской области (МО ПСМП, ЦАОП, онкологические диспансеры). &nbsp;</p>
+<ul>
+  <li>105 учреждений (в последствии будет увеличено до 125) будут формировать заявки на проведение ОК.
+Примеры учреждений:<br/>
+Государственное автономное учреждение здравоохранения Московской области “Клинская городская больница” 141650, г. Высоковск, ул. Ленина, д. 9, корп. 3.<br/>
+Государственное бюджетное учреждение здравоохранения Московской области “Одинцовская областная больница” 143003, г. Одинцово, ул. Маршала Бирюзова, д. 5<br/>
+(<a href="https://mz.mosreg.ru/download/document/9449145">https://mz.mosreg.ru/download/document/9449145</a>)</li>
+  <li>на пилотном этапе 1 учреждение будут осуществлять проведение онкоконсилиума (в последствии количество учреждений будет увеличено).<br/>
+Примеры учреждений:<br/>
+Государственном бюджетном учреждении здравоохранения московской области «Московский областной онкологический диспансер» (далее МООД).</li>
+</ul>
+
+<p>Пользователи учреждений, осуществляющих направление на ОК, будут регистрироваться в сервисе ОК автоматически в момент перехода из МИС в сервис ОК. Пользователи будут переходить в сервис ОК через ссылку из МИС.</p>
+
+<p>Пользователи учреждений, проводящих ОК, будут заведены в сервисе ОК заранее (МИС должны будут предоставить списки пользователей с указанием СНИЛС). Пользователи будут переходить в сервис ОК через отдельную ссылку.</p>
+
+<p>По результатам осуществления интеграции у пользователей МИС появится возможность авторизоваться в Сервисе ОК, сформировать заявку на проведение ОК, отслеживать статус заявки и получить электронное заключение проведённого ОК.</p>
+
+<h3 id="описание-процесса"><strong><span style="background-color:#cce6ff">Описание процесса</span></strong></h3>
+
+<p><a href="./диаграмма_процесса_только_взаимодействия_0.2.0.png"><img src="./диаграмма_процесса_только_взаимодействия_0.2.0.png" width="640px"/></a><br/></p>
+
+<p><a href="https://www.garant.ru/products/ipo/prime/doc/400433605/">Приказ Минздрава России (Министерство здравоохранения РФ) от 19 февраля 2021 г. №116н Об утверждении Порядка оказания медицинской помощи взрослому населению при онкологических заболеваниях.</a><br/>
+Вид формы протокола по приказу:<br/>
+<a href="./форма по №116н 1.png"><img src="./форма по №116н 1.png" width="320px"/></a><br/><br/>
+<a href="./форма по №116н 2.png"><img src="./форма по №116н 2.png" width="320px"/></a><br/></p>
+
+<h4 id="авторизация">Авторизация</h4>
+
+<ul>
+  <li>в МИС
+    <ul>
+      <li>Врач нажимает на кнопку перехода в Сервис ОК.</li>
+      <li>Бэкенд МИС выполняет вызов API Сервиса ОК POST <code class="language-plaintext highlighter-rouge">/[base]/auth/token</code> с предоставлением данных о враче, его должности, учреждении (в виде набора ресурсов FHIR).
+  В ответ возвращается токен пользователя.<br/>
+  При отсутствии в Сервисе ОК переданной комбинации учреждение-врач-должность она будет автоматически добавлена.<br/>
+  При истечении срока действия нужно запросить новый токен.</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="работа-с-заявками">Работа с заявками</h4>
+
+<ul>
+  <li>В МИС
+    <ul>
+      <li>Бэкенд МИС выполняет вызов API Сервиса ОК POST <code class="language-plaintext highlighter-rouge">/[base]/tumorboard/accesspoint</code> с предоставлением данных о пациенте, диагнозе, анамнезе (в виде набора ресурсов FHIR).<br/>
+  В ответ возвращается json, содержащий ссылку на страницу Сервиса ОК, где для указанного пациента можно просмотреть имеющиеся заявки на ОК (и протоколы для них) или создать новую заявку.</li>
+      <li>Бэкенд МИС возвращает фронтенду адрес для перехода в Сервис ОК (из поля <code class="language-plaintext highlighter-rouge">address</code>).</li>
+      <li>Фронтенд МИС открывает в новой вкладке браузера страницу с полученным адресом.</li>
+    </ul>
+  </li>
+  <li>В Сервисе ОК
+    <ul>
+      <li>Отображается экран со списком существующих заявок/протоколов и кнопкой для создания новой заявки.</li>
+      <li>Если врач выбирает одну из существующих заявок, то
+        <ul>
+          <li>открывается страница для работы с этой заявкой.</li>
+          <li>Врач просматривает или вносит исправления в заявку.</li>
+          <li>Просмотр\редактирование заявки завершено. Врач закрывает страницу Сервиса ОК.</li>
+        </ul>
+      </li>
+      <li>Если врач выбирает создание новой заявки, то
+        <ul>
+          <li>открывается страница с календарем для выбора консилиума и даты консилиума.</li>
+          <li>Врач выбирает дату консилиума. Заявка назначается на консилиум на выбранную дату.</li>
+          <li>Сервис ОК автоматически заполняет заявку данными, переданными из МИС.</li>
+          <li>Врач заполняет недостающую информацию в заявке и переводит в статус “Готова для рассмотрения”.</li>
+          <li>Создание заявки завершено. Врач закрывает страницу Сервиса ОК.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="работа-с-протоколами">Работа с протоколами</h4>
+
+<ul>
+  <li>В МИС
+    <ul>
+      <li>Бэкенд МИС выполняет вызов API Сервиса ОК POST <code class="language-plaintext highlighter-rouge">/[base]/tumorboard/accesspoint</code> без предоставления данных о пациенте, диагнозе, анамнезе.<br/>
+  В ответ возвращается json, содержащий ссылку на стартовую страницу Сервиса ОК, с которой имеется возможность найти нужного пациента.</li>
+      <li>Бэкенд МИС возвращает фронтенду адрес для перехода в Сервис ОК (из поля <code class="language-plaintext highlighter-rouge">address</code>).</li>
+      <li>Фронтенд МИС открывает в новой вкладке браузера страницу с полученным адресом.</li>
+    </ul>
+  </li>
+  <li>В Сервисе ОК
+    <ul>
+      <li>Отображается стартовая страница Сервиса ОК.</li>
+      <li>Врач ищет нужного пациента, просматривает имеющиеся для него заявки на ОК, выбирает одну из существующих заявок.</li>
+      <li>Врач демонстрирует презентацию участникам консилиума (опционально).</li>
+      <li>Врач переводит заявку в статус “Завершена”. Появляется кнопка “Открыть протокол”.</li>
+      <li>Врач нажимает кнопку “Открыть протокол”, выполняется переход на страницу редактирования протокола и его статус устанавливается на “В работе”.</li>
+      <li>Врач заполняет протокол и переводит в статус “К подписанию”.</li>
+      <li>Врач распечатывает протокол, подписывает его и загружает скан-копию.</li>
+      <li>Врач нажимает кнопку “Готов” и протокол переходит в статус “Готов” (статус <code class="language-plaintext highlighter-rouge">completed</code>).</li>
+      <li>Сервис уведомляет МИС о готовности протокола ОК для скачивания.</li>
+      <li>Формирование протокола ОК завершено. Врач закрывает страницу Сервиса ОК.</li>
+    </ul>
+  </li>
+  <li>В МИС
+    <ul>
+      <li>МИС получает уведомление о готовности протокола ОК для скачивания.</li>
+      <li>МИС запрашивает сервис ОК для получения протокола:
+        <ul>
+          <li>И/ИЛИ запрашивает файл (pdf) скана через вызов
+  <code class="language-plaintext highlighter-rouge">GET /[base]/tumorboard/protocols/:id/scancopy</code>,
+  в ответ возвращается ресурс DocumentReference со ссылкой на скачивание PDF-файла (в поле content.attachment.url).</li>
+          <li>И/ИЛИ запрашивает FHIR-ресурс через вызов
+  <code class="language-plaintext highlighter-rouge">GET /[base]/tumorboard/protocols/:id</code>,
+  в ответ возвращается FHIR-ресурс протокола (бандл).</li>
+        </ul>
+      </li>
+      <li>МИС сохраняет скачанный файл в своей БД в привязке к пациенту (или записи ЭМК).</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="навигация-по-руководству"><strong><span style="background-color:#cce6ff">Навигация по руководству</span></strong></h3>
+
+<p>Руководство содержит два раздела:</p>
+<ul>
+  <li><a href="./index.html">“Руководство”</a>
+    <ul>
+      <li>основной текст руководства</li>
+    </ul>
+  </li>
+  <li><a href="./artifacts.html">“Сводка по материалам”</a>
+    <ul>
+      <li>использующиеся в руководстве ресурсы FHIR</li>
+    </ul>
+  </li>
+</ul>
+
+<p>При просмотре профиля ресурса:</p>
+<ul>
+  <li>чтобы увидеть только те атрибуты, которые используются в данном руководстве, необходимо переключаться на вкладку “Snapshot Table (Must Support)”,</li>
+  <li>чтобы получить пример ресурса, заполненного в соответствии с установленными требованиями, необоходимо переключиться на вкладку Examples.</li>
+</ul>
+
+<p><a href="./Инструкция по просмотру профиля ресурса 1.png"><img src="./Инструкция по просмотру профиля ресурса 1.png" width="320px"/></a><br/></p>
+
+<p>Сводка по использованию ресурсов в руководстве:
+<a href="./Сводка по использованию ресурсов в руководстве.png"><img src="Сводка по использованию ресурсов в руководстве.png" width="320px"/></a><br/></p>
+
+<h3 id="сценарии"><strong><span style="background-color:#cce6ff">Сценарии</span></strong></h3>
+
+<p><a href="./сценарии_0.2.0.png"><img src="./сценарии_0.2.0.png" width="320px"/></a><br/></p>
+
+<h4 id="-авторизация-в-сервисе-ок">✨ <strong><span style="background-color:#cce6ff">Авторизация в сервисе ОК</span></strong></h4>
+
+<p><a href="./сценарий_актуализация_токена.png"><img src="./сценарий_актуализация_токена.png" width="320px"/></a><br/></p>
+
+<p>Доступ в Сервис ОК предоставляется через токен доступа.</p>
+
+<p>Для идентификации пользователя в модуле ОК необходимо при каждом обращении к API передавать в http-заголовке Authorization токен, соответствующий пользователю МИС, от имени которого выполняются обращения:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Authorization: Bearer XXXXYYDJFKSJHFGFHGJHGJHGJHGJHJH
+</code></pre></div></div>
+
+<p>Получение токена доступа для пользователя будет осуществляться запросом на кастомный эндпоинт, с передачей авторизационных данных (данные о враче, его должности, организации, структурном подразделении).<br/>
+Набор авторизационных данных описан по ссылке - <a href="https://docs.google.com/spreadsheets/d/1JwNRJhvo-zifCgcdksGMbP66f5mZVAzTyDrhnFlCF2I/edit#gid=447024773">Описание данных для формирования заявки на консилиум - 1. Авторизация врача</a>.</p>
+
+<p><strong>1а) Получение токена доступа</strong></p>
+
+<p><strong>ЗАПРОС:</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>POST /[base]/auth/token
+
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    /// ресурсы Practitioner, PractitionerRole, Organization
+  ]
+}
+</code></pre></div></div>
+<blockquote>
+  <p>Для авторизации запроса на получение токена необходимо передать http-заголовок:<br/>
+<code class="language-plaintext highlighter-rouge">Authorization: Basic XXXXXXXXXXXXXXXXX</code><br/>
+где XXXXXX - строка, состоящая из идентификатора системы-клиента, двоеточия и секрета, например pet-technology:P@ssword, закодированная в base64.</p>
+</blockquote>
+
+<blockquote>
+  <p>Формат ресурса Bundle смотри по ссылке - <a href="./StructureDefinition-miramedix-mosreg-bundle-auth.html">“Бандл для передачи данных для авторизации”</a>.<br/>
+Описания ресурсов, содержащихся в бандле:</p>
+  <ul>
+    <li><a href="./StructureDefinition-miramedix-mosreg-practitioner.html">“Сведения о враче”</a></li>
+    <li><a href="./StructureDefinition-miramedix-mosreg-practitionerrole.html">“Сведения о должности врача”</a></li>
+    <li><a href="./StructureDefinition-miramedix-mosreg-organization.html">“Сведения о медицинской организации”</a></li>
+    <li><a href="./StructureDefinition-miramedix-mosreg-organization-division.html">“Сведения о структурном подразделении”</a></li>
+  </ul>
+</blockquote>
+
+<p><strong>ОТВЕТ</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+  "access_token": "......",
+  "refresh_token": "......",
+  "token_type": "Bearer",
+  "token_expiration": "3600"
+}
+</code></pre></div></div>
+
+<p><strong>1б) Обновление токена доступа</strong></p>
+
+<p><strong>ЗАПРОС:</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>POST /api/integrations/element/auth/token
+
+{
+  "refresh_token": "..."
+}
+</code></pre></div></div>
+<blockquote>
+  <p>Для обновления токена необходимо передать http-заголовок Authorization аналогично запросу на получение токена.</p>
+</blockquote>
+
+<p><strong>ОТВЕТ:</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+  "access_token": "......",
+  "refresh_token": "......",
+  "token_type": "Bearer",
+  "token_expiration": "3600"
+}
+</code></pre></div></div>
+
+<h4 id="-получение-доступа">✨ <strong><span style="background-color:#cce6ff">Получение доступа</span></strong></h4>
+
+<p>Возможны два варианта:</p>
+<ul>
+  <li>Для пользователей, создающих заявки на ОК.<br/>
+Для получения ссылки необходимо отправить бандл с ресурсами (пациент, диагноз, анамнез, как описано в <a href="https://docs.google.com/spreadsheets/d/1JwNRJhvo-zifCgcdksGMbP66f5mZVAzTyDrhnFlCF2I/edit#gid=2118083984">Описание данных для формирования заявки на консилиум</a>).<br/>
+В этом случае предоставляется ссылка на страницу со списком существующих заявок/протоколов и кнопкой для создания новой заявки.<br/>
+<a href="./сценарий_переход_из_карты_пациента.png"><img src="./сценарий_переход_из_карты_пациента.png" width="320px"/></a><br/></li>
+  <li>Для пользователей, проводящий ОК и формирующих протокол ОК.<br/>
+Для получения ссылки необходимо отправить запрос без тела.
+В этом случае предоставляется ссылка на стартовую страницу сервиса ОК.<br/>
+<a href="./сценарий_переход_на_главную_страницу.png"><img src="./сценарий_переход_на_главную_страницу.png" width="320px"/></a><br/><br/>
+В обоих случаях будет возвращён json со ссылкой на страницу сервиса ОК.<br/>
+В случае невозможности вернуть ссылку на страницу будет возвращёно описание ошибки.</li>
+</ul>
+
+<p><strong>1а) Для пользователей, создающих заявки на ОК.</strong></p>
+
+<p><strong>ЗАПРОС:</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>POST /[base]/tumorboard/accesspoint
+
+{
+  "resourceType" : "Bundle",
+  "type" : "collection",
+  "entry" : [
+	/// ресурсы Patient, Condition, Observation, ServiceRequest и другие
+  ]
+}
+</code></pre></div></div>
+<blockquote>
+  <p>Формат ресурса Bundle смотри по ссылке - <a href="./StructureDefinition-miramedix-mosreg-bundle-request-access.html">“Бандл для запроса доступа в Сервис ОК для создания завяки на ОК”</a>.<br/>
+Описания ресурсов, содержащихся в бандле:</p>
+  <ul>
+    <li><a href="./StructureDefinition-miramedix-mosreg-patient.html">“Сведения о пациенте”</a></li>
+    <li><a href="./StructureDefinition-miramedix-mosreg-condition-diag-main.html">“Основное (онкологическое заболевание) заболевание”</a></li>
+    <li><a href="./StructureDefinition-miramedix-mosreg-observation-diag-main-anamnesis.html">“Анамнез основного заболевания”</a></li>
+    <li><a href="./StructureDefinition-miramedix-mosreg-servicerequest.html">“Сведения о направлении на консилиум (цель проведения консилиума)”</a></li>
+  </ul>
+</blockquote>
+
+<p><strong>ОТВЕТ [в случае УСПЕХА]:</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+  "resourceType" : "Endpoint",
+  "id" : "Instance-miramedix-mosreg-endpoint-accesspoint",
+  "status" : "active",
+  "connectionType" : {
+    "code" : "HTTPS"
+  },
+  "payloadType" : [
+    {
+      "coding" : [
+        {
+          "code" : "HTML"
+        }
+      ]
+    }
+  ],
+  "address" : "http://[base]/auth?context_id=1e105335-92b0-49c7-bc10-c23aad9a0338"
+}
+</code></pre></div></div>
+<blockquote>
+  <p>Описания ресурса:</p>
+  <ul>
+    <li><a href="./StructureDefinition-miramedix-mosreg-endpoint-accesspoint.html">“Описание точки входа в сервис ОК”</a></li>
+  </ul>
+</blockquote>
+
+<p><strong>ОТВЕТ [в случае ОШИБКИ]:</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+  "resourceType" : "OperationOutcome",
+  "id" : "Instance-miramedix-mosreg-operationoutcome-accesspoint-error",
+  "issue" : [
+    {
+      "severity" : "error",
+      "code" : "expired",
+      "diagnostics" : "Время действия токена доступа истекло, необходимо осуществить обновление токена доступа. Обратитесь к администратору."
+    }
+  ]
+}
+</code></pre></div></div>
+<blockquote>
+  <p>Описания ресурса:</p>
+  <ul>
+    <li><a href="./StructureDefinition-miramedix-mosreg-operationoutcome-accesspoint-error.html">“Описание ошибки при невозможности вернуть точку входа в сервис ОК”</a></li>
+  </ul>
+</blockquote>
+
+<p><strong>1б) Для пользователей, проводящий ОК и формирующих протокол ОК.</strong></p>
+
+<p><strong>ЗАПРОС:</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>POST /[base]/tumorboard/accesspoint
+</code></pre></div></div>
+
+<p><strong>ОТВЕТ [в случае УСПЕХА]:</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+  "resourceType" : "Endpoint",
+  "id" : "Instance-miramedix-mosreg-endpoint-accesspoint",
+  "status" : "active",
+  "connectionType" : {
+    "code" : "HTTPS"
+  },
+  "payloadType" : [
+    {
+      "coding" : [
+        {
+          "code" : "HTML"
+        }
+      ]
+    }
+  ],
+  "address" : "http://[base]/auth?context_id=1e105335-92b0-49c7-bc10-c23aad9a0338"
+}
+</code></pre></div></div>
+<blockquote>
+  <p>Описания ресурса:</p>
+  <ul>
+    <li><a href="./StructureDefinition-miramedix-mosreg-endpoint-accesspoint.html">“Описание точки входа в сервис ОК”</a></li>
+  </ul>
+</blockquote>
+
+<p><strong>ОТВЕТ [в случае ОШИБКИ]:</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+  "resourceType" : "OperationOutcome",
+  "id" : "Instance-miramedix-mosreg-operationoutcome-accesspoint-error",
+  "issue" : [
+    {
+      "severity" : "error",
+      "code" : "expired",
+      "diagnostics" : "Время действия токена доступа истекло, необходимо осуществить обновление токена доступа. Обратитесь к администратору."
+    }
+  ]
+}
+</code></pre></div></div>
+<blockquote>
+  <p>Описания ресурса:</p>
+  <ul>
+    <li><a href="./StructureDefinition-miramedix-mosreg-operationoutcome-accesspoint-error.html">“Описание ошибки при невозможности вернуть точку входа в сервис ОК”</a></li>
+  </ul>
+</blockquote>
+
+<h4 id="-оповещение-о-событии">✨ <strong><span style="background-color:#cce6ff">Оповещение о событии</span></strong></h4>
+
+<p><a href="./сценарий_передача_протокола.png"><img src="./сценарий_передача_протокола.png" width="320px"/></a><br/></p>
+
+<p>Оповещение будет содержать набор ресурсов:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>MessageHeader
+	DocumentManifest    
+		Patient (идентификатор пациента)
+		ссылка на DocumentReference (для PDF версии протокола)
+		ссылка на Composition (для формализованной версии протокола - FHIR-ресурс composition)
+</code></pre></div></div>
+
+<p><strong>ЗАПРОС [оповещение]:</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>POST http://clientsystem.ru/eventhandler
+
+{
+  "resourceType": "Bundle",
+  "id": "10bb101f-a121-4264-a920-67be9cb82c74",
+  "type": "message",
+  "timestamp": "2015-07-14T11:15:33+10:00",
+  "entry": [
+    /// ресурсы "MessageHeader, DocumentManifest   
+  ]
+}
+</code></pre></div></div>
+<blockquote>
+  <p>Формат ресурса Bundle смотри по ссылке - <a href="./StructureDefinition-miramedix-mosreg-bundle-notify.html">“Бандл для оповещения МИС”</a>.<br/>
+Описания ресурсов, содержащихся в бандле:</p>
+  <ul>
+    <li><a href="./StructureDefinition-miramedix-mosreg-messageheader-notify.html">“Заголовок сообщения для оповещения МИС”</a></li>
+    <li><a href="./StructureDefinition-miramedix-mosreg-documentmanifest.html">“Описание пакета документов”</a></li>
+  </ul>
+</blockquote>
+
+<p><strong>ОТВЕТ:</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>200 OK
+</code></pre></div></div>
+
+<h4 id="-получение-протокола">✨ <strong><span style="background-color:#cce6ff">Получение протокола</span></strong></h4>
+
+<p><a href="./сценарий_передача_протокола.png"><img src="./сценарий_передача_протокола.png" width="320px"/></a><br/></p>
+
+<p><strong>1а) Запрос скана (pdf) через вызов.</strong><br/>
+В ответ возвращается ресурс DocumentReference с содержимым PDF-файла протокола онкологического консилиума в формате base64 (в поле content.attachment.data).</p>
+
+<p><strong>ЗАПРОС:</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GET /[base]/tumorboard/protocols/:id/scancopy
+</code></pre></div></div>
+
+<p><strong>ОТВЕТ:</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+  "resourceType": "DocumentReference",
+  "status": "current",
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/pdf",
+        "data": "YXNkYXNkYXNkYXNkYXNk... Закодированное в формат base64 наполнение pdf-документа"
+      }
+    }
+  ]
+}
+</code></pre></div></div>
+<blockquote>
+  <p>Описания ресурса:</p>
+  <ul>
+    <li><a href="./StructureDefinition-miramedix-mosreg-documentreference.html">“Описание документа”</a></li>
+  </ul>
+</blockquote>
+
+<p><strong>1б) Запрос FHIR-ресурса через вызов.</strong><br/>
+В ответ возвращается FHIR-представление протокола онкологического консилиума (бандл с ресурсами).</p>
+
+<p><strong>ЗАПРОС:</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GET /[base]/tumorboard/protocols/:id
+</code></pre></div></div>
+<p><strong>ОТВЕТ:</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+  "resourceType": "Bundle",
+  "type": "document",
+  "entry": [
+	// ресурсы, составляющие протокол ОК
+  ]
+}
+</code></pre></div></div>
+<blockquote>
+  <p>Пример ресурса:</p>
+  <ul>
+    <li><a href="./Пример протокола онкологического консилиума в формате FHIR.json">“Пример протокола онкологического консилиума в формате FHIR.json”</a></li>
+  </ul>
+</blockquote>
+
+<h3 id="структуры-данных"><strong><span style="background-color:#cce6ff">Структуры данных</span></strong></h3>
+
+<ol>
+  <li>Структура внешних данных, получаемых от МИС.<br/>
+<a href="https://docs.google.com/spreadsheets/d/1JwNRJhvo-zifCgcdksGMbP66f5mZVAzTyDrhnFlCF2I/edit#gid=2118083984">Описание данных для формирования заявки на консилиум</a><br/>
+Предлагается передавать информацию в формате FHIR, бандлами с ресурсами:
+    <ul>
+      <li><a href="./StructureDefinition-miramedix-mosreg-bundle-auth.html">“Бандл для передачи данных для авторизации”</a>:
+        <ul>
+          <li><a href="./StructureDefinition-miramedix-mosreg-patient.html">“Сведения о пациенте”</a></li>
+          <li><a href="./StructureDefinition-miramedix-mosreg-condition-diag-main.html">“Основное (онкологическое заболевание) заболевание”</a></li>
+          <li><a href="./StructureDefinition-miramedix-mosreg-observation-diag-main-anamnesis.html">“Анамнез основного заболевания”</a></li>
+          <li><a href="./StructureDefinition-miramedix-mosreg-servicerequest.html">“Сведения о направлении на консилиум (цель проведения консилиума)”</a></li>
+        </ul>
+      </li>
+      <li><a href="./StructureDefinition-miramedix-mosreg-bundle-request-access.html">“Бандл для запроса доступа в Сервис ОК для создания завяки на ОК”</a>:
+        <ul>
+          <li><a href="./StructureDefinition-miramedix-mosreg-practitioner.html">“Сведения о враче”</a></li>
+          <li><a href="./StructureDefinition-miramedix-mosreg-practitionerrole.html">“Сведения о должности врача”</a></li>
+          <li><a href="./StructureDefinition-miramedix-mosreg-organization.html">“Сведения о медицинской организации”</a></li>
+          <li><a href="./StructureDefinition-miramedix-mosreg-organization-division.html">“Сведения о структурном подразделении”</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Структура оповещения о событии.
+    <ul>
+      <li><a href="./StructureDefinition-miramedix-mosreg-bundle-notify.html">“Бандл для оповещения МИС”</a>:
+        <ul>
+          <li><a href="./StructureDefinition-miramedix-mosreg-messageheader-notify.html">“Заголовок сообщения для оповещения МИС”</a></li>
+          <li><a href="./StructureDefinition-miramedix-mosreg-documentmanifest.html">“Описание пакета документов”</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Структура данных, возвращаемых в МИС.
+    <ul>
+      <li><a href="./StructureDefinition-miramedix-mosreg-endpoint-accesspoint.html">“Описание точки входа в сервис ОК”</a></li>
+      <li><a href="./StructureDefinition-miramedix-mosreg-operationoutcome-accesspoint-error.html">“Описание ошибки при невозможности вернуть точку входа в сервис ОК”</a></li>
+      <li><a href="./StructureDefinition-miramedix-mosreg-documentreference.html">“Описание документа”</a></li>
+      <li><a href="./Пример протокола онкологического консилиума в формате FHIR.json">“Пример протокола онкологического консилиума в формате FHIR.json”</a></li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="endpoints"><strong><span style="background-color:#cce6ff">Endpoints</span></strong></h3>
+
+<table class="table-striped">
+  <thead>
+    <tr>
+      <th>действие</th>
+      <th>endpoint</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Авторизация пользователя МИС</td>
+      <td>POST /[base]/auth/token</td>
+    </tr>
+    <tr>
+      <td>Получение доступа</td>
+      <td>POST /[base]/tumorboard/accesspoint</td>
+    </tr>
+    <tr>
+      <td>Получение протокола</td>
+      <td>GET /[base]/tumorboard/protocols/:id<br/>GET /[base]/tumorboard/protocols/:id/scancopy</td>
+    </tr>
+    <tr>
+      <td>Оповещение о событии</td>
+      <td>POST http://clientsystem.ru/eventhandler</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="примечания"><strong><span style="background-color:#cce6ff">Примечания</span></strong></h3>
+
+<table class="table-striped">
+  <thead>
+    <tr>
+      <th>&nbsp;</th>
+      <th>&nbsp;</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Со стороны МИС предполагается наличие одного общего сервиса для всех учреждений.</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>В сервис ОК будут предварительно заведены учреждения, проводящие онкологические консилиумы, и основные участники консилиумов (председатели консилиума, секретари).</td>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+</div>
+        </div>    <!-- /inner-wrapper -->
+      </div>    <!-- /row -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-content -->
+
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
+
+      <div class="inner-wrapper">
+        <p><a name="l1471">​</a>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package fhir-miramedix-mosreg#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Oct 20, 2021 13:42+0300">2021-10-20</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)"></span>
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          
+        </p>
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+  
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- feedback form - Google forms -->
+  <!-- v0.1, 2021-01-09 -->
+
+
+
+  <!-- / feedback form -->
+
+    <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

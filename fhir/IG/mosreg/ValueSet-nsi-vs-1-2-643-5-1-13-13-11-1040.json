@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nsi-vs-1-2-643-5-1-13-13-11-1040",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1040.html\"><code>https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1040</code></a></li></ul></div>"
+  },
+  "url": "http://miramedix.ru/fhir/ValueSet/nsi-vs-1040",
+  "version": "0.1.0",
+  "name": "Nsi_vs_1_2_643_5_1_13_13_11_1040",
+  "title": "Пол пациента [все значения]",
+  "status": "active",
+  "date": "2021-10-20T13:42:04+03:00",
+  "description": "'Пол пациента'  \n[набор из всех значений системы кодирования]",
+  "compose": {
+    "include": [
+      {
+        "system": "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1040"
+      }
+    ]
+  }
+}

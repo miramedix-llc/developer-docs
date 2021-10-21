@@ -1,0 +1,33 @@
+{
+  "resourceType": "Organization",
+  "id": "Instance-organization-LOB",
+  "meta": {
+    "profile": [
+      "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-organization"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: urn:oid:1.2.643.5.1.13.13.12.2.50.11329, id: 1195027016480</p><p><b>name</b>: ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ УЧРЕЖДЕНИЕ ЗДРАВООХРАНЕНИЯ МОСКОВСКОЙ ОБЛАСТИ \"ЛЮБЕРЕЦКАЯ ОБЛАСТНАЯ БОЛЬНИЦА\"</p><p><b>address</b>: 140006, Московская область, г.Люберцы, Октябрьский проспект, д.338</p></div>"
+  },
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.643.5.1.13.13.12.2.50.11329"
+    },
+    {
+      "system": "urn:oid:1.2.643.100.1",
+      "value": "1195027016480"
+    }
+  ],
+  "name": "ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ УЧРЕЖДЕНИЕ ЗДРАВООХРАНЕНИЯ МОСКОВСКОЙ ОБЛАСТИ \"ЛЮБЕРЕЦКАЯ ОБЛАСТНАЯ БОЛЬНИЦА\"",
+  "address": [
+    {
+      "text": "140006, Московская область, г.Люберцы, Октябрьский проспект, д.338",
+      "city": "г. Люберцы",
+      "district": "городской округ Люберцы",
+      "state": "50",
+      "postalCode": "140006"
+    }
+  ]
+}

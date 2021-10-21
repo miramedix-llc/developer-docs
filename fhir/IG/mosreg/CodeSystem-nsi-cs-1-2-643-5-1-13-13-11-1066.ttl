@@ -1,0 +1,630 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://miramedix.ru/fhir/ig/mosreg/CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1066> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "nsi-cs-1-2-643-5-1-13-13-11-1066"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1066 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">0<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-0\"> </a></td><td>Врачебные специальности</td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-1\"> </a></td><td>Лечебное дело</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-2\"> </a></td><td>Медико-профилактическое дело</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-3\"> </a></td><td>Стоматология</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-4\"> </a></td><td>Фармация</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-5\"> </a></td><td>Сестринское дело</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-6\"> </a></td><td>Медицинская биохимия</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-7\"> </a></td><td>Медицинская биофизика</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-8\"> </a></td><td>Акушерство и гинекология</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-9\"> </a></td><td>Анестезиология-реаниматология</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-10\"> </a></td><td>Дерматовенерология</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-11\"> </a></td><td>Детская хирургия</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-12\"> </a></td><td>Генетика</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-13\"> </a></td><td>Клиническая лабораторная диагностика</td></tr><tr><td style=\"white-space:nowrap\">14<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-14\"> </a></td><td>Неврология</td></tr><tr><td style=\"white-space:nowrap\">15<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-15\"> </a></td><td>Неонатология</td></tr><tr><td style=\"white-space:nowrap\">16<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-16\"> </a></td><td>Общая врачебная практика (семейная медицина)</td></tr><tr><td style=\"white-space:nowrap\">17<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-17\"> </a></td><td>Онкология</td></tr><tr><td style=\"white-space:nowrap\">18<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-18\"> </a></td><td>Организация здравоохранения и общественное здоровье</td></tr><tr><td style=\"white-space:nowrap\">19<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-19\"> </a></td><td>Оториноларингология</td></tr><tr><td style=\"white-space:nowrap\">20<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-20\"> </a></td><td>Офтальмология</td></tr><tr><td style=\"white-space:nowrap\">21<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-21\"> </a></td><td>Патологическая анатомия</td></tr><tr><td style=\"white-space:nowrap\">22<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-22\"> </a></td><td>Педиатрия</td></tr><tr><td style=\"white-space:nowrap\">23<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-23\"> </a></td><td>Психиатрия</td></tr><tr><td style=\"white-space:nowrap\">24<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-24\"> </a></td><td>Рентгенология</td></tr><tr><td style=\"white-space:nowrap\">25<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-25\"> </a></td><td>Скорая медицинская помощь</td></tr><tr><td style=\"white-space:nowrap\">26<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-26\"> </a></td><td>Судебно-медицинская экспертиза</td></tr><tr><td style=\"white-space:nowrap\">27<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-27\"> </a></td><td>Терапия</td></tr><tr><td style=\"white-space:nowrap\">28<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-28\"> </a></td><td>Травматология и ортопедия</td></tr><tr><td style=\"white-space:nowrap\">29<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-29\"> </a></td><td>Фтизиатрия</td></tr><tr><td style=\"white-space:nowrap\">30<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-30\"> </a></td><td>Хирургия</td></tr><tr><td style=\"white-space:nowrap\">31<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-31\"> </a></td><td>Эндокринология</td></tr><tr><td style=\"white-space:nowrap\">32<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-32\"> </a></td><td>Инфекционные болезни</td></tr><tr><td style=\"white-space:nowrap\">33<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-33\"> </a></td><td>Ультразвуковая диагностика</td></tr><tr><td style=\"white-space:nowrap\">34<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-34\"> </a></td><td>Физиотерапия</td></tr><tr><td style=\"white-space:nowrap\">35<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-35\"> </a></td><td>Функциональная диагностика</td></tr><tr><td style=\"white-space:nowrap\">36<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-36\"> </a></td><td>Эндоскопия</td></tr><tr><td style=\"white-space:nowrap\">37<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-37\"> </a></td><td>Токсикология</td></tr><tr><td style=\"white-space:nowrap\">38<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-38\"> </a></td><td>Трансфузиология</td></tr><tr><td style=\"white-space:nowrap\">40<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-40\"> </a></td><td>Клиническая микология</td></tr><tr><td style=\"white-space:nowrap\">41<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-41\"> </a></td><td>Детская онкология</td></tr><tr><td style=\"white-space:nowrap\">42<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-42\"> </a></td><td>Детская урология - андрология</td></tr><tr><td style=\"white-space:nowrap\">43<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-43\"> </a></td><td>Колопроктология</td></tr><tr><td style=\"white-space:nowrap\">44<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-44\"> </a></td><td>Нейрохирургия</td></tr><tr><td style=\"white-space:nowrap\">45<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-45\"> </a></td><td>Сердечно-сосудистая хирургия</td></tr><tr><td style=\"white-space:nowrap\">46<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-46\"> </a></td><td>Торакальная хирургия</td></tr><tr><td style=\"white-space:nowrap\">50<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-50\"> </a></td><td>Челюстно-лицевая хирургия</td></tr><tr><td style=\"white-space:nowrap\">52<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-52\"> </a></td><td>Лабораторная генетика</td></tr><tr><td style=\"white-space:nowrap\">54<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-54\"> </a></td><td>Бактериология</td></tr><tr><td style=\"white-space:nowrap\">55<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-55\"> </a></td><td>Вирусология</td></tr><tr><td style=\"white-space:nowrap\">57<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-57\"> </a></td><td>Лабораторная микология</td></tr><tr><td style=\"white-space:nowrap\">58<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-58\"> </a></td><td>Восстановительная медицина</td></tr><tr><td style=\"white-space:nowrap\">59<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-59\"> </a></td><td>Лечебная физкультура и спортивная медицина</td></tr><tr><td style=\"white-space:nowrap\">61<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-61\"> </a></td><td>Мануальная терапия</td></tr><tr><td style=\"white-space:nowrap\">62<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-62\"> </a></td><td>Рефлексотерапия</td></tr><tr><td style=\"white-space:nowrap\">66<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-66\"> </a></td><td>Гериатрия</td></tr><tr><td style=\"white-space:nowrap\">75<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-75\"> </a></td><td>Сурдология - оториноларингология</td></tr><tr><td style=\"white-space:nowrap\">77<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-77\"> </a></td><td>Аллергология и иммунология</td></tr><tr><td style=\"white-space:nowrap\">79<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-79\"> </a></td><td>Гастроэнтерология</td></tr><tr><td style=\"white-space:nowrap\">80<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-80\"> </a></td><td>Гематология</td></tr><tr><td style=\"white-space:nowrap\">81<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-81\"> </a></td><td>Детская кардиология</td></tr><tr><td style=\"white-space:nowrap\">83<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-83\"> </a></td><td>Детская эндокринология</td></tr><tr><td style=\"white-space:nowrap\">84<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-84\"> </a></td><td>Диетология</td></tr><tr><td style=\"white-space:nowrap\">85<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-85\"> </a></td><td>Клиническая фармакология</td></tr><tr><td style=\"white-space:nowrap\">89<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-89\"> </a></td><td>Нефрология</td></tr><tr><td style=\"white-space:nowrap\">90<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-90\"> </a></td><td>Пульмонология</td></tr><tr><td style=\"white-space:nowrap\">91<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-91\"> </a></td><td>Ревматология</td></tr><tr><td style=\"white-space:nowrap\">97<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-97\"> </a></td><td>Психиатрия-наркология</td></tr><tr><td style=\"white-space:nowrap\">98<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-98\"> </a></td><td>Психотерапия</td></tr><tr><td style=\"white-space:nowrap\">99<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-99\"> </a></td><td>Сексология</td></tr><tr><td style=\"white-space:nowrap\">100<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-100\"> </a></td><td>Судебно-психиатрическая экспертиза</td></tr><tr><td style=\"white-space:nowrap\">102<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-102\"> </a></td><td>Радиология</td></tr><tr><td style=\"white-space:nowrap\">110<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-110\"> </a></td><td>Авиационная и космическая медицина</td></tr><tr><td style=\"white-space:nowrap\">118<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-118\"> </a></td><td>Кардиология</td></tr><tr><td style=\"white-space:nowrap\">124<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-124\"> </a></td><td>Профпатология</td></tr><tr><td style=\"white-space:nowrap\">145<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-145\"> </a></td><td>Урология</td></tr><tr><td style=\"white-space:nowrap\">150<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-150\"> </a></td><td>Диабетология</td></tr><tr><td style=\"white-space:nowrap\">152<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-152\"> </a></td><td>Общая гигиена</td></tr><tr><td style=\"white-space:nowrap\">153<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-153\"> </a></td><td>Социальная гигиена и организация госсанэпидслужбы</td></tr><tr><td style=\"white-space:nowrap\">154<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-154\"> </a></td><td>Эпидемиология</td></tr><tr><td style=\"white-space:nowrap\">159<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-159\"> </a></td><td>Гигиена детей и подростков</td></tr><tr><td style=\"white-space:nowrap\">160<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-160\"> </a></td><td>Гигиена питания</td></tr><tr><td style=\"white-space:nowrap\">161<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-161\"> </a></td><td>Гигиена труда</td></tr><tr><td style=\"white-space:nowrap\">162<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-162\"> </a></td><td>Гигиеническое воспитание</td></tr><tr><td style=\"white-space:nowrap\">163<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-163\"> </a></td><td>Коммунальная гигиена</td></tr><tr><td style=\"white-space:nowrap\">164<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-164\"> </a></td><td>Радиационная гигиена</td></tr><tr><td style=\"white-space:nowrap\">165<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-165\"> </a></td><td>Санитарно-гигиенические лабораторные исследования</td></tr><tr><td style=\"white-space:nowrap\">169<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-169\"> </a></td><td>Дезинфектология</td></tr><tr><td style=\"white-space:nowrap\">170<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-170\"> </a></td><td>Паразитология</td></tr><tr><td style=\"white-space:nowrap\">171<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-171\"> </a></td><td>Стоматология общей практики</td></tr><tr><td style=\"white-space:nowrap\">173<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-173\"> </a></td><td>Ортодонтия</td></tr><tr><td style=\"white-space:nowrap\">174<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-174\"> </a></td><td>Стоматология детская</td></tr><tr><td style=\"white-space:nowrap\">175<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-175\"> </a></td><td>Стоматология ортопедическая</td></tr><tr><td style=\"white-space:nowrap\">176<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-176\"> </a></td><td>Стоматология терапевтическая</td></tr><tr><td style=\"white-space:nowrap\">177<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-177\"> </a></td><td>Стоматология хирургическая</td></tr><tr><td style=\"white-space:nowrap\">184<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-184\"> </a></td><td>Управление и экономика фармации</td></tr><tr><td style=\"white-space:nowrap\">185<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-185\"> </a></td><td>Фармацевтическая химия и фармакогнозия</td></tr><tr><td style=\"white-space:nowrap\">186<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-186\"> </a></td><td>Управление сестринской деятельностью</td></tr><tr><td style=\"white-space:nowrap\">204<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-204\"> </a></td><td>Средний медицинский персонал</td></tr><tr><td style=\"white-space:nowrap\">205<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-205\"> </a></td><td>Организация сестринского дела</td></tr><tr><td style=\"white-space:nowrap\">206<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-206\"> </a></td><td>Лечебное дело</td></tr><tr><td style=\"white-space:nowrap\">207<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-207\"> </a></td><td>Акушерское дело</td></tr><tr><td style=\"white-space:nowrap\">208<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-208\"> </a></td><td>Стоматология</td></tr><tr><td style=\"white-space:nowrap\">209<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-209\"> </a></td><td>Стоматология ортопедическая</td></tr><tr><td style=\"white-space:nowrap\">210<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-210\"> </a></td><td>Эпидемиология (паразитология)</td></tr><tr><td style=\"white-space:nowrap\">211<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-211\"> </a></td><td>Гигиена и санитария</td></tr><tr><td style=\"white-space:nowrap\">212<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-212\"> </a></td><td>Дезинфекционное дело</td></tr><tr><td style=\"white-space:nowrap\">213<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-213\"> </a></td><td>Гигиеническое воспитание</td></tr><tr><td style=\"white-space:nowrap\">214<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-214\"> </a></td><td>Энтомология</td></tr><tr><td style=\"white-space:nowrap\">215<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-215\"> </a></td><td>Лабораторная диагностика</td></tr><tr><td style=\"white-space:nowrap\">216<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-216\"> </a></td><td>Гистология</td></tr><tr><td style=\"white-space:nowrap\">217<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-217\"> </a></td><td>Лабораторное дело</td></tr><tr><td style=\"white-space:nowrap\">218<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-218\"> </a></td><td>Фармация</td></tr><tr><td style=\"white-space:nowrap\">219<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-219\"> </a></td><td>Сестринское дело</td></tr><tr><td style=\"white-space:nowrap\">221<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-221\"> </a></td><td>Сестринское дело в педиатрии</td></tr><tr><td style=\"white-space:nowrap\">222<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-222\"> </a></td><td>Операционное дело</td></tr><tr><td style=\"white-space:nowrap\">223<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-223\"> </a></td><td>Анестезиология и реаниматология</td></tr><tr><td style=\"white-space:nowrap\">224<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-224\"> </a></td><td>Общая практика</td></tr><tr><td style=\"white-space:nowrap\">225<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-225\"> </a></td><td>Рентгенология</td></tr><tr><td style=\"white-space:nowrap\">226<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-226\"> </a></td><td>Функциональная диагностика</td></tr><tr><td style=\"white-space:nowrap\">227<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-227\"> </a></td><td>Физиотерапия</td></tr><tr><td style=\"white-space:nowrap\">228<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-228\"> </a></td><td>Медицинский массаж</td></tr><tr><td style=\"white-space:nowrap\">229<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-229\"> </a></td><td>Фармацевтическая технология</td></tr><tr><td style=\"white-space:nowrap\">230<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-230\"> </a></td><td>Лечебная физкультура</td></tr><tr><td style=\"white-space:nowrap\">231<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-231\"> </a></td><td>Диетология</td></tr><tr><td style=\"white-space:nowrap\">232<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-232\"> </a></td><td>Медицинская статистика</td></tr><tr><td style=\"white-space:nowrap\">233<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-233\"> </a></td><td>Стоматология профилактическая</td></tr><tr><td style=\"white-space:nowrap\">234<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-234\"> </a></td><td>Судебно-медицинская экспертиза</td></tr><tr><td style=\"white-space:nowrap\">235<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-235\"> </a></td><td>Медицинская оптика</td></tr><tr><td style=\"white-space:nowrap\">236<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-236\"> </a></td><td>Медико-социальная экспертиза</td></tr><tr><td style=\"white-space:nowrap\">247<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-247\"> </a></td><td>Пластическая хирургия</td></tr><tr><td style=\"white-space:nowrap\">248<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-248\"> </a></td><td>Рентгенэндоваскулярные диагностика и лечение</td></tr><tr><td style=\"white-space:nowrap\">252<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-252\"> </a></td><td>Косметология</td></tr><tr><td style=\"white-space:nowrap\">256<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-256\"> </a></td><td>Водолазная медицина</td></tr><tr><td style=\"white-space:nowrap\">269<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-269\"> </a></td><td>Медицинская кибернетика</td></tr><tr><td style=\"white-space:nowrap\">279<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-279\"> </a></td><td>Медико-социальная помощь</td></tr><tr><td style=\"white-space:nowrap\">280<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-280\"> </a></td><td>Наркология</td></tr><tr><td style=\"white-space:nowrap\">281<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-281\"> </a></td><td>Реабилитационное сестринское дело</td></tr><tr><td style=\"white-space:nowrap\">282<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-282\"> </a></td><td>Сестринское дело в косметологии</td></tr><tr><td style=\"white-space:nowrap\">283<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-283\"> </a></td><td>Скорая и неотложная помощь</td></tr><tr><td style=\"white-space:nowrap\">284<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-284\"> </a></td><td>Бактериология</td></tr><tr><td style=\"white-space:nowrap\">285<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-285\"> </a></td><td>Радиотерапия</td></tr><tr><td style=\"white-space:nowrap\">287<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-287\"> </a></td><td>Остеопатия</td></tr><tr><td style=\"white-space:nowrap\">288<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-288\"> </a></td><td>Детская онкология-гематология</td></tr><tr><td style=\"white-space:nowrap\">289<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-289\"> </a></td><td>Медицинская микробиология</td></tr><tr><td style=\"white-space:nowrap\">290<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1066-290\"> </a></td><td>Физическая и реабилитационная медицина</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1066"];
+  fhir:CodeSystem.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
+     fhir:Identifier.value [ fhir:value "urn:oid:1.2.643.5.1.13.13.11.1066" ]
+  ];
+  fhir:CodeSystem.version [ fhir:value "5.3"];
+  fhir:CodeSystem.name [ fhir:value "Nsi_cs_1_2_643_5_1_13_13_11_1066"];
+  fhir:CodeSystem.title [ fhir:value "Номенклатура специальностей специалистов, имеющих медицинское и фармацевтическое образование"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2021-10-20T13:42:04+03:00"^^xsd:dateTime];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "см. паспорт справочника на ФНСИ" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "см. паспорт справочника на ФНСИ" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "Справочник ФНСИ:  \n'Номенклатура специальностей специалистов, имеющих медицинское и фармацевтическое образование'  \nверсия '5.3'  \n[1.2.643.5.1.13.13.11.1066](https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1066/version/5.3)"];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "146"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "0" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Врачебные специальности" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "1" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Лечебное дело" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "2" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Медико-профилактическое дело" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "3" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Стоматология" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "4" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Фармация" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "5" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Сестринское дело" ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "6" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Медицинская биохимия" ]
+  ], [
+     fhir:index 7;
+     fhir:CodeSystem.concept.code [ fhir:value "7" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Медицинская биофизика" ]
+  ], [
+     fhir:index 8;
+     fhir:CodeSystem.concept.code [ fhir:value "8" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Акушерство и гинекология" ]
+  ], [
+     fhir:index 9;
+     fhir:CodeSystem.concept.code [ fhir:value "9" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Анестезиология-реаниматология" ]
+  ], [
+     fhir:index 10;
+     fhir:CodeSystem.concept.code [ fhir:value "10" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Дерматовенерология" ]
+  ], [
+     fhir:index 11;
+     fhir:CodeSystem.concept.code [ fhir:value "11" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Детская хирургия" ]
+  ], [
+     fhir:index 12;
+     fhir:CodeSystem.concept.code [ fhir:value "12" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Генетика" ]
+  ], [
+     fhir:index 13;
+     fhir:CodeSystem.concept.code [ fhir:value "13" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Клиническая лабораторная диагностика" ]
+  ], [
+     fhir:index 14;
+     fhir:CodeSystem.concept.code [ fhir:value "14" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Неврология" ]
+  ], [
+     fhir:index 15;
+     fhir:CodeSystem.concept.code [ fhir:value "15" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Неонатология" ]
+  ], [
+     fhir:index 16;
+     fhir:CodeSystem.concept.code [ fhir:value "16" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Общая врачебная практика (семейная медицина)" ]
+  ], [
+     fhir:index 17;
+     fhir:CodeSystem.concept.code [ fhir:value "17" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Онкология" ]
+  ], [
+     fhir:index 18;
+     fhir:CodeSystem.concept.code [ fhir:value "18" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Организация здравоохранения и общественное здоровье" ]
+  ], [
+     fhir:index 19;
+     fhir:CodeSystem.concept.code [ fhir:value "19" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Оториноларингология" ]
+  ], [
+     fhir:index 20;
+     fhir:CodeSystem.concept.code [ fhir:value "20" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Офтальмология" ]
+  ], [
+     fhir:index 21;
+     fhir:CodeSystem.concept.code [ fhir:value "21" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Патологическая анатомия" ]
+  ], [
+     fhir:index 22;
+     fhir:CodeSystem.concept.code [ fhir:value "22" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Педиатрия" ]
+  ], [
+     fhir:index 23;
+     fhir:CodeSystem.concept.code [ fhir:value "23" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Психиатрия" ]
+  ], [
+     fhir:index 24;
+     fhir:CodeSystem.concept.code [ fhir:value "24" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Рентгенология" ]
+  ], [
+     fhir:index 25;
+     fhir:CodeSystem.concept.code [ fhir:value "25" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Скорая медицинская помощь" ]
+  ], [
+     fhir:index 26;
+     fhir:CodeSystem.concept.code [ fhir:value "26" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Судебно-медицинская экспертиза" ]
+  ], [
+     fhir:index 27;
+     fhir:CodeSystem.concept.code [ fhir:value "27" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Терапия" ]
+  ], [
+     fhir:index 28;
+     fhir:CodeSystem.concept.code [ fhir:value "28" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Травматология и ортопедия" ]
+  ], [
+     fhir:index 29;
+     fhir:CodeSystem.concept.code [ fhir:value "29" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Фтизиатрия" ]
+  ], [
+     fhir:index 30;
+     fhir:CodeSystem.concept.code [ fhir:value "30" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Хирургия" ]
+  ], [
+     fhir:index 31;
+     fhir:CodeSystem.concept.code [ fhir:value "31" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Эндокринология" ]
+  ], [
+     fhir:index 32;
+     fhir:CodeSystem.concept.code [ fhir:value "32" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Инфекционные болезни" ]
+  ], [
+     fhir:index 33;
+     fhir:CodeSystem.concept.code [ fhir:value "33" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Ультразвуковая диагностика" ]
+  ], [
+     fhir:index 34;
+     fhir:CodeSystem.concept.code [ fhir:value "34" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Физиотерапия" ]
+  ], [
+     fhir:index 35;
+     fhir:CodeSystem.concept.code [ fhir:value "35" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Функциональная диагностика" ]
+  ], [
+     fhir:index 36;
+     fhir:CodeSystem.concept.code [ fhir:value "36" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Эндоскопия" ]
+  ], [
+     fhir:index 37;
+     fhir:CodeSystem.concept.code [ fhir:value "37" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Токсикология" ]
+  ], [
+     fhir:index 38;
+     fhir:CodeSystem.concept.code [ fhir:value "38" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Трансфузиология" ]
+  ], [
+     fhir:index 39;
+     fhir:CodeSystem.concept.code [ fhir:value "40" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Клиническая микология" ]
+  ], [
+     fhir:index 40;
+     fhir:CodeSystem.concept.code [ fhir:value "41" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Детская онкология" ]
+  ], [
+     fhir:index 41;
+     fhir:CodeSystem.concept.code [ fhir:value "42" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Детская урология - андрология" ]
+  ], [
+     fhir:index 42;
+     fhir:CodeSystem.concept.code [ fhir:value "43" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Колопроктология" ]
+  ], [
+     fhir:index 43;
+     fhir:CodeSystem.concept.code [ fhir:value "44" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Нейрохирургия" ]
+  ], [
+     fhir:index 44;
+     fhir:CodeSystem.concept.code [ fhir:value "45" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Сердечно-сосудистая хирургия" ]
+  ], [
+     fhir:index 45;
+     fhir:CodeSystem.concept.code [ fhir:value "46" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Торакальная хирургия" ]
+  ], [
+     fhir:index 46;
+     fhir:CodeSystem.concept.code [ fhir:value "50" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Челюстно-лицевая хирургия" ]
+  ], [
+     fhir:index 47;
+     fhir:CodeSystem.concept.code [ fhir:value "52" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Лабораторная генетика" ]
+  ], [
+     fhir:index 48;
+     fhir:CodeSystem.concept.code [ fhir:value "54" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Бактериология" ]
+  ], [
+     fhir:index 49;
+     fhir:CodeSystem.concept.code [ fhir:value "55" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Вирусология" ]
+  ], [
+     fhir:index 50;
+     fhir:CodeSystem.concept.code [ fhir:value "57" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Лабораторная микология" ]
+  ], [
+     fhir:index 51;
+     fhir:CodeSystem.concept.code [ fhir:value "58" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Восстановительная медицина" ]
+  ], [
+     fhir:index 52;
+     fhir:CodeSystem.concept.code [ fhir:value "59" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Лечебная физкультура и спортивная медицина" ]
+  ], [
+     fhir:index 53;
+     fhir:CodeSystem.concept.code [ fhir:value "61" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Мануальная терапия" ]
+  ], [
+     fhir:index 54;
+     fhir:CodeSystem.concept.code [ fhir:value "62" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Рефлексотерапия" ]
+  ], [
+     fhir:index 55;
+     fhir:CodeSystem.concept.code [ fhir:value "66" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Гериатрия" ]
+  ], [
+     fhir:index 56;
+     fhir:CodeSystem.concept.code [ fhir:value "75" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Сурдология - оториноларингология" ]
+  ], [
+     fhir:index 57;
+     fhir:CodeSystem.concept.code [ fhir:value "77" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Аллергология и иммунология" ]
+  ], [
+     fhir:index 58;
+     fhir:CodeSystem.concept.code [ fhir:value "79" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Гастроэнтерология" ]
+  ], [
+     fhir:index 59;
+     fhir:CodeSystem.concept.code [ fhir:value "80" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Гематология" ]
+  ], [
+     fhir:index 60;
+     fhir:CodeSystem.concept.code [ fhir:value "81" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Детская кардиология" ]
+  ], [
+     fhir:index 61;
+     fhir:CodeSystem.concept.code [ fhir:value "83" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Детская эндокринология" ]
+  ], [
+     fhir:index 62;
+     fhir:CodeSystem.concept.code [ fhir:value "84" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Диетология" ]
+  ], [
+     fhir:index 63;
+     fhir:CodeSystem.concept.code [ fhir:value "85" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Клиническая фармакология" ]
+  ], [
+     fhir:index 64;
+     fhir:CodeSystem.concept.code [ fhir:value "89" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Нефрология" ]
+  ], [
+     fhir:index 65;
+     fhir:CodeSystem.concept.code [ fhir:value "90" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Пульмонология" ]
+  ], [
+     fhir:index 66;
+     fhir:CodeSystem.concept.code [ fhir:value "91" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Ревматология" ]
+  ], [
+     fhir:index 67;
+     fhir:CodeSystem.concept.code [ fhir:value "97" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Психиатрия-наркология" ]
+  ], [
+     fhir:index 68;
+     fhir:CodeSystem.concept.code [ fhir:value "98" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Психотерапия" ]
+  ], [
+     fhir:index 69;
+     fhir:CodeSystem.concept.code [ fhir:value "99" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Сексология" ]
+  ], [
+     fhir:index 70;
+     fhir:CodeSystem.concept.code [ fhir:value "100" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Судебно-психиатрическая экспертиза" ]
+  ], [
+     fhir:index 71;
+     fhir:CodeSystem.concept.code [ fhir:value "102" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Радиология" ]
+  ], [
+     fhir:index 72;
+     fhir:CodeSystem.concept.code [ fhir:value "110" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Авиационная и космическая медицина" ]
+  ], [
+     fhir:index 73;
+     fhir:CodeSystem.concept.code [ fhir:value "118" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Кардиология" ]
+  ], [
+     fhir:index 74;
+     fhir:CodeSystem.concept.code [ fhir:value "124" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Профпатология" ]
+  ], [
+     fhir:index 75;
+     fhir:CodeSystem.concept.code [ fhir:value "145" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Урология" ]
+  ], [
+     fhir:index 76;
+     fhir:CodeSystem.concept.code [ fhir:value "150" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Диабетология" ]
+  ], [
+     fhir:index 77;
+     fhir:CodeSystem.concept.code [ fhir:value "152" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Общая гигиена" ]
+  ], [
+     fhir:index 78;
+     fhir:CodeSystem.concept.code [ fhir:value "153" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Социальная гигиена и организация госсанэпидслужбы" ]
+  ], [
+     fhir:index 79;
+     fhir:CodeSystem.concept.code [ fhir:value "154" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Эпидемиология" ]
+  ], [
+     fhir:index 80;
+     fhir:CodeSystem.concept.code [ fhir:value "159" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Гигиена детей и подростков" ]
+  ], [
+     fhir:index 81;
+     fhir:CodeSystem.concept.code [ fhir:value "160" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Гигиена питания" ]
+  ], [
+     fhir:index 82;
+     fhir:CodeSystem.concept.code [ fhir:value "161" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Гигиена труда" ]
+  ], [
+     fhir:index 83;
+     fhir:CodeSystem.concept.code [ fhir:value "162" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Гигиеническое воспитание" ]
+  ], [
+     fhir:index 84;
+     fhir:CodeSystem.concept.code [ fhir:value "163" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Коммунальная гигиена" ]
+  ], [
+     fhir:index 85;
+     fhir:CodeSystem.concept.code [ fhir:value "164" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Радиационная гигиена" ]
+  ], [
+     fhir:index 86;
+     fhir:CodeSystem.concept.code [ fhir:value "165" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Санитарно-гигиенические лабораторные исследования" ]
+  ], [
+     fhir:index 87;
+     fhir:CodeSystem.concept.code [ fhir:value "169" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Дезинфектология" ]
+  ], [
+     fhir:index 88;
+     fhir:CodeSystem.concept.code [ fhir:value "170" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Паразитология" ]
+  ], [
+     fhir:index 89;
+     fhir:CodeSystem.concept.code [ fhir:value "171" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Стоматология общей практики" ]
+  ], [
+     fhir:index 90;
+     fhir:CodeSystem.concept.code [ fhir:value "173" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Ортодонтия" ]
+  ], [
+     fhir:index 91;
+     fhir:CodeSystem.concept.code [ fhir:value "174" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Стоматология детская" ]
+  ], [
+     fhir:index 92;
+     fhir:CodeSystem.concept.code [ fhir:value "175" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Стоматология ортопедическая" ]
+  ], [
+     fhir:index 93;
+     fhir:CodeSystem.concept.code [ fhir:value "176" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Стоматология терапевтическая" ]
+  ], [
+     fhir:index 94;
+     fhir:CodeSystem.concept.code [ fhir:value "177" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Стоматология хирургическая" ]
+  ], [
+     fhir:index 95;
+     fhir:CodeSystem.concept.code [ fhir:value "184" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Управление и экономика фармации" ]
+  ], [
+     fhir:index 96;
+     fhir:CodeSystem.concept.code [ fhir:value "185" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Фармацевтическая химия и фармакогнозия" ]
+  ], [
+     fhir:index 97;
+     fhir:CodeSystem.concept.code [ fhir:value "186" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Управление сестринской деятельностью" ]
+  ], [
+     fhir:index 98;
+     fhir:CodeSystem.concept.code [ fhir:value "204" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Средний медицинский персонал" ]
+  ], [
+     fhir:index 99;
+     fhir:CodeSystem.concept.code [ fhir:value "205" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Организация сестринского дела" ]
+  ], [
+     fhir:index 100;
+     fhir:CodeSystem.concept.code [ fhir:value "206" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Лечебное дело" ]
+  ], [
+     fhir:index 101;
+     fhir:CodeSystem.concept.code [ fhir:value "207" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Акушерское дело" ]
+  ], [
+     fhir:index 102;
+     fhir:CodeSystem.concept.code [ fhir:value "208" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Стоматология" ]
+  ], [
+     fhir:index 103;
+     fhir:CodeSystem.concept.code [ fhir:value "209" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Стоматология ортопедическая" ]
+  ], [
+     fhir:index 104;
+     fhir:CodeSystem.concept.code [ fhir:value "210" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Эпидемиология (паразитология)" ]
+  ], [
+     fhir:index 105;
+     fhir:CodeSystem.concept.code [ fhir:value "211" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Гигиена и санитария" ]
+  ], [
+     fhir:index 106;
+     fhir:CodeSystem.concept.code [ fhir:value "212" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Дезинфекционное дело" ]
+  ], [
+     fhir:index 107;
+     fhir:CodeSystem.concept.code [ fhir:value "213" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Гигиеническое воспитание" ]
+  ], [
+     fhir:index 108;
+     fhir:CodeSystem.concept.code [ fhir:value "214" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Энтомология" ]
+  ], [
+     fhir:index 109;
+     fhir:CodeSystem.concept.code [ fhir:value "215" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Лабораторная диагностика" ]
+  ], [
+     fhir:index 110;
+     fhir:CodeSystem.concept.code [ fhir:value "216" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Гистология" ]
+  ], [
+     fhir:index 111;
+     fhir:CodeSystem.concept.code [ fhir:value "217" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Лабораторное дело" ]
+  ], [
+     fhir:index 112;
+     fhir:CodeSystem.concept.code [ fhir:value "218" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Фармация" ]
+  ], [
+     fhir:index 113;
+     fhir:CodeSystem.concept.code [ fhir:value "219" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Сестринское дело" ]
+  ], [
+     fhir:index 114;
+     fhir:CodeSystem.concept.code [ fhir:value "221" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Сестринское дело в педиатрии" ]
+  ], [
+     fhir:index 115;
+     fhir:CodeSystem.concept.code [ fhir:value "222" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Операционное дело" ]
+  ], [
+     fhir:index 116;
+     fhir:CodeSystem.concept.code [ fhir:value "223" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Анестезиология и реаниматология" ]
+  ], [
+     fhir:index 117;
+     fhir:CodeSystem.concept.code [ fhir:value "224" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Общая практика" ]
+  ], [
+     fhir:index 118;
+     fhir:CodeSystem.concept.code [ fhir:value "225" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Рентгенология" ]
+  ], [
+     fhir:index 119;
+     fhir:CodeSystem.concept.code [ fhir:value "226" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Функциональная диагностика" ]
+  ], [
+     fhir:index 120;
+     fhir:CodeSystem.concept.code [ fhir:value "227" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Физиотерапия" ]
+  ], [
+     fhir:index 121;
+     fhir:CodeSystem.concept.code [ fhir:value "228" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Медицинский массаж" ]
+  ], [
+     fhir:index 122;
+     fhir:CodeSystem.concept.code [ fhir:value "229" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Фармацевтическая технология" ]
+  ], [
+     fhir:index 123;
+     fhir:CodeSystem.concept.code [ fhir:value "230" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Лечебная физкультура" ]
+  ], [
+     fhir:index 124;
+     fhir:CodeSystem.concept.code [ fhir:value "231" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Диетология" ]
+  ], [
+     fhir:index 125;
+     fhir:CodeSystem.concept.code [ fhir:value "232" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Медицинская статистика" ]
+  ], [
+     fhir:index 126;
+     fhir:CodeSystem.concept.code [ fhir:value "233" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Стоматология профилактическая" ]
+  ], [
+     fhir:index 127;
+     fhir:CodeSystem.concept.code [ fhir:value "234" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Судебно-медицинская экспертиза" ]
+  ], [
+     fhir:index 128;
+     fhir:CodeSystem.concept.code [ fhir:value "235" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Медицинская оптика" ]
+  ], [
+     fhir:index 129;
+     fhir:CodeSystem.concept.code [ fhir:value "236" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Медико-социальная экспертиза" ]
+  ], [
+     fhir:index 130;
+     fhir:CodeSystem.concept.code [ fhir:value "247" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Пластическая хирургия" ]
+  ], [
+     fhir:index 131;
+     fhir:CodeSystem.concept.code [ fhir:value "248" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Рентгенэндоваскулярные диагностика и лечение" ]
+  ], [
+     fhir:index 132;
+     fhir:CodeSystem.concept.code [ fhir:value "252" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Косметология" ]
+  ], [
+     fhir:index 133;
+     fhir:CodeSystem.concept.code [ fhir:value "256" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Водолазная медицина" ]
+  ], [
+     fhir:index 134;
+     fhir:CodeSystem.concept.code [ fhir:value "269" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Медицинская кибернетика" ]
+  ], [
+     fhir:index 135;
+     fhir:CodeSystem.concept.code [ fhir:value "279" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Медико-социальная помощь" ]
+  ], [
+     fhir:index 136;
+     fhir:CodeSystem.concept.code [ fhir:value "280" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Наркология" ]
+  ], [
+     fhir:index 137;
+     fhir:CodeSystem.concept.code [ fhir:value "281" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Реабилитационное сестринское дело" ]
+  ], [
+     fhir:index 138;
+     fhir:CodeSystem.concept.code [ fhir:value "282" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Сестринское дело в косметологии" ]
+  ], [
+     fhir:index 139;
+     fhir:CodeSystem.concept.code [ fhir:value "283" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Скорая и неотложная помощь" ]
+  ], [
+     fhir:index 140;
+     fhir:CodeSystem.concept.code [ fhir:value "284" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Бактериология" ]
+  ], [
+     fhir:index 141;
+     fhir:CodeSystem.concept.code [ fhir:value "285" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Радиотерапия" ]
+  ], [
+     fhir:index 142;
+     fhir:CodeSystem.concept.code [ fhir:value "287" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Остеопатия" ]
+  ], [
+     fhir:index 143;
+     fhir:CodeSystem.concept.code [ fhir:value "288" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Детская онкология-гематология" ]
+  ], [
+     fhir:index 144;
+     fhir:CodeSystem.concept.code [ fhir:value "289" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Медицинская микробиология" ]
+  ], [
+     fhir:index 145;
+     fhir:CodeSystem.concept.code [ fhir:value "290" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Физическая и реабилитационная медицина" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://miramedix.ru/fhir/ig/mosreg/CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1066.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="miramedix-vs-event-type"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-miramedix-cs-event-type.html"><code>http://miramedix.ru/fhir/CodeSystem/miramedix-cs-event-type</code></a></li></ul></div>
+  </text>
+  <url value="http://miramedix.ru/fhir/ValueSet/miramedix-vs-event-type"/>
+  <version value="0.1.0"/>
+  <name value="Miramedix_vs_event_type"/>
+  <title value="Набор значений типов событий [Мирамедикс]"/>
+  <status value="active"/>
+  <date value="2021-10-20T13:42:04+03:00"/>
+  <description value="Набор значений для указания типов событий для информационной системы Мирамедикс."/>
+  <compose>
+    <include>
+      <system value="http://miramedix.ru/fhir/CodeSystem/miramedix-cs-event-type"/>
+    </include>
+  </compose>
+</ValueSet>

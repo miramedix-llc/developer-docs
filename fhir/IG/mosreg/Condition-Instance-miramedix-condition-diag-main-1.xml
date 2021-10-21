@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Condition xmlns="http://hl7.org/fhir">
+  <id value="Instance-miramedix-condition-diag-main-1"/>
+  <meta>
+    <profile value="http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-condition-diag-main"/>
+  </meta>
+  <text>
+    <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p>Внутрипротоковая папиллярная аденокарцинома с инвазией нижневнутреннего квадранта молочной железы. Стадия IVa; pT3N1M1. ER-статус отрицательный; PR-статус отрицательный; HER2-статус положительный 3+; Ki-67 высокий. Мутации генов BRCA 1/2 не обнаружены</p></div>
+  </text>
+  <identifier>
+    <system value="urn:mosreg:entity:condition"/>
+    <value value="d34c35ab-4c2e-4c6e-9f42-a7879d47dcd5"/>
+  </identifier>
+  <category>
+    <coding>
+      <system value="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077"/>
+      <code value="1"/>
+      <display value="Основное заболевание"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1005"/>
+      <code value="C50.3"/>
+      <display value="Злокачественное новообразование нижневнутреннего квадранта молочной железы"/>
+    </coding>
+  </code>
+  <subject>
+    <identifier>
+      <system value="urn:oid:1.2.643.100.3"/>
+      <value value="123-456-789 09"/>
+    </identifier>
+  </subject>
+</Condition>

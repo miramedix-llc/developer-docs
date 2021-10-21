@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="nsi-cs-1-2-643-5-1-13-13-11-1040"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1040 defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="nsi-cs-1-2-643-5-1-13-13-11-1040-1"> </a></td><td>Мужской</td></tr><tr><td style="white-space:nowrap">2<a name="nsi-cs-1-2-643-5-1-13-13-11-1040-2"> </a></td><td>Женский</td></tr><tr><td style="white-space:nowrap">3<a name="nsi-cs-1-2-643-5-1-13-13-11-1040-3"> </a></td><td>Неопределенный</td></tr></table></div>
+  </text>
+  <url value="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1040"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.2.643.5.1.13.13.11.1040"/>
+  </identifier>
+  <version value="2.1"/>
+  <name value="Nsi_cs_1_2_643_5_1_13_13_11_1040"/>
+  <title value="Пол пациента"/>
+  <status value="active"/>
+  <date value="2021-10-20T13:42:04+03:00"/>
+  <contact>
+    <name value="см. паспорт справочника на ФНСИ"/>
+    <telecom>
+      <system value="email"/>
+      <value value="см. паспорт справочника на ФНСИ"/>
+    </telecom>
+  </contact>
+  <description value="Справочник ФНСИ:  &#xA;&#39;Пол пациента&#39;  &#xA;версия &#39;2.1&#39;  &#xA;[1.2.643.5.1.13.13.11.1040](https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1040/version/2.1)"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="1"/>
+    <display value="Мужской"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Женский"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Неопределенный"/>
+  </concept>
+</CodeSystem>

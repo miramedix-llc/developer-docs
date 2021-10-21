@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="Instance-practitioner-Adamov"/>
+  <meta>
+    <profile value="http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-practitioner"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: Employee number: 123 (USUAL), Логин сотрудника: adamovaa@org.ru (USUAL), СНИЛС: 261-698-042-95 (OFFICIAL)</p><p><b>name</b>: Адам Адамович Адамов (OFFICIAL)</p><p><b>telecom</b>: <a href="tel:+7(902)666-55-33">+7 (902) 666-55-33</a></p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1970-01-01</p></div>
+  </text>
+  <identifier>
+    <use value="usual"/>
+    <type>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+        <code value="EI"/>
+        <display value="Employee number"/>
+      </coding>
+    </type>
+    <system value="urn:mosreg:entity:practitioner"/>
+    <value value="123"/>
+  </identifier>
+  <identifier>
+    <use value="usual"/>
+    <type>
+      <coding>
+        <system value="http://miramedix.ru/fhir/CodeSystem/miramedix-cs-identifier-type"/>
+        <code value="employee-login"/>
+        <display value="Логин сотрудника"/>
+      </coding>
+    </type>
+    <system value="urn:mosreg:identifier:user:id"/>
+    <value value="adamovaa@org.ru"/>
+  </identifier>
+  <identifier>
+    <use value="official"/>
+    <type>
+      <coding>
+        <system value="http://miramedix.ru/fhir/CodeSystem/miramedix-cs-identifier-type"/>
+        <code value="snils"/>
+        <display value="СНИЛС"/>
+      </coding>
+    </type>
+    <system value="urn:oid:1.2.643.100.3"/>
+    <value value="261-698-042-95"/>
+  </identifier>
+  <name>
+    <use value="official"/>
+    <family value="Адамов"/>
+    <given value="Адам"/>
+    <given value="Адамович"/>
+  </name>
+  <telecom>
+    <system value="phone"/>
+    <value value="+7 (902) 666-55-33"/>
+  </telecom>
+  <gender value="male">
+    <extension url="http://miramedix.ru/fhir/Extension/miramedix-ex-nsi-gender">
+      <valueCoding>
+        <system value="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1040"/>
+        <version value="2.1"/>
+        <code value="1"/>
+        <display value="Мужской"/>
+      </valueCoding>
+    </extension>
+  </gender>
+  <birthDate value="1970-01-01"/>
+</Practitioner>

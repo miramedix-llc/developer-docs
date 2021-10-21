@@ -1,0 +1,35 @@
+{
+  "resourceType": "Organization",
+  "id": "Instance-organization-division-LOB-CAOP",
+  "meta": {
+    "profile": [
+      "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-organization-division"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: urn:oid:1.2.643.5.1.13.13.12.2.50.11329.0.437329</p><p><b>name</b>: Центр амбулаторной онкологической помощи</p><p><b>address</b>: 142280, г. Люберцы, улица Назарова, д. 3</p><p><b>partOf</b>: <span></span></p></div>"
+  },
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.643.5.1.13.13.12.2.50.11329.0.437329"
+    }
+  ],
+  "name": "Центр амбулаторной онкологической помощи",
+  "address": [
+    {
+      "text": "142280, г. Люберцы, улица Назарова, д. 3",
+      "city": "город Пущино",
+      "district": "Серпуховской район",
+      "state": "50",
+      "postalCode": "142280"
+    }
+  ],
+  "partOf": {
+    "identifier": {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.643.5.1.13.13.12.2.50.11329"
+    }
+  }
+}

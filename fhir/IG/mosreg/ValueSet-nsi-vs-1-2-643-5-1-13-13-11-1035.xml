@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="nsi-vs-1-2-643-5-1-13-13-11-1035"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1035.html"><code>https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1035</code></a></li></ul></div>
+  </text>
+  <url value="http://miramedix.ru/fhir/ValueSet/nsi-vs-1035"/>
+  <version value="0.1.0"/>
+  <name value="Nsi_vs_1_2_643_5_1_13_13_11_1035"/>
+  <title value="Виды полиса обязательного медицинского страхования [все значения]"/>
+  <status value="active"/>
+  <date value="2021-10-20T13:42:04+03:00"/>
+  <description value="&#39;Виды полиса обязательного медицинского страхования&#39;  &#xA;[набор из всех значений системы кодирования]"/>
+  <compose>
+    <include>
+      <system value="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1035"/>
+    </include>
+  </compose>
+</ValueSet>

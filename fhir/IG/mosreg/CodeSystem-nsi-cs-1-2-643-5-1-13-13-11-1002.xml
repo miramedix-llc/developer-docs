@@ -1,0 +1,2060 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="nsi-cs-1-2-643-5-1-13-13-11-1002"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1002 defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-1"> </a></td><td>Должности работников медицинских организаций</td></tr><tr><td style="white-space:nowrap">2<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-2"> </a></td><td>Должности медицинских работников</td></tr><tr><td style="white-space:nowrap">3<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-3"> </a></td><td>Должности руководителей медицинских организаций</td></tr><tr><td style="white-space:nowrap">4<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-4"> </a></td><td>главный врач (начальник) медицинской организации</td></tr><tr><td style="white-space:nowrap">334<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-334"> </a></td><td>главный врач медицинской организации</td></tr><tr><td style="white-space:nowrap">335<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-335"> </a></td><td>начальник медицинской организации</td></tr><tr><td style="white-space:nowrap">5<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-5"> </a></td><td>директор больницы (дома) сестринского ухода, хосписа</td></tr><tr><td style="white-space:nowrap">427<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-427"> </a></td><td>директор больницы (дома) сестринского ухода</td></tr><tr><td style="white-space:nowrap">428<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-428"> </a></td><td>директор хосписа</td></tr><tr><td style="white-space:nowrap">6<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-6"> </a></td><td>заместитель руководителя (начальника) медицинской организации</td></tr><tr><td style="white-space:nowrap">336<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-336"> </a></td><td>заместитель руководителя медицинской организации</td></tr><tr><td style="white-space:nowrap">337<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-337"> </a></td><td>заместитель начальника медицинской организации</td></tr><tr><td style="white-space:nowrap">7<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-7"> </a></td><td>заведующий (начальник) структурного подразделения (отдела, отделения, лаборатории, кабинета, отряда и другое) медицинской организации - врач-специалист</td></tr><tr><td style="white-space:nowrap">429<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-429"> </a></td><td>заведующий отделом медицинской организации</td></tr><tr><td style="white-space:nowrap">430<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-430"> </a></td><td>заведующий отделением медицинской организации</td></tr><tr><td style="white-space:nowrap">431<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-431"> </a></td><td>заведующий лабораторией медицинской организации</td></tr><tr><td style="white-space:nowrap">432<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-432"> </a></td><td>заведующий кабинетом медицинской организации</td></tr><tr><td style="white-space:nowrap">433<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-433"> </a></td><td>заведующий отрядом медицинской организации</td></tr><tr><td style="white-space:nowrap">434<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-434"> </a></td><td>начальник отдела медицинской организации</td></tr><tr><td style="white-space:nowrap">435<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-435"> </a></td><td>начальник отделения медицинской организации</td></tr><tr><td style="white-space:nowrap">436<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-436"> </a></td><td>начальник лаборатории медицинской организации</td></tr><tr><td style="white-space:nowrap">437<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-437"> </a></td><td>начальник кабинета медицинской организации</td></tr><tr><td style="white-space:nowrap">438<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-438"> </a></td><td>начальник отряда медицинской организации</td></tr><tr><td style="white-space:nowrap">513<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-513"> </a></td><td>руководитель бюро медико-социальной экспертизы</td></tr><tr><td style="white-space:nowrap">514<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-514"> </a></td><td>руководитель экспертного состава медико-социальной экспертизы</td></tr><tr><td style="white-space:nowrap">515<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-515"> </a></td><td>руководитель Главного бюро медико-социальной экспертизы</td></tr><tr><td style="white-space:nowrap">520<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-520"> </a></td><td>заведующий станцией скорой медицинской помощи</td></tr><tr><td style="white-space:nowrap">521<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-521"> </a></td><td>заведующий подстанцией скорой медицинской помощи</td></tr><tr><td style="white-space:nowrap">8<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-8"> </a></td><td>заведующий (главный врач, начальник) структурного подразделения, осуществляющего медицинскую деятельность, иной организации</td></tr><tr><td style="white-space:nowrap">340<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-340"> </a></td><td>заведующий структурным подразделением, осуществляющим медицинскую деятельность, иной организации</td></tr><tr><td style="white-space:nowrap">341<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-341"> </a></td><td>главный врач структурного подразделения, осуществляющего медицинскую деятельность, иной организации</td></tr><tr><td style="white-space:nowrap">342<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-342"> </a></td><td>начальник структурного подразделения, осуществляющего медицинскую деятельность, иной организации</td></tr><tr><td style="white-space:nowrap">9<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-9"> </a></td><td>главная медицинская сестра (главная акушерка, главный фельдшер)</td></tr><tr><td style="white-space:nowrap">343<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-343"> </a></td><td>главная медицинская сестра</td></tr><tr><td style="white-space:nowrap">344<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-344"> </a></td><td>главная акушерка</td></tr><tr><td style="white-space:nowrap">345<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-345"> </a></td><td>главный фельдшер</td></tr><tr><td style="white-space:nowrap">10<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-10"> </a></td><td>Должности специалистов с высшим профессиональным (медицинским) образованием (врачи)</td></tr><tr><td style="white-space:nowrap">11<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-11"> </a></td><td>врач-стажер</td></tr><tr><td style="white-space:nowrap">12<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-12"> </a></td><td>врачи-специалисты</td></tr><tr><td style="white-space:nowrap">13<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-13"> </a></td><td>врач-акушер-гинеколог</td></tr><tr><td style="white-space:nowrap">14<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-14"> </a></td><td>врач-акушер-гинеколог цехового врачебного участка</td></tr><tr><td style="white-space:nowrap">15<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-15"> </a></td><td>врач-аллерголог-иммунолог</td></tr><tr><td style="white-space:nowrap">16<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-16"> </a></td><td>врач-анестезиолог-реаниматолог</td></tr><tr><td style="white-space:nowrap">17<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-17"> </a></td><td>врач-бактериолог</td></tr><tr><td style="white-space:nowrap">18<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-18"> </a></td><td>врач-вирусолог</td></tr><tr><td style="white-space:nowrap">19<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-19"> </a></td><td>врач-гастроэнтеролог</td></tr><tr><td style="white-space:nowrap">20<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-20"> </a></td><td>врач-гематолог</td></tr><tr><td style="white-space:nowrap">21<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-21"> </a></td><td>врач-генетик</td></tr><tr><td style="white-space:nowrap">22<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-22"> </a></td><td>врач-гериатр</td></tr><tr><td style="white-space:nowrap">23<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-23"> </a></td><td>врач-дезинфектолог</td></tr><tr><td style="white-space:nowrap">24<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-24"> </a></td><td>врач-дерматовенеролог</td></tr><tr><td style="white-space:nowrap">25<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-25"> </a></td><td>врач - детский кардиолог</td></tr><tr><td style="white-space:nowrap">26<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-26"> </a></td><td>врач - детский онколог</td></tr><tr><td style="white-space:nowrap">517<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-517"> </a></td><td>врач - детский онколог-гематолог</td></tr><tr><td style="white-space:nowrap">27<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-27"> </a></td><td>врач - детский уролог-андролог</td></tr><tr><td style="white-space:nowrap">28<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-28"> </a></td><td>врач - детский хирург</td></tr><tr><td style="white-space:nowrap">29<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-29"> </a></td><td>врач - детский эндокринолог</td></tr><tr><td style="white-space:nowrap">30<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-30"> </a></td><td>врач-диабетолог</td></tr><tr><td style="white-space:nowrap">31<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-31"> </a></td><td>врач-диетолог</td></tr><tr><td style="white-space:nowrap">32<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-32"> </a></td><td>врач здравпункта</td></tr><tr><td style="white-space:nowrap">33<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-33"> </a></td><td>врач-инфекционист</td></tr><tr><td style="white-space:nowrap">34<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-34"> </a></td><td>врач-кардиолог</td></tr><tr><td style="white-space:nowrap">35<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-35"> </a></td><td>врач клинической лабораторной диагностики</td></tr><tr><td style="white-space:nowrap">36<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-36"> </a></td><td>врач - клинический миколог</td></tr><tr><td style="white-space:nowrap">37<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-37"> </a></td><td>врач - клинический фармаколог</td></tr><tr><td style="white-space:nowrap">38<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-38"> </a></td><td>врач-колопроктолог</td></tr><tr><td style="white-space:nowrap">39<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-39"> </a></td><td>врач-косметолог</td></tr><tr><td style="white-space:nowrap">40<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-40"> </a></td><td>врач-лаборант</td></tr><tr><td style="white-space:nowrap">41<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-41"> </a></td><td>врач - лабораторный генетик</td></tr><tr><td style="white-space:nowrap">42<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-42"> </a></td><td>врач - лабораторный миколог</td></tr><tr><td style="white-space:nowrap">43<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-43"> </a></td><td>врач мануальной терапии</td></tr><tr><td style="white-space:nowrap">518<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-518"> </a></td><td>врач - медицинский микробиолог</td></tr><tr><td style="white-space:nowrap">44<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-44"> </a></td><td>врач-методист</td></tr><tr><td style="white-space:nowrap">45<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-45"> </a></td><td>врач-невролог</td></tr><tr><td style="white-space:nowrap">46<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-46"> </a></td><td>врач-нейрохирург</td></tr><tr><td style="white-space:nowrap">47<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-47"> </a></td><td>врач-неонатолог</td></tr><tr><td style="white-space:nowrap">48<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-48"> </a></td><td>врач-нефролог</td></tr><tr><td style="white-space:nowrap">49<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-49"> </a></td><td>врач общей практики (семейный врач)</td></tr><tr><td style="white-space:nowrap">50<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-50"> </a></td><td>врач-онколог</td></tr><tr><td style="white-space:nowrap">51<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-51"> </a></td><td>врач-ортодонт</td></tr><tr><td style="white-space:nowrap">52<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-52"> </a></td><td>врач-остеопат</td></tr><tr><td style="white-space:nowrap">53<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-53"> </a></td><td>врач-оториноларинголог</td></tr><tr><td style="white-space:nowrap">54<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-54"> </a></td><td>врач-офтальмолог</td></tr><tr><td style="white-space:nowrap">55<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-55"> </a></td><td>врач-офтальмолог-протезист</td></tr><tr><td style="white-space:nowrap">56<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-56"> </a></td><td>врач-паразитолог</td></tr><tr><td style="white-space:nowrap">57<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-57"> </a></td><td>врач-патологоанатом</td></tr><tr><td style="white-space:nowrap">58<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-58"> </a></td><td>врач-педиатр</td></tr><tr><td style="white-space:nowrap">59<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-59"> </a></td><td>врач-педиатр участковый</td></tr><tr><td style="white-space:nowrap">60<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-60"> </a></td><td>врач-педиатр городской (районный)</td></tr><tr><td style="white-space:nowrap">61<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-61"> </a></td><td>врач - пластический хирург</td></tr><tr><td style="white-space:nowrap">62<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-62"> </a></td><td>врач по авиационной и космической медицине</td></tr><tr><td style="white-space:nowrap">63<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-63"> </a></td><td>врач по водолазной медицине</td></tr><tr><td style="white-space:nowrap">64<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-64"> </a></td><td>врач по гигиене детей и подростков</td></tr><tr><td style="white-space:nowrap">65<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-65"> </a></td><td>врач по гигиене питания</td></tr><tr><td style="white-space:nowrap">66<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-66"> </a></td><td>врач по гигиене труда</td></tr><tr><td style="white-space:nowrap">67<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-67"> </a></td><td>врач по гигиеническому воспитанию</td></tr><tr><td style="white-space:nowrap">68<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-68"> </a></td><td>врач по коммунальной гигиене</td></tr><tr><td style="white-space:nowrap">69<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-69"> </a></td><td>врач по лечебной физкультуре</td></tr><tr><td style="white-space:nowrap">70<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-70"> </a></td><td>врач по медико-социальной экспертизе</td></tr><tr><td style="white-space:nowrap">71<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-71"> </a></td><td>врач по медицинской профилактике</td></tr><tr><td style="white-space:nowrap">72<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-72"> </a></td><td>врач по медицинской реабилитации</td></tr><tr><td style="white-space:nowrap">73<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-73"> </a></td><td>врач по общей гигиене</td></tr><tr><td style="white-space:nowrap">74<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-74"> </a></td><td>врач по паллиативной медицинской помощи</td></tr><tr><td style="white-space:nowrap">75<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-75"> </a></td><td>врач по радиационной гигиене</td></tr><tr><td style="white-space:nowrap">76<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-76"> </a></td><td>врач по рентгенэндоваскулярным диагностике и лечению</td></tr><tr><td style="white-space:nowrap">77<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-77"> </a></td><td>врач по санитарно-гигиеническим лабораторным исследованиям</td></tr><tr><td style="white-space:nowrap">78<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-78"> </a></td><td>врач по спортивной медицине</td></tr><tr><td style="white-space:nowrap">79<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-79"> </a></td><td>врач приемного отделения</td></tr><tr><td style="white-space:nowrap">80<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-80"> </a></td><td>врач-профпатолог</td></tr><tr><td style="white-space:nowrap">81<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-81"> </a></td><td>врач-психиатр</td></tr><tr><td style="white-space:nowrap">82<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-82"> </a></td><td>врач-психиатр участковый</td></tr><tr><td style="white-space:nowrap">83<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-83"> </a></td><td>врач-психиатр детский</td></tr><tr><td style="white-space:nowrap">84<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-84"> </a></td><td>врач-психиатр детский участковый</td></tr><tr><td style="white-space:nowrap">85<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-85"> </a></td><td>врач-психиатр подростковый</td></tr><tr><td style="white-space:nowrap">86<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-86"> </a></td><td>врач-психиатр подростковый участковый</td></tr><tr><td style="white-space:nowrap">87<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-87"> </a></td><td>врач-психиатр-нарколог</td></tr><tr><td style="white-space:nowrap">88<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-88"> </a></td><td>врач-психиатр-нарколог участковый</td></tr><tr><td style="white-space:nowrap">89<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-89"> </a></td><td>врач-психотерапевт</td></tr><tr><td style="white-space:nowrap">90<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-90"> </a></td><td>врач-пульмонолог</td></tr><tr><td style="white-space:nowrap">91<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-91"> </a></td><td>врач-радиолог</td></tr><tr><td style="white-space:nowrap">92<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-92"> </a></td><td>врач-радиотерапевт</td></tr><tr><td style="white-space:nowrap">93<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-93"> </a></td><td>врач-ревматолог</td></tr><tr><td style="white-space:nowrap">94<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-94"> </a></td><td>врач-рентгенолог</td></tr><tr><td style="white-space:nowrap">95<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-95"> </a></td><td>врач-рефлексотерапевт</td></tr><tr><td style="white-space:nowrap">96<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-96"> </a></td><td>врач-сексолог</td></tr><tr><td style="white-space:nowrap">97<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-97"> </a></td><td>врач-сердечно-сосудистый хирург</td></tr><tr><td style="white-space:nowrap">98<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-98"> </a></td><td>врач скорой медицинской помощи</td></tr><tr><td style="white-space:nowrap">99<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-99"> </a></td><td>врач-статистик</td></tr><tr><td style="white-space:nowrap">100<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-100"> </a></td><td>врач-стоматолог</td></tr><tr><td style="white-space:nowrap">101<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-101"> </a></td><td>врач-стоматолог детский</td></tr><tr><td style="white-space:nowrap">102<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-102"> </a></td><td>врач-стоматолог-ортопед</td></tr><tr><td style="white-space:nowrap">103<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-103"> </a></td><td>врач-стоматолог-терапевт</td></tr><tr><td style="white-space:nowrap">104<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-104"> </a></td><td>врач-стоматолог-хирург</td></tr><tr><td style="white-space:nowrap">105<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-105"> </a></td><td>врач - судебно-медицинский эксперт</td></tr><tr><td style="white-space:nowrap">106<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-106"> </a></td><td>врач - судебно-психиатрический эксперт</td></tr><tr><td style="white-space:nowrap">107<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-107"> </a></td><td>врач-сурдолог-оториноларинголог</td></tr><tr><td style="white-space:nowrap">108<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-108"> </a></td><td>врач-сурдолог-протезист</td></tr><tr><td style="white-space:nowrap">109<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-109"> </a></td><td>врач-терапевт</td></tr><tr><td style="white-space:nowrap">110<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-110"> </a></td><td>врач-терапевт участковый</td></tr><tr><td style="white-space:nowrap">111<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-111"> </a></td><td>врач-терапевт участковый цехового врачебного участка</td></tr><tr><td style="white-space:nowrap">112<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-112"> </a></td><td>врач-терапевт подростковый</td></tr><tr><td style="white-space:nowrap">113<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-113"> </a></td><td>врач-токсиколог</td></tr><tr><td style="white-space:nowrap">114<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-114"> </a></td><td>врач-травматолог-ортопед</td></tr><tr><td style="white-space:nowrap">115<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-115"> </a></td><td>врач-трансфузиолог</td></tr><tr><td style="white-space:nowrap">116<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-116"> </a></td><td>врач ультразвуковой диагностики</td></tr><tr><td style="white-space:nowrap">117<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-117"> </a></td><td>врач-уролог</td></tr><tr><td style="white-space:nowrap">118<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-118"> </a></td><td>врач-физиотерапевт</td></tr><tr><td style="white-space:nowrap">519<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-519"> </a></td><td>врач физической и реабилитационной медицины</td></tr><tr><td style="white-space:nowrap">119<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-119"> </a></td><td>врач-фтизиатр</td></tr><tr><td style="white-space:nowrap">120<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-120"> </a></td><td>врач-фтизиатр участковый</td></tr><tr><td style="white-space:nowrap">121<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-121"> </a></td><td>врач функциональной диагностики</td></tr><tr><td style="white-space:nowrap">122<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-122"> </a></td><td>врач-хирург</td></tr><tr><td style="white-space:nowrap">123<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-123"> </a></td><td>врач - торакальный хирург</td></tr><tr><td style="white-space:nowrap">124<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-124"> </a></td><td>врач - челюстно-лицевой хирург</td></tr><tr><td style="white-space:nowrap">125<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-125"> </a></td><td>врач-эндокринолог</td></tr><tr><td style="white-space:nowrap">126<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-126"> </a></td><td>врач-эндоскопист</td></tr><tr><td style="white-space:nowrap">127<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-127"> </a></td><td>врач-эпидемиолог</td></tr><tr><td style="white-space:nowrap">128<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-128"> </a></td><td>старший врач станции (отделения) скорой медицинской помощи</td></tr><tr><td style="white-space:nowrap">449<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-449"> </a></td><td>старший врач станции скорой медицинской помощи</td></tr><tr><td style="white-space:nowrap">450<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-450"> </a></td><td>старший врач отделения скорой медицинской помощи</td></tr><tr><td style="white-space:nowrap">129<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-129"> </a></td><td>старший врач станции (отделения) скорой медицинской помощи горноспасательных частей</td></tr><tr><td style="white-space:nowrap">451<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-451"> </a></td><td>старший врач станции скорой медицинской помощи горноспасательных частей</td></tr><tr><td style="white-space:nowrap">452<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-452"> </a></td><td>старший врач отделения скорой медицинской помощи горноспасательных частей</td></tr><tr><td style="white-space:nowrap">130<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-130"> </a></td><td>судовой врач</td></tr><tr><td style="white-space:nowrap">131<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-131"> </a></td><td>Должности специалистов с высшим профессиональным (немедицинским) образованием</td></tr><tr><td style="white-space:nowrap">132<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-132"> </a></td><td>биолог</td></tr><tr><td style="white-space:nowrap">133<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-133"> </a></td><td>зоолог</td></tr><tr><td style="white-space:nowrap">134<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-134"> </a></td><td>эмбриолог</td></tr><tr><td style="white-space:nowrap">135<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-135"> </a></td><td>энтомолог</td></tr><tr><td style="white-space:nowrap">136<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-136"> </a></td><td>инструктор-методист по лечебной физкультуре</td></tr><tr><td style="white-space:nowrap">137<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-137"> </a></td><td>логопед</td></tr><tr><td style="white-space:nowrap">516<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-516"> </a></td><td>специалист по социальной работе</td></tr><tr><td style="white-space:nowrap">138<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-138"> </a></td><td>медицинский физик</td></tr><tr><td style="white-space:nowrap">139<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-139"> </a></td><td>медицинский психолог</td></tr><tr><td style="white-space:nowrap">140<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-140"> </a></td><td>эксперт-физик по контролю за источниками ионизирующих и неионизирующих излучений</td></tr><tr><td style="white-space:nowrap">141<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-141"> </a></td><td>судебный эксперт (эксперт-биохимик, эксперт-генетик, эксперт-химик)</td></tr><tr><td style="white-space:nowrap">346<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-346"> </a></td><td>судебный эксперт</td></tr><tr><td style="white-space:nowrap">347<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-347"> </a></td><td>судебный эксперт-биохимик</td></tr><tr><td style="white-space:nowrap">348<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-348"> </a></td><td>судебный эксперт-генетик</td></tr><tr><td style="white-space:nowrap">349<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-349"> </a></td><td>судебный эксперт-химик</td></tr><tr><td style="white-space:nowrap">142<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-142"> </a></td><td>химик-эксперт медицинской организации</td></tr><tr><td style="white-space:nowrap">143<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-143"> </a></td><td>Должности специалистов со средним профессиональным (медицинским) образованием (средний медицинский персонал)</td></tr><tr><td style="white-space:nowrap">144<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-144"> </a></td><td>заведующий здравпунктом - фельдшер (медицинская сестра)</td></tr><tr><td style="white-space:nowrap">350<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-350"> </a></td><td>заведующий здравпунктом - фельдшер</td></tr><tr><td style="white-space:nowrap">351<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-351"> </a></td><td>заведующий здравпунктом - медицинская сестра</td></tr><tr><td style="white-space:nowrap">145<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-145"> </a></td><td>заведующий фельдшерско-акушерским пунктом - фельдшер (акушер, медицинская сестра)</td></tr><tr><td style="white-space:nowrap">352<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-352"> </a></td><td>заведующий фельдшерско-акушерским пунктом - фельдшер</td></tr><tr><td style="white-space:nowrap">353<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-353"> </a></td><td>заведующий фельдшерско-акушерским пунктом - акушер</td></tr><tr><td style="white-space:nowrap">354<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-354"> </a></td><td>заведующий фельдшерско-акушерским пунктом - медицинская сестра</td></tr><tr><td style="white-space:nowrap">146<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-146"> </a></td><td>заведующий кабинетом медицинской профилактики - фельдшер (медицинская сестра)</td></tr><tr><td style="white-space:nowrap">355<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-355"> </a></td><td>заведующий кабинетом медицинской профилактики - фельдшер</td></tr><tr><td style="white-space:nowrap">356<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-356"> </a></td><td>заведующий кабинетом медицинской профилактики - медицинская сестра</td></tr><tr><td style="white-space:nowrap">147<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-147"> </a></td><td>заведующий производством учреждений (отделов, отделений, лабораторий) зубопротезирования</td></tr><tr><td style="white-space:nowrap">445<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-445"> </a></td><td>заведующий производством учреждений зубопротезирования</td></tr><tr><td style="white-space:nowrap">446<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-446"> </a></td><td>заведующий производством отделов зубопротезирования</td></tr><tr><td style="white-space:nowrap">447<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-447"> </a></td><td>заведующий производством отделений зубопротезирования</td></tr><tr><td style="white-space:nowrap">448<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-448"> </a></td><td>заведующий производством лабораторий зубопротезирования</td></tr><tr><td style="white-space:nowrap">148<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-148"> </a></td><td>заведующий молочной кухней</td></tr><tr><td style="white-space:nowrap">149<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-149"> </a></td><td>старшая медицинская сестра (акушер, фельдшер, операционная медицинская сестра, зубной техник)</td></tr><tr><td style="white-space:nowrap">357<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-357"> </a></td><td>старшая медицинская сестра</td></tr><tr><td style="white-space:nowrap">358<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-358"> </a></td><td>старший акушер</td></tr><tr><td style="white-space:nowrap">359<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-359"> </a></td><td>старший фельдшер</td></tr><tr><td style="white-space:nowrap">360<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-360"> </a></td><td>старшая операционная медицинская сестра</td></tr><tr><td style="white-space:nowrap">361<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-361"> </a></td><td>старший зубной техник</td></tr><tr><td style="white-space:nowrap">150<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-150"> </a></td><td>акушер</td></tr><tr><td style="white-space:nowrap">151<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-151"> </a></td><td>гигиенист стоматологический</td></tr><tr><td style="white-space:nowrap">152<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-152"> </a></td><td>зубной врач</td></tr><tr><td style="white-space:nowrap">153<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-153"> </a></td><td>зубной техник</td></tr><tr><td style="white-space:nowrap">154<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-154"> </a></td><td>инструктор-дезинфектор</td></tr><tr><td style="white-space:nowrap">155<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-155"> </a></td><td>инструктор по гигиеническому воспитанию</td></tr><tr><td style="white-space:nowrap">156<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-156"> </a></td><td>инструктор по лечебной физкультуре</td></tr><tr><td style="white-space:nowrap">157<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-157"> </a></td><td>инструктор по трудовой терапии</td></tr><tr><td style="white-space:nowrap">158<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-158"> </a></td><td>лаборант</td></tr><tr><td style="white-space:nowrap">159<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-159"> </a></td><td>медицинская сестра</td></tr><tr><td style="white-space:nowrap">160<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-160"> </a></td><td>медицинская сестра - анестезист</td></tr><tr><td style="white-space:nowrap">161<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-161"> </a></td><td>медицинская сестра врача общей практики (семейного врача)</td></tr><tr><td style="white-space:nowrap">162<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-162"> </a></td><td>медицинская сестра диетическая</td></tr><tr><td style="white-space:nowrap">163<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-163"> </a></td><td>медицинская сестра медико-социальной помощи</td></tr><tr><td style="white-space:nowrap">164<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-164"> </a></td><td>медицинская сестра палатная (постовая)</td></tr><tr><td style="white-space:nowrap">165<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-165"> </a></td><td>медицинская сестра патронажная</td></tr><tr><td style="white-space:nowrap">166<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-166"> </a></td><td>медицинская сестра перевязочной</td></tr><tr><td style="white-space:nowrap">167<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-167"> </a></td><td>медицинская сестра по косметологии</td></tr><tr><td style="white-space:nowrap">168<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-168"> </a></td><td>медицинская сестра по массажу</td></tr><tr><td style="white-space:nowrap">169<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-169"> </a></td><td>медицинская сестра (фельдшер) по приему вызовов скорой медицинской помощи и передаче их выездным бригадам скорой медицинской помощи</td></tr><tr><td style="white-space:nowrap">362<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-362"> </a></td><td>медицинская сестра по приему вызовов скорой медицинской помощи и передаче их выездным бригадам скорой медицинской помощи</td></tr><tr><td style="white-space:nowrap">363<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-363"> </a></td><td>фельдшер по приему вызовов скорой медицинской помощи и передаче их выездным бригадам скорой медицинской помощи</td></tr><tr><td style="white-space:nowrap">170<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-170"> </a></td><td>медицинская сестра приемного отделения</td></tr><tr><td style="white-space:nowrap">171<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-171"> </a></td><td>медицинская сестра процедурной</td></tr><tr><td style="white-space:nowrap">172<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-172"> </a></td><td>медицинская сестра по реабилитации</td></tr><tr><td style="white-space:nowrap">173<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-173"> </a></td><td>медицинская сестра стерилизационной</td></tr><tr><td style="white-space:nowrap">174<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-174"> </a></td><td>медицинская сестра участковая</td></tr><tr><td style="white-space:nowrap">175<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-175"> </a></td><td>медицинская сестра по физиотерапии</td></tr><tr><td style="white-space:nowrap">176<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-176"> </a></td><td>медицинский дезинфектор</td></tr><tr><td style="white-space:nowrap">177<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-177"> </a></td><td>медицинский лабораторный техник (фельдшер-лаборант)</td></tr><tr><td style="white-space:nowrap">364<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-364"> </a></td><td>медицинский лабораторный техник</td></tr><tr><td style="white-space:nowrap">365<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-365"> </a></td><td>фельдшер-лаборант</td></tr><tr><td style="white-space:nowrap">178<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-178"> </a></td><td>медицинский оптик-оптометрист</td></tr><tr><td style="white-space:nowrap">179<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-179"> </a></td><td>медицинский регистратор</td></tr><tr><td style="white-space:nowrap">180<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-180"> </a></td><td>медицинский статистик</td></tr><tr><td style="white-space:nowrap">181<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-181"> </a></td><td>медицинский технолог</td></tr><tr><td style="white-space:nowrap">182<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-182"> </a></td><td>операционная медицинская сестра</td></tr><tr><td style="white-space:nowrap">183<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-183"> </a></td><td>помощник врача</td></tr><tr><td style="white-space:nowrap">184<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-184"> </a></td><td>помощник врача-эпидемиолога</td></tr><tr><td style="white-space:nowrap">185<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-185"> </a></td><td>помощник врача-паразитолога</td></tr><tr><td style="white-space:nowrap">186<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-186"> </a></td><td>помощник врача по гигиене детей и подростков</td></tr><tr><td style="white-space:nowrap">187<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-187"> </a></td><td>помощник врача по гигиене питания</td></tr><tr><td style="white-space:nowrap">188<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-188"> </a></td><td>помощник врача по гигиене труда</td></tr><tr><td style="white-space:nowrap">189<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-189"> </a></td><td>помощник врача по гигиеническому воспитанию</td></tr><tr><td style="white-space:nowrap">190<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-190"> </a></td><td>помощник врача по коммунальной гигиене</td></tr><tr><td style="white-space:nowrap">191<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-191"> </a></td><td>помощник врача по общей гигиене</td></tr><tr><td style="white-space:nowrap">192<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-192"> </a></td><td>помощник врача по радиационной гигиене</td></tr><tr><td style="white-space:nowrap">193<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-193"> </a></td><td>помощник энтомолога</td></tr><tr><td style="white-space:nowrap">194<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-194"> </a></td><td>рентгенолаборант</td></tr><tr><td style="white-space:nowrap">195<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-195"> </a></td><td>фельдшер</td></tr><tr><td style="white-space:nowrap">196<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-196"> </a></td><td>фельдшер скорой медицинской помощи</td></tr><tr><td style="white-space:nowrap">197<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-197"> </a></td><td>фельдшер-нарколог</td></tr><tr><td style="white-space:nowrap">198<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-198"> </a></td><td>фельдшер-водитель скорой медицинской помощи</td></tr><tr><td style="white-space:nowrap">366<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-366"> </a></td><td>продавец оптики</td></tr><tr><td style="white-space:nowrap">199<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-199"> </a></td><td>прочий средний медицинский персонал</td></tr><tr><td style="white-space:nowrap">200<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-200"> </a></td><td>Должности иных медицинских работников (младший медицинский персонал)</td></tr><tr><td style="white-space:nowrap">201<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-201"> </a></td><td>младшая медицинская сестра по уходу за больными</td></tr><tr><td style="white-space:nowrap">202<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-202"> </a></td><td>санитар</td></tr><tr><td style="white-space:nowrap">203<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-203"> </a></td><td>сестра-хозяйка</td></tr><tr><td style="white-space:nowrap">204<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-204"> </a></td><td>санитар-водитель</td></tr><tr><td style="white-space:nowrap">205<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-205"> </a></td><td>Должности прочего общеучрежденческого персонала медицинских организаций</td></tr><tr><td style="white-space:nowrap">206<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-206"> </a></td><td>ИТ-специалист</td></tr><tr><td style="white-space:nowrap">207<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-207"> </a></td><td>водитель скорой медицинской помощи</td></tr><tr><td style="white-space:nowrap">208<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-208"> </a></td><td>бухгалтер</td></tr><tr><td style="white-space:nowrap">209<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-209"> </a></td><td>специалист отдела кадров</td></tr><tr><td style="white-space:nowrap">210<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-210"> </a></td><td>гардеробщик</td></tr><tr><td style="white-space:nowrap">211<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-211"> </a></td><td>библиотекарь</td></tr><tr><td style="white-space:nowrap">212<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-212"> </a></td><td>лифтер</td></tr><tr><td style="white-space:nowrap">213<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-213"> </a></td><td>иные профессии рабочих и служащих</td></tr><tr><td style="white-space:nowrap">214<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-214"> </a></td><td>Должности работников фармацевтических организаций</td></tr><tr><td style="white-space:nowrap">215<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-215"> </a></td><td>Должности фармацевтических работников</td></tr><tr><td style="white-space:nowrap">216<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-216"> </a></td><td>Должности руководителей фармацевтических организаций</td></tr><tr><td style="white-space:nowrap">217<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-217"> </a></td><td>директор (заведующий, начальник) аптечной организации</td></tr><tr><td style="white-space:nowrap">367<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-367"> </a></td><td>директор аптечной организации</td></tr><tr><td style="white-space:nowrap">368<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-368"> </a></td><td>заведующий аптечной организации</td></tr><tr><td style="white-space:nowrap">369<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-369"> </a></td><td>начальник аптечной организации</td></tr><tr><td style="white-space:nowrap">218<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-218"> </a></td><td>заместитель директора (заведующего, начальника) аптечной организации</td></tr><tr><td style="white-space:nowrap">370<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-370"> </a></td><td>заместитель директора аптечной организации</td></tr><tr><td style="white-space:nowrap">371<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-371"> </a></td><td>заместитель заведующего аптечной организации</td></tr><tr><td style="white-space:nowrap">372<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-372"> </a></td><td>заместитель начальника аптечной организации</td></tr><tr><td style="white-space:nowrap">219<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-219"> </a></td><td>заведующий складом организации оптовой торговли лекарственными средствами</td></tr><tr><td style="white-space:nowrap">220<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-220"> </a></td><td>заведующий медицинским складом мобилизационного резерва</td></tr><tr><td style="white-space:nowrap">221<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-221"> </a></td><td>заместитель заведующего складом организации оптовой торговли лекарственными средствами</td></tr><tr><td style="white-space:nowrap">222<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-222"> </a></td><td>заведующий (начальник) структурного подразделения (отдела) аптечной организации</td></tr><tr><td style="white-space:nowrap">373<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-373"> </a></td><td>заведующий структурного подразделения аптечной организации</td></tr><tr><td style="white-space:nowrap">439<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-439"> </a></td><td>заведующий отделом аптечной организации</td></tr><tr><td style="white-space:nowrap">374<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-374"> </a></td><td>начальник структурного подразделения аптечной организации</td></tr><tr><td style="white-space:nowrap">440<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-440"> </a></td><td>начальник отдела аптечной организации</td></tr><tr><td style="white-space:nowrap">223<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-223"> </a></td><td>Должности специалистов с высшим профессиональным (фармацевтическим) образованием (провизоры)</td></tr><tr><td style="white-space:nowrap">224<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-224"> </a></td><td>провизор-стажер</td></tr><tr><td style="white-space:nowrap">225<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-225"> </a></td><td>провизор</td></tr><tr><td style="white-space:nowrap">226<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-226"> </a></td><td>провизор-технолог</td></tr><tr><td style="white-space:nowrap">227<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-227"> </a></td><td>провизор-аналитик</td></tr><tr><td style="white-space:nowrap">228<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-228"> </a></td><td>старший провизор</td></tr><tr><td style="white-space:nowrap">229<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-229"> </a></td><td>Должности специалистов со средним профессиональным (фармацевтическим) образованием (средний фармацевтический персонал)</td></tr><tr><td style="white-space:nowrap">230<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-230"> </a></td><td>старший фармацевт</td></tr><tr><td style="white-space:nowrap">231<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-231"> </a></td><td>фармацевт</td></tr><tr><td style="white-space:nowrap">232<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-232"> </a></td><td>младший фармацевт</td></tr><tr><td style="white-space:nowrap">233<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-233"> </a></td><td>Должности иных фармацевтических работников (младший фармацевтический персонал)</td></tr><tr><td style="white-space:nowrap">234<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-234"> </a></td><td>санитар (мойщик)</td></tr><tr><td style="white-space:nowrap">235<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-235"> </a></td><td>фасовщик</td></tr><tr><td style="white-space:nowrap">236<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-236"> </a></td><td>Должности прочего общеучрежденческого персонала фармацевтических организаций</td></tr><tr><td style="white-space:nowrap">237<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-237"> </a></td><td>иные профессии рабочих</td></tr><tr><td style="white-space:nowrap">238<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-238"> </a></td><td>Должности работников образовательных организаций и НИИ</td></tr><tr><td style="white-space:nowrap">239<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-239"> </a></td><td>Должности руководителей образовательных организаций и НИИ</td></tr><tr><td style="white-space:nowrap">240<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-240"> </a></td><td>руководитель (ректор, директор, заведующий, начальник) образовательной организации</td></tr><tr><td style="white-space:nowrap">375<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-375"> </a></td><td>руководитель образовательной организации</td></tr><tr><td style="white-space:nowrap">376<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-376"> </a></td><td>ректор образовательной организации высшего профессионального образования</td></tr><tr><td style="white-space:nowrap">377<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-377"> </a></td><td>директор образовательной организации</td></tr><tr><td style="white-space:nowrap">378<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-378"> </a></td><td>заведующий образовательной организации</td></tr><tr><td style="white-space:nowrap">379<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-379"> </a></td><td>начальник образовательной организации</td></tr><tr><td style="white-space:nowrap">241<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-241"> </a></td><td>президент образовательной организации высшего профессионального образования</td></tr><tr><td style="white-space:nowrap">242<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-242"> </a></td><td>заместитель руководителя (директора, заведующего, начальника) образовательной организации</td></tr><tr><td style="white-space:nowrap">380<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-380"> </a></td><td>заместитель руководителя образовательной организации</td></tr><tr><td style="white-space:nowrap">381<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-381"> </a></td><td>заместитель директора образовательной организации</td></tr><tr><td style="white-space:nowrap">382<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-382"> </a></td><td>заместитель заведующего образовательной организации</td></tr><tr><td style="white-space:nowrap">383<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-383"> </a></td><td>заместитель начальника образовательной организации</td></tr><tr><td style="white-space:nowrap">480<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-480"> </a></td><td>руководитель (директор, заведующий, начальник) научной организации</td></tr><tr><td style="white-space:nowrap">481<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-481"> </a></td><td>руководитель научной организации</td></tr><tr><td style="white-space:nowrap">482<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-482"> </a></td><td>директор научной организации</td></tr><tr><td style="white-space:nowrap">483<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-483"> </a></td><td>заведующий научной организации</td></tr><tr><td style="white-space:nowrap">484<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-484"> </a></td><td>начальник научной организации</td></tr><tr><td style="white-space:nowrap">485<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-485"> </a></td><td>заместитель руководителя (директора, заведующего, начальника) научной организации</td></tr><tr><td style="white-space:nowrap">486<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-486"> </a></td><td>заместитель руководителя научной организации</td></tr><tr><td style="white-space:nowrap">487<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-487"> </a></td><td>заместитель директора научной организации</td></tr><tr><td style="white-space:nowrap">488<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-488"> </a></td><td>заместитель заведующего научной организации</td></tr><tr><td style="white-space:nowrap">489<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-489"> </a></td><td>заместитель начальника научной организации</td></tr><tr><td style="white-space:nowrap">243<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-243"> </a></td><td>руководитель (директор, заведующий, начальник, управляющий) структурного подразделения</td></tr><tr><td style="white-space:nowrap">384<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-384"> </a></td><td>руководитель структурного подразделения</td></tr><tr><td style="white-space:nowrap">385<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-385"> </a></td><td>директор структурного подразделения</td></tr><tr><td style="white-space:nowrap">386<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-386"> </a></td><td>заведующий структурного подразделения</td></tr><tr><td style="white-space:nowrap">387<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-387"> </a></td><td>начальник структурного подразделения</td></tr><tr><td style="white-space:nowrap">388<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-388"> </a></td><td>управляющий структурного подразделения</td></tr><tr><td style="white-space:nowrap">244<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-244"> </a></td><td>руководитель (директор, заведующий, начальник, управляющий) обособленного структурного подразделения</td></tr><tr><td style="white-space:nowrap">389<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-389"> </a></td><td>руководитель обособленного структурного подразделения</td></tr><tr><td style="white-space:nowrap">390<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-390"> </a></td><td>директор обособленного структурного подразделения</td></tr><tr><td style="white-space:nowrap">391<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-391"> </a></td><td>заведующий обособленного структурного подразделения</td></tr><tr><td style="white-space:nowrap">392<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-392"> </a></td><td>начальник обособленного структурного подразделения</td></tr><tr><td style="white-space:nowrap">393<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-393"> </a></td><td>управляющий обособленного структурного подразделения</td></tr><tr><td style="white-space:nowrap">245<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-245"> </a></td><td>заместитель руководителя (директора, заведующего, начальника, управляющего) структурного подразделения</td></tr><tr><td style="white-space:nowrap">394<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-394"> </a></td><td>заместитель руководителя структурного подразделения</td></tr><tr><td style="white-space:nowrap">395<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-395"> </a></td><td>заместитель директора структурного подразделения</td></tr><tr><td style="white-space:nowrap">396<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-396"> </a></td><td>заместитель заведующего структурного подразделения</td></tr><tr><td style="white-space:nowrap">397<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-397"> </a></td><td>заместитель начальника структурного подразделения</td></tr><tr><td style="white-space:nowrap">398<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-398"> </a></td><td>заместитель управляющего структурного подразделения</td></tr><tr><td style="white-space:nowrap">246<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-246"> </a></td><td>заведующий (начальник) техническим архивом, чертежно-копировальным бюро; лабораторией (компьютерного и фото-, кинооборудования, оргтехники, средств связи)</td></tr><tr><td style="white-space:nowrap">490<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-490"> </a></td><td>заведующий техническим архивом</td></tr><tr><td style="white-space:nowrap">491<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-491"> </a></td><td>заведующий чертежно-копировальным бюро</td></tr><tr><td style="white-space:nowrap">492<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-492"> </a></td><td>заведующий лабораторией (компьютерного и фото-, кинооборудования, оргтехники, средств связи)</td></tr><tr><td style="white-space:nowrap">493<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-493"> </a></td><td>начальник технического архива</td></tr><tr><td style="white-space:nowrap">494<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-494"> </a></td><td>начальник чертежно-копировального бюро</td></tr><tr><td style="white-space:nowrap">495<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-495"> </a></td><td>начальник лаборатории (компьютерного и фото-, кинооборудования, оргтехники, средств связи)</td></tr><tr><td style="white-space:nowrap">247<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-247"> </a></td><td>заведующий (начальник) отделом научно-технической информации</td></tr><tr><td style="white-space:nowrap">401<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-401"> </a></td><td>заведующий отделом научно-технической информации</td></tr><tr><td style="white-space:nowrap">402<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-402"> </a></td><td>начальник отдела научно-технической информации</td></tr><tr><td style="white-space:nowrap">248<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-248"> </a></td><td>начальник (руководитель) бригады (группы)</td></tr><tr><td style="white-space:nowrap">403<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-403"> </a></td><td>начальник бригады</td></tr><tr><td style="white-space:nowrap">441<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-441"> </a></td><td>начальник группы</td></tr><tr><td style="white-space:nowrap">404<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-404"> </a></td><td>руководитель бригады</td></tr><tr><td style="white-space:nowrap">442<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-442"> </a></td><td>руководитель группы</td></tr><tr><td style="white-space:nowrap">249<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-249"> </a></td><td>заведующий (начальник) научно-исследовательским (конструкторским) отделом (лабораторией, отделением, сектором)</td></tr><tr><td style="white-space:nowrap">496<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-496"> </a></td><td>заведующий научно-исследовательским отделом</td></tr><tr><td style="white-space:nowrap">497<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-497"> </a></td><td>заведующий научно-исследовательской лабораторией</td></tr><tr><td style="white-space:nowrap">498<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-498"> </a></td><td>заведующий научно-исследовательским отделением</td></tr><tr><td style="white-space:nowrap">499<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-499"> </a></td><td>заведующий научно-исследовательским сектором</td></tr><tr><td style="white-space:nowrap">500<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-500"> </a></td><td>заведующий конструкторским отделом</td></tr><tr><td style="white-space:nowrap">501<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-501"> </a></td><td>заведующий конструкторской лабораторией</td></tr><tr><td style="white-space:nowrap">502<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-502"> </a></td><td>заведующий конструкторским отделением</td></tr><tr><td style="white-space:nowrap">503<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-503"> </a></td><td>заведующий конструкторским сектором</td></tr><tr><td style="white-space:nowrap">504<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-504"> </a></td><td>начальник научно-исследовательского отдела</td></tr><tr><td style="white-space:nowrap">505<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-505"> </a></td><td>начальник научно-исследовательской лаборатории</td></tr><tr><td style="white-space:nowrap">506<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-506"> </a></td><td>начальник научно-исследовательским отделения</td></tr><tr><td style="white-space:nowrap">507<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-507"> </a></td><td>начальник научно-исследовательского сектора</td></tr><tr><td style="white-space:nowrap">508<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-508"> </a></td><td>начальник конструкторского отдела</td></tr><tr><td style="white-space:nowrap">509<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-509"> </a></td><td>начальник конструкторской лаборатории</td></tr><tr><td style="white-space:nowrap">510<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-510"> </a></td><td>начальник конструкторского отделения</td></tr><tr><td style="white-space:nowrap">511<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-511"> </a></td><td>начальник конструкторского сектора</td></tr><tr><td style="white-space:nowrap">250<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-250"> </a></td><td>заведующий (начальник) научным центром</td></tr><tr><td style="white-space:nowrap">407<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-407"> </a></td><td>заведующий научным центром</td></tr><tr><td style="white-space:nowrap">408<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-408"> </a></td><td>начальник научного центра</td></tr><tr><td style="white-space:nowrap">251<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-251"> </a></td><td>начальник (заведующий) отдела (управления) аспирантуры</td></tr><tr><td style="white-space:nowrap">409<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-409"> </a></td><td>начальник отдела аспирантуры</td></tr><tr><td style="white-space:nowrap">478<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-478"> </a></td><td>начальник управления аспирантуры</td></tr><tr><td style="white-space:nowrap">410<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-410"> </a></td><td>заведующий отделом аспирантуры</td></tr><tr><td style="white-space:nowrap">479<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-479"> </a></td><td>заведующий управлением аспирантуры</td></tr><tr><td style="white-space:nowrap">252<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-252"> </a></td><td>первый проректор</td></tr><tr><td style="white-space:nowrap">253<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-253"> </a></td><td>проректор</td></tr><tr><td style="white-space:nowrap">254<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-254"> </a></td><td>помощник ректора</td></tr><tr><td style="white-space:nowrap">255<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-255"> </a></td><td>помощник проректора</td></tr><tr><td style="white-space:nowrap">256<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-256"> </a></td><td>советник при ректорате</td></tr><tr><td style="white-space:nowrap">257<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-257"> </a></td><td>ученый секретарь совета образовательной организации</td></tr><tr><td style="white-space:nowrap">258<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-258"> </a></td><td>ученый секретарь совета факультета</td></tr><tr><td style="white-space:nowrap">444<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-444"> </a></td><td>ученый секретарь совета института</td></tr><tr><td style="white-space:nowrap">259<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-259"> </a></td><td>руководитель (заведующий) учебной (учебно-производственной, производственной) практики</td></tr><tr><td style="white-space:nowrap">512<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-512"> </a></td><td>руководитель учебной практики</td></tr><tr><td style="white-space:nowrap">453<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-453"> </a></td><td>руководитель учебно-производственной практики</td></tr><tr><td style="white-space:nowrap">454<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-454"> </a></td><td>руководитель производственной практики</td></tr><tr><td style="white-space:nowrap">455<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-455"> </a></td><td>заведующий учебной практики</td></tr><tr><td style="white-space:nowrap">456<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-456"> </a></td><td>заведующий учебно-производственной практики</td></tr><tr><td style="white-space:nowrap">457<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-457"> </a></td><td>заведующий производственной практики</td></tr><tr><td style="white-space:nowrap">260<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-260"> </a></td><td>заведующий (директор, начальник, руководитель) питомника, учебного вивария, лесхоза, опытного поля, ботанического сада (дендрария)</td></tr><tr><td style="white-space:nowrap">458<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-458"> </a></td><td>заведующий питомника</td></tr><tr><td style="white-space:nowrap">459<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-459"> </a></td><td>заведующий учебного вивария</td></tr><tr><td style="white-space:nowrap">460<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-460"> </a></td><td>заведующий лесхоза</td></tr><tr><td style="white-space:nowrap">461<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-461"> </a></td><td>заведующий опытного поля</td></tr><tr><td style="white-space:nowrap">462<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-462"> </a></td><td>заведующий ботанического сада (дендрария)</td></tr><tr><td style="white-space:nowrap">463<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-463"> </a></td><td>директор питомника</td></tr><tr><td style="white-space:nowrap">464<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-464"> </a></td><td>директор учебного вивария</td></tr><tr><td style="white-space:nowrap">465<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-465"> </a></td><td>директор лесхоза</td></tr><tr><td style="white-space:nowrap">466<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-466"> </a></td><td>директор опытного поля</td></tr><tr><td style="white-space:nowrap">467<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-467"> </a></td><td>директор ботанического сада (дендрария)</td></tr><tr><td style="white-space:nowrap">468<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-468"> </a></td><td>начальник питомника</td></tr><tr><td style="white-space:nowrap">469<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-469"> </a></td><td>начальник учебного вивария</td></tr><tr><td style="white-space:nowrap">470<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-470"> </a></td><td>начальник лесхоза</td></tr><tr><td style="white-space:nowrap">471<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-471"> </a></td><td>начальник опытного поля</td></tr><tr><td style="white-space:nowrap">472<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-472"> </a></td><td>начальник ботанического сада (дендрария)</td></tr><tr><td style="white-space:nowrap">473<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-473"> </a></td><td>руководитель питомника</td></tr><tr><td style="white-space:nowrap">474<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-474"> </a></td><td>руководитель учебного вивария</td></tr><tr><td style="white-space:nowrap">475<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-475"> </a></td><td>руководитель лесхоза</td></tr><tr><td style="white-space:nowrap">476<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-476"> </a></td><td>руководитель опытного поля</td></tr><tr><td style="white-space:nowrap">477<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-477"> </a></td><td>руководитель ботанического сада (дендрария)</td></tr><tr><td style="white-space:nowrap">261<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-261"> </a></td><td>старший мастер</td></tr><tr><td style="white-space:nowrap">262<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-262"> </a></td><td>директор (начальник, руководитель) студенческого дворца культуры</td></tr><tr><td style="white-space:nowrap">417<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-417"> </a></td><td>директор студенческого дворца культуры</td></tr><tr><td style="white-space:nowrap">418<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-418"> </a></td><td>начальник студенческого дворца культуры</td></tr><tr><td style="white-space:nowrap">419<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-419"> </a></td><td>руководитель студенческого дворца культуры</td></tr><tr><td style="white-space:nowrap">263<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-263"> </a></td><td>директор (начальник, заведующий) студенческого общежития</td></tr><tr><td style="white-space:nowrap">420<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-420"> </a></td><td>директор студенческого общежития</td></tr><tr><td style="white-space:nowrap">421<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-421"> </a></td><td>начальник студенческого общежития</td></tr><tr><td style="white-space:nowrap">422<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-422"> </a></td><td>заведующий студенческого общежития</td></tr><tr><td style="white-space:nowrap">264<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-264"> </a></td><td>директор (руководитель, заведующий) издательства учебной литературы и учебных пособий</td></tr><tr><td style="white-space:nowrap">423<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-423"> </a></td><td>директор издательства учебной литературы и учебных пособий</td></tr><tr><td style="white-space:nowrap">424<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-424"> </a></td><td>руководитель издательства учебной литературы и учебных пособий</td></tr><tr><td style="white-space:nowrap">425<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-425"> </a></td><td>заведующий издательства учебной литературы и учебных пособий</td></tr><tr><td style="white-space:nowrap">265<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-265"> </a></td><td>Должности работников образовательных организаций</td></tr><tr><td style="white-space:nowrap">266<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-266"> </a></td><td>Должности педагогических работников, отнесенных к профессорско-преподавательскому составу</td></tr><tr><td style="white-space:nowrap">267<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-267"> </a></td><td>декан факультета</td></tr><tr><td style="white-space:nowrap">426<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-426"> </a></td><td>заместитель декана</td></tr><tr><td style="white-space:nowrap">268<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-268"> </a></td><td>начальник факультета</td></tr><tr><td style="white-space:nowrap">269<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-269"> </a></td><td>директор института</td></tr><tr><td style="white-space:nowrap">270<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-270"> </a></td><td>начальник института</td></tr><tr><td style="white-space:nowrap">271<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-271"> </a></td><td>заведующий кафедрой</td></tr><tr><td style="white-space:nowrap">272<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-272"> </a></td><td>начальник кафедры</td></tr><tr><td style="white-space:nowrap">273<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-273"> </a></td><td>заместитель начальника кафедры</td></tr><tr><td style="white-space:nowrap">274<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-274"> </a></td><td>профессор</td></tr><tr><td style="white-space:nowrap">275<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-275"> </a></td><td>доцент</td></tr><tr><td style="white-space:nowrap">276<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-276"> </a></td><td>старший преподаватель</td></tr><tr><td style="white-space:nowrap">277<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-277"> </a></td><td>преподаватель</td></tr><tr><td style="white-space:nowrap">278<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-278"> </a></td><td>ассистент</td></tr><tr><td style="white-space:nowrap">279<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-279"> </a></td><td>заведующий курсом</td></tr><tr><td style="white-space:nowrap">280<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-280"> </a></td><td>Должности иных педагогических работников образовательных организаций</td></tr><tr><td style="white-space:nowrap">281<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-281"> </a></td><td>воспитатель</td></tr><tr><td style="white-space:nowrap">282<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-282"> </a></td><td>инструктор-методист</td></tr><tr><td style="white-space:nowrap">283<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-283"> </a></td><td>инструктор по труду</td></tr><tr><td style="white-space:nowrap">284<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-284"> </a></td><td>инструктор по физической культуре</td></tr><tr><td style="white-space:nowrap">285<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-285"> </a></td><td>концертмейстер</td></tr><tr><td style="white-space:nowrap">286<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-286"> </a></td><td>логопед</td></tr><tr><td style="white-space:nowrap">287<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-287"> </a></td><td>мастер производственного обучения</td></tr><tr><td style="white-space:nowrap">288<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-288"> </a></td><td>методист</td></tr><tr><td style="white-space:nowrap">289<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-289"> </a></td><td>музыкальный руководитель</td></tr><tr><td style="white-space:nowrap">290<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-290"> </a></td><td>педагог дополнительного образования</td></tr><tr><td style="white-space:nowrap">291<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-291"> </a></td><td>педагог-библиотекарь</td></tr><tr><td style="white-space:nowrap">292<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-292"> </a></td><td>педагог-организатор</td></tr><tr><td style="white-space:nowrap">293<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-293"> </a></td><td>педагог-психолог</td></tr><tr><td style="white-space:nowrap">294<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-294"> </a></td><td>преподаватель</td></tr><tr><td style="white-space:nowrap">295<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-295"> </a></td><td>преподаватель-организатор основ безопасности жизнедеятельности</td></tr><tr><td style="white-space:nowrap">296<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-296"> </a></td><td>руководитель физического воспитания</td></tr><tr><td style="white-space:nowrap">297<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-297"> </a></td><td>социальный педагог</td></tr><tr><td style="white-space:nowrap">298<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-298"> </a></td><td>старший вожатый</td></tr><tr><td style="white-space:nowrap">299<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-299"> </a></td><td>старший воспитатель</td></tr><tr><td style="white-space:nowrap">300<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-300"> </a></td><td>старший инструктор-методист</td></tr><tr><td style="white-space:nowrap">301<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-301"> </a></td><td>старший методист</td></tr><tr><td style="white-space:nowrap">302<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-302"> </a></td><td>старший педагог дополнительного образования</td></tr><tr><td style="white-space:nowrap">303<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-303"> </a></td><td>старший тренер-преподаватель</td></tr><tr><td style="white-space:nowrap">304<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-304"> </a></td><td>тренер-преподаватель</td></tr><tr><td style="white-space:nowrap">305<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-305"> </a></td><td>тьютор</td></tr><tr><td style="white-space:nowrap">306<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-306"> </a></td><td>учитель</td></tr><tr><td style="white-space:nowrap">307<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-307"> </a></td><td>учитель-дефектолог</td></tr><tr><td style="white-space:nowrap">308<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-308"> </a></td><td>учитель-логопед</td></tr><tr><td style="white-space:nowrap">309<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-309"> </a></td><td>Должности научных работников</td></tr><tr><td style="white-space:nowrap">310<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-310"> </a></td><td>младший научный сотрудник</td></tr><tr><td style="white-space:nowrap">311<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-311"> </a></td><td>научный сотрудник</td></tr><tr><td style="white-space:nowrap">312<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-312"> </a></td><td>старший научный сотрудник</td></tr><tr><td style="white-space:nowrap">313<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-313"> </a></td><td>ведущий научный сотрудник</td></tr><tr><td style="white-space:nowrap">314<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-314"> </a></td><td>главный научный сотрудник</td></tr><tr><td style="white-space:nowrap">315<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-315"> </a></td><td>стажер-исследователь</td></tr><tr><td style="white-space:nowrap">316<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-316"> </a></td><td>лаборант-исследователь</td></tr><tr><td style="white-space:nowrap">317<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-317"> </a></td><td>Должности учебного-вспомогательного персонала образовательных организаций</td></tr><tr><td style="white-space:nowrap">318<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-318"> </a></td><td>заведующий учебным кабинетом</td></tr><tr><td style="white-space:nowrap">319<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-319"> </a></td><td>старший лаборант</td></tr><tr><td style="white-space:nowrap">320<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-320"> </a></td><td>лаборант</td></tr><tr><td style="white-space:nowrap">321<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-321"> </a></td><td>старший препаратор</td></tr><tr><td style="white-space:nowrap">322<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-322"> </a></td><td>рабочий кафедры</td></tr><tr><td style="white-space:nowrap">323<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-323"> </a></td><td>Должности административно-хозяйственного персонала образовательных и научно-исследовательских организаций</td></tr><tr><td style="white-space:nowrap">324<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-324"> </a></td><td>диспетчер факультета</td></tr><tr><td style="white-space:nowrap">325<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-325"> </a></td><td>ИТ-специалист</td></tr><tr><td style="white-space:nowrap">326<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-326"> </a></td><td>инженер</td></tr><tr><td style="white-space:nowrap">327<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-327"> </a></td><td>инженер-программист</td></tr><tr><td style="white-space:nowrap">328<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-328"> </a></td><td>водитель</td></tr><tr><td style="white-space:nowrap">329<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-329"> </a></td><td>специалист по учебно-методической работе</td></tr><tr><td style="white-space:nowrap">330<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-330"> </a></td><td>учебный мастер</td></tr><tr><td style="white-space:nowrap">331<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-331"> </a></td><td>бухгалтер</td></tr><tr><td style="white-space:nowrap">332<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-332"> </a></td><td>специалист отдела кадров</td></tr><tr><td style="white-space:nowrap">333<a name="nsi-cs-1-2-643-5-1-13-13-11-1002-333"> </a></td><td>иные профессии рабочих</td></tr></table></div>
+  </text>
+  <url value="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1002"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.2.643.5.1.13.13.11.1002"/>
+  </identifier>
+  <version value="7.4"/>
+  <name value="Nsi_cs_1_2_643_5_1_13_13_11_1002"/>
+  <title value="Должности медицинских и фармацевтических работников"/>
+  <status value="active"/>
+  <date value="2021-10-20T13:42:04+03:00"/>
+  <contact>
+    <name value="см. паспорт справочника на ФНСИ"/>
+    <telecom>
+      <system value="email"/>
+      <value value="см. паспорт справочника на ФНСИ"/>
+    </telecom>
+  </contact>
+  <description value="Справочник ФНСИ:  &#xA;&#39;Должности медицинских и фармацевтических работников&#39;  &#xA;версия &#39;7.4&#39;  &#xA;[1.2.643.5.1.13.13.11.1002](https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1002/version/7.4)"/>
+  <content value="complete"/>
+  <count value="508"/>
+  <concept>
+    <code value="1"/>
+    <display value="Должности работников медицинских организаций"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Должности медицинских работников"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Должности руководителей медицинских организаций"/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="главный врач (начальник) медицинской организации"/>
+  </concept>
+  <concept>
+    <code value="334"/>
+    <display value="главный врач медицинской организации"/>
+  </concept>
+  <concept>
+    <code value="335"/>
+    <display value="начальник медицинской организации"/>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="директор больницы (дома) сестринского ухода, хосписа"/>
+  </concept>
+  <concept>
+    <code value="427"/>
+    <display value="директор больницы (дома) сестринского ухода"/>
+  </concept>
+  <concept>
+    <code value="428"/>
+    <display value="директор хосписа"/>
+  </concept>
+  <concept>
+    <code value="6"/>
+    <display value="заместитель руководителя (начальника) медицинской организации"/>
+  </concept>
+  <concept>
+    <code value="336"/>
+    <display value="заместитель руководителя медицинской организации"/>
+  </concept>
+  <concept>
+    <code value="337"/>
+    <display value="заместитель начальника медицинской организации"/>
+  </concept>
+  <concept>
+    <code value="7"/>
+    <display value="заведующий (начальник) структурного подразделения (отдела, отделения, лаборатории, кабинета, отряда и другое) медицинской организации - врач-специалист"/>
+  </concept>
+  <concept>
+    <code value="429"/>
+    <display value="заведующий отделом медицинской организации"/>
+  </concept>
+  <concept>
+    <code value="430"/>
+    <display value="заведующий отделением медицинской организации"/>
+  </concept>
+  <concept>
+    <code value="431"/>
+    <display value="заведующий лабораторией медицинской организации"/>
+  </concept>
+  <concept>
+    <code value="432"/>
+    <display value="заведующий кабинетом медицинской организации"/>
+  </concept>
+  <concept>
+    <code value="433"/>
+    <display value="заведующий отрядом медицинской организации"/>
+  </concept>
+  <concept>
+    <code value="434"/>
+    <display value="начальник отдела медицинской организации"/>
+  </concept>
+  <concept>
+    <code value="435"/>
+    <display value="начальник отделения медицинской организации"/>
+  </concept>
+  <concept>
+    <code value="436"/>
+    <display value="начальник лаборатории медицинской организации"/>
+  </concept>
+  <concept>
+    <code value="437"/>
+    <display value="начальник кабинета медицинской организации"/>
+  </concept>
+  <concept>
+    <code value="438"/>
+    <display value="начальник отряда медицинской организации"/>
+  </concept>
+  <concept>
+    <code value="513"/>
+    <display value="руководитель бюро медико-социальной экспертизы"/>
+  </concept>
+  <concept>
+    <code value="514"/>
+    <display value="руководитель экспертного состава медико-социальной экспертизы"/>
+  </concept>
+  <concept>
+    <code value="515"/>
+    <display value="руководитель Главного бюро медико-социальной экспертизы"/>
+  </concept>
+  <concept>
+    <code value="520"/>
+    <display value="заведующий станцией скорой медицинской помощи"/>
+  </concept>
+  <concept>
+    <code value="521"/>
+    <display value="заведующий подстанцией скорой медицинской помощи"/>
+  </concept>
+  <concept>
+    <code value="8"/>
+    <display value="заведующий (главный врач, начальник) структурного подразделения, осуществляющего медицинскую деятельность, иной организации"/>
+  </concept>
+  <concept>
+    <code value="340"/>
+    <display value="заведующий структурным подразделением, осуществляющим медицинскую деятельность, иной организации"/>
+  </concept>
+  <concept>
+    <code value="341"/>
+    <display value="главный врач структурного подразделения, осуществляющего медицинскую деятельность, иной организации"/>
+  </concept>
+  <concept>
+    <code value="342"/>
+    <display value="начальник структурного подразделения, осуществляющего медицинскую деятельность, иной организации"/>
+  </concept>
+  <concept>
+    <code value="9"/>
+    <display value="главная медицинская сестра (главная акушерка, главный фельдшер)"/>
+  </concept>
+  <concept>
+    <code value="343"/>
+    <display value="главная медицинская сестра"/>
+  </concept>
+  <concept>
+    <code value="344"/>
+    <display value="главная акушерка"/>
+  </concept>
+  <concept>
+    <code value="345"/>
+    <display value="главный фельдшер"/>
+  </concept>
+  <concept>
+    <code value="10"/>
+    <display value="Должности специалистов с высшим профессиональным (медицинским) образованием (врачи)"/>
+  </concept>
+  <concept>
+    <code value="11"/>
+    <display value="врач-стажер"/>
+  </concept>
+  <concept>
+    <code value="12"/>
+    <display value="врачи-специалисты"/>
+  </concept>
+  <concept>
+    <code value="13"/>
+    <display value="врач-акушер-гинеколог"/>
+  </concept>
+  <concept>
+    <code value="14"/>
+    <display value="врач-акушер-гинеколог цехового врачебного участка"/>
+  </concept>
+  <concept>
+    <code value="15"/>
+    <display value="врач-аллерголог-иммунолог"/>
+  </concept>
+  <concept>
+    <code value="16"/>
+    <display value="врач-анестезиолог-реаниматолог"/>
+  </concept>
+  <concept>
+    <code value="17"/>
+    <display value="врач-бактериолог"/>
+  </concept>
+  <concept>
+    <code value="18"/>
+    <display value="врач-вирусолог"/>
+  </concept>
+  <concept>
+    <code value="19"/>
+    <display value="врач-гастроэнтеролог"/>
+  </concept>
+  <concept>
+    <code value="20"/>
+    <display value="врач-гематолог"/>
+  </concept>
+  <concept>
+    <code value="21"/>
+    <display value="врач-генетик"/>
+  </concept>
+  <concept>
+    <code value="22"/>
+    <display value="врач-гериатр"/>
+  </concept>
+  <concept>
+    <code value="23"/>
+    <display value="врач-дезинфектолог"/>
+  </concept>
+  <concept>
+    <code value="24"/>
+    <display value="врач-дерматовенеролог"/>
+  </concept>
+  <concept>
+    <code value="25"/>
+    <display value="врач - детский кардиолог"/>
+  </concept>
+  <concept>
+    <code value="26"/>
+    <display value="врач - детский онколог"/>
+  </concept>
+  <concept>
+    <code value="517"/>
+    <display value="врач - детский онколог-гематолог"/>
+  </concept>
+  <concept>
+    <code value="27"/>
+    <display value="врач - детский уролог-андролог"/>
+  </concept>
+  <concept>
+    <code value="28"/>
+    <display value="врач - детский хирург"/>
+  </concept>
+  <concept>
+    <code value="29"/>
+    <display value="врач - детский эндокринолог"/>
+  </concept>
+  <concept>
+    <code value="30"/>
+    <display value="врач-диабетолог"/>
+  </concept>
+  <concept>
+    <code value="31"/>
+    <display value="врач-диетолог"/>
+  </concept>
+  <concept>
+    <code value="32"/>
+    <display value="врач здравпункта"/>
+  </concept>
+  <concept>
+    <code value="33"/>
+    <display value="врач-инфекционист"/>
+  </concept>
+  <concept>
+    <code value="34"/>
+    <display value="врач-кардиолог"/>
+  </concept>
+  <concept>
+    <code value="35"/>
+    <display value="врач клинической лабораторной диагностики"/>
+  </concept>
+  <concept>
+    <code value="36"/>
+    <display value="врач - клинический миколог"/>
+  </concept>
+  <concept>
+    <code value="37"/>
+    <display value="врач - клинический фармаколог"/>
+  </concept>
+  <concept>
+    <code value="38"/>
+    <display value="врач-колопроктолог"/>
+  </concept>
+  <concept>
+    <code value="39"/>
+    <display value="врач-косметолог"/>
+  </concept>
+  <concept>
+    <code value="40"/>
+    <display value="врач-лаборант"/>
+  </concept>
+  <concept>
+    <code value="41"/>
+    <display value="врач - лабораторный генетик"/>
+  </concept>
+  <concept>
+    <code value="42"/>
+    <display value="врач - лабораторный миколог"/>
+  </concept>
+  <concept>
+    <code value="43"/>
+    <display value="врач мануальной терапии"/>
+  </concept>
+  <concept>
+    <code value="518"/>
+    <display value="врач - медицинский микробиолог"/>
+  </concept>
+  <concept>
+    <code value="44"/>
+    <display value="врач-методист"/>
+  </concept>
+  <concept>
+    <code value="45"/>
+    <display value="врач-невролог"/>
+  </concept>
+  <concept>
+    <code value="46"/>
+    <display value="врач-нейрохирург"/>
+  </concept>
+  <concept>
+    <code value="47"/>
+    <display value="врач-неонатолог"/>
+  </concept>
+  <concept>
+    <code value="48"/>
+    <display value="врач-нефролог"/>
+  </concept>
+  <concept>
+    <code value="49"/>
+    <display value="врач общей практики (семейный врач)"/>
+  </concept>
+  <concept>
+    <code value="50"/>
+    <display value="врач-онколог"/>
+  </concept>
+  <concept>
+    <code value="51"/>
+    <display value="врач-ортодонт"/>
+  </concept>
+  <concept>
+    <code value="52"/>
+    <display value="врач-остеопат"/>
+  </concept>
+  <concept>
+    <code value="53"/>
+    <display value="врач-оториноларинголог"/>
+  </concept>
+  <concept>
+    <code value="54"/>
+    <display value="врач-офтальмолог"/>
+  </concept>
+  <concept>
+    <code value="55"/>
+    <display value="врач-офтальмолог-протезист"/>
+  </concept>
+  <concept>
+    <code value="56"/>
+    <display value="врач-паразитолог"/>
+  </concept>
+  <concept>
+    <code value="57"/>
+    <display value="врач-патологоанатом"/>
+  </concept>
+  <concept>
+    <code value="58"/>
+    <display value="врач-педиатр"/>
+  </concept>
+  <concept>
+    <code value="59"/>
+    <display value="врач-педиатр участковый"/>
+  </concept>
+  <concept>
+    <code value="60"/>
+    <display value="врач-педиатр городской (районный)"/>
+  </concept>
+  <concept>
+    <code value="61"/>
+    <display value="врач - пластический хирург"/>
+  </concept>
+  <concept>
+    <code value="62"/>
+    <display value="врач по авиационной и космической медицине"/>
+  </concept>
+  <concept>
+    <code value="63"/>
+    <display value="врач по водолазной медицине"/>
+  </concept>
+  <concept>
+    <code value="64"/>
+    <display value="врач по гигиене детей и подростков"/>
+  </concept>
+  <concept>
+    <code value="65"/>
+    <display value="врач по гигиене питания"/>
+  </concept>
+  <concept>
+    <code value="66"/>
+    <display value="врач по гигиене труда"/>
+  </concept>
+  <concept>
+    <code value="67"/>
+    <display value="врач по гигиеническому воспитанию"/>
+  </concept>
+  <concept>
+    <code value="68"/>
+    <display value="врач по коммунальной гигиене"/>
+  </concept>
+  <concept>
+    <code value="69"/>
+    <display value="врач по лечебной физкультуре"/>
+  </concept>
+  <concept>
+    <code value="70"/>
+    <display value="врач по медико-социальной экспертизе"/>
+  </concept>
+  <concept>
+    <code value="71"/>
+    <display value="врач по медицинской профилактике"/>
+  </concept>
+  <concept>
+    <code value="72"/>
+    <display value="врач по медицинской реабилитации"/>
+  </concept>
+  <concept>
+    <code value="73"/>
+    <display value="врач по общей гигиене"/>
+  </concept>
+  <concept>
+    <code value="74"/>
+    <display value="врач по паллиативной медицинской помощи"/>
+  </concept>
+  <concept>
+    <code value="75"/>
+    <display value="врач по радиационной гигиене"/>
+  </concept>
+  <concept>
+    <code value="76"/>
+    <display value="врач по рентгенэндоваскулярным диагностике и лечению"/>
+  </concept>
+  <concept>
+    <code value="77"/>
+    <display value="врач по санитарно-гигиеническим лабораторным исследованиям"/>
+  </concept>
+  <concept>
+    <code value="78"/>
+    <display value="врач по спортивной медицине"/>
+  </concept>
+  <concept>
+    <code value="79"/>
+    <display value="врач приемного отделения"/>
+  </concept>
+  <concept>
+    <code value="80"/>
+    <display value="врач-профпатолог"/>
+  </concept>
+  <concept>
+    <code value="81"/>
+    <display value="врач-психиатр"/>
+  </concept>
+  <concept>
+    <code value="82"/>
+    <display value="врач-психиатр участковый"/>
+  </concept>
+  <concept>
+    <code value="83"/>
+    <display value="врач-психиатр детский"/>
+  </concept>
+  <concept>
+    <code value="84"/>
+    <display value="врач-психиатр детский участковый"/>
+  </concept>
+  <concept>
+    <code value="85"/>
+    <display value="врач-психиатр подростковый"/>
+  </concept>
+  <concept>
+    <code value="86"/>
+    <display value="врач-психиатр подростковый участковый"/>
+  </concept>
+  <concept>
+    <code value="87"/>
+    <display value="врач-психиатр-нарколог"/>
+  </concept>
+  <concept>
+    <code value="88"/>
+    <display value="врач-психиатр-нарколог участковый"/>
+  </concept>
+  <concept>
+    <code value="89"/>
+    <display value="врач-психотерапевт"/>
+  </concept>
+  <concept>
+    <code value="90"/>
+    <display value="врач-пульмонолог"/>
+  </concept>
+  <concept>
+    <code value="91"/>
+    <display value="врач-радиолог"/>
+  </concept>
+  <concept>
+    <code value="92"/>
+    <display value="врач-радиотерапевт"/>
+  </concept>
+  <concept>
+    <code value="93"/>
+    <display value="врач-ревматолог"/>
+  </concept>
+  <concept>
+    <code value="94"/>
+    <display value="врач-рентгенолог"/>
+  </concept>
+  <concept>
+    <code value="95"/>
+    <display value="врач-рефлексотерапевт"/>
+  </concept>
+  <concept>
+    <code value="96"/>
+    <display value="врач-сексолог"/>
+  </concept>
+  <concept>
+    <code value="97"/>
+    <display value="врач-сердечно-сосудистый хирург"/>
+  </concept>
+  <concept>
+    <code value="98"/>
+    <display value="врач скорой медицинской помощи"/>
+  </concept>
+  <concept>
+    <code value="99"/>
+    <display value="врач-статистик"/>
+  </concept>
+  <concept>
+    <code value="100"/>
+    <display value="врач-стоматолог"/>
+  </concept>
+  <concept>
+    <code value="101"/>
+    <display value="врач-стоматолог детский"/>
+  </concept>
+  <concept>
+    <code value="102"/>
+    <display value="врач-стоматолог-ортопед"/>
+  </concept>
+  <concept>
+    <code value="103"/>
+    <display value="врач-стоматолог-терапевт"/>
+  </concept>
+  <concept>
+    <code value="104"/>
+    <display value="врач-стоматолог-хирург"/>
+  </concept>
+  <concept>
+    <code value="105"/>
+    <display value="врач - судебно-медицинский эксперт"/>
+  </concept>
+  <concept>
+    <code value="106"/>
+    <display value="врач - судебно-психиатрический эксперт"/>
+  </concept>
+  <concept>
+    <code value="107"/>
+    <display value="врач-сурдолог-оториноларинголог"/>
+  </concept>
+  <concept>
+    <code value="108"/>
+    <display value="врач-сурдолог-протезист"/>
+  </concept>
+  <concept>
+    <code value="109"/>
+    <display value="врач-терапевт"/>
+  </concept>
+  <concept>
+    <code value="110"/>
+    <display value="врач-терапевт участковый"/>
+  </concept>
+  <concept>
+    <code value="111"/>
+    <display value="врач-терапевт участковый цехового врачебного участка"/>
+  </concept>
+  <concept>
+    <code value="112"/>
+    <display value="врач-терапевт подростковый"/>
+  </concept>
+  <concept>
+    <code value="113"/>
+    <display value="врач-токсиколог"/>
+  </concept>
+  <concept>
+    <code value="114"/>
+    <display value="врач-травматолог-ортопед"/>
+  </concept>
+  <concept>
+    <code value="115"/>
+    <display value="врач-трансфузиолог"/>
+  </concept>
+  <concept>
+    <code value="116"/>
+    <display value="врач ультразвуковой диагностики"/>
+  </concept>
+  <concept>
+    <code value="117"/>
+    <display value="врач-уролог"/>
+  </concept>
+  <concept>
+    <code value="118"/>
+    <display value="врач-физиотерапевт"/>
+  </concept>
+  <concept>
+    <code value="519"/>
+    <display value="врач физической и реабилитационной медицины"/>
+  </concept>
+  <concept>
+    <code value="119"/>
+    <display value="врач-фтизиатр"/>
+  </concept>
+  <concept>
+    <code value="120"/>
+    <display value="врач-фтизиатр участковый"/>
+  </concept>
+  <concept>
+    <code value="121"/>
+    <display value="врач функциональной диагностики"/>
+  </concept>
+  <concept>
+    <code value="122"/>
+    <display value="врач-хирург"/>
+  </concept>
+  <concept>
+    <code value="123"/>
+    <display value="врач - торакальный хирург"/>
+  </concept>
+  <concept>
+    <code value="124"/>
+    <display value="врач - челюстно-лицевой хирург"/>
+  </concept>
+  <concept>
+    <code value="125"/>
+    <display value="врач-эндокринолог"/>
+  </concept>
+  <concept>
+    <code value="126"/>
+    <display value="врач-эндоскопист"/>
+  </concept>
+  <concept>
+    <code value="127"/>
+    <display value="врач-эпидемиолог"/>
+  </concept>
+  <concept>
+    <code value="128"/>
+    <display value="старший врач станции (отделения) скорой медицинской помощи"/>
+  </concept>
+  <concept>
+    <code value="449"/>
+    <display value="старший врач станции скорой медицинской помощи"/>
+  </concept>
+  <concept>
+    <code value="450"/>
+    <display value="старший врач отделения скорой медицинской помощи"/>
+  </concept>
+  <concept>
+    <code value="129"/>
+    <display value="старший врач станции (отделения) скорой медицинской помощи горноспасательных частей"/>
+  </concept>
+  <concept>
+    <code value="451"/>
+    <display value="старший врач станции скорой медицинской помощи горноспасательных частей"/>
+  </concept>
+  <concept>
+    <code value="452"/>
+    <display value="старший врач отделения скорой медицинской помощи горноспасательных частей"/>
+  </concept>
+  <concept>
+    <code value="130"/>
+    <display value="судовой врач"/>
+  </concept>
+  <concept>
+    <code value="131"/>
+    <display value="Должности специалистов с высшим профессиональным (немедицинским) образованием"/>
+  </concept>
+  <concept>
+    <code value="132"/>
+    <display value="биолог"/>
+  </concept>
+  <concept>
+    <code value="133"/>
+    <display value="зоолог"/>
+  </concept>
+  <concept>
+    <code value="134"/>
+    <display value="эмбриолог"/>
+  </concept>
+  <concept>
+    <code value="135"/>
+    <display value="энтомолог"/>
+  </concept>
+  <concept>
+    <code value="136"/>
+    <display value="инструктор-методист по лечебной физкультуре"/>
+  </concept>
+  <concept>
+    <code value="137"/>
+    <display value="логопед"/>
+  </concept>
+  <concept>
+    <code value="516"/>
+    <display value="специалист по социальной работе"/>
+  </concept>
+  <concept>
+    <code value="138"/>
+    <display value="медицинский физик"/>
+  </concept>
+  <concept>
+    <code value="139"/>
+    <display value="медицинский психолог"/>
+  </concept>
+  <concept>
+    <code value="140"/>
+    <display value="эксперт-физик по контролю за источниками ионизирующих и неионизирующих излучений"/>
+  </concept>
+  <concept>
+    <code value="141"/>
+    <display value="судебный эксперт (эксперт-биохимик, эксперт-генетик, эксперт-химик)"/>
+  </concept>
+  <concept>
+    <code value="346"/>
+    <display value="судебный эксперт"/>
+  </concept>
+  <concept>
+    <code value="347"/>
+    <display value="судебный эксперт-биохимик"/>
+  </concept>
+  <concept>
+    <code value="348"/>
+    <display value="судебный эксперт-генетик"/>
+  </concept>
+  <concept>
+    <code value="349"/>
+    <display value="судебный эксперт-химик"/>
+  </concept>
+  <concept>
+    <code value="142"/>
+    <display value="химик-эксперт медицинской организации"/>
+  </concept>
+  <concept>
+    <code value="143"/>
+    <display value="Должности специалистов со средним профессиональным (медицинским) образованием (средний медицинский персонал)"/>
+  </concept>
+  <concept>
+    <code value="144"/>
+    <display value="заведующий здравпунктом - фельдшер (медицинская сестра)"/>
+  </concept>
+  <concept>
+    <code value="350"/>
+    <display value="заведующий здравпунктом - фельдшер"/>
+  </concept>
+  <concept>
+    <code value="351"/>
+    <display value="заведующий здравпунктом - медицинская сестра"/>
+  </concept>
+  <concept>
+    <code value="145"/>
+    <display value="заведующий фельдшерско-акушерским пунктом - фельдшер (акушер, медицинская сестра)"/>
+  </concept>
+  <concept>
+    <code value="352"/>
+    <display value="заведующий фельдшерско-акушерским пунктом - фельдшер"/>
+  </concept>
+  <concept>
+    <code value="353"/>
+    <display value="заведующий фельдшерско-акушерским пунктом - акушер"/>
+  </concept>
+  <concept>
+    <code value="354"/>
+    <display value="заведующий фельдшерско-акушерским пунктом - медицинская сестра"/>
+  </concept>
+  <concept>
+    <code value="146"/>
+    <display value="заведующий кабинетом медицинской профилактики - фельдшер (медицинская сестра)"/>
+  </concept>
+  <concept>
+    <code value="355"/>
+    <display value="заведующий кабинетом медицинской профилактики - фельдшер"/>
+  </concept>
+  <concept>
+    <code value="356"/>
+    <display value="заведующий кабинетом медицинской профилактики - медицинская сестра"/>
+  </concept>
+  <concept>
+    <code value="147"/>
+    <display value="заведующий производством учреждений (отделов, отделений, лабораторий) зубопротезирования"/>
+  </concept>
+  <concept>
+    <code value="445"/>
+    <display value="заведующий производством учреждений зубопротезирования"/>
+  </concept>
+  <concept>
+    <code value="446"/>
+    <display value="заведующий производством отделов зубопротезирования"/>
+  </concept>
+  <concept>
+    <code value="447"/>
+    <display value="заведующий производством отделений зубопротезирования"/>
+  </concept>
+  <concept>
+    <code value="448"/>
+    <display value="заведующий производством лабораторий зубопротезирования"/>
+  </concept>
+  <concept>
+    <code value="148"/>
+    <display value="заведующий молочной кухней"/>
+  </concept>
+  <concept>
+    <code value="149"/>
+    <display value="старшая медицинская сестра (акушер, фельдшер, операционная медицинская сестра, зубной техник)"/>
+  </concept>
+  <concept>
+    <code value="357"/>
+    <display value="старшая медицинская сестра"/>
+  </concept>
+  <concept>
+    <code value="358"/>
+    <display value="старший акушер"/>
+  </concept>
+  <concept>
+    <code value="359"/>
+    <display value="старший фельдшер"/>
+  </concept>
+  <concept>
+    <code value="360"/>
+    <display value="старшая операционная медицинская сестра"/>
+  </concept>
+  <concept>
+    <code value="361"/>
+    <display value="старший зубной техник"/>
+  </concept>
+  <concept>
+    <code value="150"/>
+    <display value="акушер"/>
+  </concept>
+  <concept>
+    <code value="151"/>
+    <display value="гигиенист стоматологический"/>
+  </concept>
+  <concept>
+    <code value="152"/>
+    <display value="зубной врач"/>
+  </concept>
+  <concept>
+    <code value="153"/>
+    <display value="зубной техник"/>
+  </concept>
+  <concept>
+    <code value="154"/>
+    <display value="инструктор-дезинфектор"/>
+  </concept>
+  <concept>
+    <code value="155"/>
+    <display value="инструктор по гигиеническому воспитанию"/>
+  </concept>
+  <concept>
+    <code value="156"/>
+    <display value="инструктор по лечебной физкультуре"/>
+  </concept>
+  <concept>
+    <code value="157"/>
+    <display value="инструктор по трудовой терапии"/>
+  </concept>
+  <concept>
+    <code value="158"/>
+    <display value="лаборант"/>
+  </concept>
+  <concept>
+    <code value="159"/>
+    <display value="медицинская сестра"/>
+  </concept>
+  <concept>
+    <code value="160"/>
+    <display value="медицинская сестра - анестезист"/>
+  </concept>
+  <concept>
+    <code value="161"/>
+    <display value="медицинская сестра врача общей практики (семейного врача)"/>
+  </concept>
+  <concept>
+    <code value="162"/>
+    <display value="медицинская сестра диетическая"/>
+  </concept>
+  <concept>
+    <code value="163"/>
+    <display value="медицинская сестра медико-социальной помощи"/>
+  </concept>
+  <concept>
+    <code value="164"/>
+    <display value="медицинская сестра палатная (постовая)"/>
+  </concept>
+  <concept>
+    <code value="165"/>
+    <display value="медицинская сестра патронажная"/>
+  </concept>
+  <concept>
+    <code value="166"/>
+    <display value="медицинская сестра перевязочной"/>
+  </concept>
+  <concept>
+    <code value="167"/>
+    <display value="медицинская сестра по косметологии"/>
+  </concept>
+  <concept>
+    <code value="168"/>
+    <display value="медицинская сестра по массажу"/>
+  </concept>
+  <concept>
+    <code value="169"/>
+    <display value="медицинская сестра (фельдшер) по приему вызовов скорой медицинской помощи и передаче их выездным бригадам скорой медицинской помощи"/>
+  </concept>
+  <concept>
+    <code value="362"/>
+    <display value="медицинская сестра по приему вызовов скорой медицинской помощи и передаче их выездным бригадам скорой медицинской помощи"/>
+  </concept>
+  <concept>
+    <code value="363"/>
+    <display value="фельдшер по приему вызовов скорой медицинской помощи и передаче их выездным бригадам скорой медицинской помощи"/>
+  </concept>
+  <concept>
+    <code value="170"/>
+    <display value="медицинская сестра приемного отделения"/>
+  </concept>
+  <concept>
+    <code value="171"/>
+    <display value="медицинская сестра процедурной"/>
+  </concept>
+  <concept>
+    <code value="172"/>
+    <display value="медицинская сестра по реабилитации"/>
+  </concept>
+  <concept>
+    <code value="173"/>
+    <display value="медицинская сестра стерилизационной"/>
+  </concept>
+  <concept>
+    <code value="174"/>
+    <display value="медицинская сестра участковая"/>
+  </concept>
+  <concept>
+    <code value="175"/>
+    <display value="медицинская сестра по физиотерапии"/>
+  </concept>
+  <concept>
+    <code value="176"/>
+    <display value="медицинский дезинфектор"/>
+  </concept>
+  <concept>
+    <code value="177"/>
+    <display value="медицинский лабораторный техник (фельдшер-лаборант)"/>
+  </concept>
+  <concept>
+    <code value="364"/>
+    <display value="медицинский лабораторный техник"/>
+  </concept>
+  <concept>
+    <code value="365"/>
+    <display value="фельдшер-лаборант"/>
+  </concept>
+  <concept>
+    <code value="178"/>
+    <display value="медицинский оптик-оптометрист"/>
+  </concept>
+  <concept>
+    <code value="179"/>
+    <display value="медицинский регистратор"/>
+  </concept>
+  <concept>
+    <code value="180"/>
+    <display value="медицинский статистик"/>
+  </concept>
+  <concept>
+    <code value="181"/>
+    <display value="медицинский технолог"/>
+  </concept>
+  <concept>
+    <code value="182"/>
+    <display value="операционная медицинская сестра"/>
+  </concept>
+  <concept>
+    <code value="183"/>
+    <display value="помощник врача"/>
+  </concept>
+  <concept>
+    <code value="184"/>
+    <display value="помощник врача-эпидемиолога"/>
+  </concept>
+  <concept>
+    <code value="185"/>
+    <display value="помощник врача-паразитолога"/>
+  </concept>
+  <concept>
+    <code value="186"/>
+    <display value="помощник врача по гигиене детей и подростков"/>
+  </concept>
+  <concept>
+    <code value="187"/>
+    <display value="помощник врача по гигиене питания"/>
+  </concept>
+  <concept>
+    <code value="188"/>
+    <display value="помощник врача по гигиене труда"/>
+  </concept>
+  <concept>
+    <code value="189"/>
+    <display value="помощник врача по гигиеническому воспитанию"/>
+  </concept>
+  <concept>
+    <code value="190"/>
+    <display value="помощник врача по коммунальной гигиене"/>
+  </concept>
+  <concept>
+    <code value="191"/>
+    <display value="помощник врача по общей гигиене"/>
+  </concept>
+  <concept>
+    <code value="192"/>
+    <display value="помощник врача по радиационной гигиене"/>
+  </concept>
+  <concept>
+    <code value="193"/>
+    <display value="помощник энтомолога"/>
+  </concept>
+  <concept>
+    <code value="194"/>
+    <display value="рентгенолаборант"/>
+  </concept>
+  <concept>
+    <code value="195"/>
+    <display value="фельдшер"/>
+  </concept>
+  <concept>
+    <code value="196"/>
+    <display value="фельдшер скорой медицинской помощи"/>
+  </concept>
+  <concept>
+    <code value="197"/>
+    <display value="фельдшер-нарколог"/>
+  </concept>
+  <concept>
+    <code value="198"/>
+    <display value="фельдшер-водитель скорой медицинской помощи"/>
+  </concept>
+  <concept>
+    <code value="366"/>
+    <display value="продавец оптики"/>
+  </concept>
+  <concept>
+    <code value="199"/>
+    <display value="прочий средний медицинский персонал"/>
+  </concept>
+  <concept>
+    <code value="200"/>
+    <display value="Должности иных медицинских работников (младший медицинский персонал)"/>
+  </concept>
+  <concept>
+    <code value="201"/>
+    <display value="младшая медицинская сестра по уходу за больными"/>
+  </concept>
+  <concept>
+    <code value="202"/>
+    <display value="санитар"/>
+  </concept>
+  <concept>
+    <code value="203"/>
+    <display value="сестра-хозяйка"/>
+  </concept>
+  <concept>
+    <code value="204"/>
+    <display value="санитар-водитель"/>
+  </concept>
+  <concept>
+    <code value="205"/>
+    <display value="Должности прочего общеучрежденческого персонала медицинских организаций"/>
+  </concept>
+  <concept>
+    <code value="206"/>
+    <display value="ИТ-специалист"/>
+  </concept>
+  <concept>
+    <code value="207"/>
+    <display value="водитель скорой медицинской помощи"/>
+  </concept>
+  <concept>
+    <code value="208"/>
+    <display value="бухгалтер"/>
+  </concept>
+  <concept>
+    <code value="209"/>
+    <display value="специалист отдела кадров"/>
+  </concept>
+  <concept>
+    <code value="210"/>
+    <display value="гардеробщик"/>
+  </concept>
+  <concept>
+    <code value="211"/>
+    <display value="библиотекарь"/>
+  </concept>
+  <concept>
+    <code value="212"/>
+    <display value="лифтер"/>
+  </concept>
+  <concept>
+    <code value="213"/>
+    <display value="иные профессии рабочих и служащих"/>
+  </concept>
+  <concept>
+    <code value="214"/>
+    <display value="Должности работников фармацевтических организаций"/>
+  </concept>
+  <concept>
+    <code value="215"/>
+    <display value="Должности фармацевтических работников"/>
+  </concept>
+  <concept>
+    <code value="216"/>
+    <display value="Должности руководителей фармацевтических организаций"/>
+  </concept>
+  <concept>
+    <code value="217"/>
+    <display value="директор (заведующий, начальник) аптечной организации"/>
+  </concept>
+  <concept>
+    <code value="367"/>
+    <display value="директор аптечной организации"/>
+  </concept>
+  <concept>
+    <code value="368"/>
+    <display value="заведующий аптечной организации"/>
+  </concept>
+  <concept>
+    <code value="369"/>
+    <display value="начальник аптечной организации"/>
+  </concept>
+  <concept>
+    <code value="218"/>
+    <display value="заместитель директора (заведующего, начальника) аптечной организации"/>
+  </concept>
+  <concept>
+    <code value="370"/>
+    <display value="заместитель директора аптечной организации"/>
+  </concept>
+  <concept>
+    <code value="371"/>
+    <display value="заместитель заведующего аптечной организации"/>
+  </concept>
+  <concept>
+    <code value="372"/>
+    <display value="заместитель начальника аптечной организации"/>
+  </concept>
+  <concept>
+    <code value="219"/>
+    <display value="заведующий складом организации оптовой торговли лекарственными средствами"/>
+  </concept>
+  <concept>
+    <code value="220"/>
+    <display value="заведующий медицинским складом мобилизационного резерва"/>
+  </concept>
+  <concept>
+    <code value="221"/>
+    <display value="заместитель заведующего складом организации оптовой торговли лекарственными средствами"/>
+  </concept>
+  <concept>
+    <code value="222"/>
+    <display value="заведующий (начальник) структурного подразделения (отдела) аптечной организации"/>
+  </concept>
+  <concept>
+    <code value="373"/>
+    <display value="заведующий структурного подразделения аптечной организации"/>
+  </concept>
+  <concept>
+    <code value="439"/>
+    <display value="заведующий отделом аптечной организации"/>
+  </concept>
+  <concept>
+    <code value="374"/>
+    <display value="начальник структурного подразделения аптечной организации"/>
+  </concept>
+  <concept>
+    <code value="440"/>
+    <display value="начальник отдела аптечной организации"/>
+  </concept>
+  <concept>
+    <code value="223"/>
+    <display value="Должности специалистов с высшим профессиональным (фармацевтическим) образованием (провизоры)"/>
+  </concept>
+  <concept>
+    <code value="224"/>
+    <display value="провизор-стажер"/>
+  </concept>
+  <concept>
+    <code value="225"/>
+    <display value="провизор"/>
+  </concept>
+  <concept>
+    <code value="226"/>
+    <display value="провизор-технолог"/>
+  </concept>
+  <concept>
+    <code value="227"/>
+    <display value="провизор-аналитик"/>
+  </concept>
+  <concept>
+    <code value="228"/>
+    <display value="старший провизор"/>
+  </concept>
+  <concept>
+    <code value="229"/>
+    <display value="Должности специалистов со средним профессиональным (фармацевтическим) образованием (средний фармацевтический персонал)"/>
+  </concept>
+  <concept>
+    <code value="230"/>
+    <display value="старший фармацевт"/>
+  </concept>
+  <concept>
+    <code value="231"/>
+    <display value="фармацевт"/>
+  </concept>
+  <concept>
+    <code value="232"/>
+    <display value="младший фармацевт"/>
+  </concept>
+  <concept>
+    <code value="233"/>
+    <display value="Должности иных фармацевтических работников (младший фармацевтический персонал)"/>
+  </concept>
+  <concept>
+    <code value="234"/>
+    <display value="санитар (мойщик)"/>
+  </concept>
+  <concept>
+    <code value="235"/>
+    <display value="фасовщик"/>
+  </concept>
+  <concept>
+    <code value="236"/>
+    <display value="Должности прочего общеучрежденческого персонала фармацевтических организаций"/>
+  </concept>
+  <concept>
+    <code value="237"/>
+    <display value="иные профессии рабочих"/>
+  </concept>
+  <concept>
+    <code value="238"/>
+    <display value="Должности работников образовательных организаций и НИИ"/>
+  </concept>
+  <concept>
+    <code value="239"/>
+    <display value="Должности руководителей образовательных организаций и НИИ"/>
+  </concept>
+  <concept>
+    <code value="240"/>
+    <display value="руководитель (ректор, директор, заведующий, начальник) образовательной организации"/>
+  </concept>
+  <concept>
+    <code value="375"/>
+    <display value="руководитель образовательной организации"/>
+  </concept>
+  <concept>
+    <code value="376"/>
+    <display value="ректор образовательной организации высшего профессионального образования"/>
+  </concept>
+  <concept>
+    <code value="377"/>
+    <display value="директор образовательной организации"/>
+  </concept>
+  <concept>
+    <code value="378"/>
+    <display value="заведующий образовательной организации"/>
+  </concept>
+  <concept>
+    <code value="379"/>
+    <display value="начальник образовательной организации"/>
+  </concept>
+  <concept>
+    <code value="241"/>
+    <display value="президент образовательной организации высшего профессионального образования"/>
+  </concept>
+  <concept>
+    <code value="242"/>
+    <display value="заместитель руководителя (директора, заведующего, начальника) образовательной организации"/>
+  </concept>
+  <concept>
+    <code value="380"/>
+    <display value="заместитель руководителя образовательной организации"/>
+  </concept>
+  <concept>
+    <code value="381"/>
+    <display value="заместитель директора образовательной организации"/>
+  </concept>
+  <concept>
+    <code value="382"/>
+    <display value="заместитель заведующего образовательной организации"/>
+  </concept>
+  <concept>
+    <code value="383"/>
+    <display value="заместитель начальника образовательной организации"/>
+  </concept>
+  <concept>
+    <code value="480"/>
+    <display value="руководитель (директор, заведующий, начальник) научной организации"/>
+  </concept>
+  <concept>
+    <code value="481"/>
+    <display value="руководитель научной организации"/>
+  </concept>
+  <concept>
+    <code value="482"/>
+    <display value="директор научной организации"/>
+  </concept>
+  <concept>
+    <code value="483"/>
+    <display value="заведующий научной организации"/>
+  </concept>
+  <concept>
+    <code value="484"/>
+    <display value="начальник научной организации"/>
+  </concept>
+  <concept>
+    <code value="485"/>
+    <display value="заместитель руководителя (директора, заведующего, начальника) научной организации"/>
+  </concept>
+  <concept>
+    <code value="486"/>
+    <display value="заместитель руководителя научной организации"/>
+  </concept>
+  <concept>
+    <code value="487"/>
+    <display value="заместитель директора научной организации"/>
+  </concept>
+  <concept>
+    <code value="488"/>
+    <display value="заместитель заведующего научной организации"/>
+  </concept>
+  <concept>
+    <code value="489"/>
+    <display value="заместитель начальника научной организации"/>
+  </concept>
+  <concept>
+    <code value="243"/>
+    <display value="руководитель (директор, заведующий, начальник, управляющий) структурного подразделения"/>
+  </concept>
+  <concept>
+    <code value="384"/>
+    <display value="руководитель структурного подразделения"/>
+  </concept>
+  <concept>
+    <code value="385"/>
+    <display value="директор структурного подразделения"/>
+  </concept>
+  <concept>
+    <code value="386"/>
+    <display value="заведующий структурного подразделения"/>
+  </concept>
+  <concept>
+    <code value="387"/>
+    <display value="начальник структурного подразделения"/>
+  </concept>
+  <concept>
+    <code value="388"/>
+    <display value="управляющий структурного подразделения"/>
+  </concept>
+  <concept>
+    <code value="244"/>
+    <display value="руководитель (директор, заведующий, начальник, управляющий) обособленного структурного подразделения"/>
+  </concept>
+  <concept>
+    <code value="389"/>
+    <display value="руководитель обособленного структурного подразделения"/>
+  </concept>
+  <concept>
+    <code value="390"/>
+    <display value="директор обособленного структурного подразделения"/>
+  </concept>
+  <concept>
+    <code value="391"/>
+    <display value="заведующий обособленного структурного подразделения"/>
+  </concept>
+  <concept>
+    <code value="392"/>
+    <display value="начальник обособленного структурного подразделения"/>
+  </concept>
+  <concept>
+    <code value="393"/>
+    <display value="управляющий обособленного структурного подразделения"/>
+  </concept>
+  <concept>
+    <code value="245"/>
+    <display value="заместитель руководителя (директора, заведующего, начальника, управляющего) структурного подразделения"/>
+  </concept>
+  <concept>
+    <code value="394"/>
+    <display value="заместитель руководителя структурного подразделения"/>
+  </concept>
+  <concept>
+    <code value="395"/>
+    <display value="заместитель директора структурного подразделения"/>
+  </concept>
+  <concept>
+    <code value="396"/>
+    <display value="заместитель заведующего структурного подразделения"/>
+  </concept>
+  <concept>
+    <code value="397"/>
+    <display value="заместитель начальника структурного подразделения"/>
+  </concept>
+  <concept>
+    <code value="398"/>
+    <display value="заместитель управляющего структурного подразделения"/>
+  </concept>
+  <concept>
+    <code value="246"/>
+    <display value="заведующий (начальник) техническим архивом, чертежно-копировальным бюро; лабораторией (компьютерного и фото-, кинооборудования, оргтехники, средств связи)"/>
+  </concept>
+  <concept>
+    <code value="490"/>
+    <display value="заведующий техническим архивом"/>
+  </concept>
+  <concept>
+    <code value="491"/>
+    <display value="заведующий чертежно-копировальным бюро"/>
+  </concept>
+  <concept>
+    <code value="492"/>
+    <display value="заведующий лабораторией (компьютерного и фото-, кинооборудования, оргтехники, средств связи)"/>
+  </concept>
+  <concept>
+    <code value="493"/>
+    <display value="начальник технического архива"/>
+  </concept>
+  <concept>
+    <code value="494"/>
+    <display value="начальник чертежно-копировального бюро"/>
+  </concept>
+  <concept>
+    <code value="495"/>
+    <display value="начальник лаборатории (компьютерного и фото-, кинооборудования, оргтехники, средств связи)"/>
+  </concept>
+  <concept>
+    <code value="247"/>
+    <display value="заведующий (начальник) отделом научно-технической информации"/>
+  </concept>
+  <concept>
+    <code value="401"/>
+    <display value="заведующий отделом научно-технической информации"/>
+  </concept>
+  <concept>
+    <code value="402"/>
+    <display value="начальник отдела научно-технической информации"/>
+  </concept>
+  <concept>
+    <code value="248"/>
+    <display value="начальник (руководитель) бригады (группы)"/>
+  </concept>
+  <concept>
+    <code value="403"/>
+    <display value="начальник бригады"/>
+  </concept>
+  <concept>
+    <code value="441"/>
+    <display value="начальник группы"/>
+  </concept>
+  <concept>
+    <code value="404"/>
+    <display value="руководитель бригады"/>
+  </concept>
+  <concept>
+    <code value="442"/>
+    <display value="руководитель группы"/>
+  </concept>
+  <concept>
+    <code value="249"/>
+    <display value="заведующий (начальник) научно-исследовательским (конструкторским) отделом (лабораторией, отделением, сектором)"/>
+  </concept>
+  <concept>
+    <code value="496"/>
+    <display value="заведующий научно-исследовательским отделом"/>
+  </concept>
+  <concept>
+    <code value="497"/>
+    <display value="заведующий научно-исследовательской лабораторией"/>
+  </concept>
+  <concept>
+    <code value="498"/>
+    <display value="заведующий научно-исследовательским отделением"/>
+  </concept>
+  <concept>
+    <code value="499"/>
+    <display value="заведующий научно-исследовательским сектором"/>
+  </concept>
+  <concept>
+    <code value="500"/>
+    <display value="заведующий конструкторским отделом"/>
+  </concept>
+  <concept>
+    <code value="501"/>
+    <display value="заведующий конструкторской лабораторией"/>
+  </concept>
+  <concept>
+    <code value="502"/>
+    <display value="заведующий конструкторским отделением"/>
+  </concept>
+  <concept>
+    <code value="503"/>
+    <display value="заведующий конструкторским сектором"/>
+  </concept>
+  <concept>
+    <code value="504"/>
+    <display value="начальник научно-исследовательского отдела"/>
+  </concept>
+  <concept>
+    <code value="505"/>
+    <display value="начальник научно-исследовательской лаборатории"/>
+  </concept>
+  <concept>
+    <code value="506"/>
+    <display value="начальник научно-исследовательским отделения"/>
+  </concept>
+  <concept>
+    <code value="507"/>
+    <display value="начальник научно-исследовательского сектора"/>
+  </concept>
+  <concept>
+    <code value="508"/>
+    <display value="начальник конструкторского отдела"/>
+  </concept>
+  <concept>
+    <code value="509"/>
+    <display value="начальник конструкторской лаборатории"/>
+  </concept>
+  <concept>
+    <code value="510"/>
+    <display value="начальник конструкторского отделения"/>
+  </concept>
+  <concept>
+    <code value="511"/>
+    <display value="начальник конструкторского сектора"/>
+  </concept>
+  <concept>
+    <code value="250"/>
+    <display value="заведующий (начальник) научным центром"/>
+  </concept>
+  <concept>
+    <code value="407"/>
+    <display value="заведующий научным центром"/>
+  </concept>
+  <concept>
+    <code value="408"/>
+    <display value="начальник научного центра"/>
+  </concept>
+  <concept>
+    <code value="251"/>
+    <display value="начальник (заведующий) отдела (управления) аспирантуры"/>
+  </concept>
+  <concept>
+    <code value="409"/>
+    <display value="начальник отдела аспирантуры"/>
+  </concept>
+  <concept>
+    <code value="478"/>
+    <display value="начальник управления аспирантуры"/>
+  </concept>
+  <concept>
+    <code value="410"/>
+    <display value="заведующий отделом аспирантуры"/>
+  </concept>
+  <concept>
+    <code value="479"/>
+    <display value="заведующий управлением аспирантуры"/>
+  </concept>
+  <concept>
+    <code value="252"/>
+    <display value="первый проректор"/>
+  </concept>
+  <concept>
+    <code value="253"/>
+    <display value="проректор"/>
+  </concept>
+  <concept>
+    <code value="254"/>
+    <display value="помощник ректора"/>
+  </concept>
+  <concept>
+    <code value="255"/>
+    <display value="помощник проректора"/>
+  </concept>
+  <concept>
+    <code value="256"/>
+    <display value="советник при ректорате"/>
+  </concept>
+  <concept>
+    <code value="257"/>
+    <display value="ученый секретарь совета образовательной организации"/>
+  </concept>
+  <concept>
+    <code value="258"/>
+    <display value="ученый секретарь совета факультета"/>
+  </concept>
+  <concept>
+    <code value="444"/>
+    <display value="ученый секретарь совета института"/>
+  </concept>
+  <concept>
+    <code value="259"/>
+    <display value="руководитель (заведующий) учебной (учебно-производственной, производственной) практики"/>
+  </concept>
+  <concept>
+    <code value="512"/>
+    <display value="руководитель учебной практики"/>
+  </concept>
+  <concept>
+    <code value="453"/>
+    <display value="руководитель учебно-производственной практики"/>
+  </concept>
+  <concept>
+    <code value="454"/>
+    <display value="руководитель производственной практики"/>
+  </concept>
+  <concept>
+    <code value="455"/>
+    <display value="заведующий учебной практики"/>
+  </concept>
+  <concept>
+    <code value="456"/>
+    <display value="заведующий учебно-производственной практики"/>
+  </concept>
+  <concept>
+    <code value="457"/>
+    <display value="заведующий производственной практики"/>
+  </concept>
+  <concept>
+    <code value="260"/>
+    <display value="заведующий (директор, начальник, руководитель) питомника, учебного вивария, лесхоза, опытного поля, ботанического сада (дендрария)"/>
+  </concept>
+  <concept>
+    <code value="458"/>
+    <display value="заведующий питомника"/>
+  </concept>
+  <concept>
+    <code value="459"/>
+    <display value="заведующий учебного вивария"/>
+  </concept>
+  <concept>
+    <code value="460"/>
+    <display value="заведующий лесхоза"/>
+  </concept>
+  <concept>
+    <code value="461"/>
+    <display value="заведующий опытного поля"/>
+  </concept>
+  <concept>
+    <code value="462"/>
+    <display value="заведующий ботанического сада (дендрария)"/>
+  </concept>
+  <concept>
+    <code value="463"/>
+    <display value="директор питомника"/>
+  </concept>
+  <concept>
+    <code value="464"/>
+    <display value="директор учебного вивария"/>
+  </concept>
+  <concept>
+    <code value="465"/>
+    <display value="директор лесхоза"/>
+  </concept>
+  <concept>
+    <code value="466"/>
+    <display value="директор опытного поля"/>
+  </concept>
+  <concept>
+    <code value="467"/>
+    <display value="директор ботанического сада (дендрария)"/>
+  </concept>
+  <concept>
+    <code value="468"/>
+    <display value="начальник питомника"/>
+  </concept>
+  <concept>
+    <code value="469"/>
+    <display value="начальник учебного вивария"/>
+  </concept>
+  <concept>
+    <code value="470"/>
+    <display value="начальник лесхоза"/>
+  </concept>
+  <concept>
+    <code value="471"/>
+    <display value="начальник опытного поля"/>
+  </concept>
+  <concept>
+    <code value="472"/>
+    <display value="начальник ботанического сада (дендрария)"/>
+  </concept>
+  <concept>
+    <code value="473"/>
+    <display value="руководитель питомника"/>
+  </concept>
+  <concept>
+    <code value="474"/>
+    <display value="руководитель учебного вивария"/>
+  </concept>
+  <concept>
+    <code value="475"/>
+    <display value="руководитель лесхоза"/>
+  </concept>
+  <concept>
+    <code value="476"/>
+    <display value="руководитель опытного поля"/>
+  </concept>
+  <concept>
+    <code value="477"/>
+    <display value="руководитель ботанического сада (дендрария)"/>
+  </concept>
+  <concept>
+    <code value="261"/>
+    <display value="старший мастер"/>
+  </concept>
+  <concept>
+    <code value="262"/>
+    <display value="директор (начальник, руководитель) студенческого дворца культуры"/>
+  </concept>
+  <concept>
+    <code value="417"/>
+    <display value="директор студенческого дворца культуры"/>
+  </concept>
+  <concept>
+    <code value="418"/>
+    <display value="начальник студенческого дворца культуры"/>
+  </concept>
+  <concept>
+    <code value="419"/>
+    <display value="руководитель студенческого дворца культуры"/>
+  </concept>
+  <concept>
+    <code value="263"/>
+    <display value="директор (начальник, заведующий) студенческого общежития"/>
+  </concept>
+  <concept>
+    <code value="420"/>
+    <display value="директор студенческого общежития"/>
+  </concept>
+  <concept>
+    <code value="421"/>
+    <display value="начальник студенческого общежития"/>
+  </concept>
+  <concept>
+    <code value="422"/>
+    <display value="заведующий студенческого общежития"/>
+  </concept>
+  <concept>
+    <code value="264"/>
+    <display value="директор (руководитель, заведующий) издательства учебной литературы и учебных пособий"/>
+  </concept>
+  <concept>
+    <code value="423"/>
+    <display value="директор издательства учебной литературы и учебных пособий"/>
+  </concept>
+  <concept>
+    <code value="424"/>
+    <display value="руководитель издательства учебной литературы и учебных пособий"/>
+  </concept>
+  <concept>
+    <code value="425"/>
+    <display value="заведующий издательства учебной литературы и учебных пособий"/>
+  </concept>
+  <concept>
+    <code value="265"/>
+    <display value="Должности работников образовательных организаций"/>
+  </concept>
+  <concept>
+    <code value="266"/>
+    <display value="Должности педагогических работников, отнесенных к профессорско-преподавательскому составу"/>
+  </concept>
+  <concept>
+    <code value="267"/>
+    <display value="декан факультета"/>
+  </concept>
+  <concept>
+    <code value="426"/>
+    <display value="заместитель декана"/>
+  </concept>
+  <concept>
+    <code value="268"/>
+    <display value="начальник факультета"/>
+  </concept>
+  <concept>
+    <code value="269"/>
+    <display value="директор института"/>
+  </concept>
+  <concept>
+    <code value="270"/>
+    <display value="начальник института"/>
+  </concept>
+  <concept>
+    <code value="271"/>
+    <display value="заведующий кафедрой"/>
+  </concept>
+  <concept>
+    <code value="272"/>
+    <display value="начальник кафедры"/>
+  </concept>
+  <concept>
+    <code value="273"/>
+    <display value="заместитель начальника кафедры"/>
+  </concept>
+  <concept>
+    <code value="274"/>
+    <display value="профессор"/>
+  </concept>
+  <concept>
+    <code value="275"/>
+    <display value="доцент"/>
+  </concept>
+  <concept>
+    <code value="276"/>
+    <display value="старший преподаватель"/>
+  </concept>
+  <concept>
+    <code value="277"/>
+    <display value="преподаватель"/>
+  </concept>
+  <concept>
+    <code value="278"/>
+    <display value="ассистент"/>
+  </concept>
+  <concept>
+    <code value="279"/>
+    <display value="заведующий курсом"/>
+  </concept>
+  <concept>
+    <code value="280"/>
+    <display value="Должности иных педагогических работников образовательных организаций"/>
+  </concept>
+  <concept>
+    <code value="281"/>
+    <display value="воспитатель"/>
+  </concept>
+  <concept>
+    <code value="282"/>
+    <display value="инструктор-методист"/>
+  </concept>
+  <concept>
+    <code value="283"/>
+    <display value="инструктор по труду"/>
+  </concept>
+  <concept>
+    <code value="284"/>
+    <display value="инструктор по физической культуре"/>
+  </concept>
+  <concept>
+    <code value="285"/>
+    <display value="концертмейстер"/>
+  </concept>
+  <concept>
+    <code value="286"/>
+    <display value="логопед"/>
+  </concept>
+  <concept>
+    <code value="287"/>
+    <display value="мастер производственного обучения"/>
+  </concept>
+  <concept>
+    <code value="288"/>
+    <display value="методист"/>
+  </concept>
+  <concept>
+    <code value="289"/>
+    <display value="музыкальный руководитель"/>
+  </concept>
+  <concept>
+    <code value="290"/>
+    <display value="педагог дополнительного образования"/>
+  </concept>
+  <concept>
+    <code value="291"/>
+    <display value="педагог-библиотекарь"/>
+  </concept>
+  <concept>
+    <code value="292"/>
+    <display value="педагог-организатор"/>
+  </concept>
+  <concept>
+    <code value="293"/>
+    <display value="педагог-психолог"/>
+  </concept>
+  <concept>
+    <code value="294"/>
+    <display value="преподаватель"/>
+  </concept>
+  <concept>
+    <code value="295"/>
+    <display value="преподаватель-организатор основ безопасности жизнедеятельности"/>
+  </concept>
+  <concept>
+    <code value="296"/>
+    <display value="руководитель физического воспитания"/>
+  </concept>
+  <concept>
+    <code value="297"/>
+    <display value="социальный педагог"/>
+  </concept>
+  <concept>
+    <code value="298"/>
+    <display value="старший вожатый"/>
+  </concept>
+  <concept>
+    <code value="299"/>
+    <display value="старший воспитатель"/>
+  </concept>
+  <concept>
+    <code value="300"/>
+    <display value="старший инструктор-методист"/>
+  </concept>
+  <concept>
+    <code value="301"/>
+    <display value="старший методист"/>
+  </concept>
+  <concept>
+    <code value="302"/>
+    <display value="старший педагог дополнительного образования"/>
+  </concept>
+  <concept>
+    <code value="303"/>
+    <display value="старший тренер-преподаватель"/>
+  </concept>
+  <concept>
+    <code value="304"/>
+    <display value="тренер-преподаватель"/>
+  </concept>
+  <concept>
+    <code value="305"/>
+    <display value="тьютор"/>
+  </concept>
+  <concept>
+    <code value="306"/>
+    <display value="учитель"/>
+  </concept>
+  <concept>
+    <code value="307"/>
+    <display value="учитель-дефектолог"/>
+  </concept>
+  <concept>
+    <code value="308"/>
+    <display value="учитель-логопед"/>
+  </concept>
+  <concept>
+    <code value="309"/>
+    <display value="Должности научных работников"/>
+  </concept>
+  <concept>
+    <code value="310"/>
+    <display value="младший научный сотрудник"/>
+  </concept>
+  <concept>
+    <code value="311"/>
+    <display value="научный сотрудник"/>
+  </concept>
+  <concept>
+    <code value="312"/>
+    <display value="старший научный сотрудник"/>
+  </concept>
+  <concept>
+    <code value="313"/>
+    <display value="ведущий научный сотрудник"/>
+  </concept>
+  <concept>
+    <code value="314"/>
+    <display value="главный научный сотрудник"/>
+  </concept>
+  <concept>
+    <code value="315"/>
+    <display value="стажер-исследователь"/>
+  </concept>
+  <concept>
+    <code value="316"/>
+    <display value="лаборант-исследователь"/>
+  </concept>
+  <concept>
+    <code value="317"/>
+    <display value="Должности учебного-вспомогательного персонала образовательных организаций"/>
+  </concept>
+  <concept>
+    <code value="318"/>
+    <display value="заведующий учебным кабинетом"/>
+  </concept>
+  <concept>
+    <code value="319"/>
+    <display value="старший лаборант"/>
+  </concept>
+  <concept>
+    <code value="320"/>
+    <display value="лаборант"/>
+  </concept>
+  <concept>
+    <code value="321"/>
+    <display value="старший препаратор"/>
+  </concept>
+  <concept>
+    <code value="322"/>
+    <display value="рабочий кафедры"/>
+  </concept>
+  <concept>
+    <code value="323"/>
+    <display value="Должности административно-хозяйственного персонала образовательных и научно-исследовательских организаций"/>
+  </concept>
+  <concept>
+    <code value="324"/>
+    <display value="диспетчер факультета"/>
+  </concept>
+  <concept>
+    <code value="325"/>
+    <display value="ИТ-специалист"/>
+  </concept>
+  <concept>
+    <code value="326"/>
+    <display value="инженер"/>
+  </concept>
+  <concept>
+    <code value="327"/>
+    <display value="инженер-программист"/>
+  </concept>
+  <concept>
+    <code value="328"/>
+    <display value="водитель"/>
+  </concept>
+  <concept>
+    <code value="329"/>
+    <display value="специалист по учебно-методической работе"/>
+  </concept>
+  <concept>
+    <code value="330"/>
+    <display value="учебный мастер"/>
+  </concept>
+  <concept>
+    <code value="331"/>
+    <display value="бухгалтер"/>
+  </concept>
+  <concept>
+    <code value="332"/>
+    <display value="специалист отдела кадров"/>
+  </concept>
+  <concept>
+    <code value="333"/>
+    <display value="иные профессии рабочих"/>
+  </concept>
+</CodeSystem>

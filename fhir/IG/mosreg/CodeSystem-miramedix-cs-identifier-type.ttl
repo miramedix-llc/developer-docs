@@ -1,0 +1,51 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://miramedix.ru/fhir/ig/mosreg/CodeSystem/miramedix-cs-identifier-type> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "miramedix-cs-identifier-type"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://miramedix.ru/fhir/CodeSystem/miramedix-cs-identifier-type defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">snils<a name=\"miramedix-cs-identifier-type-snils\"> </a></td><td>СНИЛС</td><td>Страховой номер индивидуального лицевого счёта.</td></tr><tr><td style=\"white-space:nowrap\">employee-login<a name=\"miramedix-cs-identifier-type-employee-login\"> </a></td><td>Логин сотрудника</td><td>Логин сотрудника в МИС.</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://miramedix.ru/fhir/CodeSystem/miramedix-cs-identifier-type"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "Miramedix_cs_identifier_type"];
+  fhir:CodeSystem.title [ fhir:value "Справочник типов идентификаторов [Мирамедикс]"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2021-09-29"^^xsd:date];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Vitaly Rodionov" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "vrodionov@miramedix.ru" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "Справочник типов идентификаторов для информационной системы Мирамедикс."];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "2"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "snils" ];
+     fhir:CodeSystem.concept.display [ fhir:value "СНИЛС" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Страховой номер индивидуального лицевого счёта." ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "employee-login" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Логин сотрудника" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Логин сотрудника в МИС." ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://miramedix.ru/fhir/ig/mosreg/CodeSystem/miramedix-cs-identifier-type.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

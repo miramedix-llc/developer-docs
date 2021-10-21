@@ -1,0 +1,48 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "nsi-cs-1-2-643-5-1-13-13-11-1040",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1040 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1040-1\"> </a></td><td>Мужской</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1040-2\"> </a></td><td>Женский</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1040-3\"> </a></td><td>Неопределенный</td></tr></table></div>"
+  },
+  "url": "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1040",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.643.5.1.13.13.11.1040"
+    }
+  ],
+  "version": "2.1",
+  "name": "Nsi_cs_1_2_643_5_1_13_13_11_1040",
+  "title": "Пол пациента",
+  "status": "active",
+  "date": "2021-10-20T13:42:04+03:00",
+  "contact": [
+    {
+      "name": "см. паспорт справочника на ФНСИ",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "см. паспорт справочника на ФНСИ"
+        }
+      ]
+    }
+  ],
+  "description": "Справочник ФНСИ:  \n'Пол пациента'  \nверсия '2.1'  \n[1.2.643.5.1.13.13.11.1040](https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1040/version/2.1)",
+  "content": "complete",
+  "count": 3,
+  "concept": [
+    {
+      "code": "1",
+      "display": "Мужской"
+    },
+    {
+      "code": "2",
+      "display": "Женский"
+    },
+    {
+      "code": "3",
+      "display": "Неопределенный"
+    }
+  ]
+}

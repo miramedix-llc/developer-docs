@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<OperationOutcome xmlns="http://hl7.org/fhir">
+  <id value="Instance-miramedix-mosreg-operationoutcome-accesspoint-error"/>
+  <meta>
+    <profile value="http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-operationoutcome-accesspoint-error"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><h3>Issues</h3><table class="grid"><tr><td>-</td><td><b>Severity</b></td><td><b>Code</b></td><td><b>Diagnostics</b></td></tr><tr><td>*</td><td>error</td><td>expired</td><td>Время действия токена доступа истекло, необходимо осуществить обновление токена доступа. Обратитесь к администратору.</td></tr></table></div>
+  </text>
+  <issue>
+    <severity value="error"/>
+    <code value="expired"/>
+    <diagnostics value="Время действия токена доступа истекло, необходимо осуществить обновление токена доступа. Обратитесь к администратору."/>
+  </issue>
+</OperationOutcome>

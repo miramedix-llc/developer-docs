@@ -1,0 +1,20 @@
+{
+  "resourceType": "OperationOutcome",
+  "id": "Instance-miramedix-mosreg-operationoutcome-accesspoint-error",
+  "meta": {
+    "profile": [
+      "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-operationoutcome-accesspoint-error"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Issues</h3><table class=\"grid\"><tr><td>-</td><td><b>Severity</b></td><td><b>Code</b></td><td><b>Diagnostics</b></td></tr><tr><td>*</td><td>error</td><td>expired</td><td>Время действия токена доступа истекло, необходимо осуществить обновление токена доступа. Обратитесь к администратору.</td></tr></table></div>"
+  },
+  "issue": [
+    {
+      "severity": "error",
+      "code": "expired",
+      "diagnostics": "Время действия токена доступа истекло, необходимо осуществить обновление токена доступа. Обратитесь к администратору."
+    }
+  ]
+}

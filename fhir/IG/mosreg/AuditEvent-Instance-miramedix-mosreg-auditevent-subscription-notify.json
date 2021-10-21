@@ -1,0 +1,42 @@
+{
+  "resourceType": "AuditEvent",
+  "id": "Instance-miramedix-mosreg-auditevent-subscription-notify",
+  "meta": {
+    "profile": [
+      "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-auditevent-subscription-notify"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>type</b>: <span title=\"{http://miramedix.ru/fhir/CodeSystem/miramedix-cs-auditevent-type notify-by-subscription}\">Отправлено оповещение по подписке</span></p><p><b>recorded</b>: 23.09.2021 19:47:20</p><p><b>outcome</b>: 0</p><h3>Agents</h3><table class=\"grid\"><tr><td>-</td><td><b>Requestor</b></td></tr><tr><td>*</td><td>true</td></tr></table><h3>Sources</h3><table class=\"grid\"><tr><td>-</td><td><b>Observer</b></td></tr><tr><td>*</td><td><span>http://miramedix.ru</span></td></tr></table><blockquote><p><b>entity</b></p><p><b>what</b>: <a href=\"Composition/1e1818b9-b75c-46b9-9caa-52da100d5575\">Composition/1e1818b9-b75c-46b9-9caa-52da100d5575</a></p></blockquote><blockquote><p><b>entity</b></p><p><b>what</b>: <a href=\"Subscription-241601ab-018e-4395-8cf0-c02e039a69da.html\">Generated Summary: status: active; reason: Подписка на оповещения о готовности протокола онкологического консилиума (протокол подписан, подписанная копия протокола отсканирована и загружена в систему).; criteria: Composition?ehrIntegrationStatus=order&amp;status=final</a></p></blockquote></div>"
+  },
+  "type": {
+    "system": "http://miramedix.ru/fhir/CodeSystem/miramedix-cs-auditevent-type",
+    "code": "notify-by-subscription",
+    "display": "Отправлено оповещение по подписке"
+  },
+  "recorded": "2021-09-23T16:47:20.781Z",
+  "outcome": "0",
+  "agent": [
+    {
+      "requestor": true
+    }
+  ],
+  "source": {
+    "observer": {
+      "display": "http://miramedix.ru"
+    }
+  },
+  "entity": [
+    {
+      "what": {
+        "reference": "Composition/1e1818b9-b75c-46b9-9caa-52da100d5575"
+      }
+    },
+    {
+      "what": {
+        "reference": "Subscription/241601ab-018e-4395-8cf0-c02e039a69da"
+      }
+    }
+  ]
+}

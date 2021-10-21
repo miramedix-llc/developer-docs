@@ -1,0 +1,33 @@
+{
+  "resourceType": "MessageHeader",
+  "id": "fbbd9cdb-5114-49af-82bd-8f08592f4259",
+  "meta": {
+    "profile": [
+      "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-messageheader-notify"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>event</b>: <span title=\"{http://miramedix.ru/fhir/CodeSystem/miramedix-cs-event-type protocol-oc-ready}\">Протокол ОК готов для скачивания</span></p><h3>Destinations</h3><table class=\"grid\"><tr><td>-</td><td><b>Name</b></td><td><b>Endpoint</b></td></tr><tr><td>*</td><td>МИС</td><td><a href=\"https://softrust.ru/\">https://softrust.ru/</a></td></tr></table><h3>Sources</h3><table class=\"grid\"><tr><td>-</td><td><b>Name</b></td><td><b>Endpoint</b></td></tr><tr><td>*</td><td>Сервис ОК</td><td><a href=\"https://miramedix.ru/\">https://miramedix.ru/</a></td></tr></table><p><b>focus</b>: <a href=\"DocumentManifest-f4309c2e-1800-43ac-85d6-1f026432efd3.html\">Generated Summary: status: current</a></p></div>"
+  },
+  "eventCoding": {
+    "system": "http://miramedix.ru/fhir/CodeSystem/miramedix-cs-event-type",
+    "code": "protocol-oc-ready",
+    "display": "Протокол ОК готов для скачивания"
+  },
+  "destination": [
+    {
+      "name": "МИС",
+      "endpoint": "https://softrust.ru/"
+    }
+  ],
+  "source": {
+    "name": "Сервис ОК",
+    "endpoint": "https://miramedix.ru/"
+  },
+  "focus": [
+    {
+      "reference": "DocumentManifest/f4309c2e-1800-43ac-85d6-1f026432efd3"
+    }
+  ]
+}

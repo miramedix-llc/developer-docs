@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="miramedix-cs-event-type"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://miramedix.ru/fhir/CodeSystem/miramedix-cs-event-type defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">protocol-oc-ready<a name="miramedix-cs-event-type-protocol-oc-ready"> </a></td><td>Протокол ОК готов для скачивания</td></tr></table></div>
+  </text>
+  <url value="http://miramedix.ru/fhir/CodeSystem/miramedix-cs-event-type"/>
+  <version value="0.1.0"/>
+  <name value="Miramedix_cs_event_type"/>
+  <title value="Справочник типов событий [Мирамедикс]"/>
+  <status value="active"/>
+  <date value="2021-09-29"/>
+  <contact>
+    <name value="Vitaly Rodionov"/>
+    <telecom>
+      <system value="email"/>
+      <value value="vrodionov@miramedix.ru"/>
+    </telecom>
+  </contact>
+  <description value="Справочник типов событий для информационной системы Мирамедикс."/>
+  <content value="complete"/>
+  <count value="1"/>
+  <concept>
+    <code value="protocol-oc-ready"/>
+    <display value="Протокол ОК готов для скачивания"/>
+  </concept>
+</CodeSystem>
