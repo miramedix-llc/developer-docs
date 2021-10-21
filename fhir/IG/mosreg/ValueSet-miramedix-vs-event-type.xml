@@ -10,7 +10,7 @@
   <name value="Miramedix_vs_event_type"/>
   <title value="Набор значений типов событий [Мирамедикс]"/>
   <status value="active"/>
-  <date value="2021-10-21T16:57:10+03:00"/>
+  <date value="2021-10-21T17:36:15+03:00"/>
   <description value="Набор значений для указания типов событий для информационной системы Мирамедикс."/>
   <compose>
     <include>

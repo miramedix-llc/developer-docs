@@ -251,7 +251,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <ul>
   <li>В МИС
     <ul>
-      <li>Бэкенд МИС выполняет вызов API Сервиса ОК POST <code class="language-plaintext highlighter-rouge">[base]/mosreg/accesspoint</code> с предоставлением данных о пациенте, диагнозе, анамнезе (в виде набора ресурсов FHIR).<br/>
+      <li>Бэкенд МИС выполняет вызов API Сервиса ОК POST <code class="language-plaintext highlighter-rouge">[base]/accesspoint</code> с предоставлением данных о пациенте, диагнозе, анамнезе (в виде набора ресурсов FHIR).<br/>
   В ответ возвращается json, содержащий ссылку на страницу Сервиса ОК, где для указанного пациента можно просмотреть имеющиеся заявки на ОК (и протоколы для них) или создать новую заявку.</li>
       <li>Бэкенд МИС возвращает фронтенду адрес для перехода в Сервис ОК (из поля <code class="language-plaintext highlighter-rouge">address</code>).</li>
       <li>Фронтенд МИС открывает в новой вкладке браузера страницу с полученным адресом.</li>
@@ -285,7 +285,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <ul>
   <li>В МИС
     <ul>
-      <li>Бэкенд МИС выполняет вызов API Сервиса ОК POST <code class="language-plaintext highlighter-rouge">[base]/mosreg/accesspoint</code> без предоставления данных о пациенте, диагнозе, анамнезе.<br/>
+      <li>Бэкенд МИС выполняет вызов API Сервиса ОК POST <code class="language-plaintext highlighter-rouge">[base]/accesspoint</code> без предоставления данных о пациенте, диагнозе, анамнезе.<br/>
   В ответ возвращается json, содержащий ссылку на стартовую страницу Сервиса ОК, с которой имеется возможность найти нужного пациента.</li>
       <li>Бэкенд МИС возвращает фронтенду адрес для перехода в Сервис ОК (из поля <code class="language-plaintext highlighter-rouge">address</code>).</li>
       <li>Фронтенд МИС открывает в новой вкладке браузера страницу с полученным адресом.</li>
@@ -311,10 +311,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <li>МИС запрашивает сервис ОК для получения протокола:
         <ul>
           <li>И/ИЛИ запрашивает файл (pdf) скана через вызов
-  <code class="language-plaintext highlighter-rouge">GET [base]/mosreg/protocols/:id/scancopy</code>,
+  <code class="language-plaintext highlighter-rouge">GET [base]/protocols/:id/scancopy</code>,
   в ответ возвращается ресурс DocumentReference со ссылкой на скачивание PDF-файла (в поле content.attachment.url).</li>
           <li>И/ИЛИ запрашивает FHIR-ресурс через вызов
-  <code class="language-plaintext highlighter-rouge">GET [base]/mosreg/protocols/:id</code>,
+  <code class="language-plaintext highlighter-rouge">GET [base]/protocols/:id</code>,
   в ответ возвращается FHIR-ресурс протокола (бандл).</li>
         </ul>
       </li>
@@ -409,7 +409,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p><strong>1б) Обновление токена доступа</strong></p>
 
 <p><strong>ЗАПРОС:</strong></p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>POST /api/integrations/element/auth/token
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>POST [base]/auth/token
 
 {
   "refresh_token": "..."
@@ -447,7 +447,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p><strong>1а) Для пользователей, создающих заявки на ОК.</strong></p>
 
 <p><strong>ЗАПРОС:</strong></p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>POST [base]/mosreg/accesspoint
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>POST [base]/accesspoint
 
 {
   "resourceType" : "Bundle",
@@ -518,7 +518,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p><strong>1б) Для пользователей, проводящий ОК и формирующих протокол ОК.</strong></p>
 
 <p><strong>ЗАПРОС:</strong></p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>POST [base]/mosreg/accesspoint
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>POST [base]/accesspoint
 </code></pre></div></div>
 
 <p><strong>ОТВЕТ [в случае УСПЕХА]:</strong></p>
@@ -614,7 +614,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 В ответ возвращается ресурс DocumentReference с содержимым PDF-файла протокола онкологического консилиума в формате base64 (в поле content.attachment.data).</p>
 
 <p><strong>ЗАПРОС:</strong></p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GET [base]/mosreg/protocols/:id/scancopy
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GET [base]/protocols/:id/scancopy
 </code></pre></div></div>
 
 <p><strong>ОТВЕТ:</strong></p>
@@ -642,7 +642,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 В ответ возвращается FHIR-представление протокола онкологического консилиума (бандл с ресурсами).</p>
 
 <p><strong>ЗАПРОС:</strong></p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GET [base]/mosreg/protocols/:id
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GET [base]/protocols/:id
 </code></pre></div></div>
 <p><strong>ОТВЕТ:</strong></p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
@@ -721,11 +721,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     </tr>
     <tr>
       <td>Получение доступа</td>
-      <td>POST [base]/mosreg/accesspoint</td>
+      <td>POST [base]/accesspoint</td>
     </tr>
     <tr>
       <td>Получение протокола</td>
-      <td>GET [base]/mosreg/protocols/:id<br/>GET [base]/mosreg/protocols/:id/scancopy</td>
+      <td>GET [base]/protocols/:id<br/>GET [base]/protocols/:id/scancopy</td>
     </tr>
     <tr>
       <td>Оповещение о событии</td>
@@ -779,7 +779,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p><a name="l1473">​</a>
-          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package fhir-miramedix-mosreg#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Oct 21, 2021 16:57+0300">2021-10-21</span>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package fhir-miramedix-mosreg#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Oct 21, 2021 17:36+0300">2021-10-21</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

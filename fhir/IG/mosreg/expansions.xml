@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="98c29de6-9327-4ec5-9906-019fc7068b5d"/>
+  <id value="1120abd3-48b4-477e-8b0f-0abc878bc23b"/>
   <meta>
-    <lastUpdated value="2021-10-21T16:57:10.224+03:00"/>
+    <lastUpdated value="2021-10-21T17:36:15.372+03:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -51,11 +51,11 @@
         <name value="Miramedix_vs_event_type"/>
         <title value="Набор значений типов событий [Мирамедикс]"/>
         <status value="active"/>
-        <date value="2021-10-21T16:57:10+03:00"/>
+        <date value="2021-10-21T17:36:15+03:00"/>
         <description value="Набор значений для указания типов событий для информационной системы Мирамедикс."/>
         <expansion>
-          <identifier value="urn:uuid:7f981061-c665-4340-8e7b-b93f8c627965"/>
-          <timestamp value="2021-10-21T16:57:33+03:00"/>
+          <identifier value="urn:uuid:98de3801-6ebc-4b99-be90-243f8406147b"/>
+          <timestamp value="2021-10-21T17:36:36+03:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -172,11 +172,11 @@
         <name value="Miramedix_vs_patient_identifier_type"/>
         <title value="Набор значений типов идентификаторов пациентов [Мирамедикс]"/>
         <status value="active"/>
-        <date value="2021-10-21T16:57:10+03:00"/>
+        <date value="2021-10-21T17:36:15+03:00"/>
         <description value="Набор значений для указания типов идентификаторов пациентов для информационной системы Мирамедикс."/>
         <expansion>
-          <identifier value="urn:uuid:accaa2e4-438c-49af-950f-7f841149aa32"/>
-          <timestamp value="2021-10-21T16:57:33+03:00"/>
+          <identifier value="urn:uuid:487a373e-6a1a-47a3-a94a-fc1edb3d8718"/>
+          <timestamp value="2021-10-21T17:36:36+03:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -298,11 +298,11 @@
         <name value="Miramedix_vs_practitioner_identifier_type"/>
         <title value="Набор значений типов идентификаторов сотрудников [Мирамедикс]"/>
         <status value="active"/>
-        <date value="2021-10-21T16:57:10+03:00"/>
+        <date value="2021-10-21T17:36:15+03:00"/>
         <description value="Набор значений для указания типов идентификаторов сотрудников для информационной системы Мирамедикс."/>
         <expansion>
-          <identifier value="urn:uuid:c1f43856-5eb2-4cfa-8a16-62e5dd6fdbfc"/>
-          <timestamp value="2021-10-21T16:57:33+03:00"/>
+          <identifier value="urn:uuid:629c057f-06a2-4821-8e7c-7983e614f845"/>
+          <timestamp value="2021-10-21T17:36:36+03:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4434,11 +4434,11 @@
         <name value="Nsi_vs_1_2_643_5_1_13_13_11_1002"/>
         <title value="Должности медицинских и фармацевтических работников [все значения]"/>
         <status value="active"/>
-        <date value="2021-10-21T16:57:10+03:00"/>
+        <date value="2021-10-21T17:36:15+03:00"/>
         <description value="&#39;Должности медицинских и фармацевтических работников&#39;  &#xA;[набор из всех значений системы кодирования]"/>
         <expansion>
-          <identifier value="urn:uuid:a739668d-2c58-4076-8ba1-a357c5ae16f5"/>
-          <timestamp value="2021-10-21T16:57:33+03:00"/>
+          <identifier value="urn:uuid:f550b448-8ba0-49eb-92a9-a85ddf48fc41"/>
+          <timestamp value="2021-10-21T17:36:36+03:00"/>
           <total value="508"/>
           <parameter>
             <name value="excludeNested"/>
@@ -14620,14 +14620,14 @@
         <name value="Nsi_vs_1_2_643_5_1_13_13_11_1005"/>
         <title value="Международная статистическая классификация болезней и проблем, связанных со здоровьем (10-й пересмотр) [все значения]"/>
         <status value="active"/>
-        <date value="2021-10-21T16:57:10+03:00"/>
+        <date value="2021-10-21T17:36:15+03:00"/>
         <description value="&#39;Международная статистическая классификация болезней и проблем, связанных со здоровьем (10-й пересмотр)&#39;  &#xA;[набор из всех значений системы кодирования]"/>
         <expansion>
           <extension url="http://hl7.org/fhir/tools/StructureDefinition/expansion-codesystem-fragment">
             <valueUri value="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1005"/>
           </extension>
-          <identifier value="urn:uuid:89f7afb4-3ef0-4ae1-ab40-95a0682bb656"/>
-          <timestamp value="2021-10-21T16:57:33+03:00"/>
+          <identifier value="urn:uuid:f38fea16-b444-46f7-8dc8-f76e28ce827b"/>
+          <timestamp value="2021-10-21T17:36:37+03:00"/>
           <total value="1084"/>
           <parameter>
             <name value="excludeNested"/>
@@ -20128,11 +20128,11 @@
         <name value="Nsi_vs_1_2_643_5_1_13_13_11_1035"/>
         <title value="Виды полиса обязательного медицинского страхования [все значения]"/>
         <status value="active"/>
-        <date value="2021-10-21T16:57:10+03:00"/>
+        <date value="2021-10-21T17:36:15+03:00"/>
         <description value="&#39;Виды полиса обязательного медицинского страхования&#39;  &#xA;[набор из всех значений системы кодирования]"/>
         <expansion>
-          <identifier value="urn:uuid:a7788b5e-8801-47bc-b897-a5e8ab106d45"/>
-          <timestamp value="2021-10-21T16:57:33+03:00"/>
+          <identifier value="urn:uuid:546df12e-9079-4e3f-ba91-8cfcfbfce3f3"/>
+          <timestamp value="2021-10-21T17:36:37+03:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -20225,11 +20225,11 @@
         <name value="Nsi_vs_1_2_643_5_1_13_13_11_1040"/>
         <title value="Пол пациента [все значения]"/>
         <status value="active"/>
-        <date value="2021-10-21T16:57:10+03:00"/>
+        <date value="2021-10-21T17:36:15+03:00"/>
         <description value="&#39;Пол пациента&#39;  &#xA;[набор из всех значений системы кодирования]"/>
         <expansion>
-          <identifier value="urn:uuid:6a848725-73e7-4db6-b065-fbe4fb37dbc5"/>
-          <timestamp value="2021-10-21T16:57:33+03:00"/>
+          <identifier value="urn:uuid:9377de5f-b2c2-4169-92d2-5e2662516d38"/>
+          <timestamp value="2021-10-21T17:36:37+03:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -21461,11 +21461,11 @@
         <name value="Nsi_vs_1_2_643_5_1_13_13_11_1066"/>
         <title value="Номенклатура специальностей специалистов, имеющих медицинское и фармацевтическое образование [все значения]"/>
         <status value="active"/>
-        <date value="2021-10-21T16:57:10+03:00"/>
+        <date value="2021-10-21T17:36:15+03:00"/>
         <description value="&#39;Номенклатура специальностей специалистов, имеющих медицинское и фармацевтическое образование&#39;  &#xA;[набор из всех значений системы кодирования]"/>
         <expansion>
-          <identifier value="urn:uuid:134e7bc4-d67f-4f4b-9aee-0fe1eb96732c"/>
-          <timestamp value="2021-10-21T16:57:33+03:00"/>
+          <identifier value="urn:uuid:1caa41c6-1657-41db-847c-5bcdd6fb6ebe"/>
+          <timestamp value="2021-10-21T17:36:37+03:00"/>
           <total value="146"/>
           <parameter>
             <name value="excludeNested"/>
@@ -22300,11 +22300,11 @@
         <name value="Nsi_vs_1_2_643_5_1_13_13_11_1077"/>
         <title value="Виды нозологических единиц диагноза [все значения]"/>
         <status value="active"/>
-        <date value="2021-10-21T16:57:10+03:00"/>
+        <date value="2021-10-21T17:36:15+03:00"/>
         <description value="&#39;Виды нозологических единиц диагноза&#39;  &#xA;[набор из всех значений системы кодирования]"/>
         <expansion>
-          <identifier value="urn:uuid:2c39a3f3-0343-4050-8218-d71df56f5355"/>
-          <timestamp value="2021-10-21T16:57:33+03:00"/>
+          <identifier value="urn:uuid:7efb33eb-361f-497a-a48f-631e38d4e74b"/>
+          <timestamp value="2021-10-21T17:36:37+03:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -22596,11 +22596,11 @@
         <name value="Nsi_vs_1_2_643_5_1_13_13_11_1506"/>
         <title value="Цели проведения врачебной комиссии (консилиума врачей) [все значения]"/>
         <status value="active"/>
-        <date value="2021-10-21T16:57:10+03:00"/>
+        <date value="2021-10-21T17:36:15+03:00"/>
         <description value="&#39;Цели проведения врачебной комиссии (консилиума врачей)&#39;  &#xA;[набор из всех значений системы кодирования]"/>
         <expansion>
-          <identifier value="urn:uuid:3d694368-916e-4a30-ab0d-840f01917e0e"/>
-          <timestamp value="2021-10-21T16:57:33+03:00"/>
+          <identifier value="urn:uuid:43e7eb0b-37af-4ffb-91e4-4f57ea6986c0"/>
+          <timestamp value="2021-10-21T17:36:37+03:00"/>
           <total value="26"/>
           <parameter>
             <name value="excludeNested"/>

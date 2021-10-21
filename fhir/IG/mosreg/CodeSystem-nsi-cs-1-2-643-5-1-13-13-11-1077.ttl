@@ -22,7 +22,7 @@
   fhir:CodeSystem.name [ fhir:value "Nsi_cs_1_2_643_5_1_13_13_11_1077"];
   fhir:CodeSystem.title [ fhir:value "Виды нозологических единиц диагноза"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2021-10-21T16:57:10+03:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2021-10-21T17:36:15+03:00"^^xsd:dateTime];
   fhir:CodeSystem.contact [
      fhir:index 0;
      fhir:ContactDetail.name [ fhir:value "см. паспорт справочника на ФНСИ" ];

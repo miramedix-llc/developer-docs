@@ -10,7 +10,7 @@
   "name": "MiramedixMosregIG",
   "title": "HL7 FHIR Implementation Guide: Miramedix mosreg IG Release 1 - RU Realm | STU1",
   "status": "draft",
-  "date": "2021-10-21T16:57:10+03:00",
+  "date": "2021-10-21T17:36:15+03:00",
   "description": "Miramedix mosreg IG",
   "packageId": "fhir-miramedix-mosreg",
   "license": "CC0-1.0",

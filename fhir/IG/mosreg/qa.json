@@ -3,7 +3,7 @@
   "name": "MiramedixMosregIG",
   "package-id": "fhir-miramedix-mosreg",
   "ig-ver": "0.1.0",
-  "date": "Thu, 21 Oct, 2021 16:57:10 +0300",
+  "date": "Thu, 21 Oct, 2021 17:36:15 +0300",
   "errs": 46,
   "warnings": 23,
   "hints": 8,
