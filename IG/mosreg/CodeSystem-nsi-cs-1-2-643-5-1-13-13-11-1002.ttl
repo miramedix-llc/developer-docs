@@ -1,0 +1,2078 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://miramedix.ru/fhir/ig/mosreg/CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1002> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "nsi-cs-1-2-643-5-1-13-13-11-1002"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1002 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-1\"> </a></td><td>Должности работников медицинских организаций</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-2\"> </a></td><td>Должности медицинских работников</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-3\"> </a></td><td>Должности руководителей медицинских организаций</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-4\"> </a></td><td>главный врач (начальник) медицинской организации</td></tr><tr><td style=\"white-space:nowrap\">334<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-334\"> </a></td><td>главный врач медицинской организации</td></tr><tr><td style=\"white-space:nowrap\">335<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-335\"> </a></td><td>начальник медицинской организации</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-5\"> </a></td><td>директор больницы (дома) сестринского ухода, хосписа</td></tr><tr><td style=\"white-space:nowrap\">427<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-427\"> </a></td><td>директор больницы (дома) сестринского ухода</td></tr><tr><td style=\"white-space:nowrap\">428<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-428\"> </a></td><td>директор хосписа</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-6\"> </a></td><td>заместитель руководителя (начальника) медицинской организации</td></tr><tr><td style=\"white-space:nowrap\">336<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-336\"> </a></td><td>заместитель руководителя медицинской организации</td></tr><tr><td style=\"white-space:nowrap\">337<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-337\"> </a></td><td>заместитель начальника медицинской организации</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-7\"> </a></td><td>заведующий (начальник) структурного подразделения (отдела, отделения, лаборатории, кабинета, отряда и другое) медицинской организации - врач-специалист</td></tr><tr><td style=\"white-space:nowrap\">429<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-429\"> </a></td><td>заведующий отделом медицинской организации</td></tr><tr><td style=\"white-space:nowrap\">430<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-430\"> </a></td><td>заведующий отделением медицинской организации</td></tr><tr><td style=\"white-space:nowrap\">431<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-431\"> </a></td><td>заведующий лабораторией медицинской организации</td></tr><tr><td style=\"white-space:nowrap\">432<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-432\"> </a></td><td>заведующий кабинетом медицинской организации</td></tr><tr><td style=\"white-space:nowrap\">433<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-433\"> </a></td><td>заведующий отрядом медицинской организации</td></tr><tr><td style=\"white-space:nowrap\">434<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-434\"> </a></td><td>начальник отдела медицинской организации</td></tr><tr><td style=\"white-space:nowrap\">435<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-435\"> </a></td><td>начальник отделения медицинской организации</td></tr><tr><td style=\"white-space:nowrap\">436<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-436\"> </a></td><td>начальник лаборатории медицинской организации</td></tr><tr><td style=\"white-space:nowrap\">437<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-437\"> </a></td><td>начальник кабинета медицинской организации</td></tr><tr><td style=\"white-space:nowrap\">438<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-438\"> </a></td><td>начальник отряда медицинской организации</td></tr><tr><td style=\"white-space:nowrap\">513<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-513\"> </a></td><td>руководитель бюро медико-социальной экспертизы</td></tr><tr><td style=\"white-space:nowrap\">514<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-514\"> </a></td><td>руководитель экспертного состава медико-социальной экспертизы</td></tr><tr><td style=\"white-space:nowrap\">515<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-515\"> </a></td><td>руководитель Главного бюро медико-социальной экспертизы</td></tr><tr><td style=\"white-space:nowrap\">520<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-520\"> </a></td><td>заведующий станцией скорой медицинской помощи</td></tr><tr><td style=\"white-space:nowrap\">521<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-521\"> </a></td><td>заведующий подстанцией скорой медицинской помощи</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-8\"> </a></td><td>заведующий (главный врач, начальник) структурного подразделения, осуществляющего медицинскую деятельность, иной организации</td></tr><tr><td style=\"white-space:nowrap\">340<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-340\"> </a></td><td>заведующий структурным подразделением, осуществляющим медицинскую деятельность, иной организации</td></tr><tr><td style=\"white-space:nowrap\">341<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-341\"> </a></td><td>главный врач структурного подразделения, осуществляющего медицинскую деятельность, иной организации</td></tr><tr><td style=\"white-space:nowrap\">342<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-342\"> </a></td><td>начальник структурного подразделения, осуществляющего медицинскую деятельность, иной организации</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-9\"> </a></td><td>главная медицинская сестра (главная акушерка, главный фельдшер)</td></tr><tr><td style=\"white-space:nowrap\">343<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-343\"> </a></td><td>главная медицинская сестра</td></tr><tr><td style=\"white-space:nowrap\">344<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-344\"> </a></td><td>главная акушерка</td></tr><tr><td style=\"white-space:nowrap\">345<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-345\"> </a></td><td>главный фельдшер</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-10\"> </a></td><td>Должности специалистов с высшим профессиональным (медицинским) образованием (врачи)</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-11\"> </a></td><td>врач-стажер</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-12\"> </a></td><td>врачи-специалисты</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-13\"> </a></td><td>врач-акушер-гинеколог</td></tr><tr><td style=\"white-space:nowrap\">14<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-14\"> </a></td><td>врач-акушер-гинеколог цехового врачебного участка</td></tr><tr><td style=\"white-space:nowrap\">15<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-15\"> </a></td><td>врач-аллерголог-иммунолог</td></tr><tr><td style=\"white-space:nowrap\">16<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-16\"> </a></td><td>врач-анестезиолог-реаниматолог</td></tr><tr><td style=\"white-space:nowrap\">17<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-17\"> </a></td><td>врач-бактериолог</td></tr><tr><td style=\"white-space:nowrap\">18<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-18\"> </a></td><td>врач-вирусолог</td></tr><tr><td style=\"white-space:nowrap\">19<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-19\"> </a></td><td>врач-гастроэнтеролог</td></tr><tr><td style=\"white-space:nowrap\">20<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-20\"> </a></td><td>врач-гематолог</td></tr><tr><td style=\"white-space:nowrap\">21<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-21\"> </a></td><td>врач-генетик</td></tr><tr><td style=\"white-space:nowrap\">22<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-22\"> </a></td><td>врач-гериатр</td></tr><tr><td style=\"white-space:nowrap\">23<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-23\"> </a></td><td>врач-дезинфектолог</td></tr><tr><td style=\"white-space:nowrap\">24<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-24\"> </a></td><td>врач-дерматовенеролог</td></tr><tr><td style=\"white-space:nowrap\">25<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-25\"> </a></td><td>врач - детский кардиолог</td></tr><tr><td style=\"white-space:nowrap\">26<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-26\"> </a></td><td>врач - детский онколог</td></tr><tr><td style=\"white-space:nowrap\">517<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-517\"> </a></td><td>врач - детский онколог-гематолог</td></tr><tr><td style=\"white-space:nowrap\">27<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-27\"> </a></td><td>врач - детский уролог-андролог</td></tr><tr><td style=\"white-space:nowrap\">28<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-28\"> </a></td><td>врач - детский хирург</td></tr><tr><td style=\"white-space:nowrap\">29<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-29\"> </a></td><td>врач - детский эндокринолог</td></tr><tr><td style=\"white-space:nowrap\">30<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-30\"> </a></td><td>врач-диабетолог</td></tr><tr><td style=\"white-space:nowrap\">31<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-31\"> </a></td><td>врач-диетолог</td></tr><tr><td style=\"white-space:nowrap\">32<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-32\"> </a></td><td>врач здравпункта</td></tr><tr><td style=\"white-space:nowrap\">33<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-33\"> </a></td><td>врач-инфекционист</td></tr><tr><td style=\"white-space:nowrap\">34<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-34\"> </a></td><td>врач-кардиолог</td></tr><tr><td style=\"white-space:nowrap\">35<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-35\"> </a></td><td>врач клинической лабораторной диагностики</td></tr><tr><td style=\"white-space:nowrap\">36<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-36\"> </a></td><td>врач - клинический миколог</td></tr><tr><td style=\"white-space:nowrap\">37<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-37\"> </a></td><td>врач - клинический фармаколог</td></tr><tr><td style=\"white-space:nowrap\">38<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-38\"> </a></td><td>врач-колопроктолог</td></tr><tr><td style=\"white-space:nowrap\">39<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-39\"> </a></td><td>врач-косметолог</td></tr><tr><td style=\"white-space:nowrap\">40<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-40\"> </a></td><td>врач-лаборант</td></tr><tr><td style=\"white-space:nowrap\">41<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-41\"> </a></td><td>врач - лабораторный генетик</td></tr><tr><td style=\"white-space:nowrap\">42<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-42\"> </a></td><td>врач - лабораторный миколог</td></tr><tr><td style=\"white-space:nowrap\">43<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-43\"> </a></td><td>врач мануальной терапии</td></tr><tr><td style=\"white-space:nowrap\">518<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-518\"> </a></td><td>врач - медицинский микробиолог</td></tr><tr><td style=\"white-space:nowrap\">44<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-44\"> </a></td><td>врач-методист</td></tr><tr><td style=\"white-space:nowrap\">45<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-45\"> </a></td><td>врач-невролог</td></tr><tr><td style=\"white-space:nowrap\">46<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-46\"> </a></td><td>врач-нейрохирург</td></tr><tr><td style=\"white-space:nowrap\">47<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-47\"> </a></td><td>врач-неонатолог</td></tr><tr><td style=\"white-space:nowrap\">48<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-48\"> </a></td><td>врач-нефролог</td></tr><tr><td style=\"white-space:nowrap\">49<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-49\"> </a></td><td>врач общей практики (семейный врач)</td></tr><tr><td style=\"white-space:nowrap\">50<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-50\"> </a></td><td>врач-онколог</td></tr><tr><td style=\"white-space:nowrap\">51<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-51\"> </a></td><td>врач-ортодонт</td></tr><tr><td style=\"white-space:nowrap\">52<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-52\"> </a></td><td>врач-остеопат</td></tr><tr><td style=\"white-space:nowrap\">53<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-53\"> </a></td><td>врач-оториноларинголог</td></tr><tr><td style=\"white-space:nowrap\">54<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-54\"> </a></td><td>врач-офтальмолог</td></tr><tr><td style=\"white-space:nowrap\">55<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-55\"> </a></td><td>врач-офтальмолог-протезист</td></tr><tr><td style=\"white-space:nowrap\">56<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-56\"> </a></td><td>врач-паразитолог</td></tr><tr><td style=\"white-space:nowrap\">57<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-57\"> </a></td><td>врач-патологоанатом</td></tr><tr><td style=\"white-space:nowrap\">58<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-58\"> </a></td><td>врач-педиатр</td></tr><tr><td style=\"white-space:nowrap\">59<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-59\"> </a></td><td>врач-педиатр участковый</td></tr><tr><td style=\"white-space:nowrap\">60<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-60\"> </a></td><td>врач-педиатр городской (районный)</td></tr><tr><td style=\"white-space:nowrap\">61<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-61\"> </a></td><td>врач - пластический хирург</td></tr><tr><td style=\"white-space:nowrap\">62<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-62\"> </a></td><td>врач по авиационной и космической медицине</td></tr><tr><td style=\"white-space:nowrap\">63<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-63\"> </a></td><td>врач по водолазной медицине</td></tr><tr><td style=\"white-space:nowrap\">64<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-64\"> </a></td><td>врач по гигиене детей и подростков</td></tr><tr><td style=\"white-space:nowrap\">65<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-65\"> </a></td><td>врач по гигиене питания</td></tr><tr><td style=\"white-space:nowrap\">66<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-66\"> </a></td><td>врач по гигиене труда</td></tr><tr><td style=\"white-space:nowrap\">67<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-67\"> </a></td><td>врач по гигиеническому воспитанию</td></tr><tr><td style=\"white-space:nowrap\">68<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-68\"> </a></td><td>врач по коммунальной гигиене</td></tr><tr><td style=\"white-space:nowrap\">69<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-69\"> </a></td><td>врач по лечебной физкультуре</td></tr><tr><td style=\"white-space:nowrap\">70<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-70\"> </a></td><td>врач по медико-социальной экспертизе</td></tr><tr><td style=\"white-space:nowrap\">71<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-71\"> </a></td><td>врач по медицинской профилактике</td></tr><tr><td style=\"white-space:nowrap\">72<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-72\"> </a></td><td>врач по медицинской реабилитации</td></tr><tr><td style=\"white-space:nowrap\">73<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-73\"> </a></td><td>врач по общей гигиене</td></tr><tr><td style=\"white-space:nowrap\">74<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-74\"> </a></td><td>врач по паллиативной медицинской помощи</td></tr><tr><td style=\"white-space:nowrap\">75<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-75\"> </a></td><td>врач по радиационной гигиене</td></tr><tr><td style=\"white-space:nowrap\">76<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-76\"> </a></td><td>врач по рентгенэндоваскулярным диагностике и лечению</td></tr><tr><td style=\"white-space:nowrap\">77<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-77\"> </a></td><td>врач по санитарно-гигиеническим лабораторным исследованиям</td></tr><tr><td style=\"white-space:nowrap\">78<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-78\"> </a></td><td>врач по спортивной медицине</td></tr><tr><td style=\"white-space:nowrap\">79<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-79\"> </a></td><td>врач приемного отделения</td></tr><tr><td style=\"white-space:nowrap\">80<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-80\"> </a></td><td>врач-профпатолог</td></tr><tr><td style=\"white-space:nowrap\">81<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-81\"> </a></td><td>врач-психиатр</td></tr><tr><td style=\"white-space:nowrap\">82<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-82\"> </a></td><td>врач-психиатр участковый</td></tr><tr><td style=\"white-space:nowrap\">83<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-83\"> </a></td><td>врач-психиатр детский</td></tr><tr><td style=\"white-space:nowrap\">84<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-84\"> </a></td><td>врач-психиатр детский участковый</td></tr><tr><td style=\"white-space:nowrap\">85<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-85\"> </a></td><td>врач-психиатр подростковый</td></tr><tr><td style=\"white-space:nowrap\">86<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-86\"> </a></td><td>врач-психиатр подростковый участковый</td></tr><tr><td style=\"white-space:nowrap\">87<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-87\"> </a></td><td>врач-психиатр-нарколог</td></tr><tr><td style=\"white-space:nowrap\">88<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-88\"> </a></td><td>врач-психиатр-нарколог участковый</td></tr><tr><td style=\"white-space:nowrap\">89<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-89\"> </a></td><td>врач-психотерапевт</td></tr><tr><td style=\"white-space:nowrap\">90<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-90\"> </a></td><td>врач-пульмонолог</td></tr><tr><td style=\"white-space:nowrap\">91<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-91\"> </a></td><td>врач-радиолог</td></tr><tr><td style=\"white-space:nowrap\">92<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-92\"> </a></td><td>врач-радиотерапевт</td></tr><tr><td style=\"white-space:nowrap\">93<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-93\"> </a></td><td>врач-ревматолог</td></tr><tr><td style=\"white-space:nowrap\">94<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-94\"> </a></td><td>врач-рентгенолог</td></tr><tr><td style=\"white-space:nowrap\">95<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-95\"> </a></td><td>врач-рефлексотерапевт</td></tr><tr><td style=\"white-space:nowrap\">96<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-96\"> </a></td><td>врач-сексолог</td></tr><tr><td style=\"white-space:nowrap\">97<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-97\"> </a></td><td>врач-сердечно-сосудистый хирург</td></tr><tr><td style=\"white-space:nowrap\">98<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-98\"> </a></td><td>врач скорой медицинской помощи</td></tr><tr><td style=\"white-space:nowrap\">99<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-99\"> </a></td><td>врач-статистик</td></tr><tr><td style=\"white-space:nowrap\">100<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-100\"> </a></td><td>врач-стоматолог</td></tr><tr><td style=\"white-space:nowrap\">101<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-101\"> </a></td><td>врач-стоматолог детский</td></tr><tr><td style=\"white-space:nowrap\">102<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-102\"> </a></td><td>врач-стоматолог-ортопед</td></tr><tr><td style=\"white-space:nowrap\">103<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-103\"> </a></td><td>врач-стоматолог-терапевт</td></tr><tr><td style=\"white-space:nowrap\">104<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-104\"> </a></td><td>врач-стоматолог-хирург</td></tr><tr><td style=\"white-space:nowrap\">105<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-105\"> </a></td><td>врач - судебно-медицинский эксперт</td></tr><tr><td style=\"white-space:nowrap\">106<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-106\"> </a></td><td>врач - судебно-психиатрический эксперт</td></tr><tr><td style=\"white-space:nowrap\">107<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-107\"> </a></td><td>врач-сурдолог-оториноларинголог</td></tr><tr><td style=\"white-space:nowrap\">108<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-108\"> </a></td><td>врач-сурдолог-протезист</td></tr><tr><td style=\"white-space:nowrap\">109<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-109\"> </a></td><td>врач-терапевт</td></tr><tr><td style=\"white-space:nowrap\">110<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-110\"> </a></td><td>врач-терапевт участковый</td></tr><tr><td style=\"white-space:nowrap\">111<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-111\"> </a></td><td>врач-терапевт участковый цехового врачебного участка</td></tr><tr><td style=\"white-space:nowrap\">112<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-112\"> </a></td><td>врач-терапевт подростковый</td></tr><tr><td style=\"white-space:nowrap\">113<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-113\"> </a></td><td>врач-токсиколог</td></tr><tr><td style=\"white-space:nowrap\">114<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-114\"> </a></td><td>врач-травматолог-ортопед</td></tr><tr><td style=\"white-space:nowrap\">115<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-115\"> </a></td><td>врач-трансфузиолог</td></tr><tr><td style=\"white-space:nowrap\">116<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-116\"> </a></td><td>врач ультразвуковой диагностики</td></tr><tr><td style=\"white-space:nowrap\">117<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-117\"> </a></td><td>врач-уролог</td></tr><tr><td style=\"white-space:nowrap\">118<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-118\"> </a></td><td>врач-физиотерапевт</td></tr><tr><td style=\"white-space:nowrap\">519<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-519\"> </a></td><td>врач физической и реабилитационной медицины</td></tr><tr><td style=\"white-space:nowrap\">119<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-119\"> </a></td><td>врач-фтизиатр</td></tr><tr><td style=\"white-space:nowrap\">120<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-120\"> </a></td><td>врач-фтизиатр участковый</td></tr><tr><td style=\"white-space:nowrap\">121<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-121\"> </a></td><td>врач функциональной диагностики</td></tr><tr><td style=\"white-space:nowrap\">122<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-122\"> </a></td><td>врач-хирург</td></tr><tr><td style=\"white-space:nowrap\">123<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-123\"> </a></td><td>врач - торакальный хирург</td></tr><tr><td style=\"white-space:nowrap\">124<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-124\"> </a></td><td>врач - челюстно-лицевой хирург</td></tr><tr><td style=\"white-space:nowrap\">125<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-125\"> </a></td><td>врач-эндокринолог</td></tr><tr><td style=\"white-space:nowrap\">126<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-126\"> </a></td><td>врач-эндоскопист</td></tr><tr><td style=\"white-space:nowrap\">127<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-127\"> </a></td><td>врач-эпидемиолог</td></tr><tr><td style=\"white-space:nowrap\">128<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-128\"> </a></td><td>старший врач станции (отделения) скорой медицинской помощи</td></tr><tr><td style=\"white-space:nowrap\">449<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-449\"> </a></td><td>старший врач станции скорой медицинской помощи</td></tr><tr><td style=\"white-space:nowrap\">450<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-450\"> </a></td><td>старший врач отделения скорой медицинской помощи</td></tr><tr><td style=\"white-space:nowrap\">129<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-129\"> </a></td><td>старший врач станции (отделения) скорой медицинской помощи горноспасательных частей</td></tr><tr><td style=\"white-space:nowrap\">451<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-451\"> </a></td><td>старший врач станции скорой медицинской помощи горноспасательных частей</td></tr><tr><td style=\"white-space:nowrap\">452<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-452\"> </a></td><td>старший врач отделения скорой медицинской помощи горноспасательных частей</td></tr><tr><td style=\"white-space:nowrap\">130<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-130\"> </a></td><td>судовой врач</td></tr><tr><td style=\"white-space:nowrap\">131<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-131\"> </a></td><td>Должности специалистов с высшим профессиональным (немедицинским) образованием</td></tr><tr><td style=\"white-space:nowrap\">132<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-132\"> </a></td><td>биолог</td></tr><tr><td style=\"white-space:nowrap\">133<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-133\"> </a></td><td>зоолог</td></tr><tr><td style=\"white-space:nowrap\">134<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-134\"> </a></td><td>эмбриолог</td></tr><tr><td style=\"white-space:nowrap\">135<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-135\"> </a></td><td>энтомолог</td></tr><tr><td style=\"white-space:nowrap\">136<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-136\"> </a></td><td>инструктор-методист по лечебной физкультуре</td></tr><tr><td style=\"white-space:nowrap\">137<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-137\"> </a></td><td>логопед</td></tr><tr><td style=\"white-space:nowrap\">516<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-516\"> </a></td><td>специалист по социальной работе</td></tr><tr><td style=\"white-space:nowrap\">138<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-138\"> </a></td><td>медицинский физик</td></tr><tr><td style=\"white-space:nowrap\">139<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-139\"> </a></td><td>медицинский психолог</td></tr><tr><td style=\"white-space:nowrap\">140<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-140\"> </a></td><td>эксперт-физик по контролю за источниками ионизирующих и неионизирующих излучений</td></tr><tr><td style=\"white-space:nowrap\">141<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-141\"> </a></td><td>судебный эксперт (эксперт-биохимик, эксперт-генетик, эксперт-химик)</td></tr><tr><td style=\"white-space:nowrap\">346<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-346\"> </a></td><td>судебный эксперт</td></tr><tr><td style=\"white-space:nowrap\">347<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-347\"> </a></td><td>судебный эксперт-биохимик</td></tr><tr><td style=\"white-space:nowrap\">348<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-348\"> </a></td><td>судебный эксперт-генетик</td></tr><tr><td style=\"white-space:nowrap\">349<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-349\"> </a></td><td>судебный эксперт-химик</td></tr><tr><td style=\"white-space:nowrap\">142<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-142\"> </a></td><td>химик-эксперт медицинской организации</td></tr><tr><td style=\"white-space:nowrap\">143<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-143\"> </a></td><td>Должности специалистов со средним профессиональным (медицинским) образованием (средний медицинский персонал)</td></tr><tr><td style=\"white-space:nowrap\">144<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-144\"> </a></td><td>заведующий здравпунктом - фельдшер (медицинская сестра)</td></tr><tr><td style=\"white-space:nowrap\">350<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-350\"> </a></td><td>заведующий здравпунктом - фельдшер</td></tr><tr><td style=\"white-space:nowrap\">351<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-351\"> </a></td><td>заведующий здравпунктом - медицинская сестра</td></tr><tr><td style=\"white-space:nowrap\">145<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-145\"> </a></td><td>заведующий фельдшерско-акушерским пунктом - фельдшер (акушер, медицинская сестра)</td></tr><tr><td style=\"white-space:nowrap\">352<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-352\"> </a></td><td>заведующий фельдшерско-акушерским пунктом - фельдшер</td></tr><tr><td style=\"white-space:nowrap\">353<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-353\"> </a></td><td>заведующий фельдшерско-акушерским пунктом - акушер</td></tr><tr><td style=\"white-space:nowrap\">354<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-354\"> </a></td><td>заведующий фельдшерско-акушерским пунктом - медицинская сестра</td></tr><tr><td style=\"white-space:nowrap\">146<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-146\"> </a></td><td>заведующий кабинетом медицинской профилактики - фельдшер (медицинская сестра)</td></tr><tr><td style=\"white-space:nowrap\">355<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-355\"> </a></td><td>заведующий кабинетом медицинской профилактики - фельдшер</td></tr><tr><td style=\"white-space:nowrap\">356<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-356\"> </a></td><td>заведующий кабинетом медицинской профилактики - медицинская сестра</td></tr><tr><td style=\"white-space:nowrap\">147<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-147\"> </a></td><td>заведующий производством учреждений (отделов, отделений, лабораторий) зубопротезирования</td></tr><tr><td style=\"white-space:nowrap\">445<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-445\"> </a></td><td>заведующий производством учреждений зубопротезирования</td></tr><tr><td style=\"white-space:nowrap\">446<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-446\"> </a></td><td>заведующий производством отделов зубопротезирования</td></tr><tr><td style=\"white-space:nowrap\">447<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-447\"> </a></td><td>заведующий производством отделений зубопротезирования</td></tr><tr><td style=\"white-space:nowrap\">448<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-448\"> </a></td><td>заведующий производством лабораторий зубопротезирования</td></tr><tr><td style=\"white-space:nowrap\">148<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-148\"> </a></td><td>заведующий молочной кухней</td></tr><tr><td style=\"white-space:nowrap\">149<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-149\"> </a></td><td>старшая медицинская сестра (акушер, фельдшер, операционная медицинская сестра, зубной техник)</td></tr><tr><td style=\"white-space:nowrap\">357<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-357\"> </a></td><td>старшая медицинская сестра</td></tr><tr><td style=\"white-space:nowrap\">358<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-358\"> </a></td><td>старший акушер</td></tr><tr><td style=\"white-space:nowrap\">359<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-359\"> </a></td><td>старший фельдшер</td></tr><tr><td style=\"white-space:nowrap\">360<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-360\"> </a></td><td>старшая операционная медицинская сестра</td></tr><tr><td style=\"white-space:nowrap\">361<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-361\"> </a></td><td>старший зубной техник</td></tr><tr><td style=\"white-space:nowrap\">150<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-150\"> </a></td><td>акушер</td></tr><tr><td style=\"white-space:nowrap\">151<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-151\"> </a></td><td>гигиенист стоматологический</td></tr><tr><td style=\"white-space:nowrap\">152<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-152\"> </a></td><td>зубной врач</td></tr><tr><td style=\"white-space:nowrap\">153<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-153\"> </a></td><td>зубной техник</td></tr><tr><td style=\"white-space:nowrap\">154<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-154\"> </a></td><td>инструктор-дезинфектор</td></tr><tr><td style=\"white-space:nowrap\">155<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-155\"> </a></td><td>инструктор по гигиеническому воспитанию</td></tr><tr><td style=\"white-space:nowrap\">156<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-156\"> </a></td><td>инструктор по лечебной физкультуре</td></tr><tr><td style=\"white-space:nowrap\">157<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-157\"> </a></td><td>инструктор по трудовой терапии</td></tr><tr><td style=\"white-space:nowrap\">158<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-158\"> </a></td><td>лаборант</td></tr><tr><td style=\"white-space:nowrap\">159<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-159\"> </a></td><td>медицинская сестра</td></tr><tr><td style=\"white-space:nowrap\">160<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-160\"> </a></td><td>медицинская сестра - анестезист</td></tr><tr><td style=\"white-space:nowrap\">161<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-161\"> </a></td><td>медицинская сестра врача общей практики (семейного врача)</td></tr><tr><td style=\"white-space:nowrap\">162<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-162\"> </a></td><td>медицинская сестра диетическая</td></tr><tr><td style=\"white-space:nowrap\">163<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-163\"> </a></td><td>медицинская сестра медико-социальной помощи</td></tr><tr><td style=\"white-space:nowrap\">164<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-164\"> </a></td><td>медицинская сестра палатная (постовая)</td></tr><tr><td style=\"white-space:nowrap\">165<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-165\"> </a></td><td>медицинская сестра патронажная</td></tr><tr><td style=\"white-space:nowrap\">166<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-166\"> </a></td><td>медицинская сестра перевязочной</td></tr><tr><td style=\"white-space:nowrap\">167<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-167\"> </a></td><td>медицинская сестра по косметологии</td></tr><tr><td style=\"white-space:nowrap\">168<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-168\"> </a></td><td>медицинская сестра по массажу</td></tr><tr><td style=\"white-space:nowrap\">169<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-169\"> </a></td><td>медицинская сестра (фельдшер) по приему вызовов скорой медицинской помощи и передаче их выездным бригадам скорой медицинской помощи</td></tr><tr><td style=\"white-space:nowrap\">362<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-362\"> </a></td><td>медицинская сестра по приему вызовов скорой медицинской помощи и передаче их выездным бригадам скорой медицинской помощи</td></tr><tr><td style=\"white-space:nowrap\">363<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-363\"> </a></td><td>фельдшер по приему вызовов скорой медицинской помощи и передаче их выездным бригадам скорой медицинской помощи</td></tr><tr><td style=\"white-space:nowrap\">170<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-170\"> </a></td><td>медицинская сестра приемного отделения</td></tr><tr><td style=\"white-space:nowrap\">171<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-171\"> </a></td><td>медицинская сестра процедурной</td></tr><tr><td style=\"white-space:nowrap\">172<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-172\"> </a></td><td>медицинская сестра по реабилитации</td></tr><tr><td style=\"white-space:nowrap\">173<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-173\"> </a></td><td>медицинская сестра стерилизационной</td></tr><tr><td style=\"white-space:nowrap\">174<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-174\"> </a></td><td>медицинская сестра участковая</td></tr><tr><td style=\"white-space:nowrap\">175<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-175\"> </a></td><td>медицинская сестра по физиотерапии</td></tr><tr><td style=\"white-space:nowrap\">176<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-176\"> </a></td><td>медицинский дезинфектор</td></tr><tr><td style=\"white-space:nowrap\">177<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-177\"> </a></td><td>медицинский лабораторный техник (фельдшер-лаборант)</td></tr><tr><td style=\"white-space:nowrap\">364<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-364\"> </a></td><td>медицинский лабораторный техник</td></tr><tr><td style=\"white-space:nowrap\">365<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-365\"> </a></td><td>фельдшер-лаборант</td></tr><tr><td style=\"white-space:nowrap\">178<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-178\"> </a></td><td>медицинский оптик-оптометрист</td></tr><tr><td style=\"white-space:nowrap\">179<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-179\"> </a></td><td>медицинский регистратор</td></tr><tr><td style=\"white-space:nowrap\">180<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-180\"> </a></td><td>медицинский статистик</td></tr><tr><td style=\"white-space:nowrap\">181<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-181\"> </a></td><td>медицинский технолог</td></tr><tr><td style=\"white-space:nowrap\">182<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-182\"> </a></td><td>операционная медицинская сестра</td></tr><tr><td style=\"white-space:nowrap\">183<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-183\"> </a></td><td>помощник врача</td></tr><tr><td style=\"white-space:nowrap\">184<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-184\"> </a></td><td>помощник врача-эпидемиолога</td></tr><tr><td style=\"white-space:nowrap\">185<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-185\"> </a></td><td>помощник врача-паразитолога</td></tr><tr><td style=\"white-space:nowrap\">186<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-186\"> </a></td><td>помощник врача по гигиене детей и подростков</td></tr><tr><td style=\"white-space:nowrap\">187<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-187\"> </a></td><td>помощник врача по гигиене питания</td></tr><tr><td style=\"white-space:nowrap\">188<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-188\"> </a></td><td>помощник врача по гигиене труда</td></tr><tr><td style=\"white-space:nowrap\">189<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-189\"> </a></td><td>помощник врача по гигиеническому воспитанию</td></tr><tr><td style=\"white-space:nowrap\">190<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-190\"> </a></td><td>помощник врача по коммунальной гигиене</td></tr><tr><td style=\"white-space:nowrap\">191<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-191\"> </a></td><td>помощник врача по общей гигиене</td></tr><tr><td style=\"white-space:nowrap\">192<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-192\"> </a></td><td>помощник врача по радиационной гигиене</td></tr><tr><td style=\"white-space:nowrap\">193<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-193\"> </a></td><td>помощник энтомолога</td></tr><tr><td style=\"white-space:nowrap\">194<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-194\"> </a></td><td>рентгенолаборант</td></tr><tr><td style=\"white-space:nowrap\">195<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-195\"> </a></td><td>фельдшер</td></tr><tr><td style=\"white-space:nowrap\">196<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-196\"> </a></td><td>фельдшер скорой медицинской помощи</td></tr><tr><td style=\"white-space:nowrap\">197<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-197\"> </a></td><td>фельдшер-нарколог</td></tr><tr><td style=\"white-space:nowrap\">198<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-198\"> </a></td><td>фельдшер-водитель скорой медицинской помощи</td></tr><tr><td style=\"white-space:nowrap\">366<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-366\"> </a></td><td>продавец оптики</td></tr><tr><td style=\"white-space:nowrap\">199<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-199\"> </a></td><td>прочий средний медицинский персонал</td></tr><tr><td style=\"white-space:nowrap\">200<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-200\"> </a></td><td>Должности иных медицинских работников (младший медицинский персонал)</td></tr><tr><td style=\"white-space:nowrap\">201<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-201\"> </a></td><td>младшая медицинская сестра по уходу за больными</td></tr><tr><td style=\"white-space:nowrap\">202<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-202\"> </a></td><td>санитар</td></tr><tr><td style=\"white-space:nowrap\">203<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-203\"> </a></td><td>сестра-хозяйка</td></tr><tr><td style=\"white-space:nowrap\">204<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-204\"> </a></td><td>санитар-водитель</td></tr><tr><td style=\"white-space:nowrap\">205<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-205\"> </a></td><td>Должности прочего общеучрежденческого персонала медицинских организаций</td></tr><tr><td style=\"white-space:nowrap\">206<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-206\"> </a></td><td>ИТ-специалист</td></tr><tr><td style=\"white-space:nowrap\">207<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-207\"> </a></td><td>водитель скорой медицинской помощи</td></tr><tr><td style=\"white-space:nowrap\">208<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-208\"> </a></td><td>бухгалтер</td></tr><tr><td style=\"white-space:nowrap\">209<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-209\"> </a></td><td>специалист отдела кадров</td></tr><tr><td style=\"white-space:nowrap\">210<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-210\"> </a></td><td>гардеробщик</td></tr><tr><td style=\"white-space:nowrap\">211<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-211\"> </a></td><td>библиотекарь</td></tr><tr><td style=\"white-space:nowrap\">212<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-212\"> </a></td><td>лифтер</td></tr><tr><td style=\"white-space:nowrap\">213<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-213\"> </a></td><td>иные профессии рабочих и служащих</td></tr><tr><td style=\"white-space:nowrap\">214<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-214\"> </a></td><td>Должности работников фармацевтических организаций</td></tr><tr><td style=\"white-space:nowrap\">215<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-215\"> </a></td><td>Должности фармацевтических работников</td></tr><tr><td style=\"white-space:nowrap\">216<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-216\"> </a></td><td>Должности руководителей фармацевтических организаций</td></tr><tr><td style=\"white-space:nowrap\">217<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-217\"> </a></td><td>директор (заведующий, начальник) аптечной организации</td></tr><tr><td style=\"white-space:nowrap\">367<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-367\"> </a></td><td>директор аптечной организации</td></tr><tr><td style=\"white-space:nowrap\">368<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-368\"> </a></td><td>заведующий аптечной организации</td></tr><tr><td style=\"white-space:nowrap\">369<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-369\"> </a></td><td>начальник аптечной организации</td></tr><tr><td style=\"white-space:nowrap\">218<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-218\"> </a></td><td>заместитель директора (заведующего, начальника) аптечной организации</td></tr><tr><td style=\"white-space:nowrap\">370<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-370\"> </a></td><td>заместитель директора аптечной организации</td></tr><tr><td style=\"white-space:nowrap\">371<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-371\"> </a></td><td>заместитель заведующего аптечной организации</td></tr><tr><td style=\"white-space:nowrap\">372<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-372\"> </a></td><td>заместитель начальника аптечной организации</td></tr><tr><td style=\"white-space:nowrap\">219<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-219\"> </a></td><td>заведующий складом организации оптовой торговли лекарственными средствами</td></tr><tr><td style=\"white-space:nowrap\">220<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-220\"> </a></td><td>заведующий медицинским складом мобилизационного резерва</td></tr><tr><td style=\"white-space:nowrap\">221<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-221\"> </a></td><td>заместитель заведующего складом организации оптовой торговли лекарственными средствами</td></tr><tr><td style=\"white-space:nowrap\">222<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-222\"> </a></td><td>заведующий (начальник) структурного подразделения (отдела) аптечной организации</td></tr><tr><td style=\"white-space:nowrap\">373<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-373\"> </a></td><td>заведующий структурного подразделения аптечной организации</td></tr><tr><td style=\"white-space:nowrap\">439<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-439\"> </a></td><td>заведующий отделом аптечной организации</td></tr><tr><td style=\"white-space:nowrap\">374<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-374\"> </a></td><td>начальник структурного подразделения аптечной организации</td></tr><tr><td style=\"white-space:nowrap\">440<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-440\"> </a></td><td>начальник отдела аптечной организации</td></tr><tr><td style=\"white-space:nowrap\">223<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-223\"> </a></td><td>Должности специалистов с высшим профессиональным (фармацевтическим) образованием (провизоры)</td></tr><tr><td style=\"white-space:nowrap\">224<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-224\"> </a></td><td>провизор-стажер</td></tr><tr><td style=\"white-space:nowrap\">225<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-225\"> </a></td><td>провизор</td></tr><tr><td style=\"white-space:nowrap\">226<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-226\"> </a></td><td>провизор-технолог</td></tr><tr><td style=\"white-space:nowrap\">227<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-227\"> </a></td><td>провизор-аналитик</td></tr><tr><td style=\"white-space:nowrap\">228<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-228\"> </a></td><td>старший провизор</td></tr><tr><td style=\"white-space:nowrap\">229<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-229\"> </a></td><td>Должности специалистов со средним профессиональным (фармацевтическим) образованием (средний фармацевтический персонал)</td></tr><tr><td style=\"white-space:nowrap\">230<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-230\"> </a></td><td>старший фармацевт</td></tr><tr><td style=\"white-space:nowrap\">231<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-231\"> </a></td><td>фармацевт</td></tr><tr><td style=\"white-space:nowrap\">232<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-232\"> </a></td><td>младший фармацевт</td></tr><tr><td style=\"white-space:nowrap\">233<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-233\"> </a></td><td>Должности иных фармацевтических работников (младший фармацевтический персонал)</td></tr><tr><td style=\"white-space:nowrap\">234<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-234\"> </a></td><td>санитар (мойщик)</td></tr><tr><td style=\"white-space:nowrap\">235<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-235\"> </a></td><td>фасовщик</td></tr><tr><td style=\"white-space:nowrap\">236<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-236\"> </a></td><td>Должности прочего общеучрежденческого персонала фармацевтических организаций</td></tr><tr><td style=\"white-space:nowrap\">237<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-237\"> </a></td><td>иные профессии рабочих</td></tr><tr><td style=\"white-space:nowrap\">238<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-238\"> </a></td><td>Должности работников образовательных организаций и НИИ</td></tr><tr><td style=\"white-space:nowrap\">239<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-239\"> </a></td><td>Должности руководителей образовательных организаций и НИИ</td></tr><tr><td style=\"white-space:nowrap\">240<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-240\"> </a></td><td>руководитель (ректор, директор, заведующий, начальник) образовательной организации</td></tr><tr><td style=\"white-space:nowrap\">375<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-375\"> </a></td><td>руководитель образовательной организации</td></tr><tr><td style=\"white-space:nowrap\">376<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-376\"> </a></td><td>ректор образовательной организации высшего профессионального образования</td></tr><tr><td style=\"white-space:nowrap\">377<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-377\"> </a></td><td>директор образовательной организации</td></tr><tr><td style=\"white-space:nowrap\">378<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-378\"> </a></td><td>заведующий образовательной организации</td></tr><tr><td style=\"white-space:nowrap\">379<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-379\"> </a></td><td>начальник образовательной организации</td></tr><tr><td style=\"white-space:nowrap\">241<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-241\"> </a></td><td>президент образовательной организации высшего профессионального образования</td></tr><tr><td style=\"white-space:nowrap\">242<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-242\"> </a></td><td>заместитель руководителя (директора, заведующего, начальника) образовательной организации</td></tr><tr><td style=\"white-space:nowrap\">380<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-380\"> </a></td><td>заместитель руководителя образовательной организации</td></tr><tr><td style=\"white-space:nowrap\">381<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-381\"> </a></td><td>заместитель директора образовательной организации</td></tr><tr><td style=\"white-space:nowrap\">382<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-382\"> </a></td><td>заместитель заведующего образовательной организации</td></tr><tr><td style=\"white-space:nowrap\">383<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-383\"> </a></td><td>заместитель начальника образовательной организации</td></tr><tr><td style=\"white-space:nowrap\">480<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-480\"> </a></td><td>руководитель (директор, заведующий, начальник) научной организации</td></tr><tr><td style=\"white-space:nowrap\">481<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-481\"> </a></td><td>руководитель научной организации</td></tr><tr><td style=\"white-space:nowrap\">482<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-482\"> </a></td><td>директор научной организации</td></tr><tr><td style=\"white-space:nowrap\">483<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-483\"> </a></td><td>заведующий научной организации</td></tr><tr><td style=\"white-space:nowrap\">484<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-484\"> </a></td><td>начальник научной организации</td></tr><tr><td style=\"white-space:nowrap\">485<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-485\"> </a></td><td>заместитель руководителя (директора, заведующего, начальника) научной организации</td></tr><tr><td style=\"white-space:nowrap\">486<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-486\"> </a></td><td>заместитель руководителя научной организации</td></tr><tr><td style=\"white-space:nowrap\">487<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-487\"> </a></td><td>заместитель директора научной организации</td></tr><tr><td style=\"white-space:nowrap\">488<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-488\"> </a></td><td>заместитель заведующего научной организации</td></tr><tr><td style=\"white-space:nowrap\">489<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-489\"> </a></td><td>заместитель начальника научной организации</td></tr><tr><td style=\"white-space:nowrap\">243<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-243\"> </a></td><td>руководитель (директор, заведующий, начальник, управляющий) структурного подразделения</td></tr><tr><td style=\"white-space:nowrap\">384<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-384\"> </a></td><td>руководитель структурного подразделения</td></tr><tr><td style=\"white-space:nowrap\">385<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-385\"> </a></td><td>директор структурного подразделения</td></tr><tr><td style=\"white-space:nowrap\">386<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-386\"> </a></td><td>заведующий структурного подразделения</td></tr><tr><td style=\"white-space:nowrap\">387<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-387\"> </a></td><td>начальник структурного подразделения</td></tr><tr><td style=\"white-space:nowrap\">388<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-388\"> </a></td><td>управляющий структурного подразделения</td></tr><tr><td style=\"white-space:nowrap\">244<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-244\"> </a></td><td>руководитель (директор, заведующий, начальник, управляющий) обособленного структурного подразделения</td></tr><tr><td style=\"white-space:nowrap\">389<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-389\"> </a></td><td>руководитель обособленного структурного подразделения</td></tr><tr><td style=\"white-space:nowrap\">390<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-390\"> </a></td><td>директор обособленного структурного подразделения</td></tr><tr><td style=\"white-space:nowrap\">391<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-391\"> </a></td><td>заведующий обособленного структурного подразделения</td></tr><tr><td style=\"white-space:nowrap\">392<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-392\"> </a></td><td>начальник обособленного структурного подразделения</td></tr><tr><td style=\"white-space:nowrap\">393<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-393\"> </a></td><td>управляющий обособленного структурного подразделения</td></tr><tr><td style=\"white-space:nowrap\">245<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-245\"> </a></td><td>заместитель руководителя (директора, заведующего, начальника, управляющего) структурного подразделения</td></tr><tr><td style=\"white-space:nowrap\">394<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-394\"> </a></td><td>заместитель руководителя структурного подразделения</td></tr><tr><td style=\"white-space:nowrap\">395<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-395\"> </a></td><td>заместитель директора структурного подразделения</td></tr><tr><td style=\"white-space:nowrap\">396<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-396\"> </a></td><td>заместитель заведующего структурного подразделения</td></tr><tr><td style=\"white-space:nowrap\">397<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-397\"> </a></td><td>заместитель начальника структурного подразделения</td></tr><tr><td style=\"white-space:nowrap\">398<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-398\"> </a></td><td>заместитель управляющего структурного подразделения</td></tr><tr><td style=\"white-space:nowrap\">246<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-246\"> </a></td><td>заведующий (начальник) техническим архивом, чертежно-копировальным бюро; лабораторией (компьютерного и фото-, кинооборудования, оргтехники, средств связи)</td></tr><tr><td style=\"white-space:nowrap\">490<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-490\"> </a></td><td>заведующий техническим архивом</td></tr><tr><td style=\"white-space:nowrap\">491<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-491\"> </a></td><td>заведующий чертежно-копировальным бюро</td></tr><tr><td style=\"white-space:nowrap\">492<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-492\"> </a></td><td>заведующий лабораторией (компьютерного и фото-, кинооборудования, оргтехники, средств связи)</td></tr><tr><td style=\"white-space:nowrap\">493<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-493\"> </a></td><td>начальник технического архива</td></tr><tr><td style=\"white-space:nowrap\">494<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-494\"> </a></td><td>начальник чертежно-копировального бюро</td></tr><tr><td style=\"white-space:nowrap\">495<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-495\"> </a></td><td>начальник лаборатории (компьютерного и фото-, кинооборудования, оргтехники, средств связи)</td></tr><tr><td style=\"white-space:nowrap\">247<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-247\"> </a></td><td>заведующий (начальник) отделом научно-технической информации</td></tr><tr><td style=\"white-space:nowrap\">401<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-401\"> </a></td><td>заведующий отделом научно-технической информации</td></tr><tr><td style=\"white-space:nowrap\">402<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-402\"> </a></td><td>начальник отдела научно-технической информации</td></tr><tr><td style=\"white-space:nowrap\">248<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-248\"> </a></td><td>начальник (руководитель) бригады (группы)</td></tr><tr><td style=\"white-space:nowrap\">403<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-403\"> </a></td><td>начальник бригады</td></tr><tr><td style=\"white-space:nowrap\">441<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-441\"> </a></td><td>начальник группы</td></tr><tr><td style=\"white-space:nowrap\">404<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-404\"> </a></td><td>руководитель бригады</td></tr><tr><td style=\"white-space:nowrap\">442<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-442\"> </a></td><td>руководитель группы</td></tr><tr><td style=\"white-space:nowrap\">249<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-249\"> </a></td><td>заведующий (начальник) научно-исследовательским (конструкторским) отделом (лабораторией, отделением, сектором)</td></tr><tr><td style=\"white-space:nowrap\">496<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-496\"> </a></td><td>заведующий научно-исследовательским отделом</td></tr><tr><td style=\"white-space:nowrap\">497<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-497\"> </a></td><td>заведующий научно-исследовательской лабораторией</td></tr><tr><td style=\"white-space:nowrap\">498<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-498\"> </a></td><td>заведующий научно-исследовательским отделением</td></tr><tr><td style=\"white-space:nowrap\">499<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-499\"> </a></td><td>заведующий научно-исследовательским сектором</td></tr><tr><td style=\"white-space:nowrap\">500<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-500\"> </a></td><td>заведующий конструкторским отделом</td></tr><tr><td style=\"white-space:nowrap\">501<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-501\"> </a></td><td>заведующий конструкторской лабораторией</td></tr><tr><td style=\"white-space:nowrap\">502<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-502\"> </a></td><td>заведующий конструкторским отделением</td></tr><tr><td style=\"white-space:nowrap\">503<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-503\"> </a></td><td>заведующий конструкторским сектором</td></tr><tr><td style=\"white-space:nowrap\">504<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-504\"> </a></td><td>начальник научно-исследовательского отдела</td></tr><tr><td style=\"white-space:nowrap\">505<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-505\"> </a></td><td>начальник научно-исследовательской лаборатории</td></tr><tr><td style=\"white-space:nowrap\">506<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-506\"> </a></td><td>начальник научно-исследовательским отделения</td></tr><tr><td style=\"white-space:nowrap\">507<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-507\"> </a></td><td>начальник научно-исследовательского сектора</td></tr><tr><td style=\"white-space:nowrap\">508<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-508\"> </a></td><td>начальник конструкторского отдела</td></tr><tr><td style=\"white-space:nowrap\">509<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-509\"> </a></td><td>начальник конструкторской лаборатории</td></tr><tr><td style=\"white-space:nowrap\">510<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-510\"> </a></td><td>начальник конструкторского отделения</td></tr><tr><td style=\"white-space:nowrap\">511<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-511\"> </a></td><td>начальник конструкторского сектора</td></tr><tr><td style=\"white-space:nowrap\">250<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-250\"> </a></td><td>заведующий (начальник) научным центром</td></tr><tr><td style=\"white-space:nowrap\">407<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-407\"> </a></td><td>заведующий научным центром</td></tr><tr><td style=\"white-space:nowrap\">408<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-408\"> </a></td><td>начальник научного центра</td></tr><tr><td style=\"white-space:nowrap\">251<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-251\"> </a></td><td>начальник (заведующий) отдела (управления) аспирантуры</td></tr><tr><td style=\"white-space:nowrap\">409<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-409\"> </a></td><td>начальник отдела аспирантуры</td></tr><tr><td style=\"white-space:nowrap\">478<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-478\"> </a></td><td>начальник управления аспирантуры</td></tr><tr><td style=\"white-space:nowrap\">410<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-410\"> </a></td><td>заведующий отделом аспирантуры</td></tr><tr><td style=\"white-space:nowrap\">479<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-479\"> </a></td><td>заведующий управлением аспирантуры</td></tr><tr><td style=\"white-space:nowrap\">252<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-252\"> </a></td><td>первый проректор</td></tr><tr><td style=\"white-space:nowrap\">253<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-253\"> </a></td><td>проректор</td></tr><tr><td style=\"white-space:nowrap\">254<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-254\"> </a></td><td>помощник ректора</td></tr><tr><td style=\"white-space:nowrap\">255<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-255\"> </a></td><td>помощник проректора</td></tr><tr><td style=\"white-space:nowrap\">256<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-256\"> </a></td><td>советник при ректорате</td></tr><tr><td style=\"white-space:nowrap\">257<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-257\"> </a></td><td>ученый секретарь совета образовательной организации</td></tr><tr><td style=\"white-space:nowrap\">258<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-258\"> </a></td><td>ученый секретарь совета факультета</td></tr><tr><td style=\"white-space:nowrap\">444<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-444\"> </a></td><td>ученый секретарь совета института</td></tr><tr><td style=\"white-space:nowrap\">259<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-259\"> </a></td><td>руководитель (заведующий) учебной (учебно-производственной, производственной) практики</td></tr><tr><td style=\"white-space:nowrap\">512<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-512\"> </a></td><td>руководитель учебной практики</td></tr><tr><td style=\"white-space:nowrap\">453<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-453\"> </a></td><td>руководитель учебно-производственной практики</td></tr><tr><td style=\"white-space:nowrap\">454<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-454\"> </a></td><td>руководитель производственной практики</td></tr><tr><td style=\"white-space:nowrap\">455<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-455\"> </a></td><td>заведующий учебной практики</td></tr><tr><td style=\"white-space:nowrap\">456<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-456\"> </a></td><td>заведующий учебно-производственной практики</td></tr><tr><td style=\"white-space:nowrap\">457<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-457\"> </a></td><td>заведующий производственной практики</td></tr><tr><td style=\"white-space:nowrap\">260<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-260\"> </a></td><td>заведующий (директор, начальник, руководитель) питомника, учебного вивария, лесхоза, опытного поля, ботанического сада (дендрария)</td></tr><tr><td style=\"white-space:nowrap\">458<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-458\"> </a></td><td>заведующий питомника</td></tr><tr><td style=\"white-space:nowrap\">459<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-459\"> </a></td><td>заведующий учебного вивария</td></tr><tr><td style=\"white-space:nowrap\">460<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-460\"> </a></td><td>заведующий лесхоза</td></tr><tr><td style=\"white-space:nowrap\">461<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-461\"> </a></td><td>заведующий опытного поля</td></tr><tr><td style=\"white-space:nowrap\">462<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-462\"> </a></td><td>заведующий ботанического сада (дендрария)</td></tr><tr><td style=\"white-space:nowrap\">463<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-463\"> </a></td><td>директор питомника</td></tr><tr><td style=\"white-space:nowrap\">464<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-464\"> </a></td><td>директор учебного вивария</td></tr><tr><td style=\"white-space:nowrap\">465<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-465\"> </a></td><td>директор лесхоза</td></tr><tr><td style=\"white-space:nowrap\">466<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-466\"> </a></td><td>директор опытного поля</td></tr><tr><td style=\"white-space:nowrap\">467<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-467\"> </a></td><td>директор ботанического сада (дендрария)</td></tr><tr><td style=\"white-space:nowrap\">468<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-468\"> </a></td><td>начальник питомника</td></tr><tr><td style=\"white-space:nowrap\">469<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-469\"> </a></td><td>начальник учебного вивария</td></tr><tr><td style=\"white-space:nowrap\">470<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-470\"> </a></td><td>начальник лесхоза</td></tr><tr><td style=\"white-space:nowrap\">471<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-471\"> </a></td><td>начальник опытного поля</td></tr><tr><td style=\"white-space:nowrap\">472<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-472\"> </a></td><td>начальник ботанического сада (дендрария)</td></tr><tr><td style=\"white-space:nowrap\">473<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-473\"> </a></td><td>руководитель питомника</td></tr><tr><td style=\"white-space:nowrap\">474<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-474\"> </a></td><td>руководитель учебного вивария</td></tr><tr><td style=\"white-space:nowrap\">475<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-475\"> </a></td><td>руководитель лесхоза</td></tr><tr><td style=\"white-space:nowrap\">476<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-476\"> </a></td><td>руководитель опытного поля</td></tr><tr><td style=\"white-space:nowrap\">477<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-477\"> </a></td><td>руководитель ботанического сада (дендрария)</td></tr><tr><td style=\"white-space:nowrap\">261<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-261\"> </a></td><td>старший мастер</td></tr><tr><td style=\"white-space:nowrap\">262<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-262\"> </a></td><td>директор (начальник, руководитель) студенческого дворца культуры</td></tr><tr><td style=\"white-space:nowrap\">417<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-417\"> </a></td><td>директор студенческого дворца культуры</td></tr><tr><td style=\"white-space:nowrap\">418<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-418\"> </a></td><td>начальник студенческого дворца культуры</td></tr><tr><td style=\"white-space:nowrap\">419<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-419\"> </a></td><td>руководитель студенческого дворца культуры</td></tr><tr><td style=\"white-space:nowrap\">263<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-263\"> </a></td><td>директор (начальник, заведующий) студенческого общежития</td></tr><tr><td style=\"white-space:nowrap\">420<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-420\"> </a></td><td>директор студенческого общежития</td></tr><tr><td style=\"white-space:nowrap\">421<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-421\"> </a></td><td>начальник студенческого общежития</td></tr><tr><td style=\"white-space:nowrap\">422<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-422\"> </a></td><td>заведующий студенческого общежития</td></tr><tr><td style=\"white-space:nowrap\">264<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-264\"> </a></td><td>директор (руководитель, заведующий) издательства учебной литературы и учебных пособий</td></tr><tr><td style=\"white-space:nowrap\">423<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-423\"> </a></td><td>директор издательства учебной литературы и учебных пособий</td></tr><tr><td style=\"white-space:nowrap\">424<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-424\"> </a></td><td>руководитель издательства учебной литературы и учебных пособий</td></tr><tr><td style=\"white-space:nowrap\">425<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-425\"> </a></td><td>заведующий издательства учебной литературы и учебных пособий</td></tr><tr><td style=\"white-space:nowrap\">265<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-265\"> </a></td><td>Должности работников образовательных организаций</td></tr><tr><td style=\"white-space:nowrap\">266<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-266\"> </a></td><td>Должности педагогических работников, отнесенных к профессорско-преподавательскому составу</td></tr><tr><td style=\"white-space:nowrap\">267<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-267\"> </a></td><td>декан факультета</td></tr><tr><td style=\"white-space:nowrap\">426<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-426\"> </a></td><td>заместитель декана</td></tr><tr><td style=\"white-space:nowrap\">268<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-268\"> </a></td><td>начальник факультета</td></tr><tr><td style=\"white-space:nowrap\">269<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-269\"> </a></td><td>директор института</td></tr><tr><td style=\"white-space:nowrap\">270<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-270\"> </a></td><td>начальник института</td></tr><tr><td style=\"white-space:nowrap\">271<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-271\"> </a></td><td>заведующий кафедрой</td></tr><tr><td style=\"white-space:nowrap\">272<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-272\"> </a></td><td>начальник кафедры</td></tr><tr><td style=\"white-space:nowrap\">273<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-273\"> </a></td><td>заместитель начальника кафедры</td></tr><tr><td style=\"white-space:nowrap\">274<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-274\"> </a></td><td>профессор</td></tr><tr><td style=\"white-space:nowrap\">275<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-275\"> </a></td><td>доцент</td></tr><tr><td style=\"white-space:nowrap\">276<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-276\"> </a></td><td>старший преподаватель</td></tr><tr><td style=\"white-space:nowrap\">277<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-277\"> </a></td><td>преподаватель</td></tr><tr><td style=\"white-space:nowrap\">278<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-278\"> </a></td><td>ассистент</td></tr><tr><td style=\"white-space:nowrap\">279<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-279\"> </a></td><td>заведующий курсом</td></tr><tr><td style=\"white-space:nowrap\">280<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-280\"> </a></td><td>Должности иных педагогических работников образовательных организаций</td></tr><tr><td style=\"white-space:nowrap\">281<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-281\"> </a></td><td>воспитатель</td></tr><tr><td style=\"white-space:nowrap\">282<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-282\"> </a></td><td>инструктор-методист</td></tr><tr><td style=\"white-space:nowrap\">283<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-283\"> </a></td><td>инструктор по труду</td></tr><tr><td style=\"white-space:nowrap\">284<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-284\"> </a></td><td>инструктор по физической культуре</td></tr><tr><td style=\"white-space:nowrap\">285<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-285\"> </a></td><td>концертмейстер</td></tr><tr><td style=\"white-space:nowrap\">286<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-286\"> </a></td><td>логопед</td></tr><tr><td style=\"white-space:nowrap\">287<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-287\"> </a></td><td>мастер производственного обучения</td></tr><tr><td style=\"white-space:nowrap\">288<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-288\"> </a></td><td>методист</td></tr><tr><td style=\"white-space:nowrap\">289<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-289\"> </a></td><td>музыкальный руководитель</td></tr><tr><td style=\"white-space:nowrap\">290<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-290\"> </a></td><td>педагог дополнительного образования</td></tr><tr><td style=\"white-space:nowrap\">291<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-291\"> </a></td><td>педагог-библиотекарь</td></tr><tr><td style=\"white-space:nowrap\">292<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-292\"> </a></td><td>педагог-организатор</td></tr><tr><td style=\"white-space:nowrap\">293<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-293\"> </a></td><td>педагог-психолог</td></tr><tr><td style=\"white-space:nowrap\">294<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-294\"> </a></td><td>преподаватель</td></tr><tr><td style=\"white-space:nowrap\">295<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-295\"> </a></td><td>преподаватель-организатор основ безопасности жизнедеятельности</td></tr><tr><td style=\"white-space:nowrap\">296<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-296\"> </a></td><td>руководитель физического воспитания</td></tr><tr><td style=\"white-space:nowrap\">297<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-297\"> </a></td><td>социальный педагог</td></tr><tr><td style=\"white-space:nowrap\">298<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-298\"> </a></td><td>старший вожатый</td></tr><tr><td style=\"white-space:nowrap\">299<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-299\"> </a></td><td>старший воспитатель</td></tr><tr><td style=\"white-space:nowrap\">300<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-300\"> </a></td><td>старший инструктор-методист</td></tr><tr><td style=\"white-space:nowrap\">301<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-301\"> </a></td><td>старший методист</td></tr><tr><td style=\"white-space:nowrap\">302<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-302\"> </a></td><td>старший педагог дополнительного образования</td></tr><tr><td style=\"white-space:nowrap\">303<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-303\"> </a></td><td>старший тренер-преподаватель</td></tr><tr><td style=\"white-space:nowrap\">304<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-304\"> </a></td><td>тренер-преподаватель</td></tr><tr><td style=\"white-space:nowrap\">305<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-305\"> </a></td><td>тьютор</td></tr><tr><td style=\"white-space:nowrap\">306<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-306\"> </a></td><td>учитель</td></tr><tr><td style=\"white-space:nowrap\">307<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-307\"> </a></td><td>учитель-дефектолог</td></tr><tr><td style=\"white-space:nowrap\">308<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-308\"> </a></td><td>учитель-логопед</td></tr><tr><td style=\"white-space:nowrap\">309<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-309\"> </a></td><td>Должности научных работников</td></tr><tr><td style=\"white-space:nowrap\">310<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-310\"> </a></td><td>младший научный сотрудник</td></tr><tr><td style=\"white-space:nowrap\">311<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-311\"> </a></td><td>научный сотрудник</td></tr><tr><td style=\"white-space:nowrap\">312<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-312\"> </a></td><td>старший научный сотрудник</td></tr><tr><td style=\"white-space:nowrap\">313<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-313\"> </a></td><td>ведущий научный сотрудник</td></tr><tr><td style=\"white-space:nowrap\">314<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-314\"> </a></td><td>главный научный сотрудник</td></tr><tr><td style=\"white-space:nowrap\">315<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-315\"> </a></td><td>стажер-исследователь</td></tr><tr><td style=\"white-space:nowrap\">316<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-316\"> </a></td><td>лаборант-исследователь</td></tr><tr><td style=\"white-space:nowrap\">317<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-317\"> </a></td><td>Должности учебного-вспомогательного персонала образовательных организаций</td></tr><tr><td style=\"white-space:nowrap\">318<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-318\"> </a></td><td>заведующий учебным кабинетом</td></tr><tr><td style=\"white-space:nowrap\">319<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-319\"> </a></td><td>старший лаборант</td></tr><tr><td style=\"white-space:nowrap\">320<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-320\"> </a></td><td>лаборант</td></tr><tr><td style=\"white-space:nowrap\">321<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-321\"> </a></td><td>старший препаратор</td></tr><tr><td style=\"white-space:nowrap\">322<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-322\"> </a></td><td>рабочий кафедры</td></tr><tr><td style=\"white-space:nowrap\">323<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-323\"> </a></td><td>Должности административно-хозяйственного персонала образовательных и научно-исследовательских организаций</td></tr><tr><td style=\"white-space:nowrap\">324<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-324\"> </a></td><td>диспетчер факультета</td></tr><tr><td style=\"white-space:nowrap\">325<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-325\"> </a></td><td>ИТ-специалист</td></tr><tr><td style=\"white-space:nowrap\">326<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-326\"> </a></td><td>инженер</td></tr><tr><td style=\"white-space:nowrap\">327<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-327\"> </a></td><td>инженер-программист</td></tr><tr><td style=\"white-space:nowrap\">328<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-328\"> </a></td><td>водитель</td></tr><tr><td style=\"white-space:nowrap\">329<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-329\"> </a></td><td>специалист по учебно-методической работе</td></tr><tr><td style=\"white-space:nowrap\">330<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-330\"> </a></td><td>учебный мастер</td></tr><tr><td style=\"white-space:nowrap\">331<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-331\"> </a></td><td>бухгалтер</td></tr><tr><td style=\"white-space:nowrap\">332<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-332\"> </a></td><td>специалист отдела кадров</td></tr><tr><td style=\"white-space:nowrap\">333<a name=\"nsi-cs-1-2-643-5-1-13-13-11-1002-333\"> </a></td><td>иные профессии рабочих</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1002"];
+  fhir:CodeSystem.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
+     fhir:Identifier.value [ fhir:value "urn:oid:1.2.643.5.1.13.13.11.1002" ]
+  ];
+  fhir:CodeSystem.version [ fhir:value "7.4"];
+  fhir:CodeSystem.name [ fhir:value "Nsi_cs_1_2_643_5_1_13_13_11_1002"];
+  fhir:CodeSystem.title [ fhir:value "Должности медицинских и фармацевтических работников"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2021-10-20T13:42:04+03:00"^^xsd:dateTime];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "см. паспорт справочника на ФНСИ" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "см. паспорт справочника на ФНСИ" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "Справочник ФНСИ:  \n'Должности медицинских и фармацевтических работников'  \nверсия '7.4'  \n[1.2.643.5.1.13.13.11.1002](https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1002/version/7.4)"];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "508"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "1" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Должности работников медицинских организаций" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "2" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Должности медицинских работников" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "3" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Должности руководителей медицинских организаций" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "4" ];
+     fhir:CodeSystem.concept.display [ fhir:value "главный врач (начальник) медицинской организации" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "334" ];
+     fhir:CodeSystem.concept.display [ fhir:value "главный врач медицинской организации" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "335" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник медицинской организации" ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "5" ];
+     fhir:CodeSystem.concept.display [ fhir:value "директор больницы (дома) сестринского ухода, хосписа" ]
+  ], [
+     fhir:index 7;
+     fhir:CodeSystem.concept.code [ fhir:value "427" ];
+     fhir:CodeSystem.concept.display [ fhir:value "директор больницы (дома) сестринского ухода" ]
+  ], [
+     fhir:index 8;
+     fhir:CodeSystem.concept.code [ fhir:value "428" ];
+     fhir:CodeSystem.concept.display [ fhir:value "директор хосписа" ]
+  ], [
+     fhir:index 9;
+     fhir:CodeSystem.concept.code [ fhir:value "6" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заместитель руководителя (начальника) медицинской организации" ]
+  ], [
+     fhir:index 10;
+     fhir:CodeSystem.concept.code [ fhir:value "336" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заместитель руководителя медицинской организации" ]
+  ], [
+     fhir:index 11;
+     fhir:CodeSystem.concept.code [ fhir:value "337" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заместитель начальника медицинской организации" ]
+  ], [
+     fhir:index 12;
+     fhir:CodeSystem.concept.code [ fhir:value "7" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий (начальник) структурного подразделения (отдела, отделения, лаборатории, кабинета, отряда и другое) медицинской организации - врач-специалист" ]
+  ], [
+     fhir:index 13;
+     fhir:CodeSystem.concept.code [ fhir:value "429" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий отделом медицинской организации" ]
+  ], [
+     fhir:index 14;
+     fhir:CodeSystem.concept.code [ fhir:value "430" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий отделением медицинской организации" ]
+  ], [
+     fhir:index 15;
+     fhir:CodeSystem.concept.code [ fhir:value "431" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий лабораторией медицинской организации" ]
+  ], [
+     fhir:index 16;
+     fhir:CodeSystem.concept.code [ fhir:value "432" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий кабинетом медицинской организации" ]
+  ], [
+     fhir:index 17;
+     fhir:CodeSystem.concept.code [ fhir:value "433" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий отрядом медицинской организации" ]
+  ], [
+     fhir:index 18;
+     fhir:CodeSystem.concept.code [ fhir:value "434" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник отдела медицинской организации" ]
+  ], [
+     fhir:index 19;
+     fhir:CodeSystem.concept.code [ fhir:value "435" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник отделения медицинской организации" ]
+  ], [
+     fhir:index 20;
+     fhir:CodeSystem.concept.code [ fhir:value "436" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник лаборатории медицинской организации" ]
+  ], [
+     fhir:index 21;
+     fhir:CodeSystem.concept.code [ fhir:value "437" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник кабинета медицинской организации" ]
+  ], [
+     fhir:index 22;
+     fhir:CodeSystem.concept.code [ fhir:value "438" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник отряда медицинской организации" ]
+  ], [
+     fhir:index 23;
+     fhir:CodeSystem.concept.code [ fhir:value "513" ];
+     fhir:CodeSystem.concept.display [ fhir:value "руководитель бюро медико-социальной экспертизы" ]
+  ], [
+     fhir:index 24;
+     fhir:CodeSystem.concept.code [ fhir:value "514" ];
+     fhir:CodeSystem.concept.display [ fhir:value "руководитель экспертного состава медико-социальной экспертизы" ]
+  ], [
+     fhir:index 25;
+     fhir:CodeSystem.concept.code [ fhir:value "515" ];
+     fhir:CodeSystem.concept.display [ fhir:value "руководитель Главного бюро медико-социальной экспертизы" ]
+  ], [
+     fhir:index 26;
+     fhir:CodeSystem.concept.code [ fhir:value "520" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий станцией скорой медицинской помощи" ]
+  ], [
+     fhir:index 27;
+     fhir:CodeSystem.concept.code [ fhir:value "521" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий подстанцией скорой медицинской помощи" ]
+  ], [
+     fhir:index 28;
+     fhir:CodeSystem.concept.code [ fhir:value "8" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий (главный врач, начальник) структурного подразделения, осуществляющего медицинскую деятельность, иной организации" ]
+  ], [
+     fhir:index 29;
+     fhir:CodeSystem.concept.code [ fhir:value "340" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий структурным подразделением, осуществляющим медицинскую деятельность, иной организации" ]
+  ], [
+     fhir:index 30;
+     fhir:CodeSystem.concept.code [ fhir:value "341" ];
+     fhir:CodeSystem.concept.display [ fhir:value "главный врач структурного подразделения, осуществляющего медицинскую деятельность, иной организации" ]
+  ], [
+     fhir:index 31;
+     fhir:CodeSystem.concept.code [ fhir:value "342" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник структурного подразделения, осуществляющего медицинскую деятельность, иной организации" ]
+  ], [
+     fhir:index 32;
+     fhir:CodeSystem.concept.code [ fhir:value "9" ];
+     fhir:CodeSystem.concept.display [ fhir:value "главная медицинская сестра (главная акушерка, главный фельдшер)" ]
+  ], [
+     fhir:index 33;
+     fhir:CodeSystem.concept.code [ fhir:value "343" ];
+     fhir:CodeSystem.concept.display [ fhir:value "главная медицинская сестра" ]
+  ], [
+     fhir:index 34;
+     fhir:CodeSystem.concept.code [ fhir:value "344" ];
+     fhir:CodeSystem.concept.display [ fhir:value "главная акушерка" ]
+  ], [
+     fhir:index 35;
+     fhir:CodeSystem.concept.code [ fhir:value "345" ];
+     fhir:CodeSystem.concept.display [ fhir:value "главный фельдшер" ]
+  ], [
+     fhir:index 36;
+     fhir:CodeSystem.concept.code [ fhir:value "10" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Должности специалистов с высшим профессиональным (медицинским) образованием (врачи)" ]
+  ], [
+     fhir:index 37;
+     fhir:CodeSystem.concept.code [ fhir:value "11" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-стажер" ]
+  ], [
+     fhir:index 38;
+     fhir:CodeSystem.concept.code [ fhir:value "12" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врачи-специалисты" ]
+  ], [
+     fhir:index 39;
+     fhir:CodeSystem.concept.code [ fhir:value "13" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-акушер-гинеколог" ]
+  ], [
+     fhir:index 40;
+     fhir:CodeSystem.concept.code [ fhir:value "14" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-акушер-гинеколог цехового врачебного участка" ]
+  ], [
+     fhir:index 41;
+     fhir:CodeSystem.concept.code [ fhir:value "15" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-аллерголог-иммунолог" ]
+  ], [
+     fhir:index 42;
+     fhir:CodeSystem.concept.code [ fhir:value "16" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-анестезиолог-реаниматолог" ]
+  ], [
+     fhir:index 43;
+     fhir:CodeSystem.concept.code [ fhir:value "17" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-бактериолог" ]
+  ], [
+     fhir:index 44;
+     fhir:CodeSystem.concept.code [ fhir:value "18" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-вирусолог" ]
+  ], [
+     fhir:index 45;
+     fhir:CodeSystem.concept.code [ fhir:value "19" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-гастроэнтеролог" ]
+  ], [
+     fhir:index 46;
+     fhir:CodeSystem.concept.code [ fhir:value "20" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-гематолог" ]
+  ], [
+     fhir:index 47;
+     fhir:CodeSystem.concept.code [ fhir:value "21" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-генетик" ]
+  ], [
+     fhir:index 48;
+     fhir:CodeSystem.concept.code [ fhir:value "22" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-гериатр" ]
+  ], [
+     fhir:index 49;
+     fhir:CodeSystem.concept.code [ fhir:value "23" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-дезинфектолог" ]
+  ], [
+     fhir:index 50;
+     fhir:CodeSystem.concept.code [ fhir:value "24" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-дерматовенеролог" ]
+  ], [
+     fhir:index 51;
+     fhir:CodeSystem.concept.code [ fhir:value "25" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач - детский кардиолог" ]
+  ], [
+     fhir:index 52;
+     fhir:CodeSystem.concept.code [ fhir:value "26" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач - детский онколог" ]
+  ], [
+     fhir:index 53;
+     fhir:CodeSystem.concept.code [ fhir:value "517" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач - детский онколог-гематолог" ]
+  ], [
+     fhir:index 54;
+     fhir:CodeSystem.concept.code [ fhir:value "27" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач - детский уролог-андролог" ]
+  ], [
+     fhir:index 55;
+     fhir:CodeSystem.concept.code [ fhir:value "28" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач - детский хирург" ]
+  ], [
+     fhir:index 56;
+     fhir:CodeSystem.concept.code [ fhir:value "29" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач - детский эндокринолог" ]
+  ], [
+     fhir:index 57;
+     fhir:CodeSystem.concept.code [ fhir:value "30" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-диабетолог" ]
+  ], [
+     fhir:index 58;
+     fhir:CodeSystem.concept.code [ fhir:value "31" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-диетолог" ]
+  ], [
+     fhir:index 59;
+     fhir:CodeSystem.concept.code [ fhir:value "32" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач здравпункта" ]
+  ], [
+     fhir:index 60;
+     fhir:CodeSystem.concept.code [ fhir:value "33" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-инфекционист" ]
+  ], [
+     fhir:index 61;
+     fhir:CodeSystem.concept.code [ fhir:value "34" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-кардиолог" ]
+  ], [
+     fhir:index 62;
+     fhir:CodeSystem.concept.code [ fhir:value "35" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач клинической лабораторной диагностики" ]
+  ], [
+     fhir:index 63;
+     fhir:CodeSystem.concept.code [ fhir:value "36" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач - клинический миколог" ]
+  ], [
+     fhir:index 64;
+     fhir:CodeSystem.concept.code [ fhir:value "37" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач - клинический фармаколог" ]
+  ], [
+     fhir:index 65;
+     fhir:CodeSystem.concept.code [ fhir:value "38" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-колопроктолог" ]
+  ], [
+     fhir:index 66;
+     fhir:CodeSystem.concept.code [ fhir:value "39" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-косметолог" ]
+  ], [
+     fhir:index 67;
+     fhir:CodeSystem.concept.code [ fhir:value "40" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-лаборант" ]
+  ], [
+     fhir:index 68;
+     fhir:CodeSystem.concept.code [ fhir:value "41" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач - лабораторный генетик" ]
+  ], [
+     fhir:index 69;
+     fhir:CodeSystem.concept.code [ fhir:value "42" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач - лабораторный миколог" ]
+  ], [
+     fhir:index 70;
+     fhir:CodeSystem.concept.code [ fhir:value "43" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач мануальной терапии" ]
+  ], [
+     fhir:index 71;
+     fhir:CodeSystem.concept.code [ fhir:value "518" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач - медицинский микробиолог" ]
+  ], [
+     fhir:index 72;
+     fhir:CodeSystem.concept.code [ fhir:value "44" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-методист" ]
+  ], [
+     fhir:index 73;
+     fhir:CodeSystem.concept.code [ fhir:value "45" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-невролог" ]
+  ], [
+     fhir:index 74;
+     fhir:CodeSystem.concept.code [ fhir:value "46" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-нейрохирург" ]
+  ], [
+     fhir:index 75;
+     fhir:CodeSystem.concept.code [ fhir:value "47" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-неонатолог" ]
+  ], [
+     fhir:index 76;
+     fhir:CodeSystem.concept.code [ fhir:value "48" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-нефролог" ]
+  ], [
+     fhir:index 77;
+     fhir:CodeSystem.concept.code [ fhir:value "49" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач общей практики (семейный врач)" ]
+  ], [
+     fhir:index 78;
+     fhir:CodeSystem.concept.code [ fhir:value "50" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-онколог" ]
+  ], [
+     fhir:index 79;
+     fhir:CodeSystem.concept.code [ fhir:value "51" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-ортодонт" ]
+  ], [
+     fhir:index 80;
+     fhir:CodeSystem.concept.code [ fhir:value "52" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-остеопат" ]
+  ], [
+     fhir:index 81;
+     fhir:CodeSystem.concept.code [ fhir:value "53" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-оториноларинголог" ]
+  ], [
+     fhir:index 82;
+     fhir:CodeSystem.concept.code [ fhir:value "54" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-офтальмолог" ]
+  ], [
+     fhir:index 83;
+     fhir:CodeSystem.concept.code [ fhir:value "55" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-офтальмолог-протезист" ]
+  ], [
+     fhir:index 84;
+     fhir:CodeSystem.concept.code [ fhir:value "56" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-паразитолог" ]
+  ], [
+     fhir:index 85;
+     fhir:CodeSystem.concept.code [ fhir:value "57" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-патологоанатом" ]
+  ], [
+     fhir:index 86;
+     fhir:CodeSystem.concept.code [ fhir:value "58" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-педиатр" ]
+  ], [
+     fhir:index 87;
+     fhir:CodeSystem.concept.code [ fhir:value "59" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-педиатр участковый" ]
+  ], [
+     fhir:index 88;
+     fhir:CodeSystem.concept.code [ fhir:value "60" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-педиатр городской (районный)" ]
+  ], [
+     fhir:index 89;
+     fhir:CodeSystem.concept.code [ fhir:value "61" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач - пластический хирург" ]
+  ], [
+     fhir:index 90;
+     fhir:CodeSystem.concept.code [ fhir:value "62" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач по авиационной и космической медицине" ]
+  ], [
+     fhir:index 91;
+     fhir:CodeSystem.concept.code [ fhir:value "63" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач по водолазной медицине" ]
+  ], [
+     fhir:index 92;
+     fhir:CodeSystem.concept.code [ fhir:value "64" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач по гигиене детей и подростков" ]
+  ], [
+     fhir:index 93;
+     fhir:CodeSystem.concept.code [ fhir:value "65" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач по гигиене питания" ]
+  ], [
+     fhir:index 94;
+     fhir:CodeSystem.concept.code [ fhir:value "66" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач по гигиене труда" ]
+  ], [
+     fhir:index 95;
+     fhir:CodeSystem.concept.code [ fhir:value "67" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач по гигиеническому воспитанию" ]
+  ], [
+     fhir:index 96;
+     fhir:CodeSystem.concept.code [ fhir:value "68" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач по коммунальной гигиене" ]
+  ], [
+     fhir:index 97;
+     fhir:CodeSystem.concept.code [ fhir:value "69" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач по лечебной физкультуре" ]
+  ], [
+     fhir:index 98;
+     fhir:CodeSystem.concept.code [ fhir:value "70" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач по медико-социальной экспертизе" ]
+  ], [
+     fhir:index 99;
+     fhir:CodeSystem.concept.code [ fhir:value "71" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач по медицинской профилактике" ]
+  ], [
+     fhir:index 100;
+     fhir:CodeSystem.concept.code [ fhir:value "72" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач по медицинской реабилитации" ]
+  ], [
+     fhir:index 101;
+     fhir:CodeSystem.concept.code [ fhir:value "73" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач по общей гигиене" ]
+  ], [
+     fhir:index 102;
+     fhir:CodeSystem.concept.code [ fhir:value "74" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач по паллиативной медицинской помощи" ]
+  ], [
+     fhir:index 103;
+     fhir:CodeSystem.concept.code [ fhir:value "75" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач по радиационной гигиене" ]
+  ], [
+     fhir:index 104;
+     fhir:CodeSystem.concept.code [ fhir:value "76" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач по рентгенэндоваскулярным диагностике и лечению" ]
+  ], [
+     fhir:index 105;
+     fhir:CodeSystem.concept.code [ fhir:value "77" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач по санитарно-гигиеническим лабораторным исследованиям" ]
+  ], [
+     fhir:index 106;
+     fhir:CodeSystem.concept.code [ fhir:value "78" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач по спортивной медицине" ]
+  ], [
+     fhir:index 107;
+     fhir:CodeSystem.concept.code [ fhir:value "79" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач приемного отделения" ]
+  ], [
+     fhir:index 108;
+     fhir:CodeSystem.concept.code [ fhir:value "80" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-профпатолог" ]
+  ], [
+     fhir:index 109;
+     fhir:CodeSystem.concept.code [ fhir:value "81" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-психиатр" ]
+  ], [
+     fhir:index 110;
+     fhir:CodeSystem.concept.code [ fhir:value "82" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-психиатр участковый" ]
+  ], [
+     fhir:index 111;
+     fhir:CodeSystem.concept.code [ fhir:value "83" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-психиатр детский" ]
+  ], [
+     fhir:index 112;
+     fhir:CodeSystem.concept.code [ fhir:value "84" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-психиатр детский участковый" ]
+  ], [
+     fhir:index 113;
+     fhir:CodeSystem.concept.code [ fhir:value "85" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-психиатр подростковый" ]
+  ], [
+     fhir:index 114;
+     fhir:CodeSystem.concept.code [ fhir:value "86" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-психиатр подростковый участковый" ]
+  ], [
+     fhir:index 115;
+     fhir:CodeSystem.concept.code [ fhir:value "87" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-психиатр-нарколог" ]
+  ], [
+     fhir:index 116;
+     fhir:CodeSystem.concept.code [ fhir:value "88" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-психиатр-нарколог участковый" ]
+  ], [
+     fhir:index 117;
+     fhir:CodeSystem.concept.code [ fhir:value "89" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-психотерапевт" ]
+  ], [
+     fhir:index 118;
+     fhir:CodeSystem.concept.code [ fhir:value "90" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-пульмонолог" ]
+  ], [
+     fhir:index 119;
+     fhir:CodeSystem.concept.code [ fhir:value "91" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-радиолог" ]
+  ], [
+     fhir:index 120;
+     fhir:CodeSystem.concept.code [ fhir:value "92" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-радиотерапевт" ]
+  ], [
+     fhir:index 121;
+     fhir:CodeSystem.concept.code [ fhir:value "93" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-ревматолог" ]
+  ], [
+     fhir:index 122;
+     fhir:CodeSystem.concept.code [ fhir:value "94" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-рентгенолог" ]
+  ], [
+     fhir:index 123;
+     fhir:CodeSystem.concept.code [ fhir:value "95" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-рефлексотерапевт" ]
+  ], [
+     fhir:index 124;
+     fhir:CodeSystem.concept.code [ fhir:value "96" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-сексолог" ]
+  ], [
+     fhir:index 125;
+     fhir:CodeSystem.concept.code [ fhir:value "97" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-сердечно-сосудистый хирург" ]
+  ], [
+     fhir:index 126;
+     fhir:CodeSystem.concept.code [ fhir:value "98" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач скорой медицинской помощи" ]
+  ], [
+     fhir:index 127;
+     fhir:CodeSystem.concept.code [ fhir:value "99" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-статистик" ]
+  ], [
+     fhir:index 128;
+     fhir:CodeSystem.concept.code [ fhir:value "100" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-стоматолог" ]
+  ], [
+     fhir:index 129;
+     fhir:CodeSystem.concept.code [ fhir:value "101" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-стоматолог детский" ]
+  ], [
+     fhir:index 130;
+     fhir:CodeSystem.concept.code [ fhir:value "102" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-стоматолог-ортопед" ]
+  ], [
+     fhir:index 131;
+     fhir:CodeSystem.concept.code [ fhir:value "103" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-стоматолог-терапевт" ]
+  ], [
+     fhir:index 132;
+     fhir:CodeSystem.concept.code [ fhir:value "104" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-стоматолог-хирург" ]
+  ], [
+     fhir:index 133;
+     fhir:CodeSystem.concept.code [ fhir:value "105" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач - судебно-медицинский эксперт" ]
+  ], [
+     fhir:index 134;
+     fhir:CodeSystem.concept.code [ fhir:value "106" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач - судебно-психиатрический эксперт" ]
+  ], [
+     fhir:index 135;
+     fhir:CodeSystem.concept.code [ fhir:value "107" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-сурдолог-оториноларинголог" ]
+  ], [
+     fhir:index 136;
+     fhir:CodeSystem.concept.code [ fhir:value "108" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-сурдолог-протезист" ]
+  ], [
+     fhir:index 137;
+     fhir:CodeSystem.concept.code [ fhir:value "109" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-терапевт" ]
+  ], [
+     fhir:index 138;
+     fhir:CodeSystem.concept.code [ fhir:value "110" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-терапевт участковый" ]
+  ], [
+     fhir:index 139;
+     fhir:CodeSystem.concept.code [ fhir:value "111" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-терапевт участковый цехового врачебного участка" ]
+  ], [
+     fhir:index 140;
+     fhir:CodeSystem.concept.code [ fhir:value "112" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-терапевт подростковый" ]
+  ], [
+     fhir:index 141;
+     fhir:CodeSystem.concept.code [ fhir:value "113" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-токсиколог" ]
+  ], [
+     fhir:index 142;
+     fhir:CodeSystem.concept.code [ fhir:value "114" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-травматолог-ортопед" ]
+  ], [
+     fhir:index 143;
+     fhir:CodeSystem.concept.code [ fhir:value "115" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-трансфузиолог" ]
+  ], [
+     fhir:index 144;
+     fhir:CodeSystem.concept.code [ fhir:value "116" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач ультразвуковой диагностики" ]
+  ], [
+     fhir:index 145;
+     fhir:CodeSystem.concept.code [ fhir:value "117" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-уролог" ]
+  ], [
+     fhir:index 146;
+     fhir:CodeSystem.concept.code [ fhir:value "118" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-физиотерапевт" ]
+  ], [
+     fhir:index 147;
+     fhir:CodeSystem.concept.code [ fhir:value "519" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач физической и реабилитационной медицины" ]
+  ], [
+     fhir:index 148;
+     fhir:CodeSystem.concept.code [ fhir:value "119" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-фтизиатр" ]
+  ], [
+     fhir:index 149;
+     fhir:CodeSystem.concept.code [ fhir:value "120" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-фтизиатр участковый" ]
+  ], [
+     fhir:index 150;
+     fhir:CodeSystem.concept.code [ fhir:value "121" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач функциональной диагностики" ]
+  ], [
+     fhir:index 151;
+     fhir:CodeSystem.concept.code [ fhir:value "122" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-хирург" ]
+  ], [
+     fhir:index 152;
+     fhir:CodeSystem.concept.code [ fhir:value "123" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач - торакальный хирург" ]
+  ], [
+     fhir:index 153;
+     fhir:CodeSystem.concept.code [ fhir:value "124" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач - челюстно-лицевой хирург" ]
+  ], [
+     fhir:index 154;
+     fhir:CodeSystem.concept.code [ fhir:value "125" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-эндокринолог" ]
+  ], [
+     fhir:index 155;
+     fhir:CodeSystem.concept.code [ fhir:value "126" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-эндоскопист" ]
+  ], [
+     fhir:index 156;
+     fhir:CodeSystem.concept.code [ fhir:value "127" ];
+     fhir:CodeSystem.concept.display [ fhir:value "врач-эпидемиолог" ]
+  ], [
+     fhir:index 157;
+     fhir:CodeSystem.concept.code [ fhir:value "128" ];
+     fhir:CodeSystem.concept.display [ fhir:value "старший врач станции (отделения) скорой медицинской помощи" ]
+  ], [
+     fhir:index 158;
+     fhir:CodeSystem.concept.code [ fhir:value "449" ];
+     fhir:CodeSystem.concept.display [ fhir:value "старший врач станции скорой медицинской помощи" ]
+  ], [
+     fhir:index 159;
+     fhir:CodeSystem.concept.code [ fhir:value "450" ];
+     fhir:CodeSystem.concept.display [ fhir:value "старший врач отделения скорой медицинской помощи" ]
+  ], [
+     fhir:index 160;
+     fhir:CodeSystem.concept.code [ fhir:value "129" ];
+     fhir:CodeSystem.concept.display [ fhir:value "старший врач станции (отделения) скорой медицинской помощи горноспасательных частей" ]
+  ], [
+     fhir:index 161;
+     fhir:CodeSystem.concept.code [ fhir:value "451" ];
+     fhir:CodeSystem.concept.display [ fhir:value "старший врач станции скорой медицинской помощи горноспасательных частей" ]
+  ], [
+     fhir:index 162;
+     fhir:CodeSystem.concept.code [ fhir:value "452" ];
+     fhir:CodeSystem.concept.display [ fhir:value "старший врач отделения скорой медицинской помощи горноспасательных частей" ]
+  ], [
+     fhir:index 163;
+     fhir:CodeSystem.concept.code [ fhir:value "130" ];
+     fhir:CodeSystem.concept.display [ fhir:value "судовой врач" ]
+  ], [
+     fhir:index 164;
+     fhir:CodeSystem.concept.code [ fhir:value "131" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Должности специалистов с высшим профессиональным (немедицинским) образованием" ]
+  ], [
+     fhir:index 165;
+     fhir:CodeSystem.concept.code [ fhir:value "132" ];
+     fhir:CodeSystem.concept.display [ fhir:value "биолог" ]
+  ], [
+     fhir:index 166;
+     fhir:CodeSystem.concept.code [ fhir:value "133" ];
+     fhir:CodeSystem.concept.display [ fhir:value "зоолог" ]
+  ], [
+     fhir:index 167;
+     fhir:CodeSystem.concept.code [ fhir:value "134" ];
+     fhir:CodeSystem.concept.display [ fhir:value "эмбриолог" ]
+  ], [
+     fhir:index 168;
+     fhir:CodeSystem.concept.code [ fhir:value "135" ];
+     fhir:CodeSystem.concept.display [ fhir:value "энтомолог" ]
+  ], [
+     fhir:index 169;
+     fhir:CodeSystem.concept.code [ fhir:value "136" ];
+     fhir:CodeSystem.concept.display [ fhir:value "инструктор-методист по лечебной физкультуре" ]
+  ], [
+     fhir:index 170;
+     fhir:CodeSystem.concept.code [ fhir:value "137" ];
+     fhir:CodeSystem.concept.display [ fhir:value "логопед" ]
+  ], [
+     fhir:index 171;
+     fhir:CodeSystem.concept.code [ fhir:value "516" ];
+     fhir:CodeSystem.concept.display [ fhir:value "специалист по социальной работе" ]
+  ], [
+     fhir:index 172;
+     fhir:CodeSystem.concept.code [ fhir:value "138" ];
+     fhir:CodeSystem.concept.display [ fhir:value "медицинский физик" ]
+  ], [
+     fhir:index 173;
+     fhir:CodeSystem.concept.code [ fhir:value "139" ];
+     fhir:CodeSystem.concept.display [ fhir:value "медицинский психолог" ]
+  ], [
+     fhir:index 174;
+     fhir:CodeSystem.concept.code [ fhir:value "140" ];
+     fhir:CodeSystem.concept.display [ fhir:value "эксперт-физик по контролю за источниками ионизирующих и неионизирующих излучений" ]
+  ], [
+     fhir:index 175;
+     fhir:CodeSystem.concept.code [ fhir:value "141" ];
+     fhir:CodeSystem.concept.display [ fhir:value "судебный эксперт (эксперт-биохимик, эксперт-генетик, эксперт-химик)" ]
+  ], [
+     fhir:index 176;
+     fhir:CodeSystem.concept.code [ fhir:value "346" ];
+     fhir:CodeSystem.concept.display [ fhir:value "судебный эксперт" ]
+  ], [
+     fhir:index 177;
+     fhir:CodeSystem.concept.code [ fhir:value "347" ];
+     fhir:CodeSystem.concept.display [ fhir:value "судебный эксперт-биохимик" ]
+  ], [
+     fhir:index 178;
+     fhir:CodeSystem.concept.code [ fhir:value "348" ];
+     fhir:CodeSystem.concept.display [ fhir:value "судебный эксперт-генетик" ]
+  ], [
+     fhir:index 179;
+     fhir:CodeSystem.concept.code [ fhir:value "349" ];
+     fhir:CodeSystem.concept.display [ fhir:value "судебный эксперт-химик" ]
+  ], [
+     fhir:index 180;
+     fhir:CodeSystem.concept.code [ fhir:value "142" ];
+     fhir:CodeSystem.concept.display [ fhir:value "химик-эксперт медицинской организации" ]
+  ], [
+     fhir:index 181;
+     fhir:CodeSystem.concept.code [ fhir:value "143" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Должности специалистов со средним профессиональным (медицинским) образованием (средний медицинский персонал)" ]
+  ], [
+     fhir:index 182;
+     fhir:CodeSystem.concept.code [ fhir:value "144" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий здравпунктом - фельдшер (медицинская сестра)" ]
+  ], [
+     fhir:index 183;
+     fhir:CodeSystem.concept.code [ fhir:value "350" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий здравпунктом - фельдшер" ]
+  ], [
+     fhir:index 184;
+     fhir:CodeSystem.concept.code [ fhir:value "351" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий здравпунктом - медицинская сестра" ]
+  ], [
+     fhir:index 185;
+     fhir:CodeSystem.concept.code [ fhir:value "145" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий фельдшерско-акушерским пунктом - фельдшер (акушер, медицинская сестра)" ]
+  ], [
+     fhir:index 186;
+     fhir:CodeSystem.concept.code [ fhir:value "352" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий фельдшерско-акушерским пунктом - фельдшер" ]
+  ], [
+     fhir:index 187;
+     fhir:CodeSystem.concept.code [ fhir:value "353" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий фельдшерско-акушерским пунктом - акушер" ]
+  ], [
+     fhir:index 188;
+     fhir:CodeSystem.concept.code [ fhir:value "354" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий фельдшерско-акушерским пунктом - медицинская сестра" ]
+  ], [
+     fhir:index 189;
+     fhir:CodeSystem.concept.code [ fhir:value "146" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий кабинетом медицинской профилактики - фельдшер (медицинская сестра)" ]
+  ], [
+     fhir:index 190;
+     fhir:CodeSystem.concept.code [ fhir:value "355" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий кабинетом медицинской профилактики - фельдшер" ]
+  ], [
+     fhir:index 191;
+     fhir:CodeSystem.concept.code [ fhir:value "356" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий кабинетом медицинской профилактики - медицинская сестра" ]
+  ], [
+     fhir:index 192;
+     fhir:CodeSystem.concept.code [ fhir:value "147" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий производством учреждений (отделов, отделений, лабораторий) зубопротезирования" ]
+  ], [
+     fhir:index 193;
+     fhir:CodeSystem.concept.code [ fhir:value "445" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий производством учреждений зубопротезирования" ]
+  ], [
+     fhir:index 194;
+     fhir:CodeSystem.concept.code [ fhir:value "446" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий производством отделов зубопротезирования" ]
+  ], [
+     fhir:index 195;
+     fhir:CodeSystem.concept.code [ fhir:value "447" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий производством отделений зубопротезирования" ]
+  ], [
+     fhir:index 196;
+     fhir:CodeSystem.concept.code [ fhir:value "448" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий производством лабораторий зубопротезирования" ]
+  ], [
+     fhir:index 197;
+     fhir:CodeSystem.concept.code [ fhir:value "148" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий молочной кухней" ]
+  ], [
+     fhir:index 198;
+     fhir:CodeSystem.concept.code [ fhir:value "149" ];
+     fhir:CodeSystem.concept.display [ fhir:value "старшая медицинская сестра (акушер, фельдшер, операционная медицинская сестра, зубной техник)" ]
+  ], [
+     fhir:index 199;
+     fhir:CodeSystem.concept.code [ fhir:value "357" ];
+     fhir:CodeSystem.concept.display [ fhir:value "старшая медицинская сестра" ]
+  ], [
+     fhir:index 200;
+     fhir:CodeSystem.concept.code [ fhir:value "358" ];
+     fhir:CodeSystem.concept.display [ fhir:value "старший акушер" ]
+  ], [
+     fhir:index 201;
+     fhir:CodeSystem.concept.code [ fhir:value "359" ];
+     fhir:CodeSystem.concept.display [ fhir:value "старший фельдшер" ]
+  ], [
+     fhir:index 202;
+     fhir:CodeSystem.concept.code [ fhir:value "360" ];
+     fhir:CodeSystem.concept.display [ fhir:value "старшая операционная медицинская сестра" ]
+  ], [
+     fhir:index 203;
+     fhir:CodeSystem.concept.code [ fhir:value "361" ];
+     fhir:CodeSystem.concept.display [ fhir:value "старший зубной техник" ]
+  ], [
+     fhir:index 204;
+     fhir:CodeSystem.concept.code [ fhir:value "150" ];
+     fhir:CodeSystem.concept.display [ fhir:value "акушер" ]
+  ], [
+     fhir:index 205;
+     fhir:CodeSystem.concept.code [ fhir:value "151" ];
+     fhir:CodeSystem.concept.display [ fhir:value "гигиенист стоматологический" ]
+  ], [
+     fhir:index 206;
+     fhir:CodeSystem.concept.code [ fhir:value "152" ];
+     fhir:CodeSystem.concept.display [ fhir:value "зубной врач" ]
+  ], [
+     fhir:index 207;
+     fhir:CodeSystem.concept.code [ fhir:value "153" ];
+     fhir:CodeSystem.concept.display [ fhir:value "зубной техник" ]
+  ], [
+     fhir:index 208;
+     fhir:CodeSystem.concept.code [ fhir:value "154" ];
+     fhir:CodeSystem.concept.display [ fhir:value "инструктор-дезинфектор" ]
+  ], [
+     fhir:index 209;
+     fhir:CodeSystem.concept.code [ fhir:value "155" ];
+     fhir:CodeSystem.concept.display [ fhir:value "инструктор по гигиеническому воспитанию" ]
+  ], [
+     fhir:index 210;
+     fhir:CodeSystem.concept.code [ fhir:value "156" ];
+     fhir:CodeSystem.concept.display [ fhir:value "инструктор по лечебной физкультуре" ]
+  ], [
+     fhir:index 211;
+     fhir:CodeSystem.concept.code [ fhir:value "157" ];
+     fhir:CodeSystem.concept.display [ fhir:value "инструктор по трудовой терапии" ]
+  ], [
+     fhir:index 212;
+     fhir:CodeSystem.concept.code [ fhir:value "158" ];
+     fhir:CodeSystem.concept.display [ fhir:value "лаборант" ]
+  ], [
+     fhir:index 213;
+     fhir:CodeSystem.concept.code [ fhir:value "159" ];
+     fhir:CodeSystem.concept.display [ fhir:value "медицинская сестра" ]
+  ], [
+     fhir:index 214;
+     fhir:CodeSystem.concept.code [ fhir:value "160" ];
+     fhir:CodeSystem.concept.display [ fhir:value "медицинская сестра - анестезист" ]
+  ], [
+     fhir:index 215;
+     fhir:CodeSystem.concept.code [ fhir:value "161" ];
+     fhir:CodeSystem.concept.display [ fhir:value "медицинская сестра врача общей практики (семейного врача)" ]
+  ], [
+     fhir:index 216;
+     fhir:CodeSystem.concept.code [ fhir:value "162" ];
+     fhir:CodeSystem.concept.display [ fhir:value "медицинская сестра диетическая" ]
+  ], [
+     fhir:index 217;
+     fhir:CodeSystem.concept.code [ fhir:value "163" ];
+     fhir:CodeSystem.concept.display [ fhir:value "медицинская сестра медико-социальной помощи" ]
+  ], [
+     fhir:index 218;
+     fhir:CodeSystem.concept.code [ fhir:value "164" ];
+     fhir:CodeSystem.concept.display [ fhir:value "медицинская сестра палатная (постовая)" ]
+  ], [
+     fhir:index 219;
+     fhir:CodeSystem.concept.code [ fhir:value "165" ];
+     fhir:CodeSystem.concept.display [ fhir:value "медицинская сестра патронажная" ]
+  ], [
+     fhir:index 220;
+     fhir:CodeSystem.concept.code [ fhir:value "166" ];
+     fhir:CodeSystem.concept.display [ fhir:value "медицинская сестра перевязочной" ]
+  ], [
+     fhir:index 221;
+     fhir:CodeSystem.concept.code [ fhir:value "167" ];
+     fhir:CodeSystem.concept.display [ fhir:value "медицинская сестра по косметологии" ]
+  ], [
+     fhir:index 222;
+     fhir:CodeSystem.concept.code [ fhir:value "168" ];
+     fhir:CodeSystem.concept.display [ fhir:value "медицинская сестра по массажу" ]
+  ], [
+     fhir:index 223;
+     fhir:CodeSystem.concept.code [ fhir:value "169" ];
+     fhir:CodeSystem.concept.display [ fhir:value "медицинская сестра (фельдшер) по приему вызовов скорой медицинской помощи и передаче их выездным бригадам скорой медицинской помощи" ]
+  ], [
+     fhir:index 224;
+     fhir:CodeSystem.concept.code [ fhir:value "362" ];
+     fhir:CodeSystem.concept.display [ fhir:value "медицинская сестра по приему вызовов скорой медицинской помощи и передаче их выездным бригадам скорой медицинской помощи" ]
+  ], [
+     fhir:index 225;
+     fhir:CodeSystem.concept.code [ fhir:value "363" ];
+     fhir:CodeSystem.concept.display [ fhir:value "фельдшер по приему вызовов скорой медицинской помощи и передаче их выездным бригадам скорой медицинской помощи" ]
+  ], [
+     fhir:index 226;
+     fhir:CodeSystem.concept.code [ fhir:value "170" ];
+     fhir:CodeSystem.concept.display [ fhir:value "медицинская сестра приемного отделения" ]
+  ], [
+     fhir:index 227;
+     fhir:CodeSystem.concept.code [ fhir:value "171" ];
+     fhir:CodeSystem.concept.display [ fhir:value "медицинская сестра процедурной" ]
+  ], [
+     fhir:index 228;
+     fhir:CodeSystem.concept.code [ fhir:value "172" ];
+     fhir:CodeSystem.concept.display [ fhir:value "медицинская сестра по реабилитации" ]
+  ], [
+     fhir:index 229;
+     fhir:CodeSystem.concept.code [ fhir:value "173" ];
+     fhir:CodeSystem.concept.display [ fhir:value "медицинская сестра стерилизационной" ]
+  ], [
+     fhir:index 230;
+     fhir:CodeSystem.concept.code [ fhir:value "174" ];
+     fhir:CodeSystem.concept.display [ fhir:value "медицинская сестра участковая" ]
+  ], [
+     fhir:index 231;
+     fhir:CodeSystem.concept.code [ fhir:value "175" ];
+     fhir:CodeSystem.concept.display [ fhir:value "медицинская сестра по физиотерапии" ]
+  ], [
+     fhir:index 232;
+     fhir:CodeSystem.concept.code [ fhir:value "176" ];
+     fhir:CodeSystem.concept.display [ fhir:value "медицинский дезинфектор" ]
+  ], [
+     fhir:index 233;
+     fhir:CodeSystem.concept.code [ fhir:value "177" ];
+     fhir:CodeSystem.concept.display [ fhir:value "медицинский лабораторный техник (фельдшер-лаборант)" ]
+  ], [
+     fhir:index 234;
+     fhir:CodeSystem.concept.code [ fhir:value "364" ];
+     fhir:CodeSystem.concept.display [ fhir:value "медицинский лабораторный техник" ]
+  ], [
+     fhir:index 235;
+     fhir:CodeSystem.concept.code [ fhir:value "365" ];
+     fhir:CodeSystem.concept.display [ fhir:value "фельдшер-лаборант" ]
+  ], [
+     fhir:index 236;
+     fhir:CodeSystem.concept.code [ fhir:value "178" ];
+     fhir:CodeSystem.concept.display [ fhir:value "медицинский оптик-оптометрист" ]
+  ], [
+     fhir:index 237;
+     fhir:CodeSystem.concept.code [ fhir:value "179" ];
+     fhir:CodeSystem.concept.display [ fhir:value "медицинский регистратор" ]
+  ], [
+     fhir:index 238;
+     fhir:CodeSystem.concept.code [ fhir:value "180" ];
+     fhir:CodeSystem.concept.display [ fhir:value "медицинский статистик" ]
+  ], [
+     fhir:index 239;
+     fhir:CodeSystem.concept.code [ fhir:value "181" ];
+     fhir:CodeSystem.concept.display [ fhir:value "медицинский технолог" ]
+  ], [
+     fhir:index 240;
+     fhir:CodeSystem.concept.code [ fhir:value "182" ];
+     fhir:CodeSystem.concept.display [ fhir:value "операционная медицинская сестра" ]
+  ], [
+     fhir:index 241;
+     fhir:CodeSystem.concept.code [ fhir:value "183" ];
+     fhir:CodeSystem.concept.display [ fhir:value "помощник врача" ]
+  ], [
+     fhir:index 242;
+     fhir:CodeSystem.concept.code [ fhir:value "184" ];
+     fhir:CodeSystem.concept.display [ fhir:value "помощник врача-эпидемиолога" ]
+  ], [
+     fhir:index 243;
+     fhir:CodeSystem.concept.code [ fhir:value "185" ];
+     fhir:CodeSystem.concept.display [ fhir:value "помощник врача-паразитолога" ]
+  ], [
+     fhir:index 244;
+     fhir:CodeSystem.concept.code [ fhir:value "186" ];
+     fhir:CodeSystem.concept.display [ fhir:value "помощник врача по гигиене детей и подростков" ]
+  ], [
+     fhir:index 245;
+     fhir:CodeSystem.concept.code [ fhir:value "187" ];
+     fhir:CodeSystem.concept.display [ fhir:value "помощник врача по гигиене питания" ]
+  ], [
+     fhir:index 246;
+     fhir:CodeSystem.concept.code [ fhir:value "188" ];
+     fhir:CodeSystem.concept.display [ fhir:value "помощник врача по гигиене труда" ]
+  ], [
+     fhir:index 247;
+     fhir:CodeSystem.concept.code [ fhir:value "189" ];
+     fhir:CodeSystem.concept.display [ fhir:value "помощник врача по гигиеническому воспитанию" ]
+  ], [
+     fhir:index 248;
+     fhir:CodeSystem.concept.code [ fhir:value "190" ];
+     fhir:CodeSystem.concept.display [ fhir:value "помощник врача по коммунальной гигиене" ]
+  ], [
+     fhir:index 249;
+     fhir:CodeSystem.concept.code [ fhir:value "191" ];
+     fhir:CodeSystem.concept.display [ fhir:value "помощник врача по общей гигиене" ]
+  ], [
+     fhir:index 250;
+     fhir:CodeSystem.concept.code [ fhir:value "192" ];
+     fhir:CodeSystem.concept.display [ fhir:value "помощник врача по радиационной гигиене" ]
+  ], [
+     fhir:index 251;
+     fhir:CodeSystem.concept.code [ fhir:value "193" ];
+     fhir:CodeSystem.concept.display [ fhir:value "помощник энтомолога" ]
+  ], [
+     fhir:index 252;
+     fhir:CodeSystem.concept.code [ fhir:value "194" ];
+     fhir:CodeSystem.concept.display [ fhir:value "рентгенолаборант" ]
+  ], [
+     fhir:index 253;
+     fhir:CodeSystem.concept.code [ fhir:value "195" ];
+     fhir:CodeSystem.concept.display [ fhir:value "фельдшер" ]
+  ], [
+     fhir:index 254;
+     fhir:CodeSystem.concept.code [ fhir:value "196" ];
+     fhir:CodeSystem.concept.display [ fhir:value "фельдшер скорой медицинской помощи" ]
+  ], [
+     fhir:index 255;
+     fhir:CodeSystem.concept.code [ fhir:value "197" ];
+     fhir:CodeSystem.concept.display [ fhir:value "фельдшер-нарколог" ]
+  ], [
+     fhir:index 256;
+     fhir:CodeSystem.concept.code [ fhir:value "198" ];
+     fhir:CodeSystem.concept.display [ fhir:value "фельдшер-водитель скорой медицинской помощи" ]
+  ], [
+     fhir:index 257;
+     fhir:CodeSystem.concept.code [ fhir:value "366" ];
+     fhir:CodeSystem.concept.display [ fhir:value "продавец оптики" ]
+  ], [
+     fhir:index 258;
+     fhir:CodeSystem.concept.code [ fhir:value "199" ];
+     fhir:CodeSystem.concept.display [ fhir:value "прочий средний медицинский персонал" ]
+  ], [
+     fhir:index 259;
+     fhir:CodeSystem.concept.code [ fhir:value "200" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Должности иных медицинских работников (младший медицинский персонал)" ]
+  ], [
+     fhir:index 260;
+     fhir:CodeSystem.concept.code [ fhir:value "201" ];
+     fhir:CodeSystem.concept.display [ fhir:value "младшая медицинская сестра по уходу за больными" ]
+  ], [
+     fhir:index 261;
+     fhir:CodeSystem.concept.code [ fhir:value "202" ];
+     fhir:CodeSystem.concept.display [ fhir:value "санитар" ]
+  ], [
+     fhir:index 262;
+     fhir:CodeSystem.concept.code [ fhir:value "203" ];
+     fhir:CodeSystem.concept.display [ fhir:value "сестра-хозяйка" ]
+  ], [
+     fhir:index 263;
+     fhir:CodeSystem.concept.code [ fhir:value "204" ];
+     fhir:CodeSystem.concept.display [ fhir:value "санитар-водитель" ]
+  ], [
+     fhir:index 264;
+     fhir:CodeSystem.concept.code [ fhir:value "205" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Должности прочего общеучрежденческого персонала медицинских организаций" ]
+  ], [
+     fhir:index 265;
+     fhir:CodeSystem.concept.code [ fhir:value "206" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ИТ-специалист" ]
+  ], [
+     fhir:index 266;
+     fhir:CodeSystem.concept.code [ fhir:value "207" ];
+     fhir:CodeSystem.concept.display [ fhir:value "водитель скорой медицинской помощи" ]
+  ], [
+     fhir:index 267;
+     fhir:CodeSystem.concept.code [ fhir:value "208" ];
+     fhir:CodeSystem.concept.display [ fhir:value "бухгалтер" ]
+  ], [
+     fhir:index 268;
+     fhir:CodeSystem.concept.code [ fhir:value "209" ];
+     fhir:CodeSystem.concept.display [ fhir:value "специалист отдела кадров" ]
+  ], [
+     fhir:index 269;
+     fhir:CodeSystem.concept.code [ fhir:value "210" ];
+     fhir:CodeSystem.concept.display [ fhir:value "гардеробщик" ]
+  ], [
+     fhir:index 270;
+     fhir:CodeSystem.concept.code [ fhir:value "211" ];
+     fhir:CodeSystem.concept.display [ fhir:value "библиотекарь" ]
+  ], [
+     fhir:index 271;
+     fhir:CodeSystem.concept.code [ fhir:value "212" ];
+     fhir:CodeSystem.concept.display [ fhir:value "лифтер" ]
+  ], [
+     fhir:index 272;
+     fhir:CodeSystem.concept.code [ fhir:value "213" ];
+     fhir:CodeSystem.concept.display [ fhir:value "иные профессии рабочих и служащих" ]
+  ], [
+     fhir:index 273;
+     fhir:CodeSystem.concept.code [ fhir:value "214" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Должности работников фармацевтических организаций" ]
+  ], [
+     fhir:index 274;
+     fhir:CodeSystem.concept.code [ fhir:value "215" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Должности фармацевтических работников" ]
+  ], [
+     fhir:index 275;
+     fhir:CodeSystem.concept.code [ fhir:value "216" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Должности руководителей фармацевтических организаций" ]
+  ], [
+     fhir:index 276;
+     fhir:CodeSystem.concept.code [ fhir:value "217" ];
+     fhir:CodeSystem.concept.display [ fhir:value "директор (заведующий, начальник) аптечной организации" ]
+  ], [
+     fhir:index 277;
+     fhir:CodeSystem.concept.code [ fhir:value "367" ];
+     fhir:CodeSystem.concept.display [ fhir:value "директор аптечной организации" ]
+  ], [
+     fhir:index 278;
+     fhir:CodeSystem.concept.code [ fhir:value "368" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий аптечной организации" ]
+  ], [
+     fhir:index 279;
+     fhir:CodeSystem.concept.code [ fhir:value "369" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник аптечной организации" ]
+  ], [
+     fhir:index 280;
+     fhir:CodeSystem.concept.code [ fhir:value "218" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заместитель директора (заведующего, начальника) аптечной организации" ]
+  ], [
+     fhir:index 281;
+     fhir:CodeSystem.concept.code [ fhir:value "370" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заместитель директора аптечной организации" ]
+  ], [
+     fhir:index 282;
+     fhir:CodeSystem.concept.code [ fhir:value "371" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заместитель заведующего аптечной организации" ]
+  ], [
+     fhir:index 283;
+     fhir:CodeSystem.concept.code [ fhir:value "372" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заместитель начальника аптечной организации" ]
+  ], [
+     fhir:index 284;
+     fhir:CodeSystem.concept.code [ fhir:value "219" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий складом организации оптовой торговли лекарственными средствами" ]
+  ], [
+     fhir:index 285;
+     fhir:CodeSystem.concept.code [ fhir:value "220" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий медицинским складом мобилизационного резерва" ]
+  ], [
+     fhir:index 286;
+     fhir:CodeSystem.concept.code [ fhir:value "221" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заместитель заведующего складом организации оптовой торговли лекарственными средствами" ]
+  ], [
+     fhir:index 287;
+     fhir:CodeSystem.concept.code [ fhir:value "222" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий (начальник) структурного подразделения (отдела) аптечной организации" ]
+  ], [
+     fhir:index 288;
+     fhir:CodeSystem.concept.code [ fhir:value "373" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий структурного подразделения аптечной организации" ]
+  ], [
+     fhir:index 289;
+     fhir:CodeSystem.concept.code [ fhir:value "439" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий отделом аптечной организации" ]
+  ], [
+     fhir:index 290;
+     fhir:CodeSystem.concept.code [ fhir:value "374" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник структурного подразделения аптечной организации" ]
+  ], [
+     fhir:index 291;
+     fhir:CodeSystem.concept.code [ fhir:value "440" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник отдела аптечной организации" ]
+  ], [
+     fhir:index 292;
+     fhir:CodeSystem.concept.code [ fhir:value "223" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Должности специалистов с высшим профессиональным (фармацевтическим) образованием (провизоры)" ]
+  ], [
+     fhir:index 293;
+     fhir:CodeSystem.concept.code [ fhir:value "224" ];
+     fhir:CodeSystem.concept.display [ fhir:value "провизор-стажер" ]
+  ], [
+     fhir:index 294;
+     fhir:CodeSystem.concept.code [ fhir:value "225" ];
+     fhir:CodeSystem.concept.display [ fhir:value "провизор" ]
+  ], [
+     fhir:index 295;
+     fhir:CodeSystem.concept.code [ fhir:value "226" ];
+     fhir:CodeSystem.concept.display [ fhir:value "провизор-технолог" ]
+  ], [
+     fhir:index 296;
+     fhir:CodeSystem.concept.code [ fhir:value "227" ];
+     fhir:CodeSystem.concept.display [ fhir:value "провизор-аналитик" ]
+  ], [
+     fhir:index 297;
+     fhir:CodeSystem.concept.code [ fhir:value "228" ];
+     fhir:CodeSystem.concept.display [ fhir:value "старший провизор" ]
+  ], [
+     fhir:index 298;
+     fhir:CodeSystem.concept.code [ fhir:value "229" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Должности специалистов со средним профессиональным (фармацевтическим) образованием (средний фармацевтический персонал)" ]
+  ], [
+     fhir:index 299;
+     fhir:CodeSystem.concept.code [ fhir:value "230" ];
+     fhir:CodeSystem.concept.display [ fhir:value "старший фармацевт" ]
+  ], [
+     fhir:index 300;
+     fhir:CodeSystem.concept.code [ fhir:value "231" ];
+     fhir:CodeSystem.concept.display [ fhir:value "фармацевт" ]
+  ], [
+     fhir:index 301;
+     fhir:CodeSystem.concept.code [ fhir:value "232" ];
+     fhir:CodeSystem.concept.display [ fhir:value "младший фармацевт" ]
+  ], [
+     fhir:index 302;
+     fhir:CodeSystem.concept.code [ fhir:value "233" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Должности иных фармацевтических работников (младший фармацевтический персонал)" ]
+  ], [
+     fhir:index 303;
+     fhir:CodeSystem.concept.code [ fhir:value "234" ];
+     fhir:CodeSystem.concept.display [ fhir:value "санитар (мойщик)" ]
+  ], [
+     fhir:index 304;
+     fhir:CodeSystem.concept.code [ fhir:value "235" ];
+     fhir:CodeSystem.concept.display [ fhir:value "фасовщик" ]
+  ], [
+     fhir:index 305;
+     fhir:CodeSystem.concept.code [ fhir:value "236" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Должности прочего общеучрежденческого персонала фармацевтических организаций" ]
+  ], [
+     fhir:index 306;
+     fhir:CodeSystem.concept.code [ fhir:value "237" ];
+     fhir:CodeSystem.concept.display [ fhir:value "иные профессии рабочих" ]
+  ], [
+     fhir:index 307;
+     fhir:CodeSystem.concept.code [ fhir:value "238" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Должности работников образовательных организаций и НИИ" ]
+  ], [
+     fhir:index 308;
+     fhir:CodeSystem.concept.code [ fhir:value "239" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Должности руководителей образовательных организаций и НИИ" ]
+  ], [
+     fhir:index 309;
+     fhir:CodeSystem.concept.code [ fhir:value "240" ];
+     fhir:CodeSystem.concept.display [ fhir:value "руководитель (ректор, директор, заведующий, начальник) образовательной организации" ]
+  ], [
+     fhir:index 310;
+     fhir:CodeSystem.concept.code [ fhir:value "375" ];
+     fhir:CodeSystem.concept.display [ fhir:value "руководитель образовательной организации" ]
+  ], [
+     fhir:index 311;
+     fhir:CodeSystem.concept.code [ fhir:value "376" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ректор образовательной организации высшего профессионального образования" ]
+  ], [
+     fhir:index 312;
+     fhir:CodeSystem.concept.code [ fhir:value "377" ];
+     fhir:CodeSystem.concept.display [ fhir:value "директор образовательной организации" ]
+  ], [
+     fhir:index 313;
+     fhir:CodeSystem.concept.code [ fhir:value "378" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий образовательной организации" ]
+  ], [
+     fhir:index 314;
+     fhir:CodeSystem.concept.code [ fhir:value "379" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник образовательной организации" ]
+  ], [
+     fhir:index 315;
+     fhir:CodeSystem.concept.code [ fhir:value "241" ];
+     fhir:CodeSystem.concept.display [ fhir:value "президент образовательной организации высшего профессионального образования" ]
+  ], [
+     fhir:index 316;
+     fhir:CodeSystem.concept.code [ fhir:value "242" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заместитель руководителя (директора, заведующего, начальника) образовательной организации" ]
+  ], [
+     fhir:index 317;
+     fhir:CodeSystem.concept.code [ fhir:value "380" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заместитель руководителя образовательной организации" ]
+  ], [
+     fhir:index 318;
+     fhir:CodeSystem.concept.code [ fhir:value "381" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заместитель директора образовательной организации" ]
+  ], [
+     fhir:index 319;
+     fhir:CodeSystem.concept.code [ fhir:value "382" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заместитель заведующего образовательной организации" ]
+  ], [
+     fhir:index 320;
+     fhir:CodeSystem.concept.code [ fhir:value "383" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заместитель начальника образовательной организации" ]
+  ], [
+     fhir:index 321;
+     fhir:CodeSystem.concept.code [ fhir:value "480" ];
+     fhir:CodeSystem.concept.display [ fhir:value "руководитель (директор, заведующий, начальник) научной организации" ]
+  ], [
+     fhir:index 322;
+     fhir:CodeSystem.concept.code [ fhir:value "481" ];
+     fhir:CodeSystem.concept.display [ fhir:value "руководитель научной организации" ]
+  ], [
+     fhir:index 323;
+     fhir:CodeSystem.concept.code [ fhir:value "482" ];
+     fhir:CodeSystem.concept.display [ fhir:value "директор научной организации" ]
+  ], [
+     fhir:index 324;
+     fhir:CodeSystem.concept.code [ fhir:value "483" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий научной организации" ]
+  ], [
+     fhir:index 325;
+     fhir:CodeSystem.concept.code [ fhir:value "484" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник научной организации" ]
+  ], [
+     fhir:index 326;
+     fhir:CodeSystem.concept.code [ fhir:value "485" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заместитель руководителя (директора, заведующего, начальника) научной организации" ]
+  ], [
+     fhir:index 327;
+     fhir:CodeSystem.concept.code [ fhir:value "486" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заместитель руководителя научной организации" ]
+  ], [
+     fhir:index 328;
+     fhir:CodeSystem.concept.code [ fhir:value "487" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заместитель директора научной организации" ]
+  ], [
+     fhir:index 329;
+     fhir:CodeSystem.concept.code [ fhir:value "488" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заместитель заведующего научной организации" ]
+  ], [
+     fhir:index 330;
+     fhir:CodeSystem.concept.code [ fhir:value "489" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заместитель начальника научной организации" ]
+  ], [
+     fhir:index 331;
+     fhir:CodeSystem.concept.code [ fhir:value "243" ];
+     fhir:CodeSystem.concept.display [ fhir:value "руководитель (директор, заведующий, начальник, управляющий) структурного подразделения" ]
+  ], [
+     fhir:index 332;
+     fhir:CodeSystem.concept.code [ fhir:value "384" ];
+     fhir:CodeSystem.concept.display [ fhir:value "руководитель структурного подразделения" ]
+  ], [
+     fhir:index 333;
+     fhir:CodeSystem.concept.code [ fhir:value "385" ];
+     fhir:CodeSystem.concept.display [ fhir:value "директор структурного подразделения" ]
+  ], [
+     fhir:index 334;
+     fhir:CodeSystem.concept.code [ fhir:value "386" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий структурного подразделения" ]
+  ], [
+     fhir:index 335;
+     fhir:CodeSystem.concept.code [ fhir:value "387" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник структурного подразделения" ]
+  ], [
+     fhir:index 336;
+     fhir:CodeSystem.concept.code [ fhir:value "388" ];
+     fhir:CodeSystem.concept.display [ fhir:value "управляющий структурного подразделения" ]
+  ], [
+     fhir:index 337;
+     fhir:CodeSystem.concept.code [ fhir:value "244" ];
+     fhir:CodeSystem.concept.display [ fhir:value "руководитель (директор, заведующий, начальник, управляющий) обособленного структурного подразделения" ]
+  ], [
+     fhir:index 338;
+     fhir:CodeSystem.concept.code [ fhir:value "389" ];
+     fhir:CodeSystem.concept.display [ fhir:value "руководитель обособленного структурного подразделения" ]
+  ], [
+     fhir:index 339;
+     fhir:CodeSystem.concept.code [ fhir:value "390" ];
+     fhir:CodeSystem.concept.display [ fhir:value "директор обособленного структурного подразделения" ]
+  ], [
+     fhir:index 340;
+     fhir:CodeSystem.concept.code [ fhir:value "391" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий обособленного структурного подразделения" ]
+  ], [
+     fhir:index 341;
+     fhir:CodeSystem.concept.code [ fhir:value "392" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник обособленного структурного подразделения" ]
+  ], [
+     fhir:index 342;
+     fhir:CodeSystem.concept.code [ fhir:value "393" ];
+     fhir:CodeSystem.concept.display [ fhir:value "управляющий обособленного структурного подразделения" ]
+  ], [
+     fhir:index 343;
+     fhir:CodeSystem.concept.code [ fhir:value "245" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заместитель руководителя (директора, заведующего, начальника, управляющего) структурного подразделения" ]
+  ], [
+     fhir:index 344;
+     fhir:CodeSystem.concept.code [ fhir:value "394" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заместитель руководителя структурного подразделения" ]
+  ], [
+     fhir:index 345;
+     fhir:CodeSystem.concept.code [ fhir:value "395" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заместитель директора структурного подразделения" ]
+  ], [
+     fhir:index 346;
+     fhir:CodeSystem.concept.code [ fhir:value "396" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заместитель заведующего структурного подразделения" ]
+  ], [
+     fhir:index 347;
+     fhir:CodeSystem.concept.code [ fhir:value "397" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заместитель начальника структурного подразделения" ]
+  ], [
+     fhir:index 348;
+     fhir:CodeSystem.concept.code [ fhir:value "398" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заместитель управляющего структурного подразделения" ]
+  ], [
+     fhir:index 349;
+     fhir:CodeSystem.concept.code [ fhir:value "246" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий (начальник) техническим архивом, чертежно-копировальным бюро; лабораторией (компьютерного и фото-, кинооборудования, оргтехники, средств связи)" ]
+  ], [
+     fhir:index 350;
+     fhir:CodeSystem.concept.code [ fhir:value "490" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий техническим архивом" ]
+  ], [
+     fhir:index 351;
+     fhir:CodeSystem.concept.code [ fhir:value "491" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий чертежно-копировальным бюро" ]
+  ], [
+     fhir:index 352;
+     fhir:CodeSystem.concept.code [ fhir:value "492" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий лабораторией (компьютерного и фото-, кинооборудования, оргтехники, средств связи)" ]
+  ], [
+     fhir:index 353;
+     fhir:CodeSystem.concept.code [ fhir:value "493" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник технического архива" ]
+  ], [
+     fhir:index 354;
+     fhir:CodeSystem.concept.code [ fhir:value "494" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник чертежно-копировального бюро" ]
+  ], [
+     fhir:index 355;
+     fhir:CodeSystem.concept.code [ fhir:value "495" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник лаборатории (компьютерного и фото-, кинооборудования, оргтехники, средств связи)" ]
+  ], [
+     fhir:index 356;
+     fhir:CodeSystem.concept.code [ fhir:value "247" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий (начальник) отделом научно-технической информации" ]
+  ], [
+     fhir:index 357;
+     fhir:CodeSystem.concept.code [ fhir:value "401" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий отделом научно-технической информации" ]
+  ], [
+     fhir:index 358;
+     fhir:CodeSystem.concept.code [ fhir:value "402" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник отдела научно-технической информации" ]
+  ], [
+     fhir:index 359;
+     fhir:CodeSystem.concept.code [ fhir:value "248" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник (руководитель) бригады (группы)" ]
+  ], [
+     fhir:index 360;
+     fhir:CodeSystem.concept.code [ fhir:value "403" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник бригады" ]
+  ], [
+     fhir:index 361;
+     fhir:CodeSystem.concept.code [ fhir:value "441" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник группы" ]
+  ], [
+     fhir:index 362;
+     fhir:CodeSystem.concept.code [ fhir:value "404" ];
+     fhir:CodeSystem.concept.display [ fhir:value "руководитель бригады" ]
+  ], [
+     fhir:index 363;
+     fhir:CodeSystem.concept.code [ fhir:value "442" ];
+     fhir:CodeSystem.concept.display [ fhir:value "руководитель группы" ]
+  ], [
+     fhir:index 364;
+     fhir:CodeSystem.concept.code [ fhir:value "249" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий (начальник) научно-исследовательским (конструкторским) отделом (лабораторией, отделением, сектором)" ]
+  ], [
+     fhir:index 365;
+     fhir:CodeSystem.concept.code [ fhir:value "496" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий научно-исследовательским отделом" ]
+  ], [
+     fhir:index 366;
+     fhir:CodeSystem.concept.code [ fhir:value "497" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий научно-исследовательской лабораторией" ]
+  ], [
+     fhir:index 367;
+     fhir:CodeSystem.concept.code [ fhir:value "498" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий научно-исследовательским отделением" ]
+  ], [
+     fhir:index 368;
+     fhir:CodeSystem.concept.code [ fhir:value "499" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий научно-исследовательским сектором" ]
+  ], [
+     fhir:index 369;
+     fhir:CodeSystem.concept.code [ fhir:value "500" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий конструкторским отделом" ]
+  ], [
+     fhir:index 370;
+     fhir:CodeSystem.concept.code [ fhir:value "501" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий конструкторской лабораторией" ]
+  ], [
+     fhir:index 371;
+     fhir:CodeSystem.concept.code [ fhir:value "502" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий конструкторским отделением" ]
+  ], [
+     fhir:index 372;
+     fhir:CodeSystem.concept.code [ fhir:value "503" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий конструкторским сектором" ]
+  ], [
+     fhir:index 373;
+     fhir:CodeSystem.concept.code [ fhir:value "504" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник научно-исследовательского отдела" ]
+  ], [
+     fhir:index 374;
+     fhir:CodeSystem.concept.code [ fhir:value "505" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник научно-исследовательской лаборатории" ]
+  ], [
+     fhir:index 375;
+     fhir:CodeSystem.concept.code [ fhir:value "506" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник научно-исследовательским отделения" ]
+  ], [
+     fhir:index 376;
+     fhir:CodeSystem.concept.code [ fhir:value "507" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник научно-исследовательского сектора" ]
+  ], [
+     fhir:index 377;
+     fhir:CodeSystem.concept.code [ fhir:value "508" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник конструкторского отдела" ]
+  ], [
+     fhir:index 378;
+     fhir:CodeSystem.concept.code [ fhir:value "509" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник конструкторской лаборатории" ]
+  ], [
+     fhir:index 379;
+     fhir:CodeSystem.concept.code [ fhir:value "510" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник конструкторского отделения" ]
+  ], [
+     fhir:index 380;
+     fhir:CodeSystem.concept.code [ fhir:value "511" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник конструкторского сектора" ]
+  ], [
+     fhir:index 381;
+     fhir:CodeSystem.concept.code [ fhir:value "250" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий (начальник) научным центром" ]
+  ], [
+     fhir:index 382;
+     fhir:CodeSystem.concept.code [ fhir:value "407" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий научным центром" ]
+  ], [
+     fhir:index 383;
+     fhir:CodeSystem.concept.code [ fhir:value "408" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник научного центра" ]
+  ], [
+     fhir:index 384;
+     fhir:CodeSystem.concept.code [ fhir:value "251" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник (заведующий) отдела (управления) аспирантуры" ]
+  ], [
+     fhir:index 385;
+     fhir:CodeSystem.concept.code [ fhir:value "409" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник отдела аспирантуры" ]
+  ], [
+     fhir:index 386;
+     fhir:CodeSystem.concept.code [ fhir:value "478" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник управления аспирантуры" ]
+  ], [
+     fhir:index 387;
+     fhir:CodeSystem.concept.code [ fhir:value "410" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий отделом аспирантуры" ]
+  ], [
+     fhir:index 388;
+     fhir:CodeSystem.concept.code [ fhir:value "479" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий управлением аспирантуры" ]
+  ], [
+     fhir:index 389;
+     fhir:CodeSystem.concept.code [ fhir:value "252" ];
+     fhir:CodeSystem.concept.display [ fhir:value "первый проректор" ]
+  ], [
+     fhir:index 390;
+     fhir:CodeSystem.concept.code [ fhir:value "253" ];
+     fhir:CodeSystem.concept.display [ fhir:value "проректор" ]
+  ], [
+     fhir:index 391;
+     fhir:CodeSystem.concept.code [ fhir:value "254" ];
+     fhir:CodeSystem.concept.display [ fhir:value "помощник ректора" ]
+  ], [
+     fhir:index 392;
+     fhir:CodeSystem.concept.code [ fhir:value "255" ];
+     fhir:CodeSystem.concept.display [ fhir:value "помощник проректора" ]
+  ], [
+     fhir:index 393;
+     fhir:CodeSystem.concept.code [ fhir:value "256" ];
+     fhir:CodeSystem.concept.display [ fhir:value "советник при ректорате" ]
+  ], [
+     fhir:index 394;
+     fhir:CodeSystem.concept.code [ fhir:value "257" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ученый секретарь совета образовательной организации" ]
+  ], [
+     fhir:index 395;
+     fhir:CodeSystem.concept.code [ fhir:value "258" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ученый секретарь совета факультета" ]
+  ], [
+     fhir:index 396;
+     fhir:CodeSystem.concept.code [ fhir:value "444" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ученый секретарь совета института" ]
+  ], [
+     fhir:index 397;
+     fhir:CodeSystem.concept.code [ fhir:value "259" ];
+     fhir:CodeSystem.concept.display [ fhir:value "руководитель (заведующий) учебной (учебно-производственной, производственной) практики" ]
+  ], [
+     fhir:index 398;
+     fhir:CodeSystem.concept.code [ fhir:value "512" ];
+     fhir:CodeSystem.concept.display [ fhir:value "руководитель учебной практики" ]
+  ], [
+     fhir:index 399;
+     fhir:CodeSystem.concept.code [ fhir:value "453" ];
+     fhir:CodeSystem.concept.display [ fhir:value "руководитель учебно-производственной практики" ]
+  ], [
+     fhir:index 400;
+     fhir:CodeSystem.concept.code [ fhir:value "454" ];
+     fhir:CodeSystem.concept.display [ fhir:value "руководитель производственной практики" ]
+  ], [
+     fhir:index 401;
+     fhir:CodeSystem.concept.code [ fhir:value "455" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий учебной практики" ]
+  ], [
+     fhir:index 402;
+     fhir:CodeSystem.concept.code [ fhir:value "456" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий учебно-производственной практики" ]
+  ], [
+     fhir:index 403;
+     fhir:CodeSystem.concept.code [ fhir:value "457" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий производственной практики" ]
+  ], [
+     fhir:index 404;
+     fhir:CodeSystem.concept.code [ fhir:value "260" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий (директор, начальник, руководитель) питомника, учебного вивария, лесхоза, опытного поля, ботанического сада (дендрария)" ]
+  ], [
+     fhir:index 405;
+     fhir:CodeSystem.concept.code [ fhir:value "458" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий питомника" ]
+  ], [
+     fhir:index 406;
+     fhir:CodeSystem.concept.code [ fhir:value "459" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий учебного вивария" ]
+  ], [
+     fhir:index 407;
+     fhir:CodeSystem.concept.code [ fhir:value "460" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий лесхоза" ]
+  ], [
+     fhir:index 408;
+     fhir:CodeSystem.concept.code [ fhir:value "461" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий опытного поля" ]
+  ], [
+     fhir:index 409;
+     fhir:CodeSystem.concept.code [ fhir:value "462" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий ботанического сада (дендрария)" ]
+  ], [
+     fhir:index 410;
+     fhir:CodeSystem.concept.code [ fhir:value "463" ];
+     fhir:CodeSystem.concept.display [ fhir:value "директор питомника" ]
+  ], [
+     fhir:index 411;
+     fhir:CodeSystem.concept.code [ fhir:value "464" ];
+     fhir:CodeSystem.concept.display [ fhir:value "директор учебного вивария" ]
+  ], [
+     fhir:index 412;
+     fhir:CodeSystem.concept.code [ fhir:value "465" ];
+     fhir:CodeSystem.concept.display [ fhir:value "директор лесхоза" ]
+  ], [
+     fhir:index 413;
+     fhir:CodeSystem.concept.code [ fhir:value "466" ];
+     fhir:CodeSystem.concept.display [ fhir:value "директор опытного поля" ]
+  ], [
+     fhir:index 414;
+     fhir:CodeSystem.concept.code [ fhir:value "467" ];
+     fhir:CodeSystem.concept.display [ fhir:value "директор ботанического сада (дендрария)" ]
+  ], [
+     fhir:index 415;
+     fhir:CodeSystem.concept.code [ fhir:value "468" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник питомника" ]
+  ], [
+     fhir:index 416;
+     fhir:CodeSystem.concept.code [ fhir:value "469" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник учебного вивария" ]
+  ], [
+     fhir:index 417;
+     fhir:CodeSystem.concept.code [ fhir:value "470" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник лесхоза" ]
+  ], [
+     fhir:index 418;
+     fhir:CodeSystem.concept.code [ fhir:value "471" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник опытного поля" ]
+  ], [
+     fhir:index 419;
+     fhir:CodeSystem.concept.code [ fhir:value "472" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник ботанического сада (дендрария)" ]
+  ], [
+     fhir:index 420;
+     fhir:CodeSystem.concept.code [ fhir:value "473" ];
+     fhir:CodeSystem.concept.display [ fhir:value "руководитель питомника" ]
+  ], [
+     fhir:index 421;
+     fhir:CodeSystem.concept.code [ fhir:value "474" ];
+     fhir:CodeSystem.concept.display [ fhir:value "руководитель учебного вивария" ]
+  ], [
+     fhir:index 422;
+     fhir:CodeSystem.concept.code [ fhir:value "475" ];
+     fhir:CodeSystem.concept.display [ fhir:value "руководитель лесхоза" ]
+  ], [
+     fhir:index 423;
+     fhir:CodeSystem.concept.code [ fhir:value "476" ];
+     fhir:CodeSystem.concept.display [ fhir:value "руководитель опытного поля" ]
+  ], [
+     fhir:index 424;
+     fhir:CodeSystem.concept.code [ fhir:value "477" ];
+     fhir:CodeSystem.concept.display [ fhir:value "руководитель ботанического сада (дендрария)" ]
+  ], [
+     fhir:index 425;
+     fhir:CodeSystem.concept.code [ fhir:value "261" ];
+     fhir:CodeSystem.concept.display [ fhir:value "старший мастер" ]
+  ], [
+     fhir:index 426;
+     fhir:CodeSystem.concept.code [ fhir:value "262" ];
+     fhir:CodeSystem.concept.display [ fhir:value "директор (начальник, руководитель) студенческого дворца культуры" ]
+  ], [
+     fhir:index 427;
+     fhir:CodeSystem.concept.code [ fhir:value "417" ];
+     fhir:CodeSystem.concept.display [ fhir:value "директор студенческого дворца культуры" ]
+  ], [
+     fhir:index 428;
+     fhir:CodeSystem.concept.code [ fhir:value "418" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник студенческого дворца культуры" ]
+  ], [
+     fhir:index 429;
+     fhir:CodeSystem.concept.code [ fhir:value "419" ];
+     fhir:CodeSystem.concept.display [ fhir:value "руководитель студенческого дворца культуры" ]
+  ], [
+     fhir:index 430;
+     fhir:CodeSystem.concept.code [ fhir:value "263" ];
+     fhir:CodeSystem.concept.display [ fhir:value "директор (начальник, заведующий) студенческого общежития" ]
+  ], [
+     fhir:index 431;
+     fhir:CodeSystem.concept.code [ fhir:value "420" ];
+     fhir:CodeSystem.concept.display [ fhir:value "директор студенческого общежития" ]
+  ], [
+     fhir:index 432;
+     fhir:CodeSystem.concept.code [ fhir:value "421" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник студенческого общежития" ]
+  ], [
+     fhir:index 433;
+     fhir:CodeSystem.concept.code [ fhir:value "422" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий студенческого общежития" ]
+  ], [
+     fhir:index 434;
+     fhir:CodeSystem.concept.code [ fhir:value "264" ];
+     fhir:CodeSystem.concept.display [ fhir:value "директор (руководитель, заведующий) издательства учебной литературы и учебных пособий" ]
+  ], [
+     fhir:index 435;
+     fhir:CodeSystem.concept.code [ fhir:value "423" ];
+     fhir:CodeSystem.concept.display [ fhir:value "директор издательства учебной литературы и учебных пособий" ]
+  ], [
+     fhir:index 436;
+     fhir:CodeSystem.concept.code [ fhir:value "424" ];
+     fhir:CodeSystem.concept.display [ fhir:value "руководитель издательства учебной литературы и учебных пособий" ]
+  ], [
+     fhir:index 437;
+     fhir:CodeSystem.concept.code [ fhir:value "425" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий издательства учебной литературы и учебных пособий" ]
+  ], [
+     fhir:index 438;
+     fhir:CodeSystem.concept.code [ fhir:value "265" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Должности работников образовательных организаций" ]
+  ], [
+     fhir:index 439;
+     fhir:CodeSystem.concept.code [ fhir:value "266" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Должности педагогических работников, отнесенных к профессорско-преподавательскому составу" ]
+  ], [
+     fhir:index 440;
+     fhir:CodeSystem.concept.code [ fhir:value "267" ];
+     fhir:CodeSystem.concept.display [ fhir:value "декан факультета" ]
+  ], [
+     fhir:index 441;
+     fhir:CodeSystem.concept.code [ fhir:value "426" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заместитель декана" ]
+  ], [
+     fhir:index 442;
+     fhir:CodeSystem.concept.code [ fhir:value "268" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник факультета" ]
+  ], [
+     fhir:index 443;
+     fhir:CodeSystem.concept.code [ fhir:value "269" ];
+     fhir:CodeSystem.concept.display [ fhir:value "директор института" ]
+  ], [
+     fhir:index 444;
+     fhir:CodeSystem.concept.code [ fhir:value "270" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник института" ]
+  ], [
+     fhir:index 445;
+     fhir:CodeSystem.concept.code [ fhir:value "271" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий кафедрой" ]
+  ], [
+     fhir:index 446;
+     fhir:CodeSystem.concept.code [ fhir:value "272" ];
+     fhir:CodeSystem.concept.display [ fhir:value "начальник кафедры" ]
+  ], [
+     fhir:index 447;
+     fhir:CodeSystem.concept.code [ fhir:value "273" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заместитель начальника кафедры" ]
+  ], [
+     fhir:index 448;
+     fhir:CodeSystem.concept.code [ fhir:value "274" ];
+     fhir:CodeSystem.concept.display [ fhir:value "профессор" ]
+  ], [
+     fhir:index 449;
+     fhir:CodeSystem.concept.code [ fhir:value "275" ];
+     fhir:CodeSystem.concept.display [ fhir:value "доцент" ]
+  ], [
+     fhir:index 450;
+     fhir:CodeSystem.concept.code [ fhir:value "276" ];
+     fhir:CodeSystem.concept.display [ fhir:value "старший преподаватель" ]
+  ], [
+     fhir:index 451;
+     fhir:CodeSystem.concept.code [ fhir:value "277" ];
+     fhir:CodeSystem.concept.display [ fhir:value "преподаватель" ]
+  ], [
+     fhir:index 452;
+     fhir:CodeSystem.concept.code [ fhir:value "278" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ассистент" ]
+  ], [
+     fhir:index 453;
+     fhir:CodeSystem.concept.code [ fhir:value "279" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий курсом" ]
+  ], [
+     fhir:index 454;
+     fhir:CodeSystem.concept.code [ fhir:value "280" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Должности иных педагогических работников образовательных организаций" ]
+  ], [
+     fhir:index 455;
+     fhir:CodeSystem.concept.code [ fhir:value "281" ];
+     fhir:CodeSystem.concept.display [ fhir:value "воспитатель" ]
+  ], [
+     fhir:index 456;
+     fhir:CodeSystem.concept.code [ fhir:value "282" ];
+     fhir:CodeSystem.concept.display [ fhir:value "инструктор-методист" ]
+  ], [
+     fhir:index 457;
+     fhir:CodeSystem.concept.code [ fhir:value "283" ];
+     fhir:CodeSystem.concept.display [ fhir:value "инструктор по труду" ]
+  ], [
+     fhir:index 458;
+     fhir:CodeSystem.concept.code [ fhir:value "284" ];
+     fhir:CodeSystem.concept.display [ fhir:value "инструктор по физической культуре" ]
+  ], [
+     fhir:index 459;
+     fhir:CodeSystem.concept.code [ fhir:value "285" ];
+     fhir:CodeSystem.concept.display [ fhir:value "концертмейстер" ]
+  ], [
+     fhir:index 460;
+     fhir:CodeSystem.concept.code [ fhir:value "286" ];
+     fhir:CodeSystem.concept.display [ fhir:value "логопед" ]
+  ], [
+     fhir:index 461;
+     fhir:CodeSystem.concept.code [ fhir:value "287" ];
+     fhir:CodeSystem.concept.display [ fhir:value "мастер производственного обучения" ]
+  ], [
+     fhir:index 462;
+     fhir:CodeSystem.concept.code [ fhir:value "288" ];
+     fhir:CodeSystem.concept.display [ fhir:value "методист" ]
+  ], [
+     fhir:index 463;
+     fhir:CodeSystem.concept.code [ fhir:value "289" ];
+     fhir:CodeSystem.concept.display [ fhir:value "музыкальный руководитель" ]
+  ], [
+     fhir:index 464;
+     fhir:CodeSystem.concept.code [ fhir:value "290" ];
+     fhir:CodeSystem.concept.display [ fhir:value "педагог дополнительного образования" ]
+  ], [
+     fhir:index 465;
+     fhir:CodeSystem.concept.code [ fhir:value "291" ];
+     fhir:CodeSystem.concept.display [ fhir:value "педагог-библиотекарь" ]
+  ], [
+     fhir:index 466;
+     fhir:CodeSystem.concept.code [ fhir:value "292" ];
+     fhir:CodeSystem.concept.display [ fhir:value "педагог-организатор" ]
+  ], [
+     fhir:index 467;
+     fhir:CodeSystem.concept.code [ fhir:value "293" ];
+     fhir:CodeSystem.concept.display [ fhir:value "педагог-психолог" ]
+  ], [
+     fhir:index 468;
+     fhir:CodeSystem.concept.code [ fhir:value "294" ];
+     fhir:CodeSystem.concept.display [ fhir:value "преподаватель" ]
+  ], [
+     fhir:index 469;
+     fhir:CodeSystem.concept.code [ fhir:value "295" ];
+     fhir:CodeSystem.concept.display [ fhir:value "преподаватель-организатор основ безопасности жизнедеятельности" ]
+  ], [
+     fhir:index 470;
+     fhir:CodeSystem.concept.code [ fhir:value "296" ];
+     fhir:CodeSystem.concept.display [ fhir:value "руководитель физического воспитания" ]
+  ], [
+     fhir:index 471;
+     fhir:CodeSystem.concept.code [ fhir:value "297" ];
+     fhir:CodeSystem.concept.display [ fhir:value "социальный педагог" ]
+  ], [
+     fhir:index 472;
+     fhir:CodeSystem.concept.code [ fhir:value "298" ];
+     fhir:CodeSystem.concept.display [ fhir:value "старший вожатый" ]
+  ], [
+     fhir:index 473;
+     fhir:CodeSystem.concept.code [ fhir:value "299" ];
+     fhir:CodeSystem.concept.display [ fhir:value "старший воспитатель" ]
+  ], [
+     fhir:index 474;
+     fhir:CodeSystem.concept.code [ fhir:value "300" ];
+     fhir:CodeSystem.concept.display [ fhir:value "старший инструктор-методист" ]
+  ], [
+     fhir:index 475;
+     fhir:CodeSystem.concept.code [ fhir:value "301" ];
+     fhir:CodeSystem.concept.display [ fhir:value "старший методист" ]
+  ], [
+     fhir:index 476;
+     fhir:CodeSystem.concept.code [ fhir:value "302" ];
+     fhir:CodeSystem.concept.display [ fhir:value "старший педагог дополнительного образования" ]
+  ], [
+     fhir:index 477;
+     fhir:CodeSystem.concept.code [ fhir:value "303" ];
+     fhir:CodeSystem.concept.display [ fhir:value "старший тренер-преподаватель" ]
+  ], [
+     fhir:index 478;
+     fhir:CodeSystem.concept.code [ fhir:value "304" ];
+     fhir:CodeSystem.concept.display [ fhir:value "тренер-преподаватель" ]
+  ], [
+     fhir:index 479;
+     fhir:CodeSystem.concept.code [ fhir:value "305" ];
+     fhir:CodeSystem.concept.display [ fhir:value "тьютор" ]
+  ], [
+     fhir:index 480;
+     fhir:CodeSystem.concept.code [ fhir:value "306" ];
+     fhir:CodeSystem.concept.display [ fhir:value "учитель" ]
+  ], [
+     fhir:index 481;
+     fhir:CodeSystem.concept.code [ fhir:value "307" ];
+     fhir:CodeSystem.concept.display [ fhir:value "учитель-дефектолог" ]
+  ], [
+     fhir:index 482;
+     fhir:CodeSystem.concept.code [ fhir:value "308" ];
+     fhir:CodeSystem.concept.display [ fhir:value "учитель-логопед" ]
+  ], [
+     fhir:index 483;
+     fhir:CodeSystem.concept.code [ fhir:value "309" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Должности научных работников" ]
+  ], [
+     fhir:index 484;
+     fhir:CodeSystem.concept.code [ fhir:value "310" ];
+     fhir:CodeSystem.concept.display [ fhir:value "младший научный сотрудник" ]
+  ], [
+     fhir:index 485;
+     fhir:CodeSystem.concept.code [ fhir:value "311" ];
+     fhir:CodeSystem.concept.display [ fhir:value "научный сотрудник" ]
+  ], [
+     fhir:index 486;
+     fhir:CodeSystem.concept.code [ fhir:value "312" ];
+     fhir:CodeSystem.concept.display [ fhir:value "старший научный сотрудник" ]
+  ], [
+     fhir:index 487;
+     fhir:CodeSystem.concept.code [ fhir:value "313" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ведущий научный сотрудник" ]
+  ], [
+     fhir:index 488;
+     fhir:CodeSystem.concept.code [ fhir:value "314" ];
+     fhir:CodeSystem.concept.display [ fhir:value "главный научный сотрудник" ]
+  ], [
+     fhir:index 489;
+     fhir:CodeSystem.concept.code [ fhir:value "315" ];
+     fhir:CodeSystem.concept.display [ fhir:value "стажер-исследователь" ]
+  ], [
+     fhir:index 490;
+     fhir:CodeSystem.concept.code [ fhir:value "316" ];
+     fhir:CodeSystem.concept.display [ fhir:value "лаборант-исследователь" ]
+  ], [
+     fhir:index 491;
+     fhir:CodeSystem.concept.code [ fhir:value "317" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Должности учебного-вспомогательного персонала образовательных организаций" ]
+  ], [
+     fhir:index 492;
+     fhir:CodeSystem.concept.code [ fhir:value "318" ];
+     fhir:CodeSystem.concept.display [ fhir:value "заведующий учебным кабинетом" ]
+  ], [
+     fhir:index 493;
+     fhir:CodeSystem.concept.code [ fhir:value "319" ];
+     fhir:CodeSystem.concept.display [ fhir:value "старший лаборант" ]
+  ], [
+     fhir:index 494;
+     fhir:CodeSystem.concept.code [ fhir:value "320" ];
+     fhir:CodeSystem.concept.display [ fhir:value "лаборант" ]
+  ], [
+     fhir:index 495;
+     fhir:CodeSystem.concept.code [ fhir:value "321" ];
+     fhir:CodeSystem.concept.display [ fhir:value "старший препаратор" ]
+  ], [
+     fhir:index 496;
+     fhir:CodeSystem.concept.code [ fhir:value "322" ];
+     fhir:CodeSystem.concept.display [ fhir:value "рабочий кафедры" ]
+  ], [
+     fhir:index 497;
+     fhir:CodeSystem.concept.code [ fhir:value "323" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Должности административно-хозяйственного персонала образовательных и научно-исследовательских организаций" ]
+  ], [
+     fhir:index 498;
+     fhir:CodeSystem.concept.code [ fhir:value "324" ];
+     fhir:CodeSystem.concept.display [ fhir:value "диспетчер факультета" ]
+  ], [
+     fhir:index 499;
+     fhir:CodeSystem.concept.code [ fhir:value "325" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ИТ-специалист" ]
+  ], [
+     fhir:index 500;
+     fhir:CodeSystem.concept.code [ fhir:value "326" ];
+     fhir:CodeSystem.concept.display [ fhir:value "инженер" ]
+  ], [
+     fhir:index 501;
+     fhir:CodeSystem.concept.code [ fhir:value "327" ];
+     fhir:CodeSystem.concept.display [ fhir:value "инженер-программист" ]
+  ], [
+     fhir:index 502;
+     fhir:CodeSystem.concept.code [ fhir:value "328" ];
+     fhir:CodeSystem.concept.display [ fhir:value "водитель" ]
+  ], [
+     fhir:index 503;
+     fhir:CodeSystem.concept.code [ fhir:value "329" ];
+     fhir:CodeSystem.concept.display [ fhir:value "специалист по учебно-методической работе" ]
+  ], [
+     fhir:index 504;
+     fhir:CodeSystem.concept.code [ fhir:value "330" ];
+     fhir:CodeSystem.concept.display [ fhir:value "учебный мастер" ]
+  ], [
+     fhir:index 505;
+     fhir:CodeSystem.concept.code [ fhir:value "331" ];
+     fhir:CodeSystem.concept.display [ fhir:value "бухгалтер" ]
+  ], [
+     fhir:index 506;
+     fhir:CodeSystem.concept.code [ fhir:value "332" ];
+     fhir:CodeSystem.concept.display [ fhir:value "специалист отдела кадров" ]
+  ], [
+     fhir:index 507;
+     fhir:CodeSystem.concept.code [ fhir:value "333" ];
+     fhir:CodeSystem.concept.display [ fhir:value "иные профессии рабочих" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://miramedix.ru/fhir/ig/mosreg/CodeSystem/nsi-cs-1-2-643-5-1-13-13-11-1002.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

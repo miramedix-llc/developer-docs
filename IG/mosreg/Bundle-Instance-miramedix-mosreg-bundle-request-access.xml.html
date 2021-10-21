@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>FHIR-MIRAMEDIX-MOSREG\Пример бандла [минимальный пример] - запрос доступа в Сервис ОК для создания завяки на ОК [с предоставлением минимально необходимого набора клинических данных] - XML Representation - FHIR v4.0.1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link sizes="114x114" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link sizes="72x72" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"2.45"}
+    h3,h4,h5,h6{--heading-prefix:"2.45"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+          <!-- Placeholder for child template header declarations -->
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">HL7 FHIR Implementation Guide: Miramedix mosreg IG Release 1 - RU Realm | STU1</span><br/>0.1.0 - ci-build</p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+            <!-- status-bar -->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="index.html">Руководство</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Сводка по материалам</a>
+  </li>
+</ul>
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>Пример бандла [минимальный пример] - запрос доступа в Сервис ОК для создания завяки на ОК [с предоставлением минимально необходимого набора клинических данных]</b></li>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 7" class="col-12">
+  <!-- ReleaseHeader --><p id="publish-box">HL7 FHIR Implementation Guide: Miramedix mosreg IG Release 1 - RU Realm | STU1 - Local Development build (v0.1.0). See the <a href="http://miramedix.ru/fhir/ig/mosreg/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="Bundle-Instance-miramedix-mosreg-bundle-request-access.html">Narrative Content</a>
+  </li>
+
+
+  
+    <li class="active">
+      <a href="#">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-Instance-miramedix-mosreg-bundle-request-access.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-Instance-miramedix-mosreg-bundle-request-access.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: Пример бандла [минимальный пример] - запрос доступа в Сервис ОК для создания завяки на ОК [с предоставлением минимально необходимого набора клинических данных] - XML Representation</h2>
+
+<p><a href="Bundle-Instance-miramedix-mosreg-bundle-request-access.xml" no-download="true">Raw xml</a> | <a download="null" href="Bundle-Instance-miramedix-mosreg-bundle-request-access.xml">Download</a></p>
+
+    <!-- insert intro if present -->
+  
+
+
+
+  <pre class="xml"><code class="language-xml">
+
+&lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle">Bundle</a> xmlns="http://hl7.org/fhir"&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Instance-miramedix-mosreg-bundle-request-access"/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.meta">meta</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>
+             <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>="http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-bundle-request-access"/&gt;
+  &lt;/meta&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="collection"/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fullUrl</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="urn:uuid:f4190464-7b4f-4692-a909-28f846fe185e"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient">Patient</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Instance-patient-Konstantinopolskaya"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>="http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-patient"/&gt;
+        &lt;/meta&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="generated"/&gt;
+          &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;p&gt;&lt;b&gt;Generated Narrative&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: Medical record number: SK00141130 (USUAL), СНИЛС: 123-456-789 09 (OFFICIAL), Полис ОМС старого образца: 777777 7777777777 (OFFICIAL)&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Анна Вероника Мамед кызы Константинопольская (OFFICIAL)&lt;/p&gt;&lt;p&gt;&lt;b&gt;telecom&lt;/b&gt;: &lt;a href="tel:+7(901)555-55-52"&gt;+7 (901) 555-55-52&lt;/a&gt;, &lt;a href="mailto:email@example.com"&gt;email@example.com&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;gender&lt;/b&gt;: female&lt;/p&gt;&lt;p&gt;&lt;b&gt;birthDate&lt;/b&gt;: 1989-09-10&lt;/p&gt;&lt;p&gt;&lt;b&gt;address&lt;/b&gt;: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;Пущино, микрорайон АБ, дом 3, корпус 2, квартира 136-137(HOME)&lt;/li&gt;&lt;li&gt;г Москва, ул Красноказарменная, д 1, кв 1(TEMP)&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+        &lt;/text&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.use">use</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="usual"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.type">type</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="http://terminology.hl7.org/CodeSystem/v2-0203"/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="MR"/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Medical record number"/&gt;
+            &lt;/coding&gt;
+          &lt;/type&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="urn:oid:1.2.643.100.3"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="SK00141130"/&gt;
+        &lt;/identifier&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.use">use</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="official"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.type">type</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
+                      <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="http://miramedix.ru/fhir/CodeSystem/miramedix-cs-identifier-type"/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="snils"/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="СНИЛС"/&gt;
+            &lt;/coding&gt;
+          &lt;/type&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="urn:oid:1.2.643.100.3"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="123-456-789 09"/&gt;
+        &lt;/identifier&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.use">use</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="official"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.type">type</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
+                      <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1035"/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="1"/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Полис ОМС старого образца"/&gt;
+            &lt;/coding&gt;
+          &lt;/type&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="urn:oid:1.2.643.5.1.13.13.11.1035:1"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="777777 7777777777"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.assigner">assigner</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.identifier">identifier</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="urn:oid:1.2.643.5.1.13.13.99.2.183:SMOCOD"/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="77008"/&gt;
+            &lt;/identifier&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="ООО &amp;quot;СМК РЕСО-Мед&amp;quot;"/&gt;
+          &lt;/assigner&gt;
+        &lt;/identifier&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.name">name</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.use">use</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="official"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">family</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Константинопольская"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">given</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Анна Вероника"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">given</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Мамед кызы"/&gt;
+        &lt;/name&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.telecom">telecom</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="phone"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="+7 (901) 555-55-52"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.rank">rank</a> <a href="http://hl7.org/fhir/R4/datatypes.html#positiveInt">value</a>="1"/&gt;
+        &lt;/telecom&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.telecom">telecom</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="email"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="email@example.com"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.rank">rank</a> <a href="http://hl7.org/fhir/R4/datatypes.html#positiveInt">value</a>="1"/&gt;
+        &lt;/telecom&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.gender">gender</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="female"&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#code#code.extension">extension</a>
+                     <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>="http://miramedix.ru/fhir/Extension/miramedix-ex-nsi-gender"&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCoding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
+                      <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1040"/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="2.1"/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="2"/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Женский"/&gt;
+            &lt;/valueCoding&gt;
+          &lt;/extension&gt;
+        &lt;/gender&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.birthDate">birthDate</a> <a href="http://hl7.org/fhir/R4/datatypes.html#date">value</a>="1989-09-10"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.address">address</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.use">use</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="home"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.text">text</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Пущино, микрорайон АБ, дом 3, корпус 2, квартира 136-137"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.city">city</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="город Пущино"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.district">district</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Серпуховской район"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.state">state</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="50"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.postalCode">postalCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="142280"/&gt;
+        &lt;/address&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.address">address</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.use">use</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="temp"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.text">text</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="г Москва, ул Красноказарменная, д 1, кв 1"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.city">city</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="город Москва"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.district">district</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="район Лефортово"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.state">state</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="77"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.postalCode">postalCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="111024"/&gt;
+        &lt;/address&gt;
+      &lt;/Patient&gt;
+    &lt;/resource&gt;
+  &lt;/entry&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fullUrl</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="urn:uuid:4296a5aa-2001-4e6f-9936-99a39f1a783c"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/condition.html#Condition">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/condition.html#Condition">Condition</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/condition.html#Condition.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Instance-miramedix-condition-diag-main-1"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/condition.html#Condition.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>="http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-condition-diag-main"/&gt;
+        &lt;/meta&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/condition.html#Condition.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="additional"/&gt;
+          &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;p&gt;Внутрипротоковая папиллярная аденокарцинома с инвазией нижневнутреннего квадранта молочной железы. Стадия IVa; pT3N1M1. ER-статус отрицательный; PR-статус отрицательный; HER2-статус положительный 3+; Ki-67 высокий. Мутации генов BRCA 1/2 не обнаружены&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+        &lt;/text&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/condition.html#Condition.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="urn:mosreg:entity:condition"/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="d34c35ab-4c2e-4c6e-9f42-a7879d47dcd5"/&gt;
+        &lt;/identifier&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/condition.html#Condition.category">category</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
+                    <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1077"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="1"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Основное заболевание"/&gt;
+          &lt;/coding&gt;
+        &lt;/category&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/condition.html#Condition.code">code</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
+                    <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1005"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="C50.3"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>
+                     <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Злокачественное новообразование нижневнутреннего квадранта молочной железы"/&gt;
+          &lt;/coding&gt;
+        &lt;/code&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/condition.html#Condition.subject">subject</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.identifier">identifier</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="urn:oid:1.2.643.100.3"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="123-456-789 09"/&gt;
+          &lt;/identifier&gt;
+        &lt;/subject&gt;
+      &lt;/Condition&gt;
+    &lt;/resource&gt;
+  &lt;/entry&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fullUrl</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="urn:uuid:4445e3b4-d06b-4388-8c83-8a8e23539ec6"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation">Observation</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Instance-miramedix-mosreg-observation-diag-main-anamnesis-1"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>="http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-observation-diag-main-anamnesis"/&gt;
+        &lt;/meta&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="generated"/&gt;
+          &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;p&gt;&lt;b&gt;Generated Narrative&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: preliminary&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title="Codes: {http://miramedix.ru/fhir/CodeSystem/entity-type anamnesis-morbi}"&gt;Анамнез заболевания&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;effective&lt;/b&gt;: 01.02.2021 13:19:27&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: Считает себя больным с осени 2011 г., когда впервые после еды появились ноющие боли в эпигастральной области, изжога. К врачу не обращался, самостоятельно соблюдал диету, при изжоге принимал соду.
+ Через неделю после приема алкоголя возобновились боли в эпигастральной
+ области, изжога, горечь во рту. Обратился к врачу-гастроэнтерологу
+ в поликлинике. Обследован (фиброгастродуоденоскопия – язвенная болезнь
+ 12-перстной кишки) и направлен на стационарное лечение во 2-ю ГКБ. После стационарного лечения с выздоровлением был выписан
+ в удовлетворительном состоянии. На протяжении последних двух лет
+ соблюдал диету, принимал альмагель, де-нол. С 2013 года ежегодно в осенний
+ период проходит курс стационарного лечения по поводу обострения язвенной болезни 12-перстной кишки. Последнее ухудшение наступило в октябре 2015 г., когда после систематических физических и нервно-психических нагрузок усилились боли в эпигастральной области, сопровождающиеся изжогой; повысилась утомляемость, снизилась работоспособность, появился жидкий, неоформленный черный стул. После обращения
+ к врачу в поликлинику по месту жительства был проконсультирован хирургом, вызвана машина скорой и неотложной помощи, и больной с диагнозом острое желудочно-кишечное кровотечение на фоне язвенной болезни 12-перстной кишки направлен в хирургическое отделение 2-й ХГКБ.&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+        &lt;/text&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="preliminary"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.code">code</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="http://miramedix.ru/fhir/CodeSystem/entity-type"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="anamnesis-morbi"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Анамнез заболевания"/&gt;
+          &lt;/coding&gt;
+        &lt;/code&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.subject">subject</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.identifier">identifier</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="urn:oid:1.2.643.100.3"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="123-456-789 09"/&gt;
+          &lt;/identifier&gt;
+        &lt;/subject&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.effective[x]">effectiveDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2021-02-01T10:19:27.585Z"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.value[x]">valueString</a>
+                     <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Считает себя больным с осени 2011 г., когда впервые после еды появились ноющие боли в эпигастральной области, изжога. К врачу не обращался, самостоятельно соблюдал диету, при изжоге принимал соду.
+ Через неделю после приема алкоголя возобновились боли в эпигастральной
+ области, изжога, горечь во рту. Обратился к врачу-гастроэнтерологу
+ в поликлинике. Обследован (фиброгастродуоденоскопия – язвенная болезнь
+ 12-перстной кишки) и направлен на стационарное лечение во 2-ю ГКБ. После стационарного лечения с выздоровлением был выписан
+ в удовлетворительном состоянии. На протяжении последних двух лет
+ соблюдал диету, принимал альмагель, де-нол. С 2013 года ежегодно в осенний
+ период проходит курс стационарного лечения по поводу обострения язвенной болезни 12-перстной кишки. Последнее ухудшение наступило в октябре 2015 г., когда после систематических физических и нервно-психических нагрузок усилились боли в эпигастральной области, сопровождающиеся изжогой; повысилась утомляемость, снизилась работоспособность, появился жидкий, неоформленный черный стул. После обращения
+ к врачу в поликлинику по месту жительства был проконсультирован хирургом, вызвана машина скорой и неотложной помощи, и больной с диагнозом острое желудочно-кишечное кровотечение на фоне язвенной болезни 12-перстной кишки направлен в хирургическое отделение 2-й ХГКБ."/&gt;
+      &lt;/Observation&gt;
+    &lt;/resource&gt;
+  &lt;/entry&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fullUrl</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="urn:uuid:5aa1e1bf-c04e-4c25-843f-d24f76b91492"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/servicerequest.html#ServiceRequest">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/servicerequest.html#ServiceRequest">ServiceRequest</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/servicerequest.html#ServiceRequest.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Instance-miramedix-mosreg-servicerequest-1"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/servicerequest.html#ServiceRequest.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>="http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-servicerequest"/&gt;
+        &lt;/meta&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/servicerequest.html#ServiceRequest.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="generated"/&gt;
+          &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;p&gt;&lt;b&gt;Generated Narrative&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: draft&lt;/p&gt;&lt;p&gt;&lt;b&gt;intent&lt;/b&gt;: proposal&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;authoredOn&lt;/b&gt;: 23.09.2021 19:47:20&lt;/p&gt;&lt;p&gt;&lt;b&gt;reasonCode&lt;/b&gt;: &lt;span title="Codes: {https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1506 5}"&gt;Определение тактики лечения&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+        &lt;/text&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/servicerequest.html#ServiceRequest.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="draft"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/servicerequest.html#ServiceRequest.intent">intent</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="proposal"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/servicerequest.html#ServiceRequest.subject">subject</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.identifier">identifier</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="urn:oid:1.2.643.100.3"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="123-456-789 09"/&gt;
+          &lt;/identifier&gt;
+        &lt;/subject&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/servicerequest.html#ServiceRequest.authoredOn">authoredOn</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2021-09-23T16:47:20.781Z"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/servicerequest.html#ServiceRequest.reasonCode">reasonCode</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
+                    <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1506"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="5"/&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Определение тактики лечения"/&gt;
+          &lt;/coding&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Определение тактики лечения"/&gt;
+        &lt;/reasonCode&gt;
+      &lt;/ServiceRequest&gt;
+    &lt;/resource&gt;
+  &lt;/entry&gt;
+&lt;/Bundle&gt;</code></pre>
+
+
+    <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>    <!-- /inner-wrapper -->
+      </div>    <!-- /row -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-content -->
+
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
+
+      <div class="inner-wrapper">
+        <p><a name="l1043">​</a>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package fhir-miramedix-mosreg#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Oct 20, 2021 13:42+0300">2021-10-20</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)"></span>
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          
+        </p>
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+  
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- feedback form - Google forms -->
+  <!-- v0.1, 2021-01-09 -->
+
+
+
+  <!-- / feedback form -->
+
+    <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

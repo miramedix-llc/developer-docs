@@ -1,0 +1,49 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://miramedix.ru/fhir/ig/mosreg/Organization/Instance-organization-division-LOB-CAOP> a fhir:Organization;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Instance-organization-division-LOB-CAOP"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-organization-division";
+       fhir:index 0;
+       fhir:link <http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-organization-division>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: urn:oid:1.2.643.5.1.13.13.12.2.50.11329.0.437329</p><p><b>name</b>: Центр амбулаторной онкологической помощи</p><p><b>address</b>: 142280, г. Люберцы, улица Назарова, д. 3</p><p><b>partOf</b>: <span></span></p></div>"
+  ];
+  fhir:Organization.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
+     fhir:Identifier.value [ fhir:value "urn:oid:1.2.643.5.1.13.13.12.2.50.11329.0.437329" ]
+  ];
+  fhir:Organization.name [ fhir:value "Центр амбулаторной онкологической помощи"];
+  fhir:Organization.address [
+     fhir:index 0;
+     fhir:Address.text [ fhir:value "142280, г. Люберцы, улица Назарова, д. 3" ];
+     fhir:Address.city [ fhir:value "город Пущино" ];
+     fhir:Address.district [ fhir:value "Серпуховской район" ];
+     fhir:Address.state [ fhir:value "50" ];
+     fhir:Address.postalCode [ fhir:value "142280" ]
+  ];
+  fhir:Organization.partOf [
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
+       fhir:Identifier.value [ fhir:value "urn:oid:1.2.643.5.1.13.13.12.2.50.11329" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://miramedix.ru/fhir/ig/mosreg/Organization/Instance-organization-division-LOB-CAOP.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

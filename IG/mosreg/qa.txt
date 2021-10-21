@@ -1,0 +1,563 @@
+﻿MiramedixMosregIG : Validation Results
+=========================================
+
+err = 46, warn = 25, info = 8
+IG Publisher Version: 1.1.82
+Generated Wed Oct 20 13:43:12 MSK 2021. FHIR version 4.0.1 for fhir-miramedix-mosreg#0.1.0 (canonical = http://miramedix.ru/fhir/ig/mosreg)
+ Build Errors : 357 / 19 / 0
+ C:\MOSREG\fsh\fsh-generated\resources\ImplementationGuide-fhir-miramedix-mosreg : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\auditevent-Instance-miramedix-mosreg-auditevent-subscription-notify : 1 / 0 / 2
+ C:\MOSREG\fsh\fsh-generated\resources\bundle-Instance-miramedix-mosreg-bundle-auth : 2 / 0 / 3
+ C:\MOSREG\fsh\fsh-generated\resources\bundle-Instance-miramedix-mosreg-bundle-notify-1 : 5 / 0 / 4
+ C:\MOSREG\fsh\fsh-generated\resources\bundle-Instance-miramedix-mosreg-bundle-request-access : 18 / 0 / 6
+ C:\MOSREG\fsh\fsh-generated\resources\codesystem-miramedix-cs-event-type : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\codesystem-miramedix-cs-identifier-type : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\codesystem-nsi-cs-1-2-643-5-1-13-13-11-1002 : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\codesystem-nsi-cs-1-2-643-5-1-13-13-11-1005 : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\codesystem-nsi-cs-1-2-643-5-1-13-13-11-1035 : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\codesystem-nsi-cs-1-2-643-5-1-13-13-11-1040 : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\codesystem-nsi-cs-1-2-643-5-1-13-13-11-1066 : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\codesystem-nsi-cs-1-2-643-5-1-13-13-11-1077 : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\codesystem-nsi-cs-1-2-643-5-1-13-13-11-1506 : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\composition-Instance-miramedix-mosreg-composition-diag-main-anamnesis-1 : 0 / 0 / 3
+ C:\MOSREG\fsh\fsh-generated\resources\condition-Instance-miramedix-condition-diag-main-1 : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\documentmanifest-f4309c2e-1800-43ac-85d6-1f026432efd3 : 2 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\documentreference-Instance-miramedix-mosreg-documentreference-1 : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\endpoint-Instance-miramedix-mosreg-endpoint-accesspoint : 0 / 2 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\messageheader-fbbd9cdb-5114-49af-82bd-8f08592f4259 : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\observation-Instance-miramedix-mosreg-observation-diag-main-anamnesis-1 : 0 / 0 / 2
+ C:\MOSREG\fsh\fsh-generated\resources\operationoutcome-Instance-miramedix-mosreg-operationoutcome-accesspoint-error : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\organization-Instance-organization-LOB : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\organization-Instance-organization-division-LOB-CAOP : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\patient-Instance-patient-Konstantinopolskaya : 18 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\practitioner-Instance-practitioner-Adamov : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\practitionerrole-Instance-practitionerrole-Oncologist : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\servicerequest-Instance-miramedix-mosreg-servicerequest-1 : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\structuredefinition-miramedix-ex-nsi-gender : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\structuredefinition-miramedix-mosreg-auditevent-subscription-notify : 0 / 0 / 3
+ C:\MOSREG\fsh\fsh-generated\resources\structuredefinition-miramedix-mosreg-bundle-auth : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\structuredefinition-miramedix-mosreg-bundle-notify : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\structuredefinition-miramedix-mosreg-bundle-request-access : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\structuredefinition-miramedix-mosreg-composition-diag-main-anamnesis : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\structuredefinition-miramedix-mosreg-condition-diag-main : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\structuredefinition-miramedix-mosreg-documentmanifest : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\structuredefinition-miramedix-mosreg-documentreference : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\structuredefinition-miramedix-mosreg-endpoint-accesspoint : 0 / 4 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\structuredefinition-miramedix-mosreg-messageheader-notify : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\structuredefinition-miramedix-mosreg-observation-diag-main-anamnesis : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\structuredefinition-miramedix-mosreg-operationoutcome-accesspoint-error : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\structuredefinition-miramedix-mosreg-organization : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\structuredefinition-miramedix-mosreg-organization-division : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\structuredefinition-miramedix-mosreg-patient : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\structuredefinition-miramedix-mosreg-practitioner : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\structuredefinition-miramedix-mosreg-practitionerrole : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\structuredefinition-miramedix-mosreg-servicerequest : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\structuredefinition-miramedix-mosreg-subscription-notify-oc : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\subscription-241601ab-018e-4395-8cf0-c02e039a69da : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\valueset-miramedix-vs-event-type : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\valueset-miramedix-vs-patient-identifier-type : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\valueset-miramedix-vs-practitioner-identifier-type : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\valueset-nsi-vs-1-2-643-5-1-13-13-11-1002 : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\valueset-nsi-vs-1-2-643-5-1-13-13-11-1005 : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\valueset-nsi-vs-1-2-643-5-1-13-13-11-1035 : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\valueset-nsi-vs-1-2-643-5-1-13-13-11-1040 : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\valueset-nsi-vs-1-2-643-5-1-13-13-11-1066 : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\valueset-nsi-vs-1-2-643-5-1-13-13-11-1077 : 0 / 0 / 1
+ C:\MOSREG\fsh\fsh-generated\resources\valueset-nsi-vs-1-2-643-5-1-13-13-11-1506 : 0 / 0 / 1
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Subscription/241601ab-018e-4395-8cf0-c02e039a69da.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/Instance-miramedix-condition-diag-main-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource AuditEvent/Instance-miramedix-mosreg-auditevent-subscription-notify.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Bundle/Instance-miramedix-mosreg-bundle-auth.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Bundle/Instance-miramedix-mosreg-bundle-notify-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Bundle/Instance-miramedix-mosreg-bundle-request-access.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Composition/Instance-miramedix-mosreg-composition-diag-main-anamnesis-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource DocumentReference/Instance-miramedix-mosreg-documentreference-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Endpoint/Instance-miramedix-mosreg-endpoint-accesspoint.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/Instance-miramedix-mosreg-observation-diag-main-anamnesis-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource OperationOutcome/Instance-miramedix-mosreg-operationoutcome-accesspoint-error.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ServiceRequest/Instance-miramedix-mosreg-servicerequest-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/Instance-organization-LOB.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/Instance-organization-division-LOB-CAOP.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/Instance-patient-Konstantinopolskaya.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/Instance-practitioner-Adamov.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PractitionerRole/Instance-practitionerrole-Oncologist.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource DocumentManifest/f4309c2e-1800-43ac-85d6-1f026432efd3.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MessageHeader/fbbd9cdb-5114-49af-82bd-8f08592f4259.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: C:\MOSREG\fsh\output\AuditEvent-Instance-miramedix-mosreg-auditevent-subscription-notify.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\AuditEvent-Instance-miramedix-mosreg-auditevent-subscription-notify.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 157, column 624: The link 'Composition/1e1818b9-b75c-46b9-9caa-52da100d5575' for "Composition/1e1818b9-b75c-46b9-9caa-52da100d5575" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\AuditEvent-Instance-miramedix-mosreg-auditevent-subscription-notify.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\AuditEvent-Instance-miramedix-mosreg-auditevent-subscription-notify.json.html#/html/body/div/div/div/p/a at Line 230, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\AuditEvent-Instance-miramedix-mosreg-auditevent-subscription-notify.ttl.html#/html/body/div/div/div/p/a at Line 240, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\AuditEvent-Instance-miramedix-mosreg-auditevent-subscription-notify.xml.html#/html/body/div/div/div/p/a at Line 226, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Bundle-Instance-miramedix-mosreg-bundle-auth.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Bundle-Instance-miramedix-mosreg-bundle-auth.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Bundle-Instance-miramedix-mosreg-bundle-auth.json.html#/html/body/div/div/div/p/a at Line 421, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Bundle-Instance-miramedix-mosreg-bundle-auth.ttl.html#/html/body/div/div/div/p/a at Line 411, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Bundle-Instance-miramedix-mosreg-bundle-auth.xml.html#/html/body/div/div/div/p/a at Line 390, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Bundle-Instance-miramedix-mosreg-bundle-notify-1.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Bundle-Instance-miramedix-mosreg-bundle-notify-1.html#/html/body/div/div/div/div/div/div/blockquote/ul/li/a at Line 157, column 1451: The link '06c621d4-19ae-4804-8019-4e3b93497e98' for "Протокол онкологического консилиума [PDF]" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Bundle-Instance-miramedix-mosreg-bundle-notify-1.html#/html/body/div/div/div/div/div/div/blockquote/ul/li/a at Line 157, column 1552: The link 'cb1756a3-8bf6-4c47-b098-8778c31d237f' for "Протокол онкологического консилиума [FHIR]" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Bundle-Instance-miramedix-mosreg-bundle-notify-1.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Bundle-Instance-miramedix-mosreg-bundle-notify-1.json.html#/html/body/div/div/div/p/a at Line 271, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Bundle-Instance-miramedix-mosreg-bundle-notify-1.ttl.html#/html/body/div/div/div/p/a at Line 283, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Bundle-Instance-miramedix-mosreg-bundle-notify-1.xml.html#/html/body/div/div/div/p/a at Line 264, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Bundle-Instance-miramedix-mosreg-bundle-request-access.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Bundle-Instance-miramedix-mosreg-bundle-request-access.html#/html/body/div/div/div/p/a at Line 194, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Bundle-Instance-miramedix-mosreg-bundle-request-access.json.html#/html/body/div/div/div/p/a at Line 441, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Bundle-Instance-miramedix-mosreg-bundle-request-access.ttl.html#/html/body/div/div/div/p/a at Line 428, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Bundle-Instance-miramedix-mosreg-bundle-request-access.xml.html#/html/body/div/div/div/p/a at Line 429, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-miramedix-cs-event-type.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-miramedix-cs-event-type.html#/html/body/div/div/div/p/a at Line 210, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-miramedix-cs-event-type.json.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-miramedix-cs-event-type.ttl.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-miramedix-cs-event-type.xml.html#/html/body/div/div/div/p/a at Line 217, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-miramedix-cs-identifier-type.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-miramedix-cs-identifier-type.html#/html/body/div/div/div/p/a at Line 211, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-miramedix-cs-identifier-type.json.html#/html/body/div/div/div/p/a at Line 228, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-miramedix-cs-identifier-type.ttl.html#/html/body/div/div/div/p/a at Line 238, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-miramedix-cs-identifier-type.xml.html#/html/body/div/div/div/p/a at Line 223, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1002.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1002.html#/html/body/div/div/div/p/a at Line 214, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1002.json.html#/html/body/div/div/div/p/a at Line 2256, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1002.ttl.html#/html/body/div/div/div/p/a at Line 2265, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1002.xml.html#/html/body/div/div/div/p/a at Line 2312, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1005.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1005.html#/html/body/div/div/div/p/a at Line 215, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1005.json.html#/html/body/div/div/div/p/a at Line 4559, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1005.ttl.html#/html/body/div/div/div/p/a at Line 4568, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1005.xml.html#/html/body/div/div/div/p/a at Line 4987, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1035.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1035.html#/html/body/div/div/div/p/a at Line 215, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1035.json.html#/html/body/div/div/div/p/a at Line 240, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1035.ttl.html#/html/body/div/div/div/p/a at Line 249, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1035.xml.html#/html/body/div/div/div/p/a at Line 236, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1040.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1040.html#/html/body/div/div/div/p/a at Line 214, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1040.json.html#/html/body/div/div/div/p/a at Line 236, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1040.ttl.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1040.xml.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1066.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1066.html#/html/body/div/div/div/p/a at Line 214, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1066.json.html#/html/body/div/div/div/p/a at Line 808, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1066.ttl.html#/html/body/div/div/div/p/a at Line 817, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1066.xml.html#/html/body/div/div/div/p/a at Line 805, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.html#/html/body/div/div/div/p/a at Line 214, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.json.html#/html/body/div/div/div/p/a at Line 252, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.ttl.html#/html/body/div/div/div/p/a at Line 261, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.xml.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1506.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1506.html#/html/body/div/div/div/p/a at Line 214, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1506.json.html#/html/body/div/div/div/p/a at Line 600, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1506.ttl.html#/html/body/div/div/div/p/a at Line 530, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1506.xml.html#/html/body/div/div/div/p/a at Line 573, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Composition-Instance-miramedix-mosreg-composition-diag-main-anamnesis-1.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Composition-Instance-miramedix-mosreg-composition-diag-main-anamnesis-1.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Composition-Instance-miramedix-mosreg-composition-diag-main-anamnesis-1.json.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Composition-Instance-miramedix-mosreg-composition-diag-main-anamnesis-1.ttl.html#/html/body/div/div/div/p/a at Line 249, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Composition-Instance-miramedix-mosreg-composition-diag-main-anamnesis-1.xml.html#/html/body/div/div/div/p/a at Line 235, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Condition-Instance-miramedix-condition-diag-main-1.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Condition-Instance-miramedix-condition-diag-main-1.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Condition-Instance-miramedix-condition-diag-main-1.json.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Condition-Instance-miramedix-condition-diag-main-1.ttl.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Condition-Instance-miramedix-condition-diag-main-1.xml.html#/html/body/div/div/div/p/a at Line 227, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\DocumentManifest-f4309c2e-1800-43ac-85d6-1f026432efd3.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\DocumentManifest-f4309c2e-1800-43ac-85d6-1f026432efd3.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 157, column 169: The link '06c621d4-19ae-4804-8019-4e3b93497e98' for "Протокол онкологического консилиума [PDF]" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\DocumentManifest-f4309c2e-1800-43ac-85d6-1f026432efd3.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 157, column 270: The link 'cb1756a3-8bf6-4c47-b098-8778c31d237f' for "Протокол онкологического консилиума [FHIR]" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\DocumentManifest-f4309c2e-1800-43ac-85d6-1f026432efd3.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\DocumentManifest-f4309c2e-1800-43ac-85d6-1f026432efd3.json.html#/html/body/div/div/div/p/a at Line 220, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\DocumentManifest-f4309c2e-1800-43ac-85d6-1f026432efd3.ttl.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\DocumentManifest-f4309c2e-1800-43ac-85d6-1f026432efd3.xml.html#/html/body/div/div/div/p/a at Line 217, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\DocumentReference-Instance-miramedix-mosreg-documentreference-1.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\DocumentReference-Instance-miramedix-mosreg-documentreference-1.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\DocumentReference-Instance-miramedix-mosreg-documentreference-1.json.html#/html/body/div/div/div/p/a at Line 210, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\DocumentReference-Instance-miramedix-mosreg-documentreference-1.ttl.html#/html/body/div/div/div/p/a at Line 223, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\DocumentReference-Instance-miramedix-mosreg-documentreference-1.xml.html#/html/body/div/div/div/p/a at Line 208, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Endpoint-Instance-miramedix-mosreg-endpoint-accesspoint.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Endpoint-Instance-miramedix-mosreg-endpoint-accesspoint.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Endpoint-Instance-miramedix-mosreg-endpoint-accesspoint.json.html#/html/body/div/div/div/p/a at Line 215, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Endpoint-Instance-miramedix-mosreg-endpoint-accesspoint.ttl.html#/html/body/div/div/div/p/a at Line 227, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Endpoint-Instance-miramedix-mosreg-endpoint-accesspoint.xml.html#/html/body/div/div/div/p/a at Line 211, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\MessageHeader-fbbd9cdb-5114-49af-82bd-8f08592f4259.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\MessageHeader-fbbd9cdb-5114-49af-82bd-8f08592f4259.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\MessageHeader-fbbd9cdb-5114-49af-82bd-8f08592f4259.json.html#/html/body/div/div/div/p/a at Line 221, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\MessageHeader-fbbd9cdb-5114-49af-82bd-8f08592f4259.ttl.html#/html/body/div/div/div/p/a at Line 234, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\MessageHeader-fbbd9cdb-5114-49af-82bd-8f08592f4259.xml.html#/html/body/div/div/div/p/a at Line 216, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Observation-Instance-miramedix-mosreg-observation-diag-main-anamnesis-1.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Observation-Instance-miramedix-mosreg-observation-diag-main-anamnesis-1.html#/html/body/div/div/div/p/a at Line 194, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Observation-Instance-miramedix-mosreg-observation-diag-main-anamnesis-1.json.html#/html/body/div/div/div/p/a at Line 219, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Observation-Instance-miramedix-mosreg-observation-diag-main-anamnesis-1.ttl.html#/html/body/div/div/div/p/a at Line 231, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Observation-Instance-miramedix-mosreg-observation-diag-main-anamnesis-1.xml.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\OperationOutcome-Instance-miramedix-mosreg-operationoutcome-accesspoint-error.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\OperationOutcome-Instance-miramedix-mosreg-operationoutcome-accesspoint-error.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\OperationOutcome-Instance-miramedix-mosreg-operationoutcome-accesspoint-error.json.html#/html/body/div/div/div/p/a at Line 208, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\OperationOutcome-Instance-miramedix-mosreg-operationoutcome-accesspoint-error.ttl.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\OperationOutcome-Instance-miramedix-mosreg-operationoutcome-accesspoint-error.xml.html#/html/body/div/div/div/p/a at Line 206, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Organization-Instance-organization-LOB.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Organization-Instance-organization-LOB.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Organization-Instance-organization-LOB.json.html#/html/body/div/div/div/p/a at Line 221, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Organization-Instance-organization-LOB.ttl.html#/html/body/div/div/div/p/a at Line 234, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Organization-Instance-organization-LOB.xml.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Organization-Instance-organization-division-LOB-CAOP.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Organization-Instance-organization-division-LOB-CAOP.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Organization-Instance-organization-division-LOB-CAOP.json.html#/html/body/div/div/div/p/a at Line 223, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Organization-Instance-organization-division-LOB-CAOP.ttl.html#/html/body/div/div/div/p/a at Line 235, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Organization-Instance-organization-division-LOB-CAOP.xml.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Patient-Instance-patient-Konstantinopolskaya.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Patient-Instance-patient-Konstantinopolskaya.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Patient-Instance-patient-Konstantinopolskaya.json.html#/html/body/div/div/div/p/a at Line 307, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Patient-Instance-patient-Konstantinopolskaya.ttl.html#/html/body/div/div/div/p/a at Line 305, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Patient-Instance-patient-Konstantinopolskaya.xml.html#/html/body/div/div/div/p/a at Line 289, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Practitioner-Instance-practitioner-Adamov.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Practitioner-Instance-practitioner-Adamov.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Practitioner-Instance-practitioner-Adamov.json.html#/html/body/div/div/div/p/a at Line 276, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Practitioner-Instance-practitioner-Adamov.ttl.html#/html/body/div/div/div/p/a at Line 277, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Practitioner-Instance-practitioner-Adamov.xml.html#/html/body/div/div/div/p/a at Line 260, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\PractitionerRole-Instance-practitionerrole-Oncologist.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\PractitionerRole-Instance-practitionerrole-Oncologist.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\PractitionerRole-Instance-practitionerrole-Oncologist.json.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\PractitionerRole-Instance-practitionerrole-Oncologist.ttl.html#/html/body/div/div/div/p/a at Line 247, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\PractitionerRole-Instance-practitionerrole-Oncologist.xml.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ServiceRequest-Instance-miramedix-mosreg-servicerequest-1.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ServiceRequest-Instance-miramedix-mosreg-servicerequest-1.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ServiceRequest-Instance-miramedix-mosreg-servicerequest-1.json.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ServiceRequest-Instance-miramedix-mosreg-servicerequest-1.ttl.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ServiceRequest-Instance-miramedix-mosreg-servicerequest-1.xml.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-ex-nsi-gender-definitions.html#/html/body/div/div/div/p/a at Line 351, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-ex-nsi-gender-mappings.html#/html/body/div/div/div/p/a at Line 247, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-ex-nsi-gender.html#/html/body/div/div/div/p/a at Line 538, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-ex-nsi-gender.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-ex-nsi-gender.profile.json.html#/html/body/div/div/div/p/a at Line 925, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-ex-nsi-gender.profile.ttl.html#/html/body/div/div/div/p/a at Line 831, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-ex-nsi-gender.profile.xml.html#/html/body/div/div/div/p/a at Line 840, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-auditevent-subscription-notify-definitions.html#/html/body/div/div/div/p/a at Line 962, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-auditevent-subscription-notify-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-auditevent-subscription-notify-mappings.html#/html/body/div/div/div/p/a at Line 447, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-auditevent-subscription-notify.html#/html/body/div/div/div/div/div/table/tr/td/span/div/div/div/p/a at Line 928, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-auditevent-subscription-notify.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-auditevent-subscription-notify.profile.json.html#/html/body/div/div/div/p/a at Line 3846, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-auditevent-subscription-notify.profile.ttl.html#/html/body/div/div/div/p/a at Line 3359, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-auditevent-subscription-notify.profile.xml.html#/html/body/div/div/div/p/a at Line 3482, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-bundle-auth-definitions.html#/html/body/div/div/div/p/a at Line 686, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-bundle-auth-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-bundle-auth-mappings.html#/html/body/div/div/div/p/a at Line 283, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-bundle-auth.html#/html/body/div/div/div/p/a at Line 823, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-bundle-auth.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-bundle-auth.profile.json.html#/html/body/div/div/div/p/a at Line 2252, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-bundle-auth.profile.ttl.html#/html/body/div/div/div/p/a at Line 2047, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-bundle-auth.profile.xml.html#/html/body/div/div/div/p/a at Line 2092, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-bundle-notify-definitions.html#/html/body/div/div/div/p/a at Line 684, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-bundle-notify-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-bundle-notify-mappings.html#/html/body/div/div/div/p/a at Line 283, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-bundle-notify.html#/html/body/div/div/div/p/a at Line 800, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-bundle-notify.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-bundle-notify.profile.json.html#/html/body/div/div/div/p/a at Line 2238, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-bundle-notify.profile.ttl.html#/html/body/div/div/div/p/a at Line 2029, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-bundle-notify.profile.xml.html#/html/body/div/div/div/p/a at Line 2067, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-bundle-request-access-definitions.html#/html/body/div/div/div/p/a at Line 686, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-bundle-request-access-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-bundle-request-access-mappings.html#/html/body/div/div/div/p/a at Line 283, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-bundle-request-access.html#/html/body/div/div/div/p/a at Line 832, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-bundle-request-access.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-bundle-request-access.profile.json.html#/html/body/div/div/div/p/a at Line 2261, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-bundle-request-access.profile.ttl.html#/html/body/div/div/div/p/a at Line 2052, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-bundle-request-access.profile.xml.html#/html/body/div/div/div/p/a at Line 2099, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-composition-diag-main-anamnesis-definitions.html#/html/body/div/div/div/p/a at Line 1370, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-composition-diag-main-anamnesis-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-composition-diag-main-anamnesis-mappings.html#/html/body/div/div/div/p/a at Line 435, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-composition-diag-main-anamnesis.html#/html/body/div/div/div/p/a at Line 1197, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-composition-diag-main-anamnesis.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-composition-diag-main-anamnesis.profile.json.html#/html/body/div/div/div/p/a at Line 5763, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-composition-diag-main-anamnesis.profile.ttl.html#/html/body/div/div/div/p/a at Line 4973, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-composition-diag-main-anamnesis.profile.xml.html#/html/body/div/div/div/p/a at Line 5160, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-condition-diag-main-definitions.html#/html/body/div/div/div/p/a at Line 1098, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-condition-diag-main-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-condition-diag-main-mappings.html#/html/body/div/div/div/p/a at Line 438, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-condition-diag-main.html#/html/body/div/div/div/p/a at Line 1070, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-condition-diag-main.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-condition-diag-main.profile.json.html#/html/body/div/div/div/p/a at Line 4705, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-condition-diag-main.profile.ttl.html#/html/body/div/div/div/p/a at Line 4071, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-condition-diag-main.profile.xml.html#/html/body/div/div/div/p/a at Line 4229, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-documentmanifest-definitions.html#/html/body/div/div/div/p/a at Line 706, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-documentmanifest-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-documentmanifest-mappings.html#/html/body/div/div/div/p/a at Line 337, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-documentmanifest.html#/html/body/div/div/div/p/a at Line 781, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-documentmanifest.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-documentmanifest.profile.json.html#/html/body/div/div/div/p/a at Line 2548, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-documentmanifest.profile.ttl.html#/html/body/div/div/div/p/a at Line 2256, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-documentmanifest.profile.xml.html#/html/body/div/div/div/p/a at Line 2297, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-documentreference-definitions.html#/html/body/div/div/div/p/a at Line 804, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-documentreference-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-documentreference-mappings.html#/html/body/div/div/div/p/a at Line 428, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-documentreference.html#/html/body/div/div/div/p/a at Line 794, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-documentreference.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-documentreference.profile.json.html#/html/body/div/div/div/p/a at Line 3177, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-documentreference.profile.ttl.html#/html/body/div/div/div/p/a at Line 2782, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-documentreference.profile.xml.html#/html/body/div/div/div/p/a at Line 2891, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-endpoint-accesspoint-definitions.html#/html/body/div/div/div/p/a at Line 440, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-endpoint-accesspoint-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-endpoint-accesspoint-mappings.html#/html/body/div/div/div/p/a at Line 269, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-endpoint-accesspoint.html#/html/body/div/div/div/div/div/table/tr/td/span/tr/td/span/div/div/div/p/a at Line 636, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-endpoint-accesspoint.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-endpoint-accesspoint.profile.json.html#/html/body/div/div/div/p/a at Line 1226, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-endpoint-accesspoint.profile.ttl.html#/html/body/div/div/div/p/a at Line 1112, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-endpoint-accesspoint.profile.xml.html#/html/body/div/div/div/p/a at Line 1127, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-messageheader-notify-definitions.html#/html/body/div/div/div/p/a at Line 753, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-messageheader-notify-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-messageheader-notify-mappings.html#/html/body/div/div/div/p/a at Line 334, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-messageheader-notify.html#/html/body/div/div/div/p/a at Line 805, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-messageheader-notify.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-messageheader-notify.profile.json.html#/html/body/div/div/div/p/a at Line 2703, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-messageheader-notify.profile.ttl.html#/html/body/div/div/div/p/a at Line 2389, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-messageheader-notify.profile.xml.html#/html/body/div/div/div/p/a at Line 2453, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-observation-diag-main-anamnesis-definitions.html#/html/body/div/div/div/p/a at Line 1087, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-observation-diag-main-anamnesis-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-observation-diag-main-anamnesis-mappings.html#/html/body/div/div/div/p/a at Line 448, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-observation-diag-main-anamnesis.html#/html/body/div/div/div/p/a at Line 1032, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-observation-diag-main-anamnesis.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-observation-diag-main-anamnesis.profile.json.html#/html/body/div/div/div/p/a at Line 4387, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-observation-diag-main-anamnesis.profile.ttl.html#/html/body/div/div/div/p/a at Line 3830, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-observation-diag-main-anamnesis.profile.xml.html#/html/body/div/div/div/p/a at Line 3968, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-operationoutcome-accesspoint-error-definitions.html#/html/body/div/div/div/p/a at Line 442, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-operationoutcome-accesspoint-error-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-operationoutcome-accesspoint-error-mappings.html#/html/body/div/div/div/p/a at Line 271, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-operationoutcome-accesspoint-error.html#/html/body/div/div/div/p/a at Line 598, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-operationoutcome-accesspoint-error.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-operationoutcome-accesspoint-error.profile.json.html#/html/body/div/div/div/p/a at Line 1197, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-operationoutcome-accesspoint-error.profile.ttl.html#/html/body/div/div/div/p/a at Line 1095, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-operationoutcome-accesspoint-error.profile.xml.html#/html/body/div/div/div/p/a at Line 1109, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-organization-definitions.html#/html/body/div/div/div/p/a at Line 855, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-organization-division-definitions.html#/html/body/div/div/div/p/a at Line 893, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-organization-division-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-organization-division-mappings.html#/html/body/div/div/div/p/a at Line 373, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-organization-division.html#/html/body/div/div/div/p/a at Line 913, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-organization-division.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-organization-division.profile.json.html#/html/body/div/div/div/p/a at Line 3382, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-organization-division.profile.ttl.html#/html/body/div/div/div/p/a at Line 2921, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-organization-division.profile.xml.html#/html/body/div/div/div/p/a at Line 3043, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-organization-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-organization-mappings.html#/html/body/div/div/div/p/a at Line 373, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-organization.html#/html/body/div/div/div/p/a at Line 875, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-organization.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-organization.profile.json.html#/html/body/div/div/div/p/a at Line 3235, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-organization.profile.ttl.html#/html/body/div/div/div/p/a at Line 2795, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-organization.profile.xml.html#/html/body/div/div/div/p/a at Line 2910, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-patient-definitions.html#/html/body/div/div/div/p/a at Line 2117, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-patient-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-patient-mappings.html#/html/body/div/div/div/p/a at Line 580, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-patient.html#/html/body/div/div/div/p/a at Line 1804, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-patient.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-patient.profile.json.html#/html/body/div/div/div/p/a at Line 9421, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-patient.profile.ttl.html#/html/body/div/div/div/p/a at Line 7978, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-patient.profile.xml.html#/html/body/div/div/div/p/a at Line 8426, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-practitioner-definitions.html#/html/body/div/div/div/p/a at Line 1433, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-practitioner-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-practitioner-mappings.html#/html/body/div/div/div/p/a at Line 479, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-practitioner.html#/html/body/div/div/div/p/a at Line 1265, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-practitioner.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-practitioner.profile.json.html#/html/body/div/div/div/p/a at Line 6181, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-practitioner.profile.ttl.html#/html/body/div/div/div/p/a at Line 5264, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-practitioner.profile.xml.html#/html/body/div/div/div/p/a at Line 5513, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-practitionerrole-definitions.html#/html/body/div/div/div/p/a at Line 1169, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-practitionerrole-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-practitionerrole-mappings.html#/html/body/div/div/div/p/a at Line 413, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-practitionerrole.html#/html/body/div/div/div/p/a at Line 1102, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-practitionerrole.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-practitionerrole.profile.json.html#/html/body/div/div/div/p/a at Line 4771, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-practitionerrole.profile.ttl.html#/html/body/div/div/div/p/a at Line 4101, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-practitionerrole.profile.xml.html#/html/body/div/div/div/p/a at Line 4262, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-servicerequest-definitions.html#/html/body/div/div/div/p/a at Line 928, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-servicerequest-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-servicerequest-mappings.html#/html/body/div/div/div/p/a at Line 420, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-servicerequest.html#/html/body/div/div/div/p/a at Line 924, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-servicerequest.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-servicerequest.profile.json.html#/html/body/div/div/div/p/a at Line 3824, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-servicerequest.profile.ttl.html#/html/body/div/div/div/p/a at Line 3346, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-servicerequest.profile.xml.html#/html/body/div/div/div/p/a at Line 3426, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-subscription-notify-oc-definitions.html#/html/body/div/div/div/p/a at Line 469, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-subscription-notify-oc-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-subscription-notify-oc-mappings.html#/html/body/div/div/div/p/a at Line 262, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-subscription-notify-oc.html#/html/body/div/div/div/p/a at Line 615, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-subscription-notify-oc.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-subscription-notify-oc.profile.json.html#/html/body/div/div/div/p/a at Line 1298, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-subscription-notify-oc.profile.ttl.html#/html/body/div/div/div/p/a at Line 1193, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\StructureDefinition-miramedix-mosreg-subscription-notify-oc.profile.xml.html#/html/body/div/div/div/p/a at Line 1193, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Subscription-241601ab-018e-4395-8cf0-c02e039a69da.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Subscription-241601ab-018e-4395-8cf0-c02e039a69da.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Subscription-241601ab-018e-4395-8cf0-c02e039a69da.json.html#/html/body/div/div/div/p/a at Line 208, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Subscription-241601ab-018e-4395-8cf0-c02e039a69da.ttl.html#/html/body/div/div/div/p/a at Line 223, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\Subscription-241601ab-018e-4395-8cf0-c02e039a69da.xml.html#/html/body/div/div/div/p/a at Line 208, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-miramedix-vs-event-type.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-miramedix-vs-event-type.html#/html/body/div/div/div/p/a at Line 246, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-miramedix-vs-event-type.json.html#/html/body/div/div/div/p/a at Line 210, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-miramedix-vs-event-type.ttl.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-miramedix-vs-event-type.xml.html#/html/body/div/div/div/p/a at Line 210, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-miramedix-vs-patient-identifier-type.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-miramedix-vs-patient-identifier-type.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-miramedix-vs-patient-identifier-type.json.html#/html/body/div/div/div/p/a at Line 226, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-miramedix-vs-patient-identifier-type.ttl.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-miramedix-vs-patient-identifier-type.xml.html#/html/body/div/div/div/p/a at Line 224, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-miramedix-vs-practitioner-identifier-type.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-miramedix-vs-practitioner-identifier-type.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-miramedix-vs-practitioner-identifier-type.json.html#/html/body/div/div/div/p/a at Line 226, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-miramedix-vs-practitioner-identifier-type.ttl.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-miramedix-vs-practitioner-identifier-type.xml.html#/html/body/div/div/div/p/a at Line 223, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1002.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1002.html#/html/body/div/div/div/p/a at Line 249, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1002.json.html#/html/body/div/div/div/p/a at Line 210, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1002.ttl.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1002.xml.html#/html/body/div/div/div/p/a at Line 212, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1005.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1005.html#/html/body/div/div/div/p/a at Line 249, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1005.json.html#/html/body/div/div/div/p/a at Line 210, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1005.ttl.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1005.xml.html#/html/body/div/div/div/p/a at Line 212, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1035.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1035.html#/html/body/div/div/div/p/a at Line 249, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1035.json.html#/html/body/div/div/div/p/a at Line 210, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1035.ttl.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1035.xml.html#/html/body/div/div/div/p/a at Line 212, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1040.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1040.html#/html/body/div/div/div/p/a at Line 249, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1040.json.html#/html/body/div/div/div/p/a at Line 210, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1040.ttl.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1040.xml.html#/html/body/div/div/div/p/a at Line 211, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1066.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1066.html#/html/body/div/div/div/p/a at Line 249, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1066.json.html#/html/body/div/div/div/p/a at Line 210, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1066.ttl.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1066.xml.html#/html/body/div/div/div/p/a at Line 212, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077.html#/html/body/div/div/div/p/a at Line 249, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077.json.html#/html/body/div/div/div/p/a at Line 210, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077.ttl.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077.xml.html#/html/body/div/div/div/p/a at Line 211, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1506.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1506.html#/html/body/div/div/div/p/a at Line 249, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1506.json.html#/html/body/div/div/div/p/a at Line 210, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1506.ttl.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1506.xml.html#/html/body/div/div/div/p/a at Line 212, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\artifacts.html#/html/body/div/div/div/p/a at Line 719, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\index.html#/html/body/div/div/div/p/a at Line 782, column 28: The link '' for "" cannot be resolved
+ERROR: C:\MOSREG\fsh\output\toc.html#/html/body/div/div/div/p/a at Line 137, column 28: The link '' for "" cannot be resolved
+== fsh-generated\resources\ImplementationGuide-fhir-miramedix-mosreg.json ==
+== fsh-generated\resources\AuditEvent-Instance-miramedix-mosreg-auditevent-subscription-notify.json ==
+INFORMATION: AuditEvent/Instance-miramedix-mosreg-auditevent-subscription-notify: AuditEvent.type: Code System URI 'http://miramedix.ru/fhir/CodeSystem/miramedix-cs-auditevent-type' is unknown so the code cannot be validated
+ERROR: AuditEvent/Instance-miramedix-mosreg-auditevent-subscription-notify: AuditEvent.entity[0].what: Unable to resolve resource 'Composition/1e1818b9-b75c-46b9-9caa-52da100d5575'
+== fsh-generated\resources\Bundle-Instance-miramedix-mosreg-bundle-auth.json ==
+ERROR: Bundle/Instance-miramedix-mosreg-bundle-auth: Bundle.entry[2].resource.ofType(Organization): Multiple profiles found for contained resource. This is not supported at this time. (Type Organization: http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-organization-division, http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-organization)
+ERROR: Bundle/Instance-miramedix-mosreg-bundle-auth: Bundle.entry[3].resource.ofType(Organization): Multiple profiles found for contained resource. This is not supported at this time. (Type Organization: http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-organization-division, http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-organization)
+== fsh-generated\resources\Bundle-Instance-miramedix-mosreg-bundle-notify-1.json ==
+ERROR: Bundle/Instance-miramedix-mosreg-bundle-notify-1: Bundle.entry[0].resource.ofType(MessageHeader).focus[0]: Unable to find a match for profile DocumentManifest/f4309c2e-1800-43ac-85d6-1f026432efd3 among choices: http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-documentmanifest
+INFORMATION: Bundle/Instance-miramedix-mosreg-bundle-notify-1: Bundle.entry[0].resource.ofType(MessageHeader).focus[0]: Details for DocumentManifest/f4309c2e-1800-43ac-85d6-1f026432efd3 matching against Profile http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-documentmanifest
+ERROR: Bundle/Instance-miramedix-mosreg-bundle-notify-1: Bundle.entry[1].resource.ofType(DocumentManifest).content[0]: Relative URLs must be of the format [ResourceName]/[id].  Encountered 06c621d4-19ae-4804-8019-4e3b93497e98
+ERROR: Bundle/Instance-miramedix-mosreg-bundle-notify-1: Bundle.entry[1].resource.ofType(DocumentManifest).content[0]: Unable to resolve resource '06c621d4-19ae-4804-8019-4e3b93497e98'
+ERROR: Bundle/Instance-miramedix-mosreg-bundle-notify-1: Bundle.entry[1].resource.ofType(DocumentManifest).content[1]: Relative URLs must be of the format [ResourceName]/[id].  Encountered cb1756a3-8bf6-4c47-b098-8778c31d237f
+ERROR: Bundle/Instance-miramedix-mosreg-bundle-notify-1: Bundle.entry[1].resource.ofType(DocumentManifest).content[1]: Unable to resolve resource 'cb1756a3-8bf6-4c47-b098-8778c31d237f'
+== fsh-generated\resources\Bundle-Instance-miramedix-mosreg-bundle-request-access.json ==
+ERROR: Bundle/Instance-miramedix-mosreg-bundle-request-access: Bundle.entry[0].resource.ofType(Patient).identifier[0]: Profile http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-patient, Element matches more than one slice - cardNumber, snilsNumber
+ERROR: Bundle/Instance-miramedix-mosreg-bundle-request-access: Bundle.entry[0].resource.ofType(Patient).identifier[1]: Profile http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-patient, Element matches more than one slice - cardNumber, snilsNumber
+ERROR: Bundle/Instance-miramedix-mosreg-bundle-request-access: Bundle.entry[0].resource.ofType(Patient).identifier[2]: Profile http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-patient, Element matches more than one slice - cardNumber, snilsNumber
+ERROR: Bundle/Instance-miramedix-mosreg-bundle-request-access: Bundle.entry[0].resource.ofType(Patient).identifier[2]: Profile http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-patient, Element matches more than one slice - cardNumber, omsNumber
+ERROR: Bundle/Instance-miramedix-mosreg-bundle-request-access: Bundle.entry[0].resource.ofType(Patient): Patient.identifier:cardNumber: max allowed = 1, but found 3 (from http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-patient)
+ERROR: Bundle/Instance-miramedix-mosreg-bundle-request-access: Bundle.entry[0].resource.ofType(Patient): Patient.identifier:snilsNumber: minimum required = 1, but only found 0 (from http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-patient)
+ERROR: Bundle/Instance-miramedix-mosreg-bundle-request-access: Bundle.entry[0].resource.ofType(Patient): Patient.identifier:omsNumber: minimum required = 1, but only found 0 (from http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-patient)
+ERROR: Bundle/Instance-miramedix-mosreg-bundle-request-access: Bundle.entry[0].resource.ofType(Patient).identifier[0].system: Value is 'urn:oid:1.2.643.100.3' but must be 'urn:mosreg:entity:ehr'
+ERROR: Bundle/Instance-miramedix-mosreg-bundle-request-access: Bundle.entry[0].resource.ofType(Patient).identifier[1].use: Value is 'official' but must be 'usual'
+ERROR: Bundle/Instance-miramedix-mosreg-bundle-request-access: Bundle.entry[0].resource.ofType(Patient).identifier[1].type.coding[0].system: Value is 'http://miramedix.ru/fhir/CodeSystem/miramedix-cs-identifier-type' but must be 'http://terminology.hl7.org/CodeSystem/v2-0203'
+ERROR: Bundle/Instance-miramedix-mosreg-bundle-request-access: Bundle.entry[0].resource.ofType(Patient).identifier[1].type.coding[0].code: Value is 'snils' but must be 'MR'
+ERROR: Bundle/Instance-miramedix-mosreg-bundle-request-access: Bundle.entry[0].resource.ofType(Patient).identifier[1].type.coding[0].display: Value is 'СНИЛС' but must be 'Medical record number'
+ERROR: Bundle/Instance-miramedix-mosreg-bundle-request-access: Bundle.entry[0].resource.ofType(Patient).identifier[1].system: Value is 'urn:oid:1.2.643.100.3' but must be 'urn:mosreg:entity:ehr'
+ERROR: Bundle/Instance-miramedix-mosreg-bundle-request-access: Bundle.entry[0].resource.ofType(Patient).identifier[2].use: Value is 'official' but must be 'usual'
+ERROR: Bundle/Instance-miramedix-mosreg-bundle-request-access: Bundle.entry[0].resource.ofType(Patient).identifier[2].type.coding[0].system: Value is 'https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1035' but must be 'http://terminology.hl7.org/CodeSystem/v2-0203'
+ERROR: Bundle/Instance-miramedix-mosreg-bundle-request-access: Bundle.entry[0].resource.ofType(Patient).identifier[2].type.coding[0].code: Value is '1' but must be 'MR'
+ERROR: Bundle/Instance-miramedix-mosreg-bundle-request-access: Bundle.entry[0].resource.ofType(Patient).identifier[2].type.coding[0].display: Value is 'Полис ОМС старого образца' but must be 'Medical record number'
+ERROR: Bundle/Instance-miramedix-mosreg-bundle-request-access: Bundle.entry[0].resource.ofType(Patient).identifier[2].system: Value is 'urn:oid:1.2.643.5.1.13.13.11.1035:1' but must be 'urn:mosreg:entity:ehr'
+INFORMATION: Bundle/Instance-miramedix-mosreg-bundle-request-access: Bundle.entry[2].resource.ofType(Observation).code.coding[0]: Code System URI 'http://miramedix.ru/fhir/CodeSystem/entity-type' is unknown so the code cannot be validated
+== fsh-generated\resources\CodeSystem-miramedix-cs-event-type.json ==
+== fsh-generated\resources\CodeSystem-miramedix-cs-identifier-type.json ==
+== fsh-generated\resources\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1002.json ==
+== fsh-generated\resources\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1005.json ==
+== fsh-generated\resources\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1035.json ==
+== fsh-generated\resources\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1040.json ==
+== fsh-generated\resources\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1066.json ==
+== fsh-generated\resources\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1077.json ==
+== fsh-generated\resources\CodeSystem-nsi-cs-1-2-643-5-1-13-13-11-1506.json ==
+== fsh-generated\resources\Composition-Instance-miramedix-mosreg-composition-diag-main-anamnesis-1.json ==
+INFORMATION: Composition/Instance-miramedix-mosreg-composition-diag-main-anamnesis-1: Composition.type.coding[0]: Code System URI 'http://miramedix.ru/fhir/CodeSystem/entity-type' is unknown so the code cannot be validated
+INFORMATION: Composition/Instance-miramedix-mosreg-composition-diag-main-anamnesis-1: Composition.section[0].code.coding[0]: Code System URI 'urn:mmdx:internal:section' is unknown so the code cannot be validated
+== fsh-generated\resources\Condition-Instance-miramedix-condition-diag-main-1.json ==
+== fsh-generated\resources\DocumentManifest-f4309c2e-1800-43ac-85d6-1f026432efd3.json ==
+ERROR: DocumentManifest/f4309c2e-1800-43ac-85d6-1f026432efd3: DocumentManifest.content[0]: Unable to resolve resource '06c621d4-19ae-4804-8019-4e3b93497e98'
+ERROR: DocumentManifest/f4309c2e-1800-43ac-85d6-1f026432efd3: DocumentManifest.content[1]: Unable to resolve resource 'cb1756a3-8bf6-4c47-b098-8778c31d237f'
+== fsh-generated\resources\DocumentReference-Instance-miramedix-mosreg-documentreference-1.json ==
+== fsh-generated\resources\Endpoint-Instance-miramedix-mosreg-endpoint-accesspoint.json ==
+WARNING: Endpoint/Instance-miramedix-mosreg-endpoint-accesspoint: Endpoint.connectionType: A code with no system has no defined meaning. A system should be provided
+WARNING: Endpoint/Instance-miramedix-mosreg-endpoint-accesspoint: Endpoint.payloadType[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated\resources\MessageHeader-fbbd9cdb-5114-49af-82bd-8f08592f4259.json ==
+== fsh-generated\resources\Observation-Instance-miramedix-mosreg-observation-diag-main-anamnesis-1.json ==
+INFORMATION: Observation/Instance-miramedix-mosreg-observation-diag-main-anamnesis-1: Observation.code.coding[0]: Code System URI 'http://miramedix.ru/fhir/CodeSystem/entity-type' is unknown so the code cannot be validated
+== fsh-generated\resources\OperationOutcome-Instance-miramedix-mosreg-operationoutcome-accesspoint-error.json ==
+== fsh-generated\resources\Organization-Instance-organization-LOB.json ==
+== fsh-generated\resources\Organization-Instance-organization-division-LOB-CAOP.json ==
+== fsh-generated\resources\Patient-Instance-patient-Konstantinopolskaya.json ==
+ERROR: Patient/Instance-patient-Konstantinopolskaya: Patient.identifier[0]: Profile http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-patient, Element matches more than one slice - cardNumber, snilsNumber
+ERROR: Patient/Instance-patient-Konstantinopolskaya: Patient.identifier[1]: Profile http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-patient, Element matches more than one slice - cardNumber, snilsNumber
+ERROR: Patient/Instance-patient-Konstantinopolskaya: Patient.identifier[2]: Profile http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-patient, Element matches more than one slice - cardNumber, snilsNumber
+ERROR: Patient/Instance-patient-Konstantinopolskaya: Patient.identifier[2]: Profile http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-patient, Element matches more than one slice - cardNumber, omsNumber
+ERROR: Patient/Instance-patient-Konstantinopolskaya: Patient: Patient.identifier:cardNumber: max allowed = 1, but found 3 (from http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-patient)
+ERROR: Patient/Instance-patient-Konstantinopolskaya: Patient: Patient.identifier:snilsNumber: minimum required = 1, but only found 0 (from http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-patient)
+ERROR: Patient/Instance-patient-Konstantinopolskaya: Patient: Patient.identifier:omsNumber: minimum required = 1, but only found 0 (from http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-patient)
+ERROR: Patient/Instance-patient-Konstantinopolskaya: Patient.identifier[0].system: Value is 'urn:oid:1.2.643.100.3' but must be 'urn:mosreg:entity:ehr'
+ERROR: Patient/Instance-patient-Konstantinopolskaya: Patient.identifier[1].use: Value is 'official' but must be 'usual'
+ERROR: Patient/Instance-patient-Konstantinopolskaya: Patient.identifier[1].type.coding[0].system: Value is 'http://miramedix.ru/fhir/CodeSystem/miramedix-cs-identifier-type' but must be 'http://terminology.hl7.org/CodeSystem/v2-0203'
+ERROR: Patient/Instance-patient-Konstantinopolskaya: Patient.identifier[1].type.coding[0].code: Value is 'snils' but must be 'MR'
+ERROR: Patient/Instance-patient-Konstantinopolskaya: Patient.identifier[1].type.coding[0].display: Value is 'СНИЛС' but must be 'Medical record number'
+ERROR: Patient/Instance-patient-Konstantinopolskaya: Patient.identifier[1].system: Value is 'urn:oid:1.2.643.100.3' but must be 'urn:mosreg:entity:ehr'
+ERROR: Patient/Instance-patient-Konstantinopolskaya: Patient.identifier[2].use: Value is 'official' but must be 'usual'
+ERROR: Patient/Instance-patient-Konstantinopolskaya: Patient.identifier[2].type.coding[0].system: Value is 'https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1035' but must be 'http://terminology.hl7.org/CodeSystem/v2-0203'
+ERROR: Patient/Instance-patient-Konstantinopolskaya: Patient.identifier[2].type.coding[0].code: Value is '1' but must be 'MR'
+ERROR: Patient/Instance-patient-Konstantinopolskaya: Patient.identifier[2].type.coding[0].display: Value is 'Полис ОМС старого образца' but must be 'Medical record number'
+ERROR: Patient/Instance-patient-Konstantinopolskaya: Patient.identifier[2].system: Value is 'urn:oid:1.2.643.5.1.13.13.11.1035:1' but must be 'urn:mosreg:entity:ehr'
+== fsh-generated\resources\Practitioner-Instance-practitioner-Adamov.json ==
+== fsh-generated\resources\PractitionerRole-Instance-practitionerrole-Oncologist.json ==
+== fsh-generated\resources\ServiceRequest-Instance-miramedix-mosreg-servicerequest-1.json ==
+== fsh-generated\resources\StructureDefinition-miramedix-ex-nsi-gender.json ==
+== fsh-generated\resources\StructureDefinition-miramedix-mosreg-auditevent-subscription-notify.json ==
+INFORMATION: StructureDefinition/miramedix-mosreg-auditevent-subscription-notify: StructureDefinition.snapshot.element[9].pattern.ofType(Coding): Code System URI 'http://miramedix.ru/fhir/CodeSystem/miramedix-cs-auditevent-type' is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/miramedix-mosreg-auditevent-subscription-notify: StructureDefinition.differential.element[1].pattern.ofType(Coding): Code System URI 'http://miramedix.ru/fhir/CodeSystem/miramedix-cs-auditevent-type' is unknown so the code cannot be validated
+== fsh-generated\resources\StructureDefinition-miramedix-mosreg-bundle-auth.json ==
+== fsh-generated\resources\StructureDefinition-miramedix-mosreg-bundle-notify.json ==
+== fsh-generated\resources\StructureDefinition-miramedix-mosreg-bundle-request-access.json ==
+== fsh-generated\resources\StructureDefinition-miramedix-mosreg-composition-diag-main-anamnesis.json ==
+== fsh-generated\resources\StructureDefinition-miramedix-mosreg-condition-diag-main.json ==
+== fsh-generated\resources\StructureDefinition-miramedix-mosreg-documentmanifest.json ==
+== fsh-generated\resources\StructureDefinition-miramedix-mosreg-documentreference.json ==
+== fsh-generated\resources\StructureDefinition-miramedix-mosreg-endpoint-accesspoint.json ==
+WARNING: StructureDefinition/miramedix-mosreg-endpoint-accesspoint: StructureDefinition.snapshot.element[11].pattern.ofType(Coding): A code with no system has no defined meaning. A system should be provided
+WARNING: StructureDefinition/miramedix-mosreg-endpoint-accesspoint: StructureDefinition.snapshot.element[16].pattern.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: StructureDefinition/miramedix-mosreg-endpoint-accesspoint: StructureDefinition.differential.element[2].pattern.ofType(Coding): A code with no system has no defined meaning. A system should be provided
+WARNING: StructureDefinition/miramedix-mosreg-endpoint-accesspoint: StructureDefinition.differential.element[3].pattern.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated\resources\StructureDefinition-miramedix-mosreg-messageheader-notify.json ==
+== fsh-generated\resources\StructureDefinition-miramedix-mosreg-observation-diag-main-anamnesis.json ==
+== fsh-generated\resources\StructureDefinition-miramedix-mosreg-operationoutcome-accesspoint-error.json ==
+== fsh-generated\resources\StructureDefinition-miramedix-mosreg-organization.json ==
+== fsh-generated\resources\StructureDefinition-miramedix-mosreg-organization-division.json ==
+== fsh-generated\resources\StructureDefinition-miramedix-mosreg-patient.json ==
+== fsh-generated\resources\StructureDefinition-miramedix-mosreg-practitioner.json ==
+== fsh-generated\resources\StructureDefinition-miramedix-mosreg-practitionerrole.json ==
+== fsh-generated\resources\StructureDefinition-miramedix-mosreg-servicerequest.json ==
+== fsh-generated\resources\StructureDefinition-miramedix-mosreg-subscription-notify-oc.json ==
+== fsh-generated\resources\Subscription-241601ab-018e-4395-8cf0-c02e039a69da.json ==
+== fsh-generated\resources\ValueSet-miramedix-vs-event-type.json ==
+== fsh-generated\resources\ValueSet-miramedix-vs-patient-identifier-type.json ==
+== fsh-generated\resources\ValueSet-miramedix-vs-practitioner-identifier-type.json ==
+== fsh-generated\resources\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1002.json ==
+== fsh-generated\resources\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1005.json ==
+== fsh-generated\resources\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1035.json ==
+== fsh-generated\resources\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1040.json ==
+== fsh-generated\resources\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1066.json ==
+== fsh-generated\resources\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1077.json ==
+== fsh-generated\resources\ValueSet-nsi-vs-1-2-643-5-1-13-13-11-1506.json ==

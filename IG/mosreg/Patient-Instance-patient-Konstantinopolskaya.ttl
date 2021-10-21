@@ -1,0 +1,130 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://miramedix.ru/fhir/ig/mosreg/Patient/Instance-patient-Konstantinopolskaya> a fhir:Patient;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Instance-patient-Konstantinopolskaya"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-patient";
+       fhir:index 0;
+       fhir:link <http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-patient>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: Medical record number: SK00141130 (USUAL), СНИЛС: 123-456-789 09 (OFFICIAL), Полис ОМС старого образца: 777777 7777777777 (OFFICIAL)</p><p><b>name</b>: Анна Вероника Мамед кызы Константинопольская (OFFICIAL)</p><p><b>telecom</b>: <a href=\"tel:+7(901)555-55-52\">+7 (901) 555-55-52</a>, <a href=\"mailto:email@example.com\">email@example.com</a></p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1989-09-10</p><p><b>address</b>: </p><ul><li>Пущино, микрорайон АБ, дом 3, корпус 2, квартира 136-137(HOME)</li><li>г Москва, ул Красноказарменная, д 1, кв 1(TEMP)</li></ul></div>"
+  ];
+  fhir:Patient.identifier [
+     fhir:index 0;
+     fhir:Identifier.use [ fhir:value "usual" ];
+     fhir:Identifier.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v2-0203" ];
+         fhir:Coding.code [ fhir:value "MR" ];
+         fhir:Coding.display [ fhir:value "Medical record number" ]
+       ]
+     ];
+     fhir:Identifier.system [ fhir:value "urn:oid:1.2.643.100.3" ];
+     fhir:Identifier.value [ fhir:value "SK00141130" ]
+  ], [
+     fhir:index 1;
+     fhir:Identifier.use [ fhir:value "official" ];
+     fhir:Identifier.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://miramedix.ru/fhir/CodeSystem/miramedix-cs-identifier-type" ];
+         fhir:Coding.code [ fhir:value "snils" ];
+         fhir:Coding.display [ fhir:value "СНИЛС" ]
+       ]
+     ];
+     fhir:Identifier.system [ fhir:value "urn:oid:1.2.643.100.3" ];
+     fhir:Identifier.value [ fhir:value "123-456-789 09" ]
+  ], [
+     fhir:index 2;
+     fhir:Identifier.use [ fhir:value "official" ];
+     fhir:Identifier.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1035" ];
+         fhir:Coding.code [ fhir:value "1" ];
+         fhir:Coding.display [ fhir:value "Полис ОМС старого образца" ]
+       ]
+     ];
+     fhir:Identifier.system [ fhir:value "urn:oid:1.2.643.5.1.13.13.11.1035:1" ];
+     fhir:Identifier.value [ fhir:value "777777 7777777777" ];
+     fhir:Identifier.assigner [
+       fhir:Reference.identifier [
+         fhir:Identifier.system [ fhir:value "urn:oid:1.2.643.5.1.13.13.99.2.183:SMOCOD" ];
+         fhir:Identifier.value [ fhir:value "77008" ]
+       ];
+       fhir:Reference.display [ fhir:value "ООО \"СМК РЕСО-Мед\"" ]
+     ]
+  ];
+  fhir:Patient.name [
+     fhir:index 0;
+     fhir:HumanName.use [ fhir:value "official" ];
+     fhir:HumanName.family [ fhir:value "Константинопольская" ];
+     fhir:HumanName.given [
+       fhir:value "Анна Вероника";
+       fhir:index 0
+     ], [
+       fhir:value "Мамед кызы";
+       fhir:index 1
+     ]
+  ];
+  fhir:Patient.telecom [
+     fhir:index 0;
+     fhir:ContactPoint.system [ fhir:value "phone" ];
+     fhir:ContactPoint.value [ fhir:value "+7 (901) 555-55-52" ];
+     fhir:ContactPoint.rank [ fhir:value "1"^^xsd:positiveInteger ]
+  ], [
+     fhir:index 1;
+     fhir:ContactPoint.system [ fhir:value "email" ];
+     fhir:ContactPoint.value [ fhir:value "email@example.com" ];
+     fhir:ContactPoint.rank [ fhir:value "1"^^xsd:positiveInteger ]
+  ];
+  fhir:Patient.gender [
+     fhir:value "female";
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "http://miramedix.ru/fhir/Extension/miramedix-ex-nsi-gender" ];
+       fhir:Extension.valueCoding [
+         fhir:Coding.system [ fhir:value "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1040" ];
+         fhir:Coding.version [ fhir:value "2.1" ];
+         fhir:Coding.code [ fhir:value "2" ];
+         fhir:Coding.display [ fhir:value "Женский" ]
+       ]
+     ]
+  ];
+  fhir:Patient.birthDate [ fhir:value "1989-09-10"^^xsd:date];
+  fhir:Patient.address [
+     fhir:index 0;
+     fhir:Address.use [ fhir:value "home" ];
+     fhir:Address.text [ fhir:value "Пущино, микрорайон АБ, дом 3, корпус 2, квартира 136-137" ];
+     fhir:Address.city [ fhir:value "город Пущино" ];
+     fhir:Address.district [ fhir:value "Серпуховской район" ];
+     fhir:Address.state [ fhir:value "50" ];
+     fhir:Address.postalCode [ fhir:value "142280" ]
+  ], [
+     fhir:index 1;
+     fhir:Address.use [ fhir:value "temp" ];
+     fhir:Address.text [ fhir:value "г Москва, ул Красноказарменная, д 1, кв 1" ];
+     fhir:Address.city [ fhir:value "город Москва" ];
+     fhir:Address.district [ fhir:value "район Лефортово" ];
+     fhir:Address.state [ fhir:value "77" ];
+     fhir:Address.postalCode [ fhir:value "111024" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://miramedix.ru/fhir/ig/mosreg/Patient/Instance-patient-Konstantinopolskaya.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+
