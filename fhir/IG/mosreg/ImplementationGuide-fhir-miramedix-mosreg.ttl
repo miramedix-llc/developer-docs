@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "MiramedixMosregIG"];
   fhir:ImplementationGuide.title [ fhir:value "HL7 FHIR Implementation Guide: Miramedix mosreg IG Release 1 - RU Realm | STU1"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-10-20T13:42:04+03:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-10-21T16:57:10+03:00"^^xsd:dateTime];
   fhir:ImplementationGuide.description [ fhir:value "Miramedix mosreg IG"];
   fhir:ImplementationGuide.packageId [ fhir:value "fhir-miramedix-mosreg"];
   fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"];

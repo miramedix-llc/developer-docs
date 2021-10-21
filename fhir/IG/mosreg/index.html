@@ -225,12 +225,12 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <h3 id="описание-процесса"><strong><span style="background-color:#cce6ff">Описание процесса</span></strong></h3>
 
-<p><a href="./диаграмма_процесса_только_взаимодействия_0.2.0.png"><img src="./диаграмма_процесса_только_взаимодействия_0.2.0.png" width="640px"/></a><br/></p>
+<p><a href="./process_diagram_short.png"><img src="./process_diagram_short.png" width="640px"/></a><br/></p>
 
 <p><a href="https://www.garant.ru/products/ipo/prime/doc/400433605/">Приказ Минздрава России (Министерство здравоохранения РФ) от 19 февраля 2021 г. №116н Об утверждении Порядка оказания медицинской помощи взрослому населению при онкологических заболеваниях.</a><br/>
 Вид формы протокола по приказу:<br/>
-<a href="./форма по №116н 1.png"><img src="./форма по №116н 1.png" width="320px"/></a><br/><br/>
-<a href="./форма по №116н 2.png"><img src="./форма по №116н 2.png" width="320px"/></a><br/></p>
+<a href="./form116n1.png"><img src="./form116n1.png" width="320px"/></a><br/><br/>
+<a href="./form116n2.png"><img src="./form116n2.png" width="320px"/></a><br/></p>
 
 <h4 id="авторизация">Авторизация</h4>
 
@@ -238,7 +238,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <li>в МИС
     <ul>
       <li>Врач нажимает на кнопку перехода в Сервис ОК.</li>
-      <li>Бэкенд МИС выполняет вызов API Сервиса ОК POST <code class="language-plaintext highlighter-rouge">/[base]/auth/token</code> с предоставлением данных о враче, его должности, учреждении (в виде набора ресурсов FHIR).
+      <li>Бэкенд МИС выполняет вызов API Сервиса ОК POST <code class="language-plaintext highlighter-rouge">[base]/auth/token</code> с предоставлением данных о враче, его должности, учреждении (в виде набора ресурсов FHIR).
   В ответ возвращается токен пользователя.<br/>
   При отсутствии в Сервисе ОК переданной комбинации учреждение-врач-должность она будет автоматически добавлена.<br/>
   При истечении срока действия нужно запросить новый токен.</li>
@@ -251,7 +251,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <ul>
   <li>В МИС
     <ul>
-      <li>Бэкенд МИС выполняет вызов API Сервиса ОК POST <code class="language-plaintext highlighter-rouge">/[base]/tumorboard/accesspoint</code> с предоставлением данных о пациенте, диагнозе, анамнезе (в виде набора ресурсов FHIR).<br/>
+      <li>Бэкенд МИС выполняет вызов API Сервиса ОК POST <code class="language-plaintext highlighter-rouge">[base]/mosreg/accesspoint</code> с предоставлением данных о пациенте, диагнозе, анамнезе (в виде набора ресурсов FHIR).<br/>
   В ответ возвращается json, содержащий ссылку на страницу Сервиса ОК, где для указанного пациента можно просмотреть имеющиеся заявки на ОК (и протоколы для них) или создать новую заявку.</li>
       <li>Бэкенд МИС возвращает фронтенду адрес для перехода в Сервис ОК (из поля <code class="language-plaintext highlighter-rouge">address</code>).</li>
       <li>Фронтенд МИС открывает в новой вкладке браузера страницу с полученным адресом.</li>
@@ -285,7 +285,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <ul>
   <li>В МИС
     <ul>
-      <li>Бэкенд МИС выполняет вызов API Сервиса ОК POST <code class="language-plaintext highlighter-rouge">/[base]/tumorboard/accesspoint</code> без предоставления данных о пациенте, диагнозе, анамнезе.<br/>
+      <li>Бэкенд МИС выполняет вызов API Сервиса ОК POST <code class="language-plaintext highlighter-rouge">[base]/mosreg/accesspoint</code> без предоставления данных о пациенте, диагнозе, анамнезе.<br/>
   В ответ возвращается json, содержащий ссылку на стартовую страницу Сервиса ОК, с которой имеется возможность найти нужного пациента.</li>
       <li>Бэкенд МИС возвращает фронтенду адрес для перехода в Сервис ОК (из поля <code class="language-plaintext highlighter-rouge">address</code>).</li>
       <li>Фронтенд МИС открывает в новой вкладке браузера страницу с полученным адресом.</li>
@@ -311,10 +311,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <li>МИС запрашивает сервис ОК для получения протокола:
         <ul>
           <li>И/ИЛИ запрашивает файл (pdf) скана через вызов
-  <code class="language-plaintext highlighter-rouge">GET /[base]/tumorboard/protocols/:id/scancopy</code>,
+  <code class="language-plaintext highlighter-rouge">GET [base]/mosreg/protocols/:id/scancopy</code>,
   в ответ возвращается ресурс DocumentReference со ссылкой на скачивание PDF-файла (в поле content.attachment.url).</li>
           <li>И/ИЛИ запрашивает FHIR-ресурс через вызов
-  <code class="language-plaintext highlighter-rouge">GET /[base]/tumorboard/protocols/:id</code>,
+  <code class="language-plaintext highlighter-rouge">GET [base]/mosreg/protocols/:id</code>,
   в ответ возвращается FHIR-ресурс протокола (бандл).</li>
         </ul>
       </li>
@@ -345,18 +345,18 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <li>чтобы получить пример ресурса, заполненного в соответствии с установленными требованиями, необоходимо переключиться на вкладку Examples.</li>
 </ul>
 
-<p><a href="./Инструкция по просмотру профиля ресурса 1.png"><img src="./Инструкция по просмотру профиля ресурса 1.png" width="320px"/></a><br/></p>
+<p><a href="./resource_profile_guide.png"><img src="./resource_profile_guide.png" width="320px"/></a><br/></p>
 
-<p>Сводка по использованию ресурсов в руководстве:
-<a href="./Сводка по использованию ресурсов в руководстве.png"><img src="Сводка по использованию ресурсов в руководстве.png" width="320px"/></a><br/></p>
+<p>Сводка по использованию ресурсов в руководстве:<br/>
+<a href="./resources_overview.png"><img src="resources_overview.png" width="320px"/></a><br/></p>
 
 <h3 id="сценарии"><strong><span style="background-color:#cce6ff">Сценарии</span></strong></h3>
 
-<p><a href="./сценарии_0.2.0.png"><img src="./сценарии_0.2.0.png" width="320px"/></a><br/></p>
+<p><a href="./scenarios.png"><img src="./scenarios.png" width="320px"/></a><br/></p>
 
 <h4 id="-авторизация-в-сервисе-ок">✨ <strong><span style="background-color:#cce6ff">Авторизация в сервисе ОК</span></strong></h4>
 
-<p><a href="./сценарий_актуализация_токена.png"><img src="./сценарий_актуализация_токена.png" width="320px"/></a><br/></p>
+<p><a href="./scenario_token.png"><img src="./scenario_token.png" width="320px"/></a><br/></p>
 
 <p>Доступ в Сервис ОК предоставляется через токен доступа.</p>
 
@@ -370,7 +370,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p><strong>1а) Получение токена доступа</strong></p>
 
 <p><strong>ЗАПРОС:</strong></p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>POST /[base]/auth/token
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>POST [base]/auth/token
 
 {
   "resourceType": "Bundle",
@@ -383,7 +383,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <blockquote>
   <p>Для авторизации запроса на получение токена необходимо передать http-заголовок:<br/>
 <code class="language-plaintext highlighter-rouge">Authorization: Basic XXXXXXXXXXXXXXXXX</code><br/>
-где XXXXXX - строка, состоящая из идентификатора системы-клиента, двоеточия и секрета, например pet-technology:P@ssword, закодированная в base64.</p>
+где XXXXXX - строка, состоящая из идентификатора системы-клиента, двоеточия и секрета, например emias-mosreg:P@ssword, закодированная в base64.</p>
 </blockquote>
 
 <blockquote>
@@ -435,11 +435,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <li>Для пользователей, создающих заявки на ОК.<br/>
 Для получения ссылки необходимо отправить бандл с ресурсами (пациент, диагноз, анамнез, как описано в <a href="https://docs.google.com/spreadsheets/d/1JwNRJhvo-zifCgcdksGMbP66f5mZVAzTyDrhnFlCF2I/edit#gid=2118083984">Описание данных для формирования заявки на консилиум</a>).<br/>
 В этом случае предоставляется ссылка на страницу со списком существующих заявок/протоколов и кнопкой для создания новой заявки.<br/>
-<a href="./сценарий_переход_из_карты_пациента.png"><img src="./сценарий_переход_из_карты_пациента.png" width="320px"/></a><br/></li>
+<a href="./scenario_link_orders.png"><img src="./scenario_link_orders.png" width="320px"/></a><br/></li>
   <li>Для пользователей, проводящий ОК и формирующих протокол ОК.<br/>
 Для получения ссылки необходимо отправить запрос без тела.
 В этом случае предоставляется ссылка на стартовую страницу сервиса ОК.<br/>
-<a href="./сценарий_переход_на_главную_страницу.png"><img src="./сценарий_переход_на_главную_страницу.png" width="320px"/></a><br/><br/>
+<a href="./scenario_link_main.png"><img src="./scenario_link_main.png" width="320px"/></a><br/><br/>
 В обоих случаях будет возвращён json со ссылкой на страницу сервиса ОК.<br/>
 В случае невозможности вернуть ссылку на страницу будет возвращёно описание ошибки.</li>
 </ul>
@@ -447,7 +447,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p><strong>1а) Для пользователей, создающих заявки на ОК.</strong></p>
 
 <p><strong>ЗАПРОС:</strong></p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>POST /[base]/tumorboard/accesspoint
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>POST [base]/mosreg/accesspoint
 
 {
   "resourceType" : "Bundle",
@@ -485,7 +485,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       ]
     }
   ],
-  "address" : "http://[base]/auth?context_id=1e105335-92b0-49c7-bc10-c23aad9a0338"
+  "address" : "[base]/auth?context_id=1e105335-92b0-49c7-bc10-c23aad9a0338"
 }
 </code></pre></div></div>
 <blockquote>
@@ -518,7 +518,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p><strong>1б) Для пользователей, проводящий ОК и формирующих протокол ОК.</strong></p>
 
 <p><strong>ЗАПРОС:</strong></p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>POST /[base]/tumorboard/accesspoint
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>POST [base]/mosreg/accesspoint
 </code></pre></div></div>
 
 <p><strong>ОТВЕТ [в случае УСПЕХА]:</strong></p>
@@ -538,7 +538,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       ]
     }
   ],
-  "address" : "http://[base]/auth?context_id=1e105335-92b0-49c7-bc10-c23aad9a0338"
+  "address" : "[base]/auth?context_id=1e105335-92b0-49c7-bc10-c23aad9a0338"
 }
 </code></pre></div></div>
 <blockquote>
@@ -570,7 +570,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <h4 id="-оповещение-о-событии">✨ <strong><span style="background-color:#cce6ff">Оповещение о событии</span></strong></h4>
 
-<p><a href="./сценарий_передача_протокола.png"><img src="./сценарий_передача_протокола.png" width="320px"/></a><br/></p>
+<p><a href="./scenario_protocol.png"><img src="./scenario_protocol.png" width="320px"/></a><br/></p>
 
 <p>Оповещение будет содержать набор ресурсов:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>MessageHeader
@@ -581,7 +581,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </code></pre></div></div>
 
 <p><strong>ЗАПРОС [оповещение]:</strong></p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>POST http://clientsystem.ru/eventhandler
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>POST [mis_base]/eventhandler
 
 {
   "resourceType": "Bundle",
@@ -608,13 +608,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <h4 id="-получение-протокола">✨ <strong><span style="background-color:#cce6ff">Получение протокола</span></strong></h4>
 
-<p><a href="./сценарий_передача_протокола.png"><img src="./сценарий_передача_протокола.png" width="320px"/></a><br/></p>
+<p><a href="./scenario_protocol.png"><img src="./scenario_protocol.png" width="320px"/></a><br/></p>
 
 <p><strong>1а) Запрос скана (pdf) через вызов.</strong><br/>
 В ответ возвращается ресурс DocumentReference с содержимым PDF-файла протокола онкологического консилиума в формате base64 (в поле content.attachment.data).</p>
 
 <p><strong>ЗАПРОС:</strong></p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GET /[base]/tumorboard/protocols/:id/scancopy
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GET [base]/mosreg/protocols/:id/scancopy
 </code></pre></div></div>
 
 <p><strong>ОТВЕТ:</strong></p>
@@ -642,7 +642,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 В ответ возвращается FHIR-представление протокола онкологического консилиума (бандл с ресурсами).</p>
 
 <p><strong>ЗАПРОС:</strong></p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GET /[base]/tumorboard/protocols/:id
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GET [base]/mosreg/protocols/:id
 </code></pre></div></div>
 <p><strong>ОТВЕТ:</strong></p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
@@ -656,7 +656,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <blockquote>
   <p>Пример ресурса:</p>
   <ul>
-    <li><a href="./Пример протокола онкологического консилиума в формате FHIR.json">“Пример протокола онкологического консилиума в формате FHIR.json”</a></li>
+    <li><a href="./example_onko_protocol_FHIR.json">“Пример протокола онкологического консилиума в формате FHIR.json”</a></li>
   </ul>
 </blockquote>
 
@@ -700,7 +700,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <li><a href="./StructureDefinition-miramedix-mosreg-endpoint-accesspoint.html">“Описание точки входа в сервис ОК”</a></li>
       <li><a href="./StructureDefinition-miramedix-mosreg-operationoutcome-accesspoint-error.html">“Описание ошибки при невозможности вернуть точку входа в сервис ОК”</a></li>
       <li><a href="./StructureDefinition-miramedix-mosreg-documentreference.html">“Описание документа”</a></li>
-      <li><a href="./Пример протокола онкологического консилиума в формате FHIR.json">“Пример протокола онкологического консилиума в формате FHIR.json”</a></li>
+      <li><a href="./example_onko_protocol_FHIR.json">“Пример протокола онкологического консилиума в формате FHIR.json”</a></li>
     </ul>
   </li>
 </ol>
@@ -717,19 +717,19 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <tbody>
     <tr>
       <td>Авторизация пользователя МИС</td>
-      <td>POST /[base]/auth/token</td>
+      <td>POST [base]/auth/token</td>
     </tr>
     <tr>
       <td>Получение доступа</td>
-      <td>POST /[base]/tumorboard/accesspoint</td>
+      <td>POST [base]/mosreg/accesspoint</td>
     </tr>
     <tr>
       <td>Получение протокола</td>
-      <td>GET /[base]/tumorboard/protocols/:id<br/>GET /[base]/tumorboard/protocols/:id/scancopy</td>
+      <td>GET [base]/mosreg/protocols/:id<br/>GET [base]/mosreg/protocols/:id/scancopy</td>
     </tr>
     <tr>
       <td>Оповещение о событии</td>
-      <td>POST http://clientsystem.ru/eventhandler</td>
+      <td>POST [mis_base]/eventhandler</td>
     </tr>
   </tbody>
 </table>
@@ -778,8 +778,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="l1471">​</a>
-          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package fhir-miramedix-mosreg#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Oct 20, 2021 13:42+0300">2021-10-20</span>
+        <p><a name="l1473">​</a>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package fhir-miramedix-mosreg#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Oct 21, 2021 16:57+0300">2021-10-21</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

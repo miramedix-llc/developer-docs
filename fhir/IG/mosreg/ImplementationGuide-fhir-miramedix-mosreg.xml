@@ -11,7 +11,7 @@
   <name value="MiramedixMosregIG"/>
   <title value="HL7 FHIR Implementation Guide: Miramedix mosreg IG Release 1 - RU Realm | STU1"/>
   <status value="draft"/>
-  <date value="2021-10-20T13:42:04+03:00"/>
+  <date value="2021-10-21T16:57:10+03:00"/>
   <description value="Miramedix mosreg IG"/>
   <packageId value="fhir-miramedix-mosreg"/>
   <license value="CC0-1.0"/>

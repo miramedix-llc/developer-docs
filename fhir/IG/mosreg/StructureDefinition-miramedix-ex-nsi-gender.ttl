@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "Miramedix_ex_nsi_gender"];
   fhir:StructureDefinition.title [ fhir:value "Кодирования пола по справочнику ФНСИ."];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-10-20T13:42:04+03:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-10-21T16:57:10+03:00"^^xsd:dateTime];
   fhir:StructureDefinition.description [ fhir:value "Расширение для кодирования пола по справочнику ФНСИ."];
   fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"];
   fhir:StructureDefinition.mapping [
