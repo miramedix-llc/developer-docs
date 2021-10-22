@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "Nsi_vs_1_2_643_5_1_13_13_11_1040"];
   fhir:ValueSet.title [ fhir:value "Пол пациента [все значения]"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-10-21T17:36:15+03:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2021-10-22T09:18:10+03:00"^^xsd:dateTime];
   fhir:ValueSet.description [ fhir:value "'Пол пациента'  \n[набор из всех значений системы кодирования]"];
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [

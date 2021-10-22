@@ -19,7 +19,7 @@
   <name value="Miramedix_ex_nsi_gender"/>
   <title value="Кодирования пола по справочнику ФНСИ."/>
   <status value="active"/>
-  <date value="2021-10-21T17:36:15+03:00"/>
+  <date value="2021-10-22T09:18:10+03:00"/>
   <description value="Расширение для кодирования пола по справочнику ФНСИ."/>
   <fhirVersion value="4.0.1"/>
   <mapping>

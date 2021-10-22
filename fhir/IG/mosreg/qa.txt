@@ -2,8 +2,8 @@
 =========================================
 
 err = 46, warn = 23, info = 8
-IG Publisher Version: 1.1.82
-Generated Thu Oct 21 17:37:39 MSK 2021. FHIR version 4.0.1 for fhir-miramedix-mosreg#0.1.0 (canonical = http://miramedix.ru/fhir/ig/mosreg)
+IG Publisher Version: 1.1.82 Out of date - current version is 1.1.83
+Generated Fri Oct 22 09:19:26 MSK 2021. FHIR version 4.0.1 for fhir-miramedix-mosreg#0.1.0 (canonical = http://miramedix.ru/fhir/ig/mosreg)
  Build Errors : 357 / 19 / 0
  C:\MOSREG\fsh\fsh-generated\resources\auditevent-Instance-miramedix-mosreg-auditevent-subscription-notify : 1 / 0 / 2
  C:\MOSREG\fsh\fsh-generated\resources\bundle-Instance-miramedix-mosreg-bundle-auth : 2 / 0 / 3
