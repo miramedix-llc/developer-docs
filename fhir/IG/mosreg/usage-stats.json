@@ -40,12 +40,6 @@
         "title": "Бандл для запроса доступа в Сервис ОК для создания завяки на ОК"
       }
     ],
-    "Composition": [
-      {
-        "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-composition-diag-main-anamnesis",
-        "title": "Анамнез основного заболевания"
-      }
-    ],
     "Condition": [
       {
         "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-condition-diag-main",

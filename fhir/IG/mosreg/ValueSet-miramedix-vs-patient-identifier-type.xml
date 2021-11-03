@@ -10,7 +10,7 @@
   <name value="Miramedix_vs_patient_identifier_type"/>
   <title value="Набор значений типов идентификаторов пациентов [Мирамедикс]"/>
   <status value="active"/>
-  <date value="2021-10-22T09:18:10+03:00"/>
+  <date value="2021-11-03T16:53:54+03:00"/>
   <description value="Набор значений для указания типов идентификаторов пациентов для информационной системы Мирамедикс."/>
   <compose>
     <include>

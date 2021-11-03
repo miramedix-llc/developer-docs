@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "Miramedix_vs_event_type"];
   fhir:ValueSet.title [ fhir:value "Набор значений типов событий [Мирамедикс]"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-10-22T09:18:10+03:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2021-11-03T16:53:54+03:00"^^xsd:dateTime];
   fhir:ValueSet.description [ fhir:value "Набор значений для указания типов событий для информационной системы Мирамедикс."];
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [

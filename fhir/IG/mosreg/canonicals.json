@@ -49,13 +49,6 @@
     "name": "Miramedix_mosreg_bundle_request_access"
   },
   {
-    "id": "miramedix-mosreg-composition-diag-main-anamnesis",
-    "type": "StructureDefinition",
-    "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-composition-diag-main-anamnesis",
-    "version": "0.1.0",
-    "name": "Miramedix_mosreg_composition_diag_main_anamnesis"
-  },
-  {
     "id": "miramedix-mosreg-condition-diag-main",
     "type": "StructureDefinition",
     "url": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-condition-diag-main",

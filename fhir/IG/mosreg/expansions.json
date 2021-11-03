@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "a4ef54b6-3d3b-4668-bc53-ef24fde2f346",
+  "id" : "b7faa449-1eea-477b-85c7-2827b3e8a7f7",
   "meta" : {
-    "lastUpdated" : "2021-10-22T09:18:10.783+03:00"
+    "lastUpdated" : "2021-11-03T16:53:54.208+03:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -19,11 +19,11 @@
       "name" : "Miramedix_vs_event_type",
       "title" : "Набор значений типов событий [Мирамедикс]",
       "status" : "active",
-      "date" : "2021-10-22T09:18:10+03:00",
+      "date" : "2021-11-03T16:53:54+03:00",
       "description" : "Набор значений для указания типов событий для информационной системы Мирамедикс.",
       "expansion" : {
-        "identifier" : "urn:uuid:a650000e-c537-4028-acee-2fcb832e62b5",
-        "timestamp" : "2021-10-22T09:18:32+03:00",
+        "identifier" : "urn:uuid:78ed42af-3f69-49ee-8b65-3e9f9703e9f7",
+        "timestamp" : "2021-11-03T16:54:33+03:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -55,11 +55,11 @@
       "name" : "Miramedix_vs_patient_identifier_type",
       "title" : "Набор значений типов идентификаторов пациентов [Мирамедикс]",
       "status" : "active",
-      "date" : "2021-10-22T09:18:10+03:00",
+      "date" : "2021-11-03T16:53:54+03:00",
       "description" : "Набор значений для указания типов идентификаторов пациентов для информационной системы Мирамедикс.",
       "expansion" : {
-        "identifier" : "urn:uuid:7165c073-8dd9-4a8c-bf80-dfefd93fae07",
-        "timestamp" : "2021-10-22T09:18:32+03:00",
+        "identifier" : "urn:uuid:7a77d6b9-aabd-44b9-8445-ccf542caf6a6",
+        "timestamp" : "2021-11-03T16:54:33+03:00",
         "total" : 6,
         "parameter" : [{
           "name" : "excludeNested",
@@ -124,11 +124,11 @@
       "name" : "Miramedix_vs_practitioner_identifier_type",
       "title" : "Набор значений типов идентификаторов сотрудников [Мирамедикс]",
       "status" : "active",
-      "date" : "2021-10-22T09:18:10+03:00",
+      "date" : "2021-11-03T16:53:54+03:00",
       "description" : "Набор значений для указания типов идентификаторов сотрудников для информационной системы Мирамедикс.",
       "expansion" : {
-        "identifier" : "urn:uuid:00e20e81-761b-422b-939d-c71714fa0a1c",
-        "timestamp" : "2021-10-22T09:18:32+03:00",
+        "identifier" : "urn:uuid:3fb99f13-23e0-4e68-888f-5e77a71feb24",
+        "timestamp" : "2021-11-03T16:54:33+03:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -174,11 +174,11 @@
       "name" : "Nsi_vs_1_2_643_5_1_13_13_11_1002",
       "title" : "Должности медицинских и фармацевтических работников [все значения]",
       "status" : "active",
-      "date" : "2021-10-22T09:18:10+03:00",
+      "date" : "2021-11-03T16:53:54+03:00",
       "description" : "'Должности медицинских и фармацевтических работников'  \n[набор из всех значений системы кодирования]",
       "expansion" : {
-        "identifier" : "urn:uuid:bedc8da6-1671-4b06-b055-bcee3254c3d2",
-        "timestamp" : "2021-10-22T09:18:32+03:00",
+        "identifier" : "urn:uuid:261a6574-641d-4bb5-9967-5632ea2febaf",
+        "timestamp" : "2021-11-03T16:54:33+03:00",
         "total" : 508,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2745,15 +2745,15 @@
       "name" : "Nsi_vs_1_2_643_5_1_13_13_11_1005",
       "title" : "Международная статистическая классификация болезней и проблем, связанных со здоровьем (10-й пересмотр) [все значения]",
       "status" : "active",
-      "date" : "2021-10-22T09:18:10+03:00",
+      "date" : "2021-11-03T16:53:54+03:00",
       "description" : "'Международная статистическая классификация болезней и проблем, связанных со здоровьем (10-й пересмотр)'  \n[набор из всех значений системы кодирования]",
       "expansion" : {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/expansion-codesystem-fragment",
           "valueUri" : "https://nsi.rosminzdrav.ru/#!/refbook/1.2.643.5.1.13.13.11.1005"
         }],
-        "identifier" : "urn:uuid:4c9317b6-3d43-45f3-86d6-525c1fe6ce03",
-        "timestamp" : "2021-10-22T09:18:32+03:00",
+        "identifier" : "urn:uuid:e3e653e9-0d75-4279-a00e-67745a52c5ac",
+        "timestamp" : "2021-11-03T16:54:33+03:00",
         "total" : 1084,
         "parameter" : [{
           "name" : "excludeNested",
@@ -8200,11 +8200,11 @@
       "name" : "Nsi_vs_1_2_643_5_1_13_13_11_1035",
       "title" : "Виды полиса обязательного медицинского страхования [все значения]",
       "status" : "active",
-      "date" : "2021-10-22T09:18:10+03:00",
+      "date" : "2021-11-03T16:53:54+03:00",
       "description" : "'Виды полиса обязательного медицинского страхования'  \n[набор из всех значений системы кодирования]",
       "expansion" : {
-        "identifier" : "urn:uuid:7d4a082a-1bb2-4bf9-b091-3a62bea31731",
-        "timestamp" : "2021-10-22T09:18:32+03:00",
+        "identifier" : "urn:uuid:88e2b0f9-4d2f-41b2-9ce9-aefb867d363d",
+        "timestamp" : "2021-11-03T16:54:33+03:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -8251,11 +8251,11 @@
       "name" : "Nsi_vs_1_2_643_5_1_13_13_11_1040",
       "title" : "Пол пациента [все значения]",
       "status" : "active",
-      "date" : "2021-10-22T09:18:10+03:00",
+      "date" : "2021-11-03T16:53:54+03:00",
       "description" : "'Пол пациента'  \n[набор из всех значений системы кодирования]",
       "expansion" : {
-        "identifier" : "urn:uuid:9ee10ef7-6a09-45e1-b823-798d9b43df80",
-        "timestamp" : "2021-10-22T09:18:32+03:00",
+        "identifier" : "urn:uuid:9d134ac5-556c-40b3-bf1d-fd52b0ff7b79",
+        "timestamp" : "2021-11-03T16:54:33+03:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -8297,11 +8297,11 @@
       "name" : "Nsi_vs_1_2_643_5_1_13_13_11_1066",
       "title" : "Номенклатура специальностей специалистов, имеющих медицинское и фармацевтическое образование [все значения]",
       "status" : "active",
-      "date" : "2021-10-22T09:18:10+03:00",
+      "date" : "2021-11-03T16:53:54+03:00",
       "description" : "'Номенклатура специальностей специалистов, имеющих медицинское и фармацевтическое образование'  \n[набор из всех значений системы кодирования]",
       "expansion" : {
-        "identifier" : "urn:uuid:1d5c0c1f-f257-4bfc-8655-622007a35b59",
-        "timestamp" : "2021-10-22T09:18:32+03:00",
+        "identifier" : "urn:uuid:d72fcda8-6e81-4f31-ba97-460527146299",
+        "timestamp" : "2021-11-03T16:54:33+03:00",
         "total" : 146,
         "parameter" : [{
           "name" : "excludeNested",
@@ -9058,11 +9058,11 @@
       "name" : "Nsi_vs_1_2_643_5_1_13_13_11_1077",
       "title" : "Виды нозологических единиц диагноза [все значения]",
       "status" : "active",
-      "date" : "2021-10-22T09:18:10+03:00",
+      "date" : "2021-11-03T16:53:54+03:00",
       "description" : "'Виды нозологических единиц диагноза'  \n[набор из всех значений системы кодирования]",
       "expansion" : {
-        "identifier" : "urn:uuid:4cddd021-2c9e-4b78-bc39-9c1500175de5",
-        "timestamp" : "2021-10-22T09:18:32+03:00",
+        "identifier" : "urn:uuid:39b8054c-b5ab-4829-aea4-a707ff897652",
+        "timestamp" : "2021-11-03T16:54:33+03:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -9124,11 +9124,11 @@
       "name" : "Nsi_vs_1_2_643_5_1_13_13_11_1506",
       "title" : "Цели проведения врачебной комиссии (консилиума врачей) [все значения]",
       "status" : "active",
-      "date" : "2021-10-22T09:18:10+03:00",
+      "date" : "2021-11-03T16:53:54+03:00",
       "description" : "'Цели проведения врачебной комиссии (консилиума врачей)'  \n[набор из всех значений системы кодирования]",
       "expansion" : {
-        "identifier" : "urn:uuid:08b564b9-39d3-4fd6-8415-5d67fb9a1f97",
-        "timestamp" : "2021-10-22T09:18:32+03:00",
+        "identifier" : "urn:uuid:ecfc082d-1e5d-4413-8b91-ac46a19d39da",
+        "timestamp" : "2021-11-03T16:54:33+03:00",
         "total" : 26,
         "parameter" : [{
           "name" : "excludeNested",

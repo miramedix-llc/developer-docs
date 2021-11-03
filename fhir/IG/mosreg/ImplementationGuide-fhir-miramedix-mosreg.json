@@ -10,7 +10,7 @@
   "name": "MiramedixMosregIG",
   "title": "HL7 FHIR Implementation Guide: Miramedix mosreg IG Release 1 - RU Realm | STU1",
   "status": "draft",
-  "date": "2021-10-22T09:18:10+03:00",
+  "date": "2021-11-03T16:53:54+03:00",
   "description": "Miramedix mosreg IG",
   "packageId": "fhir-miramedix-mosreg",
   "license": "CC0-1.0",
@@ -322,20 +322,6 @@
         },
         "name": "Бандл для запроса доступа в Сервис ОК для создания завяки на ОК",
         "description": "Бандл для запроса доступа в Сервис ОК для создания завяки на ОК.",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:resource"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/miramedix-mosreg-composition-diag-main-anamnesis"
-        },
-        "name": "Анамнез основного заболевания",
-        "description": "Анамнез основного заболевания.",
         "exampleBoolean": false
       },
       {
@@ -891,19 +877,6 @@
         },
         "name": "Пример бандла [минимальный пример] - запрос доступа в Сервис ОК для создания завяки на ОК [с предоставлением минимально необходимого набора клинических данных]",
         "exampleCanonical": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-bundle-request-access"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Composition"
-          }
-        ],
-        "reference": {
-          "reference": "Composition/Instance-miramedix-mosreg-composition-diag-main-anamnesis-1"
-        },
-        "name": "Пример анамнеза основного заболевания",
-        "exampleCanonical": "http://miramedix.ru/fhir/StructureDefinition/miramedix-mosreg-composition-diag-main-anamnesis"
       },
       {
         "extension": [
