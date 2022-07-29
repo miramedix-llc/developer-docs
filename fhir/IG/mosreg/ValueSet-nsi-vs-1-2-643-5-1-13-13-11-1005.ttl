@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "Nsi_vs_1_2_643_5_1_13_13_11_1005"];
   fhir:ValueSet.title [ fhir:value "Международная статистическая классификация болезней и проблем, связанных со здоровьем (10-й пересмотр) [все значения]"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-11-03T16:53:54+03:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2022-07-29T19:06:48+03:00"^^xsd:dateTime];
   fhir:ValueSet.description [ fhir:value "'Международная статистическая классификация болезней и проблем, связанных со здоровьем (10-й пересмотр)'  \n[набор из всех значений системы кодирования]"];
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [

@@ -3,14 +3,14 @@
   "id": "miramedix-vs-practitioner-identifier-type",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"CodeSystem-miramedix-cs-identifier-type.html\"><code>http://miramedix.ru/fhir/CodeSystem/miramedix-cs-identifier-type</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-miramedix-cs-identifier-type.html#miramedix-cs-identifier-type-snils\">snils</a></td><td>СНИЛС</td><td>Страховой номер индивидуального лицевого счёта.</td></tr><tr><td><a href=\"CodeSystem-miramedix-cs-identifier-type.html#miramedix-cs-identifier-type-employee-login\">employee-login</a></td><td>Логин сотрудника</td><td>Логин сотрудника в МИС.</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v2-0203.html\"><code>http://terminology.hl7.org/CodeSystem/v2-0203</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v2-0203.html#v2-0203-EI\">EI</a></td><td>Employee number</td><td>A number that uniquely identifies an employee to an employer.</td></tr></table></li></ul></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"CodeSystem-miramedix-cs-identifier-type.html\"><code>http://miramedix.ru/fhir/CodeSystem/miramedix-cs-identifier-type</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-miramedix-cs-identifier-type.html#miramedix-cs-identifier-type-snils\">snils</a></td><td>СНИЛС</td><td>Страховой номер индивидуального лицевого счёта.</td></tr><tr><td><a href=\"CodeSystem-miramedix-cs-identifier-type.html#miramedix-cs-identifier-type-employee-login\">employee-login</a></td><td>Логин сотрудника</td><td>Логин сотрудника в МИС.</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v2-0203.html\"><code>http://terminology.hl7.org/CodeSystem/v2-0203</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v2-0203.html#v2-0203-EI\">EI</a></td><td>Employee number</td><td>A number that uniquely identifies an employee to an employer.</td></tr></table></li></ul></div>"
   },
   "url": "http://miramedix.ru/fhir/ValueSet/miramedix-vs-practitioner-identifier-type",
   "version": "0.1.0",
   "name": "Miramedix_vs_practitioner_identifier_type",
   "title": "Набор значений типов идентификаторов сотрудников [Мирамедикс]",
   "status": "active",
-  "date": "2021-11-03T16:53:54+03:00",
+  "date": "2022-07-29T19:06:48+03:00",
   "description": "Набор значений для указания типов идентификаторов сотрудников для информационной системы Мирамедикс.",
   "compose": {
     "include": [

@@ -10,7 +10,7 @@
   "name": "MiramedixMosregIG",
   "title": "HL7 FHIR Implementation Guide: Miramedix mosreg IG Release 1 - RU Realm | STU1",
   "status": "draft",
-  "date": "2021-11-03T16:53:54+03:00",
+  "date": "2022-07-29T19:06:48+03:00",
   "description": "Miramedix mosreg IG",
   "packageId": "fhir-miramedix-mosreg",
   "license": "CC0-1.0",
@@ -258,6 +258,45 @@
           {
             "url": "code",
             "valueString": "active-tables"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "fmm-definition"
+          },
+          {
+            "url": "value",
+            "valueString": "http://hl7.org/fhir/versions.html#maturity"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "propagate-status"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "excludelogbinaryformat"
           },
           {
             "url": "value",

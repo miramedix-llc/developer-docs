@@ -47,7 +47,13 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">HL7 FHIR Implementation Guide: Miramedix mosreg IG Release 1 - RU Realm | STU1</span><br/>0.1.0 - ci-build</p>
+          <p><span style="font-size:12pt;font-weight:bold">HL7 FHIR Implementation Guide: Miramedix mosreg IG Release 1 - RU Realm | STU1</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - ci-build
+
+
+            </span>
+          </p>
         </div>
       </div>   <!-- /container -->
     </div>    <!-- /segment-header -->
@@ -120,6 +126,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
 
+
+
+
+
+
+
+
     <p>  <!-- white space is critical inside of capture --></p>
 <div class="markdown-toc">
 <ul id="markdown-toc">
@@ -136,9 +149,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </div>
 <h3 id="руководство-по-реализации-проведение-онкологического-консилиума"><strong><span style="background-color:#cce6ff">Руководство по реализации “Проведение онкологического консилиума”</span></strong></h3>
 
-<p>Руководство по реализации “Проведение онкологического консилиума” для интеграции систем Софтраст и Мирамедикс в московской области.</p>
-
-<div><img src="./miramedix_icon.png"/><img src="./softrust_icon.png"/></div>
+<p>Руководство по реализации “Проведение онкологического консилиума” для интеграции систем в Московской области.</p>
 
 <h4 id="аббревиатуры-и-определения"><strong><span style="background-color:#cce6ff">Аббревиатуры и определения</span></strong></h4>
 
@@ -146,66 +157,58 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <tbody>
     <tr>
       <td>ГБУЗ МО</td>
-      <td>государственное бюджетное учреждение здравоохранения московской области</td>
+      <td>Государственное бюджетное учреждение здравоохранения Московской области</td>
     </tr>
     <tr>
       <td>ЕМИАС</td>
-      <td>единая медицинская информационно-аналитическая система</td>
+      <td>Единая медицинская информационно-аналитическая система</td>
     </tr>
     <tr>
       <td>МИС</td>
-      <td>медицинская информационная система</td>
+      <td>Медицинская информационная система</td>
     </tr>
     <tr>
       <td>МО</td>
-      <td>медицинская организация</td>
+      <td>Медицинская организация</td>
     </tr>
     <tr>
       <td>МООД</td>
-      <td>московский областной онкологический диспансер</td>
+      <td>Московский областной онкологический диспансер</td>
     </tr>
     <tr>
       <td>ОК</td>
-      <td>онкологический консилиум, онкоконсилиум</td>
+      <td>Онкологический консилиум, онкоконсилиум</td>
     </tr>
     <tr>
       <td>ПСМП</td>
-      <td>первичная специализированная медико-санитарная помощь</td>
-    </tr>
-    <tr>
-      <td>MiraMedix</td>
-      <td>компания <a href="https://miramedix.ru/">МираМедикс</a></td>
-    </tr>
-    <tr>
-      <td>SofTrust</td>
-      <td>компания <a href="https://softrust.ru/">СофТраст</a></td>
+      <td>Первичная специализированная медико-санитарная помощь</td>
     </tr>
     <tr>
       <td>ЦАОП</td>
-      <td>центр амбулаторной онкологической помощи</td>
+      <td>Центр амбулаторной онкологической помощи</td>
     </tr>
     <tr>
       <td>ЦОД</td>
-      <td>центр обработки данных</td>
+      <td>Центр обработки данных</td>
     </tr>
   </tbody>
 </table>
 
 <h3 id="введение"><strong><span style="background-color:#cce6ff">Введение</span></strong></h3>
 
-<p>Осуществляется интеграция</p>
+<p>Осуществляется интеграция между</p>
 <ul>
-  <li>между медицинской информационной системы от компании Софтраст  (далее МИС)</li>
-  <li>и сервисом ведения онкологических консилиумов Мирамедикс (далее Сервис ОК)<br/>
-для реализации функциональности</li>
+  <li>Единой медицинской информационно-аналитической системой Московской области в составе подсистем «Поликлиника» и «Стационар» (далее ЕМИАС)</li>
+  <li>и компонентами подсистемы «Онкологический консилиум» (далее Сервис ОК)<br/>
+для реализации функциональности:</li>
   <li>формирования заявок на онкоконсилиум (далее ОК),</li>
   <li>информационного сопровождения процесса планирования и проведения ОК,</li>
   <li>оформления протокола ОК.</li>
 </ul>
 
-<p>Взаимодействие между МИС и Сервисом ОК будет осуществлено в рамках защищённого контура центра обработки данных (далее ЦОД).</p>
+<p>Взаимодействие между ЕМИАС и Сервисом ОК будет осуществлено в рамках защищённого контура центра обработки данных (далее ЦОД).</p>
 
-<p>Взаимодействующие стороны будут обслуживать медицинские учреждениях московской области (МО ПСМП, ЦАОП, онкологические диспансеры). &nbsp;</p>
+<p>Взаимодействующие стороны будут обслуживать медицинские учреждениях Московской области (МО ПСМП, ЦАОП, онкологические диспансеры). &nbsp;</p>
 <ul>
   <li>105 учреждений (в последствии будет увеличено до 125) будут формировать заявки на проведение ОК.
 Примеры учреждений:<br/>
@@ -214,14 +217,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 (<a href="https://mz.mosreg.ru/download/document/9449145">https://mz.mosreg.ru/download/document/9449145</a>)</li>
   <li>на пилотном этапе 1 учреждение будут осуществлять проведение онкоконсилиума (в последствии количество учреждений будет увеличено).<br/>
 Примеры учреждений:<br/>
-Государственном бюджетном учреждении здравоохранения московской области «Московский областной онкологический диспансер» (далее МООД).</li>
+Государственном бюджетном учреждении здравоохранения Московской области «Московский областной онкологический диспансер» (далее МООД).</li>
 </ul>
 
-<p>Пользователи учреждений, осуществляющих направление на ОК, будут регистрироваться в сервисе ОК автоматически в момент перехода из МИС в сервис ОК. Пользователи будут переходить в сервис ОК через ссылку из МИС.</p>
+<p>Пользователи учреждений, осуществляющих направление на ОК, будут регистрироваться в сервисе ОК автоматически в момент перехода из ЕМИАС в сервис ОК. Пользователи будут переходить в сервис ОК через ссылку из ЕМИАС.</p>
 
-<p>Пользователи учреждений, проводящих ОК, будут заведены в сервисе ОК заранее (МИС должны будут предоставить списки пользователей с указанием СНИЛС). Пользователи будут переходить в сервис ОК через отдельную ссылку.</p>
+<p>Пользователи учреждений, проводящих ОК, будут заведены в сервисе ОК заранее (ЕМИАС должны будут предоставить списки пользователей с указанием СНИЛС). Пользователи будут переходить в сервис ОК через отдельную ссылку.</p>
 
-<p>По результатам осуществления интеграции у пользователей МИС появится возможность авторизоваться в Сервисе ОК, сформировать заявку на проведение ОК, отслеживать статус заявки и получить электронное заключение проведённого ОК.</p>
+<p>По результатам осуществления интеграции у пользователей ЕМИАС появится возможность авторизоваться в Сервисе ОК, сформировать заявку на проведение ОК, отслеживать статус заявки и получить электронное заключение проведённого ОК.</p>
 
 <h3 id="описание-процесса"><strong><span style="background-color:#cce6ff">Описание процесса</span></strong></h3>
 
@@ -235,10 +238,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <h4 id="авторизация">Авторизация</h4>
 
 <ul>
-  <li>в МИС
+  <li>в ЕМИАС
     <ul>
       <li>Врач нажимает на кнопку перехода в Сервис ОК.</li>
-      <li>Бэкенд МИС выполняет вызов API Сервиса ОК POST <code class="language-plaintext highlighter-rouge">[base]/auth/token</code> с предоставлением данных о враче, его должности, учреждении (в виде набора ресурсов FHIR).
+      <li>Бэкенд ЕМИАС выполняет вызов API Сервиса ОК POST <code class="language-plaintext highlighter-rouge">[base]/auth/token</code> с предоставлением данных о враче, его должности, учреждении (в виде набора ресурсов FHIR).
   В ответ возвращается токен пользователя.<br/>
   При отсутствии в Сервисе ОК переданной комбинации учреждение-врач-должность она будет автоматически добавлена.<br/>
   При истечении срока действия нужно запросить новый токен.</li>
@@ -249,12 +252,12 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <h4 id="работа-с-заявками">Работа с заявками</h4>
 
 <ul>
-  <li>В МИС
+  <li>В ЕМИАС
     <ul>
-      <li>Бэкенд МИС выполняет вызов API Сервиса ОК POST <code class="language-plaintext highlighter-rouge">[base]/accesspoint</code> с предоставлением данных о пациенте, диагнозе, анамнезе (в виде набора ресурсов FHIR).<br/>
+      <li>Бэкенд ЕМИАС выполняет вызов API Сервиса ОК POST <code class="language-plaintext highlighter-rouge">[base]/accesspoint</code> с предоставлением данных о пациенте, диагнозе, анамнезе (в виде набора ресурсов FHIR).<br/>
   В ответ возвращается json, содержащий ссылку на страницу Сервиса ОК, где для указанного пациента можно просмотреть имеющиеся заявки на ОК (и протоколы для них) или создать новую заявку.</li>
-      <li>Бэкенд МИС возвращает фронтенду адрес для перехода в Сервис ОК (из поля <code class="language-plaintext highlighter-rouge">address</code>).</li>
-      <li>Фронтенд МИС открывает в новой вкладке браузера страницу с полученным адресом.</li>
+      <li>Бэкенд ЕМИАС возвращает фронтенду адрес для перехода в Сервис ОК (из поля <code class="language-plaintext highlighter-rouge">address</code>).</li>
+      <li>Фронтенд ЕМИАС открывает в новой вкладке браузера страницу с полученным адресом.</li>
     </ul>
   </li>
   <li>В Сервисе ОК
@@ -271,7 +274,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <ul>
           <li>открывается страница с календарем для выбора консилиума и даты консилиума.</li>
           <li>Врач выбирает дату консилиума. Заявка назначается на консилиум на выбранную дату.</li>
-          <li>Сервис ОК автоматически заполняет заявку данными, переданными из МИС.</li>
+          <li>Сервис ОК автоматически заполняет заявку данными, переданными из ЕМИАС.</li>
           <li>Врач заполняет недостающую информацию в заявке и переводит в статус “Готова для рассмотрения”.</li>
           <li>Создание заявки завершено. Врач закрывает страницу Сервиса ОК.</li>
         </ul>
@@ -283,12 +286,12 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <h4 id="работа-с-протоколами">Работа с протоколами</h4>
 
 <ul>
-  <li>В МИС
+  <li>В ЕМИАС
     <ul>
-      <li>Бэкенд МИС выполняет вызов API Сервиса ОК POST <code class="language-plaintext highlighter-rouge">[base]/accesspoint</code> без предоставления данных о пациенте, диагнозе, анамнезе.<br/>
+      <li>Бэкенд ЕМИАС выполняет вызов API Сервиса ОК POST <code class="language-plaintext highlighter-rouge">[base]/accesspoint</code> без предоставления данных о пациенте, диагнозе, анамнезе.<br/>
   В ответ возвращается json, содержащий ссылку на стартовую страницу Сервиса ОК, с которой имеется возможность найти нужного пациента.</li>
-      <li>Бэкенд МИС возвращает фронтенду адрес для перехода в Сервис ОК (из поля <code class="language-plaintext highlighter-rouge">address</code>).</li>
-      <li>Фронтенд МИС открывает в новой вкладке браузера страницу с полученным адресом.</li>
+      <li>Бэкенд ЕМИАС возвращает фронтенду адрес для перехода в Сервис ОК (из поля <code class="language-plaintext highlighter-rouge">address</code>).</li>
+      <li>Фронтенд ЕМИАС открывает в новой вкладке браузера страницу с полученным адресом.</li>
     </ul>
   </li>
   <li>В Сервисе ОК
@@ -301,14 +304,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <li>Врач заполняет протокол и переводит в статус “К подписанию”.</li>
       <li>Врач распечатывает протокол, подписывает его и загружает скан-копию.</li>
       <li>Врач нажимает кнопку “Готов” и протокол переходит в статус “Готов” (статус <code class="language-plaintext highlighter-rouge">completed</code>).</li>
-      <li>Сервис уведомляет МИС о готовности протокола ОК для скачивания.</li>
+      <li>Сервис уведомляет ЕМИАС о готовности протокола ОК для скачивания.</li>
       <li>Формирование протокола ОК завершено. Врач закрывает страницу Сервиса ОК.</li>
     </ul>
   </li>
-  <li>В МИС
+  <li>В ЕМИАС
     <ul>
-      <li>МИС получает уведомление о готовности протокола ОК для скачивания.</li>
-      <li>МИС запрашивает сервис ОК для получения протокола:
+      <li>ЕМИАС получает уведомление о готовности протокола ОК для скачивания.</li>
+      <li>ЕМИАС запрашивает сервис ОК для получения протокола:
         <ul>
           <li>И/ИЛИ запрашивает файл (pdf) скана через вызов
   <code class="language-plaintext highlighter-rouge">GET [base]/protocols/:id/scancopy</code>,
@@ -318,7 +321,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   в ответ возвращается FHIR-ресурс протокола (бандл).</li>
         </ul>
       </li>
-      <li>МИС сохраняет скачанный файл в своей БД в привязке к пациенту (или записи ЭМК).</li>
+      <li>ЕМИАС сохраняет скачанный файл в своей БД в привязке к пациенту (или записи ЭМК).</li>
     </ul>
   </li>
 </ul>
@@ -342,7 +345,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p>При просмотре профиля ресурса:</p>
 <ul>
   <li>чтобы увидеть только те атрибуты, которые используются в данном руководстве, необходимо переключаться на вкладку “Snapshot Table (Must Support)”,</li>
-  <li>чтобы получить пример ресурса, заполненного в соответствии с установленными требованиями, необоходимо переключиться на вкладку Examples.</li>
+  <li>чтобы получить пример ресурса, заполненного в соответствии с установленными требованиями, необходимо переключиться на вкладку Examples.</li>
 </ul>
 
 <p><a href="./resource_profile_guide.png"><img src="./resource_profile_guide.png" width="320px"/></a><br/></p>
@@ -360,7 +363,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>Доступ в Сервис ОК предоставляется через токен доступа.</p>
 
-<p>Для идентификации пользователя в модуле ОК необходимо при каждом обращении к API передавать в http-заголовке Authorization токен, соответствующий пользователю МИС, от имени которого выполняются обращения:</p>
+<p>Для идентификации пользователя в модуле ОК необходимо при каждом обращении к API передавать в http-заголовке Authorization токен, соответствующий пользователю ЕМИАС, от имени которого выполняются обращения:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Authorization: Bearer XXXXYYDJFKSJHFGFHGJHGJHGJHGJHJH
 </code></pre></div></div>
 
@@ -594,10 +597,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 }
 </code></pre></div></div>
 <blockquote>
-  <p>Формат ресурса Bundle смотри по ссылке - <a href="./StructureDefinition-miramedix-mosreg-bundle-notify.html">“Бандл для оповещения МИС”</a>.<br/>
+  <p>Формат ресурса Bundle смотри по ссылке - <a href="./StructureDefinition-miramedix-mosreg-bundle-notify.html">“Бандл для оповещения ЕМИАС”</a>.<br/>
 Описания ресурсов, содержащихся в бандле:</p>
   <ul>
-    <li><a href="./StructureDefinition-miramedix-mosreg-messageheader-notify.html">“Заголовок сообщения для оповещения МИС”</a></li>
+    <li><a href="./StructureDefinition-miramedix-mosreg-messageheader-notify.html">“Заголовок сообщения для оповещения ЕМИАС”</a></li>
     <li><a href="./StructureDefinition-miramedix-mosreg-documentmanifest.html">“Описание пакета документов”</a></li>
   </ul>
 </blockquote>
@@ -663,7 +666,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <h3 id="структуры-данных"><strong><span style="background-color:#cce6ff">Структуры данных</span></strong></h3>
 
 <ol>
-  <li>Структура внешних данных, получаемых от МИС.<br/>
+  <li>Структура внешних данных, получаемых от ЕМИАС.<br/>
 <a href="https://docs.google.com/spreadsheets/d/1JwNRJhvo-zifCgcdksGMbP66f5mZVAzTyDrhnFlCF2I/edit#gid=2118083984">Описание данных для формирования заявки на консилиум</a><br/>
 Предлагается передавать информацию в формате FHIR, бандлами с ресурсами:
     <ul>
@@ -687,15 +690,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </li>
   <li>Структура оповещения о событии.
     <ul>
-      <li><a href="./StructureDefinition-miramedix-mosreg-bundle-notify.html">“Бандл для оповещения МИС”</a>:
+      <li><a href="./StructureDefinition-miramedix-mosreg-bundle-notify.html">“Бандл для оповещения ЕМИАС”</a>:
         <ul>
-          <li><a href="./StructureDefinition-miramedix-mosreg-messageheader-notify.html">“Заголовок сообщения для оповещения МИС”</a></li>
+          <li><a href="./StructureDefinition-miramedix-mosreg-messageheader-notify.html">“Заголовок сообщения для оповещения ЕМИАС”</a></li>
           <li><a href="./StructureDefinition-miramedix-mosreg-documentmanifest.html">“Описание пакета документов”</a></li>
         </ul>
       </li>
     </ul>
   </li>
-  <li>Структура данных, возвращаемых в МИС.
+  <li>Структура данных, возвращаемых в ЕМИАС.
     <ul>
       <li><a href="./StructureDefinition-miramedix-mosreg-endpoint-accesspoint.html">“Описание точки входа в сервис ОК”</a></li>
       <li><a href="./StructureDefinition-miramedix-mosreg-operationoutcome-accesspoint-error.html">“Описание ошибки при невозможности вернуть точку входа в сервис ОК”</a></li>
@@ -716,7 +719,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </thead>
   <tbody>
     <tr>
-      <td>Авторизация пользователя МИС</td>
+      <td>Авторизация пользователя ЕМИАС</td>
       <td>POST [base]/auth/token</td>
     </tr>
     <tr>
@@ -745,7 +748,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </thead>
   <tbody>
     <tr>
-      <td>Со стороны МИС предполагается наличие одного общего сервиса для всех учреждений.</td>
+      <td>Со стороны ЕМИАС предполагается наличие одного общего сервиса для всех учреждений.</td>
       <td>&nbsp;</td>
     </tr>
     <tr>
@@ -778,8 +781,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="l1473">​</a>
-          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package fhir-miramedix-mosreg#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Nov 3, 2021 16:53+0300">2021-11-03</span>
+        <p><a name="l1488">​</a>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package fhir-miramedix-mosreg#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jul 29, 2022 19:06+0300">2022-07-29</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -804,6 +807,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
   <script src="assets/js/respond.min.js" type="text/javascript"> </script>
   <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
   <script>anchors.options.visible = 'hover'
 anchors.add()</script>
   
